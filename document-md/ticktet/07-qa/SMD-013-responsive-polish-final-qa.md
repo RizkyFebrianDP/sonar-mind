@@ -1,4 +1,4 @@
-# SMD-013: Responsive Polish & Final QA
+# [y] SMD-013: Responsive Polish & Final QA
 
 **Parent:** EPIC-001  
 **Priority:** 🟡 Medium  

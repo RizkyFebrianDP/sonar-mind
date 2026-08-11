@@ -1,4 +1,4 @@
-# SMD-006: Scoring Engine (4 Pilar Rubrik)
+# [y] SMD-006: Scoring Engine (4 Pilar Rubrik)
 
 **Parent:** EPIC-001  
 **Priority:** 🔴 Urgent  

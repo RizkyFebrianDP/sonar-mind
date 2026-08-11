@@ -1,4 +1,4 @@
-# SMD-002: Landing Page & Navigation
+# [x] SMD-002: Landing Page & Navigation
 
 **Parent:** EPIC-001  
 **Priority:** 🟠 High  

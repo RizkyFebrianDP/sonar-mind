@@ -1,4 +1,4 @@
-# SMD-008: Cognitive Agency Ratio Indicator
+# [y] SMD-008: Cognitive Agency Ratio Indicator
 
 **Parent:** EPIC-001  
 **Priority:** 🟠 High  

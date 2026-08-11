@@ -1,4 +1,4 @@
-# SMD-012: PWA & Offline-Ready Architecture
+# [y] SMD-012: PWA & Offline-Ready Architecture
 
 **Parent:** EPIC-001  
 **Priority:** 🟡 Medium  

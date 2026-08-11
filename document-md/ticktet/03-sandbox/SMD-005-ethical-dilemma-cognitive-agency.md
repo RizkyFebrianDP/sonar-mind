@@ -1,4 +1,4 @@
-# SMD-005: Ethical Dilemma & Cognitive Agency Boundary Module
+# [y] SMD-005: Ethical Dilemma & Cognitive Agency Boundary Module
 
 **Parent:** EPIC-001  
 **Priority:** 🟠 High  

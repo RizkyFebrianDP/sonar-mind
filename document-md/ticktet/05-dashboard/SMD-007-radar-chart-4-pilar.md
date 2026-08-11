@@ -1,4 +1,4 @@
-# SMD-007: Radar Chart — 4 Pilar Kompetensi MIL-AI
+# [x] SMD-007: Radar Chart — 4 Pilar Kompetensi MIL-AI
 
 **Parent:** EPIC-001  
 **Priority:** 🟠 High  

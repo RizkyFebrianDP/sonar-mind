@@ -1,4 +1,4 @@
-# SMD-001: Project Setup & Design System
+# [x] SMD-001: Project Setup & Design System
 
 **Parent:** EPIC-001  
 **Priority:** 🔴 Urgent  

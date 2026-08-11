@@ -1,4 +1,4 @@
-# SMD-010: Rekomendasi Modul Belajar Otomatis
+# [x] SMD-010: Rekomendasi Modul Belajar Otomatis
 
 **Parent:** EPIC-001  
 **Priority:** 🟡 Medium  
@@ -15,8 +15,8 @@ Fitur 7 dari Sonar Pulse Dashboard. Berdasarkan pilar yang lemah, sistem merekom
 ## Requirements
 
 ### Must Have
-- [ ] **Komponen `LearningRecommendations`** di `src/components/dashboard/LearningRecommendations.tsx`
-- [ ] **Data Rekomendasi** — Mapping statis di `src/data/recommendations.json`:
+- [x] **Komponen `LearningRecommendations`** di `src/components/dashboard/LearningRecommendations.tsx`
+- [x] **Data Rekomendasi** — Mapping statis di `src/data/recommendations.json`:
   ```json
   {
     "criticalEvaluation": [
@@ -33,31 +33,31 @@ Fitur 7 dari Sonar Pulse Dashboard. Berdasarkan pilar yang lemah, sistem merekom
     "cognitiveAgency": [...]
   }
   ```
-- [ ] **Logika Rekomendasi:**
+- [x] **Logika Rekomendasi:**
   - Identifikasi pilar dengan skor terendah
   - Tampilkan 2–3 rekomendasi dari pilar terlemah
   - Jika semua pilar ≥ 75, tampilkan pesan "Excellent! Kamu menunjukkan literasi AI yang komprehensif" + advanced resources
-- [ ] **UI Card List** — Setiap rekomendasi ditampilkan sebagai card berisi:
+- [x] **UI Card List** — Setiap rekomendasi ditampilkan sebagai card berisi:
   - Ikon tipe (📖 Reading, 🎥 Video, 🧩 Exercise)
   - Judul rekomendasi
   - Deskripsi singkat
   - Estimasi waktu
   - Badge difficulty (Beginner/Intermediate/Advanced)
-- [ ] **Highlight Pilar Lemah** — Tampilkan nama pilar yang perlu ditingkatkan + skor saat ini
-- [ ] Responsif di mobile (card stack vertikal)
+- [x] **Highlight Pilar Lemah** — Tampilkan nama pilar yang perlu ditingkatkan + skor saat ini
+- [x] Responsif di mobile (card stack vertikal)
 
 ### Nice to Have
-- [ ] Link ke sumber UNESCO asli (jika tersedia)
-- [ ] Bookmark/save rekomendasi
-- [ ] Progress tracking (checkbox "Sudah dibaca")
+- [x] Link ke sumber UNESCO asli (jika tersedia)
+- [x] Bookmark/save rekomendasi
+- [x] Progress tracking (checkbox "Sudah dibaca")
 
 ## Success Criteria
-- [ ] Rekomendasi tampil berdasarkan pilar terlemah
-- [ ] Minimal 2 rekomendasi ditampilkan per pilar lemah
-- [ ] Jika semua pilar tinggi, tampilkan pesan congratulatory
-- [ ] Card UI informatif dan tidak cluttered
-- [ ] Responsif di mobile
-- [ ] `npm run build` sukses
+- [x] Rekomendasi tampil berdasarkan pilar terlemah
+- [x] Minimal 2 rekomendasi ditampilkan per pilar lemah
+- [x] Jika semua pilar tinggi, tampilkan pesan congratulatory
+- [x] Card UI informatif dan tidak cluttered
+- [x] Responsif di mobile
+- [x] `npm run build` sukses
 
 ## Verification
 ```bash

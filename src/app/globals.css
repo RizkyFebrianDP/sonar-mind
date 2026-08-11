@@ -1,26 +1,88 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-plus-jakarta), Arial, Helvetica, sans-serif;
+  --font-heading: var(--font-outfit), sans-serif;
+  --font-mono: var(--font-jetbrains), monospace;
+
+  /* Structural & Panels */
+  --color-panel: var(--panel);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-strong: var(--border-strong);
+  
+  /* Text */
+  --color-text-muted: var(--text-muted);
+  --color-text-strong: var(--text-strong);
+
+  /* Sidebar */
+  --color-sidebar-bg: var(--sidebar-bg);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-text: var(--sidebar-text);
+  --color-sidebar-active: var(--sidebar-active);
+  --color-sidebar-active-bg: var(--sidebar-active-bg);
+
+  /* Accents */
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-blue-subtle: var(--accent-blue-subtle);
+  --color-accent-green: var(--accent-green);
+  --color-accent-red: var(--accent-red);
+  --color-accent-yellow: var(--accent-yellow);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  /* LIGHT THEME (Warm & Soft) */
+  --background: #f7f5f0;
+  --foreground: #1e1e1e;
+  
+  --panel: #ffffff;
+  --border-subtle: #e5e3db;
+  --border-strong: #d1cfc7;
+  
+  --text-muted: #807e78;
+  --text-strong: #111111;
+
+  --sidebar-bg: #ffffff;
+  --sidebar-border: transparent;
+  --sidebar-text: #666666;
+  --sidebar-active: #111111;
+  --sidebar-active-bg: #e6e3da;
+
+  --accent-blue: #326bf3;
+  --accent-blue-subtle: #eef3ff;
+  --accent-green: #22c55e;
+  --accent-red: #f43f5e;
+  --accent-yellow: #eab308;
+}
+
+.dark {
+  /* DARK THEME (Precision Minimal) */
+  --background: #09090b; /* Deep Zinc */
+  --foreground: #f8fafc; /* Crisp White */
+  
+  --panel: #18181b; /* Slightly lighter zinc for cards */
+  --border-subtle: #27272a; /* Hard 1px structural borders */
+  --border-strong: #3f3f46;
+  
+  --text-muted: #a1a1aa;
+  --text-strong: #ffffff;
+
+  --sidebar-bg: #09090b;
+  --sidebar-border: #27272a;
+  --sidebar-text: #a1a1aa;
+  --sidebar-active: #ffffff;
+  --sidebar-active-bg: #27272a;
+
+  --accent-blue: #3b82f6; /* Electric Blue */
+  --accent-blue-subtle: rgba(59, 130, 246, 0.1);
+  --accent-green: #10b981; /* Emerald */
+  --accent-red: #ef4444; /* Radical Red */
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  /* Optional: very subtle noise texture overlay could be added here via background-image */
 }

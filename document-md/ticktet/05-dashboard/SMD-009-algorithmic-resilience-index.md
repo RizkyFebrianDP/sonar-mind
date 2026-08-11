@@ -1,4 +1,4 @@
-# SMD-009: Algorithmic Resilience Index (ARI)
+# [y] SMD-009: Algorithmic Resilience Index (ARI)
 
 **Parent:** EPIC-001  
 **Priority:** 🟠 High  

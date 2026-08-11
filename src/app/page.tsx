@@ -1,69 +1,142 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React from 'react';
+import { motion } from 'framer-motion';
+import { SummaryCard } from '@/components/dashboard/SummaryCard';
+import { RadarChartPillar } from '@/components/dashboard/RadarChartPillar';
+import { InsightCard } from '@/components/dashboard/InsightCard';
+import { HistoryTable } from '@/components/dashboard/HistoryTable';
+import { LearningRecommendations } from '@/components/dashboard/LearningRecommendations';
+import { TrendingUp, ClipboardCheck, Scale, BrainCircuit } from 'lucide-react';
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    }
+  }
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 15 },
+  show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
+};
+
+export default function Dashboard() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <motion.div 
+      className="p-8 max-w-7xl mx-auto space-y-8"
+      variants={containerVariants}
+      initial="hidden"
+      animate="show"
+    >
+      
+      {/* Header */}
+      <motion.div variants={itemVariants} className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-2">
+        <div className="flex items-center gap-2 text-sm text-text-muted mb-2 sm:mb-0">
+          <span>Dashboard</span>
+          <span>/</span>
+          <span className="font-semibold text-text-strong">Competency</span>
+        </div>
+        
+        <div className="flex items-center justify-between w-full sm:w-auto">
+          <h1 className="text-2xl font-bold text-text-strong sm:hidden font-heading tracking-tight">
+            Good Morning, Alex
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+          <button className="px-6 py-2.5 bg-text-strong hover:bg-black text-background rounded-full text-sm font-semibold shadow-sm transition-all flex items-center gap-2 tracking-wide">
+            Take New Assessment
+          </button>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <h1 className="hidden sm:block text-2xl md:text-3xl font-bold text-text-strong font-heading tracking-tight">
+          Good Morning, Alex
+        </h1>
+      </motion.div>
+
+
+
+      {/* Your Test Result */}
+      <motion.section variants={itemVariants}>
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-lg font-bold text-text-strong">My Competencies</h2>
         </div>
-      </main>
-    </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <SummaryCard 
+            title="Overall Competency"
+            score={82}
+            label="Advanced"
+            labelColor="blue"
+            description="Top 15% across all AI evaluations"
+            icon={TrendingUp}
+          />
+          <SummaryCard 
+            title="Hallucination Audit"
+            score={86}
+            label="Proficient"
+            labelColor="pink"
+            description="Strong at verifying synthetic claims"
+            icon={ClipboardCheck}
+          />
+          <SummaryCard 
+            title="Algorithmic Bias"
+            score={72}
+            label="Needs Attention"
+            labelColor="yellow"
+            description="Struggles with subtle cultural bias"
+            icon={Scale}
+          />
+          <SummaryCard 
+            title="Ethical & Agency"
+            score={78}
+            label="Balanced"
+            labelColor="blue"
+            description="Maintains clear human oversight"
+            icon={BrainCircuit}
+          />
+        </div>
+      </motion.section>
+
+      {/* Your AI Competency & Learning Recs */}
+      <motion.section variants={itemVariants}>
+        <h2 className="text-xl font-heading font-bold text-text-strong mb-4">Your AI Competency</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          
+          {/* Left Column: Radar + Insight (Takes 2/3 space on large screens) */}
+          <div className="lg:col-span-2">
+            <div className="bg-panel rounded-3xl p-6 lg:p-8 relative overflow-hidden shadow-sm flex flex-col gap-8">
+              <RadarChartPillar />
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <InsightCard 
+                  type="strength"
+                  pillar="Critical Evaluation"
+                  score={88}
+                  description="Excellent ability to detect hallucinations and verify synthetic data sources."
+                />
+                <InsightCard 
+                  type="growth"
+                  pillar="Algorithmic Bias Awareness"
+                  score={72}
+                  description="Focus on identifying subtle cultural and gender biases in AI-driven recruitment and media recommendations."
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column: Learning Recs (Takes 1/3 space on large screens) */}
+          <div className="lg:col-span-1 h-full">
+            <LearningRecommendations />
+          </div>
+
+        </div>
+      </motion.section>
+
+      {/* History Table */}
+      <motion.section variants={itemVariants} className="w-full">
+        <HistoryTable />
+      </motion.section>
+
+    </motion.div>
   );
 }

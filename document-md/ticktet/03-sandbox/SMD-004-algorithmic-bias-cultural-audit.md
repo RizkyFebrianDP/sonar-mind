@@ -1,4 +1,4 @@
-# SMD-004: Algorithmic Bias & Cultural Nuance Audit Module
+# [y] SMD-004: Algorithmic Bias & Cultural Nuance Audit Module
 
 **Parent:** EPIC-001  
 **Priority:** 🟠 High  

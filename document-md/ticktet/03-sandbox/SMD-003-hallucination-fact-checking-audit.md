@@ -1,4 +1,4 @@
-# SMD-003: Hallucination & Fact-Checking Audit Module
+# [y] SMD-003: Hallucination & Fact-Checking Audit Module
 
 **Parent:** EPIC-001  
 **Priority:** 🟠 High  

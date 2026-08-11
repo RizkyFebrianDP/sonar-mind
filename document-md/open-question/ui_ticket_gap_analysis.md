@@ -1,7 +1,8 @@
 # 🔍 Gap Analysis: UI Mockup vs Ticket Specifications
 
 > **Tanggal Analisis:** 9 Agustus 2026  
-> **Sumber UI:** 4 screenshot mockup (Dashboard + Assessments page)  
+> **Terakhir Divalidasi:** 11 Agustus 2026  
+> **Sumber UI:** 4 screenshot mockup (Dashboard + Assessments page + Sandbox/Question page)  
 > **Sumber Ticket:** 13 sub-issues + 1 epic di folder `ticktet/`
 
 ---
@@ -49,17 +50,19 @@ UI mockup menunjukkan **arsitektur yang lebih kompleks** dari yang didefinisikan
 - **UI** hanya punya **3 sumbu** radar: Hallucination Audit, Algorithmic Bias, Ethical & Cognitive Agency (P3+P4 digabung)
 - **Score cards** di atas menunjukkan 4 kotak, tapi radar hanya 3
 
-> [!WARNING]
-> Ini konflik arsitektural. Apakah 4 pilar tetap dipakai tapi P3+P4 digabung di radar? Atau rubrik berubah jadi 3 pilar?
+> [!NOTE]
+> **✅ RESOLUSI TERCAPAI:** Sesuai diskusi terbaru, desain telah disepakati:
+> 1. Terdapat **4 Score Cards** di atas, di mana 1 card adalah nilai **Overall** (rata-rata dari 3 indikator penilaian), dan 3 card sisanya adalah masing-masing indikator.
+> 2. **Radar Chart** akan memvisualisasikan ke-3 indikator tersebut beserta dengan penjabaran *strength* & *weakness*.
 
 #### Gap B: Score Summary Cards — Tidak Ada Ticket Spesifik
-UI menampilkan 4 card di atas:
-- Overall Competency (82/100, "Advanced")
-- Hallucination Audit (86/100, "Proficient")
-- Algorithmic Bias (72/100, "Needs Attention")
-- Ethical & Cognitive Agency (78/100, "Balanced")
+UI menampilkan 4 card di atas (Sesuai resolusi baru):
+- Overall Competency (Rata-rata 3 indikator)
+- Indikator 1 (mis. Hallucination Audit)
+- Indikator 2 (mis. Algorithmic Bias)
+- Indikator 3 (mis. Ethical & Cognitive Agency)
 
-Ini **bukan** bagian dari SMD-007 (Radar) maupun SMD-011 (Assembly). Perlu komponen terpisah.
+Ini **bukan** bagian dari SMD-007 (Radar) maupun SMD-011 (Assembly). Perlu komponen terpisah, dan implementasi slicing akan langsung mengadopsi struktur 1 Overall + 3 Indikator ini.
 
 #### Gap C: Key Strength & Growth Area Cards — Tidak Ada Ticket
 UI menampilkan 2 insight card:
@@ -84,12 +87,18 @@ Ticket SMD-008 mendefinisikan gauge/speedometer terpisah. Di UI, Cognitive Agenc
 - Bagian dari label radar ("Ethical & Cognitive Agency")
 - **Tidak ada gauge/meter dedicated**
 
+> [!NOTE]
+> **📌 KEPUTUSAN: Dipindahkan ke Phase 2.** SMD-008 tidak muncul di mockup MVP karena fungsinya sudah di-absorb oleh Score Card + Radar Chart. Widget gauge tetap akan dibangun di fase berikutnya ketika ada dedicated placement di UI. Untuk MVP, cukup score card.
+
 #### Gap F: ARI / Algorithmic Resilience Index (SMD-009) — Tidak Terlihat di UI
 Ticket SMD-009 mendefinisikan ARI circular progress ring. **Tidak terlihat sama sekali di UI mockup.**
 
+> [!NOTE]
+> **📌 KEPUTUSAN: Dipindahkan ke Phase 2.** ARI tidak muncul di mockup MVP kemungkinan karena belum ada placement UI yang confirmed atau fitur ini direncanakan untuk iterasi berikutnya. ARI tetap ada di roadmap, bukan di-drop — implementasi menunggu ada "rumahnya" di UI.
+
 ---
 
-## 3. Assessments Page (Screenshot 2–4)
+## 3. Assessments Page (Screenshot 3)
 
 ### ❌ Tidak Ada Ticket untuk Halaman Ini
 
@@ -115,25 +124,46 @@ UI menampilkan halaman "Assessments" dengan:
 
 ---
 
-## 4. User Profile & Auth
+## 4. Sandbox / Question Page (Screenshot 4) ✅ Dikonfirmasi
 
-| Elemen UI | Status Ticket |
-|:----------|:-------------|
-| "Alex Student" + email + avatar | ❌ **Out of Scope** di Epic |
-| "Log Out" button | ❌ **Out of Scope** di Epic |
-| Settings page (sidebar) | ❌ Tidak ada ticket |
+Screenshot ke-4 menampilkan halaman soal interaktif yang sesuai dengan ticket SMD-003/004/005 (Sandbox Assessment).
 
-> [!WARNING]
-> UI menampilkan fitur autentikasi (user profile, logout) yang **secara eksplisit di-exclude** dari scope Epic. Ini harus diputuskan: scope diperluas atau UI disederhanakan?
+**Elemen yang terlihat di UI:**
+| Elemen | Detail |
+|:-------|:-------|
+| Progress bar soal | Nomor soal 1–20 di bagian atas, dengan status ✅ sudah dijawab |
+| Timer | Countdown timer di kanan atas (contoh: 12:45 remaining) |
+| Scenario text (kiri) | Narasi kasus nyata sebagai konteks soal |
+| Pilihan ganda (kanan) | 4 opsi jawaban dengan radio button |
+| Navigasi soal | Tombol "Previous Question" & "Next Question" di bawah |
+
+> [!NOTE]
+> **✅ KONFIRMASI:** Halaman Sandbox/Question sudah sesuai dengan scope ticket SMD-003/004/005. Tidak ada gap signifikan untuk halaman ini. Perlu dipastikan jumlah soal per modul (20 Qs untuk Algorithmic Bias, 15 Qs untuk Hallucination Detection, 10 Qs untuk Ethical Reasoning) konsisten dengan data di halaman Assessments.
 
 ---
 
-## 5. Branding
+## 5. User Profile & Auth
 
-| Aspek | Ticket | UI | Match? |
-|:------|:-------|:---|:-------|
-| Nama Produk | "SONAR MIND Dashboard" | "MIL-AI Competency Framework" | ❌ |
-| Nama Dashboard | "Sonar Pulse" | Tidak disebutkan | ❌ |
+| Elemen UI | Status Ticket | Resolusi |
+|:----------|:-------------|:---------|
+| "Alex Student" + email + avatar | ❌ **Out of Scope** di Epic | ✅ **Supabase Auth** — menggunakan sistem login nyata |
+| "Log Out" button | ❌ **Out of Scope** di Epic | ✅ **Supabase Auth** — fungsionalitas logout |
+| Settings page (sidebar) | ❌ Tidak ada ticket | 📌 Placeholder sidebar saja untuk MVP |
+
+> [!NOTE]
+> **✅ RESOLUSI TERCAPAI:** Auth akan menggunakan **Supabase Auth**. Ini mengubah keputusan sebelumnya dari sekadar dummy user menjadi sistem autentikasi nyata yang terhubung ke backend.
+
+---
+
+## 6. Branding
+
+| Aspek | Ticket (Lama) | UI Mockup | Resolusi MVP |
+|:------|:-------------|:----------|:-------------|
+| Nama Produk | "SONAR MIND Dashboard" | "MIL-AI Competency Framework" | ✅ **Pakai "MIL-AI"** untuk sekarang, fleksibel diganti |
+| Nama Dashboard | "Sonar Pulse" | Tidak disebutkan | ✅ **Tidak dipakai di MVP**, nama bisa disesuaikan nanti |
+
+> [!NOTE]
+> **✅ RESOLUSI TERCAPAI:** Branding menggunakan **"MIL-AI Competency Framework"** sesuai mockup. Nama ini bersifat sementara dan dapat diganti sewaktu-waktu tanpa perubahan arsitektural — cukup ganti konstanta/variabel nama brand.
 
 ---
 
@@ -156,9 +186,9 @@ UI menampilkan halaman "Assessments" dengan:
 | ID | Revisi |
 |:---|:-------|
 | SMD-002 | **Rewrite total** — ubah dari Landing Page ke App Shell + Sidebar Navigation, atau split jadi 2 (Landing tetap + SMD-014 baru) |
-| SMD-007 | **Sesuaikan sumbu radar** — 3 sumbu (sesuai UI) atau 4 sumbu (sesuai abstract)? |
-| SMD-008 | **Evaluasi ulang** — UI tidak menunjukkan gauge terpisah. Mungkin merge ke SMD-016 (score cards) |
-| SMD-009 | **Evaluasi ulang** — ARI tidak muncul di UI. Tetap dibangun atau di-drop? |
+| SMD-007 | **✅ RESOLVED** — 3 sumbu radar sesuai UI mockup (Hallucination Audit, Algorithmic Bias, Ethical & Cognitive Agency) |
+| SMD-008 | **📌 Phase 2** — Gauge dipindahkan ke fase berikutnya; MVP cukup score card |
+| SMD-009 | **📌 Phase 2** — ARI dipindahkan ke fase berikutnya; belum ada placement di UI MVP |
 | SMD-010 | **Upgrade visual** — UI menampilkan card dengan gambar modul, bukan hanya teks |
 | SMD-011 | **Redesign layout** — Layout dashboard harus mengikuti UI (score cards → competency → history → recommendations) |
 | EPIC-001 | **Perluas scope** — Assessment History, Sidebar nav, Assessments page, dan branding perlu masuk |
@@ -167,10 +197,12 @@ UI menampilkan halaman "Assessments" dengan:
 
 ## Keputusan yang Dibutuhkan
 
-1. **Scope Auth:** Apakah user profile/login ditambahkan ke MVP, atau UI disederhanakan (hilangkan user info)?
-2. **3 vs 4 Pilar Radar:** Apakah Ethical Reasoning & Cognitive Agency digabung jadi 1 sumbu (sesuai UI) atau tetap 4 (sesuai abstract)?
-3. **ARI Widget:** Dipertahankan (tidak ada di UI tapi ada di abstract) atau di-drop dari MVP?
-4. **Cognitive Agency Gauge:** Dipertahankan sebagai widget terpisah atau cukup label di score card?
-5. **Branding:** Pakai "SONAR MIND Dashboard" atau "MIL-AI Competency Framework"?
-6. **Assessment History:** Apakah persistent storage (localStorage) masuk scope MVP?
-7. **Modul Tambahan:** "Data Privacy Fundamentals" dan "Generative AI Basics" — ini konten nyata atau placeholder UI?
+| No | Keputusan | Status |
+|:---|:----------|:-------|
+| 1 | **Scope Auth:** Apakah user profile/login ditambahkan ke MVP? | ✅ **RESOLVED** — Menggunakan **Supabase Auth** |
+| 2 | **3 vs 4 Pilar Radar:** Berapa sumbu radar? | ✅ **RESOLVED** — 3 sumbu sesuai UI |
+| 3 | **ARI Widget (SMD-009):** Dipertahankan atau di-drop? | ✅ **RESOLVED** — Dipindahkan ke Phase 2 |
+| 4 | **Cognitive Agency Gauge (SMD-008):** Widget terpisah atau score card? | ✅ **RESOLVED** — Score card untuk MVP, gauge di Phase 2 |
+| 5 | **Branding:** "SONAR MIND" atau "MIL-AI"? | ✅ **RESOLVED** — Pakai "MIL-AI" sementara, fleksibel diganti |
+| 6 | **Assessment History:** Apakah localStorage masuk scope MVP? | ✅ **RESOLVED** — Menggunakan **Supabase Database** |
+| 7 | **Modul Tambahan:** "Data Privacy" & "Generative AI Basics" — konten nyata atau placeholder? | ✅ **RESOLVED** — Hanya placeholder UI |
