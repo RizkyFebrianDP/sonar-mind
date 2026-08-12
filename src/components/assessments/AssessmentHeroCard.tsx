@@ -12,7 +12,7 @@ export function AssessmentHeroCard() {
       className="bg-panel rounded-3xl p-6 lg:p-8 shadow-sm border border-border-subtle flex flex-col mb-8"
     >
       <div className="mb-4">
-        <span className="inline-block px-3 py-1 bg-accent-green/10 text-accent-green text-[11px] font-bold uppercase tracking-wider rounded-md">
+        <span className="inline-block px-3 py-1 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 text-[11px] font-bold uppercase tracking-wider rounded-md border border-emerald-500/20">
           MIL-AI Competency Test
         </span>
       </div>
@@ -43,7 +43,7 @@ export function AssessmentHeroCard() {
         </div>
         
         <Link 
-          href="/sandbox/hallucination" 
+          href="/sandbox/hallucination-audit" 
           className="inline-flex items-center justify-center px-6 py-3 bg-text-strong text-background rounded-xl text-sm font-bold hover:bg-black transition-all shrink-0 shadow-sm"
         >
           Start Assessment

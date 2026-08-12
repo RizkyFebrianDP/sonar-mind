@@ -1,9 +1,27 @@
 import type { NextConfig } from "next";
+import withPWAInit from "next-pwa";
+
+const withPWA = withPWAInit({
+  dest: "public",
+  disable: process.env.NODE_ENV === "development",
+  register: true,
+  skipWaiting: true,
+  runtimeCaching: [
+    {
+      urlPattern: /^https?.*/,
+      handler: "NetworkFirst",
+      options: {
+        cacheName: "offlineCache",
+        expiration: {
+          maxEntries: 200,
+        },
+      },
+    },
+  ],
+});
 
 const nextConfig: NextConfig = {
-  experimental: {
-    allowedDevOrigins: ["192.168.100.22", "localhost"],
-  },
+  allowedDevOrigins: ["192.168.100.22", "localhost"],
 };
 
-export default nextConfig;
+export default withPWA(nextConfig);

@@ -64,7 +64,7 @@ export function PreviousAttemptsWidget() {
         </div>
         
         <div className="bg-background border-t border-border-subtle p-3 text-center hover:bg-black/5 transition-colors cursor-pointer">
-          <Link href="/history" className="text-xs font-bold text-text-strong block w-full">
+          <Link href="/results" className="text-xs font-bold text-text-strong block w-full">
             View All History
           </Link>
         </div>

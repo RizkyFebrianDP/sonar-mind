@@ -27,7 +27,7 @@ export function LearningRecommendations() {
         </div>
 
         <Link 
-          href="/learning/bias-mitigation"
+          href="/sandbox/bias-audit"
           className="inline-flex items-center justify-between w-full px-5 py-3 bg-text-strong text-background rounded-full text-sm font-semibold hover:bg-black transition-all group/btn mt-auto"
         >
           Start Module

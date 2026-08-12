@@ -1,39 +1,425 @@
 "use client";
 
-import React from "react";
-import { LineChart, ArrowLeft } from "lucide-react";
-import Link from "next/link";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import {
+  TrendingUp,
+  ClipboardCheck,
+  Scale,
+  BrainCircuit,
+  Award,
+  Calendar,
+  ArrowRight,
+  ShieldCheck,
+  BarChart2,
+  RefreshCw,
+  Sparkles,
+  Zap,
+} from "lucide-react";
+import Link from "next/link";
+import { createClient } from "@/lib/supabase/client";
+import { RadarChartPillar } from "@/components/dashboard/RadarChartPillar";
+import type { AssessmentHistoryItem } from "@/types/assessment";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.08 },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 15 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring" as const, stiffness: 300, damping: 24 },
+  },
+};
+
+function getScoreBadge(score: number) {
+  if (score >= 80)
+    return {
+      label: "Expert",
+      color: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border-emerald-500/20",
+    };
+  if (score >= 65)
+    return {
+      label: "Proficient",
+      color: "bg-blue-500/10 text-blue-700 dark:text-blue-400 border-blue-500/20",
+    };
+  if (score >= 50)
+    return {
+      label: "Developing",
+      color: "bg-amber-500/10 text-amber-700 dark:text-amber-400 border-amber-500/20",
+    };
+  return {
+    label: "Beginner",
+    color: "bg-rose-500/10 text-rose-700 dark:text-rose-400 border-rose-500/20",
+  };
+}
 
 export default function ResultsPage() {
+  const [history, setHistory] = useState<AssessmentHistoryItem[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchHistory() {
+      try {
+        const supabase = createClient();
+        const { data } = await supabase
+          .from("assessment_history")
+          .select("*")
+          .order("created_at", { ascending: false });
+
+        setHistory(data ?? []);
+      } catch (err) {
+        console.error("Error fetching assessment history:", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchHistory();
+  }, []);
+
+  const latestRecord = history[0] ?? null;
+
+  const overall = latestRecord?.overall_score ?? 0;
+  const hallucination = latestRecord?.hallucination_score ?? 0;
+  const bias = latestRecord?.bias_score ?? 0;
+  const ethical = latestRecord?.ethical_score ?? 0;
+  const agency = latestRecord?.cognitive_agency_score ?? 0;
+  const ari = latestRecord?.algorithmic_resilience_index ?? 0;
+
+  const pillarScores = latestRecord
+    ? {
+        criticalEvaluation: hallucination,
+        algorithmicBiasAwareness: bias,
+        ethicalReasoning: ethical,
+        cognitiveAgency: agency,
+      }
+    : undefined;
+
   return (
-    <div className="h-[80vh] flex flex-col items-center justify-center max-w-2xl mx-auto text-center px-6">
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.9 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5, type: "spring" }}
-        className="bg-panel rounded-[3rem] p-12 md:p-16 shadow-sm border border-border-subtle flex flex-col items-center"
+    <motion.div
+      variants={containerVariants}
+      initial="hidden"
+      animate="show"
+      className="p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto space-y-8"
+    >
+      {/* Header */}
+      <motion.div
+        variants={itemVariants}
+        className="flex flex-col md:flex-row md:items-center justify-between gap-4"
       >
-        <div className="w-24 h-24 bg-accent-blue/10 rounded-full flex items-center justify-center mb-6">
-          <LineChart className="w-12 h-12 text-accent-blue" />
+        <div className="space-y-1">
+          <div className="flex items-center gap-2 text-xs font-semibold text-accent-blue uppercase tracking-wider">
+            <BarChart2 className="w-4 h-4" />
+            <span>Hasil & Analitik Asesmen</span>
+          </div>
+          <h1 className="text-3xl font-heading font-extrabold text-text-strong tracking-tight">
+            My Competency Results
+          </h1>
+          <p className="text-sm text-text-muted">
+            Riwayat performa, analisis radar 4 pilar UNESCO, dan indikator Ketahanan Algoritma (ARI).
+          </p>
         </div>
-        
-        <h1 className="text-3xl font-heading font-bold text-text-strong mb-4">
-          My Results - Coming Soon
-        </h1>
-        
-        <p className="text-text-muted mb-8 leading-relaxed max-w-md">
-          Halaman ini sedang dalam tahap pengembangan. Nantinya, Anda dapat melihat riwayat lengkap asesmen, analisis tren skor, dan perbandingan kompetensi di sini.
-        </p>
-        
-        <Link 
-          href="/" 
-          className="inline-flex items-center justify-center px-6 py-3 bg-text-strong text-background rounded-full font-semibold hover:bg-black transition-colors"
+
+        <Link
+          href="/assessments"
+          className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-text-strong text-background rounded-full font-heading font-semibold text-sm hover:bg-black dark:hover:bg-white/90 transition-all shadow-sm shrink-0 self-start md:self-auto"
         >
-          <ArrowLeft className="w-4 h-4 mr-2" />
-          Back to Dashboard
+          <RefreshCw className="w-4 h-4" />
+          <span>Retake Assessment</span>
         </Link>
       </motion.div>
-    </div>
+
+      {/* Overview Cards */}
+      <motion.div
+        variants={itemVariants}
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+      >
+        {/* Overall Score Card */}
+        <div className="bg-panel border border-border-subtle rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-xs font-semibold text-text-muted">
+              Overall Score
+            </span>
+            <div className="p-2 rounded-xl bg-accent-blue/10 text-accent-blue">
+              <TrendingUp className="w-5 h-5" />
+            </div>
+          </div>
+          <div className="space-y-1">
+            <div className="text-4xl font-heading font-extrabold text-text-strong">
+              {overall}
+              <span className="text-sm font-normal text-text-muted">/100</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span
+                className={`px-2.5 py-0.5 rounded-full text-xs font-semibold border ${
+                  getScoreBadge(overall).color
+                }`}
+              >
+                {getScoreBadge(overall).label}
+              </span>
+              <span className="text-xs text-text-muted">Terbaru</span>
+            </div>
+          </div>
+        </div>
+
+        {/* ARI Index Card */}
+        <div className="bg-panel border border-border-subtle rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-xs font-semibold text-text-muted">
+              Algorithmic Resilience (ARI)
+            </span>
+            <div className="p-2 rounded-xl bg-accent-green/10 text-accent-green">
+              <Zap className="w-5 h-5" />
+            </div>
+          </div>
+          <div className="space-y-1">
+            <div className="text-4xl font-heading font-extrabold text-text-strong">
+              {ari}
+              <span className="text-sm font-normal text-text-muted">/100</span>
+            </div>
+            <p className="text-xs text-text-muted">
+              Ketahanan terhadap halusinasi & bias AI
+            </p>
+          </div>
+        </div>
+
+        {/* Critical Evaluation Card */}
+        <div className="bg-panel border border-border-subtle rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-xs font-semibold text-text-muted">
+              Hallucination Audit
+            </span>
+            <div className="p-2 rounded-xl bg-indigo-500/10 text-indigo-500">
+              <ClipboardCheck className="w-5 h-5" />
+            </div>
+          </div>
+          <div className="space-y-1">
+            <div className="text-4xl font-heading font-extrabold text-text-strong">
+              {hallucination}
+              <span className="text-sm font-normal text-text-muted">/100</span>
+            </div>
+            <span
+              className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold border ${
+                getScoreBadge(hallucination).color
+              }`}
+            >
+              Pilar 1 — Verifikasi
+            </span>
+          </div>
+        </div>
+
+        {/* Ethical & Agency Card */}
+        <div className="bg-panel border border-border-subtle rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-xs font-semibold text-text-muted">
+              Ethical & Agency
+            </span>
+            <div className="p-2 rounded-xl bg-amber-500/10 text-amber-500">
+              <BrainCircuit className="w-5 h-5" />
+            </div>
+          </div>
+          <div className="space-y-1">
+            <div className="text-4xl font-heading font-extrabold text-text-strong">
+              {ethical}
+              <span className="text-sm font-normal text-text-muted">/100</span>
+            </div>
+            <span
+              className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold border ${
+                getScoreBadge(ethical).color
+              }`}
+            >
+              Pilar 3 & 4 — Etika
+            </span>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Main Analytics Grid: Radar Chart & Badges */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        {/* Left: Radar Chart (7 cols) */}
+        <motion.div
+          variants={itemVariants}
+          className="lg:col-span-7 bg-panel border border-border-subtle rounded-3xl p-6 sm:p-8 shadow-sm flex flex-col gap-6"
+        >
+          <div className="space-y-1">
+            <h2 className="text-xl font-heading font-bold text-text-strong">
+              Radar Kompetensi 4 Pilar UNESCO
+            </h2>
+            <p className="text-xs text-text-muted">
+              Visualisasi keseimbangan antara evaluasi kritis, identifikasi bias, penalaran etis, dan agensi kognitif.
+            </p>
+          </div>
+
+          <RadarChartPillar scores={pillarScores} />
+        </motion.div>
+
+        {/* Right: Badges & Cognitive Agency Category (5 cols) */}
+        <motion.div variants={itemVariants} className="lg:col-span-5 space-y-6">
+          {/* Cognitive Agency Card */}
+          <div className="bg-panel border border-border-subtle rounded-3xl p-6 shadow-sm space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="p-2.5 rounded-2xl bg-accent-blue/10 text-accent-blue">
+                <ShieldCheck className="w-6 h-6" />
+              </div>
+              <div>
+                <h3 className="text-base font-heading font-bold text-text-strong">
+                  Status Agensi Kognitif
+                </h3>
+                <p className="text-xs text-text-muted">
+                  Tingkat kemandirian berpikir saat berinteraksi dengan AI
+                </p>
+              </div>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-background border border-border-subtle space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-text-muted">Kategori:</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-accent-blue">
+                  {latestRecord?.cognitive_agency_category ?? "Independent"}
+                </span>
+              </div>
+              <p className="text-xs text-text-strong leading-relaxed">
+                Anda menunjukkan tingkat kemandirian yang tinggi dalam mengevaluasi tanggapan AI dan tidak mudah bergantung secara berlebihan.
+              </p>
+            </div>
+          </div>
+
+          {/* Achievement Badges */}
+          <div className="bg-panel border border-border-subtle rounded-3xl p-6 shadow-sm space-y-4">
+            <div className="flex items-center gap-2">
+              <Award className="w-5 h-5 text-amber-500" />
+              <h3 className="text-base font-heading font-bold text-text-strong">
+                Lencana Kompetensi Terbuka
+              </h3>
+            </div>
+
+            <div className="grid grid-cols-2 gap-3">
+              <div className="p-3.5 rounded-2xl bg-background border border-border-subtle flex items-center gap-3">
+                <div className="w-8 h-8 rounded-xl bg-emerald-500/10 text-emerald-500 flex items-center justify-center shrink-0">
+                  <Sparkles className="w-4 h-4" />
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-text-strong">
+                    Hallucination Hunter
+                  </h4>
+                  <span className="text-[10px] text-text-muted">Level 1</span>
+                </div>
+              </div>
+
+              <div className="p-3.5 rounded-2xl bg-background border border-border-subtle flex items-center gap-3">
+                <div className="w-8 h-8 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center shrink-0">
+                  <Scale className="w-4 h-4" />
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-text-strong">
+                    Bias Detective
+                  </h4>
+                  <span className="text-[10px] text-text-muted">Level 1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+
+      {/* History Table */}
+      <motion.div variants={itemVariants} className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-xl font-heading font-bold text-text-strong">
+            Riwayat Percobaan Asesmen
+          </h2>
+          <span className="text-xs text-text-muted">
+            Total {history.length} sesi tersimpan
+          </span>
+        </div>
+
+        <div className="bg-panel border border-border-subtle rounded-3xl overflow-hidden shadow-sm">
+          {loading ? (
+            <div className="p-8 text-center text-xs text-text-muted">
+              Memuat riwayat asesmen...
+            </div>
+          ) : history.length === 0 ? (
+            <div className="p-12 text-center space-y-3">
+              <Calendar className="w-10 h-10 text-text-muted mx-auto" />
+              <h3 className="text-sm font-semibold text-text-strong">
+                Belum Ada Riwayat Asesmen
+              </h3>
+              <p className="text-xs text-text-muted max-w-sm mx-auto">
+                Selesaikan asesmen pertama Anda di Sandbox untuk melihat riwayat performa di sini.
+              </p>
+              <Link
+                href="/assessments"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent-blue text-white rounded-full text-xs font-semibold hover:opacity-90 transition-opacity"
+              >
+                Mulai Asesmen Sekarang
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          ) : (
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                <thead>
+                  <tr className="border-b border-border-subtle bg-background/50 text-text-muted font-medium">
+                    <th className="py-4 px-6">Tanggal & Waktu</th>
+                    <th className="py-4 px-6">Overall Score</th>
+                    <th className="py-4 px-6">Hallucination Audit</th>
+                    <th className="py-4 px-6">Bias Score</th>
+                    <th className="py-4 px-6">Ethical Score</th>
+                    <th className="py-4 px-6 text-right">Aksi</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border-subtle/60">
+                  {history.map((item) => (
+                    <tr
+                      key={item.id}
+                      className="hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
+                    >
+                      <td className="py-4 px-6 text-text-strong font-medium">
+                        {new Date(item.created_at).toLocaleDateString("id-ID", {
+                          day: "numeric",
+                          month: "short",
+                          year: "numeric",
+                          hour: "2-digit",
+                          minute: "2-digit",
+                        })}
+                      </td>
+                      <td className="py-4 px-6">
+                        <span className="font-bold text-text-strong">
+                          {item.overall_score}
+                        </span>
+                        <span className="text-text-muted">/100</span>
+                      </td>
+                      <td className="py-4 px-6 text-text-muted">
+                        {item.hallucination_score} pts
+                      </td>
+                      <td className="py-4 px-6 text-text-muted">
+                        {item.bias_score} pts
+                      </td>
+                      <td className="py-4 px-6 text-text-muted">
+                        {item.ethical_score} pts
+                      </td>
+                      <td className="py-4 px-6 text-right">
+                        <Link
+                          href="/assessments"
+                          className="text-xs font-semibold text-accent-blue hover:underline"
+                        >
+                          Ulangi
+                        </Link>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      </motion.div>
+    </motion.div>
   );
 }

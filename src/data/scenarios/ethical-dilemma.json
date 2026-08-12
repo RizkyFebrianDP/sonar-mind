@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "situation": "Kamu sedang menulis esai argumentatif tentang perubahan iklim. Kamu menggunakan AI untuk mendapatkan ide-ide awal dan kerangka tulisan, lalu mengembangkan argumen sendiri dengan riset mandiri.",
+    "correctCategory": "ethical",
+    "explanation": "Ini adalah contoh sempurna penggunaan AI sebagai 'co-pilot' yang etis. AI digunakan untuk ideasi awal, sementara analisis mendalam, riset, dan penulisan argumen tetap dilakukan oleh manusia. Kreativitas dan pemikiran kritis tetap ada pada kamu.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 2,
+    "situation": "Tugas akhir semester meminta kamu menulis analisis kasus bisnis 2.000 kata. Kamu meminta AI untuk menulis keseluruhan analisis, lalu menyerahkannya sebagai karyamu sendiri tanpa mengubah apapun.",
+    "correctCategory": "offloading",
+    "explanation": "Ini adalah contoh jelas dari cognitive offloading dan plagiarisme akademik. Seluruh proses berpikir, analisis, dan penulisan didelegasikan ke AI. Kamu tidak belajar apapun dari proses ini, dan menyerahkannya sebagai karya sendiri adalah pelanggaran integritas akademik.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 3,
+    "situation": "Kamu menulis kode Python untuk tugas pemrograman. Setelah stuck selama 2 jam, kamu meminta AI menjelaskan konsep yang kamu tidak mengerti, lalu mencoba mengimplementasikannya sendiri berdasarkan pemahaman baru itu.",
+    "correctCategory": "ethical",
+    "explanation": "Menggunakan AI sebagai tutor untuk memahami konsep yang sulit adalah penggunaan yang sangat etis dan membangun. Kamu tetap melakukan implementasi sendiri, artinya proses belajar dan kemampuan kognitif tetap berkembang.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 4,
+    "situation": "Untuk proyek pemrograman, kamu meminta AI menulis seluruh kode tanpa berusaha memahami cara kerjanya. Kamu menyerahkan proyek dan saat ditanya dosen, kamu tidak bisa menjelaskan logika di balik kodenya.",
+    "correctCategory": "offloading",
+    "explanation": "Ini adalah cognitive offloading berbahaya. Mendapatkan kode yang berfungsi tanpa memahami logikanya tidak membangun kompetensi. Ketika kamu tidak bisa menjelaskan karyamu sendiri, itu sinyal jelas bahwa proses belajar tidak terjadi.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 5,
+    "situation": "Kamu menggunakan AI untuk memeriksa tata bahasa dan ejaan pada esai yang sudah kamu tulis sepenuhnya sendiri, mirip seperti menggunakan fitur spell-check pada word processor.",
+    "correctCategory": "ethical",
+    "explanation": "Menggunakan AI sebagai alat bantu proofreading sangat etis — ini setara dengan menggunakan kamus atau spell-checker. Konten, argumen, dan pemikiran sepenuhnya milikmu; AI hanya membantu pada aspek teknis penulisan.",
+    "pillarImpact": { "ethical": 1, "cognitive": 0 }
+  },
+  {
+    "id": 6,
+    "situation": "Kamu diminta membuat presentasi tentang topik yang sudah kamu pelajari di kelas. Kamu meminta AI untuk membuat seluruh slide beserta isinya, termasuk poin-poin argumen dan kesimpulan.",
+    "correctCategory": "offloading",
+    "explanation": "Membiarkan AI membuat seluruh konten presentasi, termasuk argumen dan kesimpulan, berarti kamu tidak mensintesis pengetahuanmu sendiri. Presentasi adalah kesempatan untuk menunjukkan pemahamanmu — mendelegasikannya sepenuhnya ke AI mengabaikan tujuan pembelajaran ini.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 7,
+    "situation": "Kamu sedang mempelajari topik baru yang kompleks. Kamu menggunakan AI sebagai 'tutor interaktif' — bertanya, mendebat, dan meminta penjelasan berbeda hingga kamu benar-benar memahami konsepnya.",
+    "correctCategory": "ethical",
+    "explanation": "Ini adalah salah satu cara paling powerful untuk belajar dengan AI. Dengan aktif berdebat dan mempertanyakan, kamu melatih pemikiran kritis dan membangun pemahaman yang mendalam. AI bertindak sebagai tutor personal yang sabar, bukan sebagai penyedia jawaban instan.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  }
+]

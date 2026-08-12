@@ -1,0 +1,77 @@
+{
+  "title": "Audit Sistem AI: Rekrutmen Insinyur Perangkat Lunak",
+  "context": "Sistem AI rekrutmen sebuah perusahaan teknologi telah menghasilkan daftar peringkat kandidat untuk posisi Software Engineer. Sebagai auditor etika AI, analisis daftar berikut dan identifikasi bias yang mungkin ada dalam keputusan sistem AI ini.",
+  "candidates": [
+    {
+      "name": "Rizky Pratama",
+      "gender": "Laki-laki",
+      "university": "Institut Teknologi Bandung",
+      "gpa": 3.7,
+      "experience": "3 tahun (startup fintech)",
+      "skills": ["Python", "React", "Docker"],
+      "projects": 4,
+      "aiRank": 1,
+      "aiScore": 92
+    },
+    {
+      "name": "Budi Santoso",
+      "gender": "Laki-laki",
+      "university": "Universitas Indonesia",
+      "gpa": 3.5,
+      "experience": "2 tahun (e-commerce)",
+      "skills": ["Java", "Spring Boot", "AWS"],
+      "projects": 3,
+      "aiRank": 2,
+      "aiScore": 87
+    },
+    {
+      "name": "Ahmad Fauzi",
+      "gender": "Laki-laki",
+      "university": "Universitas Gadjah Mada",
+      "gpa": 3.4,
+      "experience": "2 tahun (agency)",
+      "skills": ["JavaScript", "Node.js", "MongoDB"],
+      "projects": 5,
+      "aiRank": 3,
+      "aiScore": 82
+    },
+    {
+      "name": "Sari Dewi",
+      "gender": "Perempuan",
+      "university": "Institut Teknologi Bandung",
+      "gpa": 3.9,
+      "experience": "4 tahun (big tech)",
+      "skills": ["Python", "ML/AI", "React", "Docker", "Kubernetes"],
+      "projects": 8,
+      "aiRank": 4,
+      "aiScore": 74
+    },
+    {
+      "name": "Hendra Wijaya",
+      "gender": "Laki-laki",
+      "university": "Universitas Brawijaya",
+      "gpa": 3.2,
+      "experience": "1 tahun (freelance)",
+      "skills": ["PHP", "Laravel", "MySQL"],
+      "projects": 2,
+      "aiRank": 5,
+      "aiScore": 68
+    },
+    {
+      "name": "Putri Maharani",
+      "gender": "Perempuan",
+      "university": "Universitas Indonesia",
+      "gpa": 3.8,
+      "experience": "3 tahun (konsultan IT)",
+      "skills": ["Java", "Python", "SQL", "System Design"],
+      "projects": 6,
+      "aiRank": 6,
+      "aiScore": 61
+    }
+  ],
+  "biasAnalysis": {
+    "correctBiasTypes": ["gender"],
+    "explanation": "Sistem AI ini secara konsisten menempatkan kandidat laki-laki di peringkat atas meskipun kandidat perempuan (Sari Dewi, Putri Maharani) memiliki kualifikasi yang secara objektif lebih tinggi: IPK lebih baik, pengalaman lebih panjang, dan jumlah skill/proyek lebih banyak. Sari Dewi (IPK 3.9, 4 tahun, 8 proyek) seharusnya berada di peringkat 1, bukan peringkat 4. Ini adalah contoh gender bias dalam algoritma rekrutmen AI, di mana model kemungkinan dilatih pada data historis yang bias terhadap pelamar laki-laki.",
+    "keywords": ["bias gender", "gender bias", "diskriminasi", "perempuan", "ketidakadilan", "bias rekrutmen", "stereotype", "kualifikasi", "IPK", "pengalaman"]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Laporan Ringkasan: Kemajuan Kecerdasan Buatan dalam Dunia Kesehatan",
+  "context": "Berikut adalah ringkasan artikel yang ditulis oleh sistem AI. Baca dengan seksama dan tandai kalimat-kalimat yang menurutmu mengandung informasi yang tidak akurat atau dibuat-buat (halusinasi).",
+  "sentences": [
+    {
+      "id": 1,
+      "text": "Kecerdasan Buatan telah membawa revolusi besar dalam dunia kesehatan selama satu dekade terakhir.",
+      "isHallucination": false,
+      "explanation": "Pernyataan ini benar dan didukung oleh banyak penelitian tentang dampak AI di sektor kesehatan."
+    },
+    {
+      "id": 2,
+      "text": "Pada tahun 2021, WHO secara resmi menyatakan bahwa AI telah menggantikan 40% dokter umum di negara-negara berkembang.",
+      "isHallucination": true,
+      "explanation": "WHO tidak pernah mengeluarkan pernyataan ini. AI belum menggantikan dokter di manapun secara resmi — ini adalah klaim yang sepenuhnya dibuat-buat."
+    },
+    {
+      "id": 3,
+      "text": "Model deep learning seperti Google DeepMind's AlphaFold berhasil memprediksi struktur protein dengan akurasi yang mengesankan.",
+      "isHallucination": false,
+      "explanation": "Benar. AlphaFold 2 dari DeepMind memang berhasil merevolusi prediksi struktur protein dan diakui komunitas ilmiah dunia."
+    },
+    {
+      "id": 4,
+      "text": "Sebuah studi dari MIT pada tahun 2023 membuktikan bahwa AI mampu mendiagnosis kanker payudara dengan tingkat akurasi 99,8% — melampaui semua dokter spesialis manusia.",
+      "isHallucination": true,
+      "explanation": "Tidak ada studi MIT yang membuktikan klaim ini. Sistem AI diagnostik terbaik saat ini memiliki akurasi kompetitif dengan dokter, bukan jauh melampaui seluruhnya. Angka 99,8% adalah angka yang dilebih-lebihkan."
+    },
+    {
+      "id": 5,
+      "text": "Teknologi Natural Language Processing (NLP) digunakan untuk menganalisis rekam medis pasien dan mengidentifikasi pola penyakit.",
+      "isHallucination": false,
+      "explanation": "Benar. NLP memang digunakan secara luas untuk analisis rekam medis elektronik (EMR) dalam berbagai penelitian dan implementasi nyata."
+    },
+    {
+      "id": 6,
+      "text": "FDA Amerika Serikat telah menyetujui lebih dari 500 perangkat AI medis yang berfungsi sebagai pengganti dokter bedah sejak tahun 2020.",
+      "isHallucination": true,
+      "explanation": "Meski FDA telah menyetujui banyak perangkat AI medis, tidak ada yang berfungsi sebagai 'pengganti dokter bedah'. Perangkat AI disetujui sebagai alat bantu, bukan pengganti, dan angka 500+ dalam konteks ini menyesatkan."
+    },
+    {
+      "id": 7,
+      "text": "Isu privasi data menjadi tantangan utama dalam implementasi AI di layanan kesehatan, terutama terkait regulasi HIPAA di Amerika dan GDPR di Eropa.",
+      "isHallucination": false,
+      "explanation": "Benar. Privasi data memang menjadi isu kritis dan HIPAA serta GDPR adalah regulasi nyata yang membatasi penggunaan data kesehatan."
+    },
+    {
+      "id": 8,
+      "text": "Pada 2022, Rumah Sakit Johns Hopkins melaporkan bahwa sistem AI mereka berhasil menyembuhkan 1.200 pasien COVID-19 yang dinyatakan tidak dapat diselamatkan oleh dokter.",
+      "isHallucination": true,
+      "explanation": "Klaim ini tidak berdasar. Sistem AI tidak dapat 'menyembuhkan' pasien — AI hanya membantu diagnosis dan rekomendasi. Tidak ada laporan resmi semacam ini dari Johns Hopkins."
+    },
+    {
+      "id": 9,
+      "text": "Riset tentang AI dalam kesehatan mental sedang berkembang pesat, termasuk penggunaan chatbot terapeutik untuk mendukung pasien dengan depresi ringan.",
+      "isHallucination": false,
+      "explanation": "Benar. Ada banyak penelitian aktif tentang chatbot terapeutik seperti Woebot dan sistem serupa untuk dukungan kesehatan mental."
+    },
+    {
+      "id": 10,
+      "text": "Perusahaan teknologi seperti IBM Watson Health pernah mengklaim sistem AI-nya dapat mendeteksi kondisi medis langka dengan mendengarkan suara pernapasan pasien melalui smartphone.",
+      "isHallucination": true,
+      "explanation": "IBM Watson Health tidak pernah membuat klaim spesifik ini. Meski ada riset tentang analisis suara untuk diagnosis (di luar IBM), pernyataan ini merupakan atribusi yang salah dan melebih-lebihkan kemampuan teknologi tersebut."
+    }
+  ],
+  "references": [
+    {
+      "claim": "Kemampuan AlphaFold",
+      "source": "Nature (2021): 'Highly accurate protein structure prediction with AlphaFold' — DeepMind."
+    },
+    {
+      "claim": "FDA dan perangkat AI medis",
+      "source": "FDA.gov: Perangkat AI yang disetujui berfungsi sebagai decision support tool, bukan pengganti tenaga medis."
+    },
+    {
+      "claim": "AI dan diagnosis kanker",
+      "source": "Tompkins et al. (2022) di Lancet Digital Health: AI memiliki performa setara, bukan jauh melampaui, radiolog berpengalaman."
+    },
+    {
+      "claim": "Regulasi HIPAA & GDPR",
+      "source": "HHS.gov dan EU GDPR Portal: Regulasi nyata yang mengatur penggunaan data kesehatan."
+    }
+  ]
+}
