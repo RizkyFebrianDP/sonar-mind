@@ -1,5 +1,5 @@
 import React from 'react';
-import { LucideIcon } from 'lucide-react';
+import { Icon } from '@/components/ui/Icon';
 
 export interface SummaryCardProps {
   title: string;
@@ -8,7 +8,7 @@ export interface SummaryCardProps {
   label: string;
   labelColor: 'green' | 'red' | 'blue' | 'yellow' | 'pink';
   description: string;
-  icon: LucideIcon;
+  iconId: string;
 }
 
 export function SummaryCard({
@@ -18,16 +18,17 @@ export function SummaryCard({
   label,
   labelColor,
   description,
-  icon: Icon
+  iconId,
 }: SummaryCardProps) {
   
   const percentage = Math.min(100, Math.max(0, (score / maxScore) * 100));
 
   const colorMap = {
-    green: { border: 'border-accent-green', text: 'text-accent-green', bg: 'bg-accent-green' },
-    red: { border: 'border-pink-400', text: 'text-pink-500', bg: 'bg-pink-400' },
-    blue: { border: 'border-blue-400', text: 'text-blue-500', bg: 'bg-blue-400' },
-    yellow: { border: 'border-yellow-400', text: 'text-yellow-500', bg: 'bg-yellow-400' },
+    green: { border: 'border-accent-green', text: 'text-accent-green', bg: 'bg-accent-green', iconBg: 'bg-accent-green' },
+    red: { border: 'border-pink-400', text: 'text-pink-500', bg: 'bg-pink-400', iconBg: 'bg-pink-400' },
+    blue: { border: 'border-blue-400', text: 'text-blue-500', bg: 'bg-blue-400', iconBg: 'bg-blue-400' },
+    yellow: { border: 'border-yellow-400', text: 'text-yellow-500', bg: 'bg-yellow-400', iconBg: 'bg-yellow-400' },
+    pink: { border: 'border-pink-400', text: 'text-pink-500', bg: 'bg-pink-400', iconBg: 'bg-pink-400' },
   };
 
   const colorConfig = colorMap[labelColor as keyof typeof colorMap] || colorMap.blue;
@@ -55,7 +56,7 @@ export function SummaryCard({
         <span className={`text-sm font-bold ${colorConfig.text}`}>
           {label}
         </span>
-        <Icon className="w-4 h-4 text-text-muted" />
+        <Icon id={iconId} className={`w-5 h-5 ${colorConfig.iconBg}`} />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Lock } from 'lucide-react';
+import { Icon } from '@/components/ui/Icon';
 import { motion } from 'framer-motion';
 
 interface Section {
@@ -67,7 +67,7 @@ export function AssessmentSections() {
               </div>
               
               <div className="flex items-center gap-1.5 text-[11px] font-bold text-text-muted uppercase tracking-wider bg-background px-2.5 py-1 rounded-md border border-border-subtle shrink-0">
-                <Lock className="w-3 h-3" />
+                <Icon id="82747" className="w-3 h-3 bg-text-muted" />
                 Not Started
               </div>
             </div>

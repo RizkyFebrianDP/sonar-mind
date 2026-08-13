@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { BookOpen } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 
 interface Reference {
   claim: string;
@@ -17,7 +17,7 @@ export function ReferencePanel({ references }: ReferencePanelProps) {
     <div className="bg-panel rounded-2xl p-5 border border-sidebar-border">
       <div className="flex items-center gap-2 mb-4">
         <div className="w-8 h-8 rounded-lg bg-accent-blue/10 flex items-center justify-center">
-          <BookOpen className="w-4 h-4 text-accent-blue" />
+          <Icon id="82742" className="w-4 h-4 bg-accent-blue" />
         </div>
         <h3 className="text-sm font-bold text-text-strong font-heading">
           Panel Referensi

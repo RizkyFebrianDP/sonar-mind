@@ -7,9 +7,8 @@ import { RadarChartPillar } from "@/components/dashboard/RadarChartPillar";
 import { InsightCard } from "@/components/dashboard/InsightCard";
 import { HistoryTable } from "@/components/dashboard/HistoryTable";
 import { LearningRecommendations } from "@/components/dashboard/LearningRecommendations";
-import { TrendingUp, ClipboardCheck, Scale, BrainCircuit } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 import { useAssessment } from "@/context/AssessmentContext";
-import { createClient } from "@/lib/supabase/client";
 import { calculateAssessmentResult, generateRecommendations } from "@/lib/scoring-engine";
 import type { AssessmentHistoryItem, AssessmentResult } from "@/types/assessment";
 import type { User } from "@supabase/supabase-js";
@@ -42,31 +41,7 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
   const savedRef = React.useRef(false);
 
   // Jika ada rawScores dari sesi ini, simpan ke Supabase (sekali per sesi)
-  useEffect(() => {
-    const saveToSupabase = async () => {
-      if (!assessmentResult || !rawScores.hallucinationAudit || !rawScores.biasAudit || !rawScores.ethicalDilemma) return;
-      if (savedRef.current) return;
-      savedRef.current = true;
 
-      const supabase = createClient();
-      const { data: { user: currentUser } } = await supabase.auth.getUser();
-      if (!currentUser) return;
-
-      await supabase.from("assessment_history").insert({
-        user_id: currentUser.id,
-        overall_score: assessmentResult.weightedTotal,
-        hallucination_score: assessmentResult.pillars.criticalEvaluation,
-        bias_score: assessmentResult.pillars.algorithmicBiasAwareness,
-        ethical_score: assessmentResult.pillars.ethicalReasoning,
-        cognitive_agency_score: assessmentResult.pillars.cognitiveAgency,
-        cognitive_agency_category: assessmentResult.cognitiveAgencyCategory,
-        algorithmic_resilience_index: assessmentResult.algorithmicResilienceIndex,
-        raw_scores: rawScores,
-      });
-    };
-
-    saveToSupabase();
-  }, [assessmentResult, rawScores]);
 
   // Tentukan sumber data: context (baru selesai) atau DB (riwayat)
   const displayResult: AssessmentResult | null = assessmentResult ?? (latestRecord
@@ -104,9 +79,17 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
   const biasMeta = getScoreLabel(biasScore);
   const ethicalMeta = getScoreLabel(ethicalScore);
 
+  const scoreMap = [
+    { cat: "halusinasi", score: hallucinationScore },
+    { cat: "bias", score: biasScore },
+    { cat: "etika", score: ethicalScore },
+  ];
+  scoreMap.sort((a, b) => a.score - b.score);
+  const weakestCat = scoreMap[0].cat as "halusinasi" | "bias" | "etika";
+
   return (
     <motion.div
-      className="p-8 max-w-7xl mx-auto space-y-8"
+      className="min-h-full p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto space-y-10"
       variants={containerVariants}
       initial="hidden"
       animate="show"
@@ -114,27 +97,30 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
       {/* Header */}
       <motion.div
         variants={itemVariants}
-        className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-2"
+        className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 mb-8"
       >
-        <div className="flex items-center gap-2 text-sm text-text-muted mb-2 sm:mb-0">
-          <span>Dashboard</span>
-          <span>/</span>
-          <span className="font-semibold text-text-strong">Competency</span>
-        </div>
-        <div className="flex items-center justify-between w-full sm:w-auto">
-          <h1 className="text-2xl font-bold text-text-strong sm:hidden font-heading tracking-tight">
-            Welcome, {displayName}
+        <div className="space-y-3">
+          <div className="flex items-center gap-2 text-sm text-text-muted">
+            <span>Dashboard</span>
+            <span className="opacity-50">/</span>
+            <span className="font-medium text-text-strong">Competency</span>
+          </div>
+          <h1 className="text-2xl md:text-3xl font-bold text-text-strong font-heading tracking-tight">
+            Welcome back, {displayName}{" "}
+            <span className="inline-block origin-bottom-right hover:-rotate-12 hover:scale-110 transition-transform duration-300 cursor-default">
+              👋
+            </span>
           </h1>
+        </div>
+        
+        <div className="w-full sm:w-auto mt-4 sm:mt-0">
           <a
             href="/assessments"
-            className="px-6 py-2.5 bg-text-strong hover:bg-black text-background rounded-full text-sm font-semibold shadow-sm transition-all flex items-center gap-2 tracking-wide"
+            className="flex w-full sm:w-auto justify-center items-center gap-2 px-6 py-2.5 bg-text-strong hover:bg-black text-background rounded-full text-sm font-semibold shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all tracking-wide"
           >
             {hasData ? "Retake Assessment" : "Take Assessment"}
           </a>
         </div>
-        <h1 className="hidden sm:block text-2xl md:text-3xl font-bold text-text-strong font-heading tracking-tight">
-          Welcome back, {displayName} 👋
-        </h1>
       </motion.div>
 
       {/* Summary Cards */}
@@ -154,31 +140,31 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
             label={hasData ? overallMeta.label : "Belum Ada Data"}
             labelColor={hasData ? overallMeta.color : "blue"}
             description={hasData ? `Skor gabungan 4 pilar kompetensi` : "Mulai assessment untuk melihat skor"}
-            icon={TrendingUp}
+            iconId="85933"
           />
           <SummaryCard
             title="Hallucination Audit"
             score={hallucinationScore}
             label={hasData ? hallucinationMeta.label : "Belum Ada Data"}
             labelColor={hasData ? hallucinationMeta.color : "blue"}
-            description={hasData ? "Kemampuan deteksi informasi palsu AI" : "Pilar 1 — Critical Evaluation"}
-            icon={ClipboardCheck}
+            description={hasData ? "Kemampuan deteksi informasi palsu AI" : "Critical Evaluation"}
+            iconId="89779"
           />
           <SummaryCard
             title="Algorithmic Bias"
             score={biasScore}
             label={hasData ? biasMeta.label : "Belum Ada Data"}
             labelColor={hasData ? biasMeta.color : "blue"}
-            description={hasData ? "Identifikasi bias dalam sistem AI" : "Pilar 2 — Bias Awareness"}
-            icon={Scale}
+            description={hasData ? "Identifikasi bias dalam sistem AI" : "Bias Awareness"}
+            iconId="86472"
           />
           <SummaryCard
             title="Ethical & Agency"
             score={ethicalScore}
             label={hasData ? ethicalMeta.label : "Belum Ada Data"}
             labelColor={hasData ? ethicalMeta.color : "blue"}
-            description={hasData ? "Penalaran etika & kemandirian kognitif" : "Pilar 3 & 4 — Ethical & Cognitive"}
-            icon={BrainCircuit}
+            description={hasData ? "Penalaran etika & kemandirian kognitif" : "Ethical & Cognitive"}
+            iconId="101164"
           />
         </div>
       </motion.section>
@@ -211,7 +197,7 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
             </div>
           </div>
           <div className="lg:col-span-1 h-full">
-            <LearningRecommendations />
+            <LearningRecommendations weakestCategory={weakestCat} />
           </div>
         </div>
       </motion.section>

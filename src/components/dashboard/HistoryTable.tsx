@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { History, Clock, CheckCircle2 } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 import Link from "next/link";
 import type { AssessmentHistoryItem } from "@/types/assessment";
 
@@ -50,7 +50,7 @@ export function HistoryTable({ data = [], loading = false }: HistoryTableProps) 
       {/* Header */}
       <div className="flex items-center justify-between px-5 py-4 border-b border-sidebar-border">
         <h3 className="text-sm font-heading font-bold text-text-strong flex items-center gap-2 uppercase tracking-wider">
-          <History className="w-4 h-4 text-text-muted" />
+          <Icon id="115230" className="w-4 h-4 bg-text-muted" />
           Assessment History
         </h3>
         <Link
@@ -82,7 +82,7 @@ export function HistoryTable({ data = [], loading = false }: HistoryTableProps) 
               <tr>
                 <td colSpan={4} className="px-5 py-12 text-center">
                   <div className="flex flex-col items-center gap-3 text-text-muted">
-                    <Clock className="w-8 h-8 opacity-30" />
+                    <Icon id="82767" className="w-8 h-8 opacity-30 bg-text-muted" />
                     <p className="text-sm">Belum ada riwayat assessment.</p>
                     <Link
                       href="/assessments"
@@ -106,7 +106,7 @@ export function HistoryTable({ data = [], loading = false }: HistoryTableProps) 
                     </td>
                     <td className="px-5 py-4">
                       <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
-                        <CheckCircle2 className="w-3 h-3" />
+                        <Icon id="82766" className="w-3 h-3 bg-emerald-500" />
                         Completed
                       </span>
                     </td>

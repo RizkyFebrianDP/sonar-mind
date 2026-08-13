@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap } from 'lucide-react';
+import { Icon } from '@/components/ui/Icon';
 import { motion } from 'framer-motion';
 
 export function DidYouKnowCard() {
@@ -18,8 +18,9 @@ export function DidYouKnowCard() {
       </p>
       
       {/* Decorative Icon */}
-      <GraduationCap 
-        className="absolute -bottom-6 -right-6 w-32 h-32 text-white/5 rotate-[-15deg] pointer-events-none" 
+      <Icon
+        id="99038"
+        className="absolute -bottom-6 -right-6 w-32 h-32 bg-white/5 rotate-[-15deg] pointer-events-none"
       />
     </motion.div>
   );

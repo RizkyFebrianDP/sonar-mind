@@ -60,13 +60,13 @@ export function ClassificationButtons({
             whileTap={!disabled ? { scale: 0.98 } : {}}
             onClick={() => !disabled && onSelect(cat.id)}
             disabled={disabled}
-            className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all duration-200 ${
+            className={`flex flex-col items-center gap-1 md:gap-2 p-2 md:p-4 rounded-2xl border-2 transition-all duration-200 ${
               disabled ? "cursor-default opacity-80" : "cursor-pointer"
             } ${isSelected ? cat.activeColors : cat.colors}`}
           >
-            <span className="text-2xl">{cat.emoji}</span>
-            <span className="text-sm font-bold font-heading">{cat.label}</span>
-            <span className="text-xs opacity-70 text-center leading-relaxed">
+            <span className="text-xl md:text-2xl">{cat.emoji}</span>
+            <span className="text-xs md:text-sm font-bold font-heading">{cat.label}</span>
+            <span className="text-[10px] md:text-xs opacity-70 text-center leading-relaxed">
               {cat.description}
             </span>
           </motion.button>

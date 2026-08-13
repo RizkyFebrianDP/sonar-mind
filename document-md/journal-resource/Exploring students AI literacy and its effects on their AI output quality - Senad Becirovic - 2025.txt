@@ -1,0 +1,1468 @@
+﻿Bećirović et al. Smart Learning Environments           (2025) 12:29  Smart Learning Environments
+https://doi.org/10.1186/s40561-025-00384-3
+
+RESEARCH Open Access
+
+Exploring students’ AI literacy and its 
+effects on their AI output quality, self‑efficacy, 
+and academic performance
+Senad Bećirović1*   , Edda Polz1    and Isabella Tinkel2    
+
+*Correspondence:   
+senad.becirovic@ph-noe.ac.at Abstract 
+1 University College of Teacher Artificial intelligence (AI) technologies are advancing swiftly, both in terms of quantity 
+Education Lower Austria, and quality. Students must possess a solid understanding, abilities, and skills to suc-
+Mühlgasse 67, 2500 Baden, cessfully employ them. Therefore, the purpose of this quantitative study is to examine 
+Austria
+2 EPIC Training, 2344 Maria students’ AI literacy, including AI technological understanding, its practical applica-
+Enzersdorf, Austria tion, critical appraisal, and its effects on students’ AI output quality, self-efficacy, 
+
+and academic performance. Moreover, this research examines the effects of students’ 
+AI self-efficacy and output quality on their academic achievement. An online survey 
+was used to gather responses from 286 Austrian university students. Structural equa-
+tion modeling was performed to test the research model. The findings indicate that AI 
+technical understanding and the practical application significantly and positively 
+influenced AI self-efficacy, while AI practical application had a significant and positive 
+influence on both, AI self-efficacy and AI output quality. AI critical appraisal significantly 
+and negatively impacted AI self-efficacy and AI output quality, whereas AI technical 
+understanding, critical appraisal, practical application, self-efficacy, and output qual-
+ity had an insignificant effect on students’ academic performance. The findings of this 
+study may deepen the understanding of students’ AI literacy, contribute to the lit-
+erature in this relatively new academic field, and help clarify the contradictory find-
+ings on the effects of AI-powered technology use on students’ learning outcomes. 
+This research can also help integrate AI-powered tools into education effectively 
+and improve students’ AI literacy so they can use them ethically and effectively. The 
+results may also help revise and create new AI policies, curricula, and educational 
+initiatives.
+Keywords:  Artificial intelligence, AI literacy, AI self-efficacy, AI output quality, 
+Academic performance
+
+Introduction
+The availability and quality of AI-powered tools have increased dramatically, and these 
+technologies are being used in educational contexts more and more (Chu et al., 2022; 
+Ou, 2024). Students are experiencing the unprecedented impact of AI tools on their 
+educational processes, performance and achievement. These changes also affect stu-
+dents’ overall development, including personal, cognitive and moral dimensions. Thus, 
+
+© The Author(s) 2025. Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits 
+use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original 
+author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third 
+party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the mate-
+rial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or 
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://​
+creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 2 of 25
+
+increased AI-literacy, including competent and responsible usage of AI-tools and an 
+increased focus on information literacy (Xiao et  al., 2025), is crucial for students to 
+gain and maintain a competitive edge in the ever-growing digital landscape (Brew et al., 
+2023).
+
+Previous studies present conflicting findings regarding the relationship between AI-
+powered tool usage and academic achievement. Some studies have shown that reliance 
+on AI-powered tools impacts student performance negatively (Khoso et al., 2023; Wecks 
+et al., 2024). However, other studies have pointed out that well-founded AI tool usage 
+supports students’ performance and motivation (Montenegro-Rueda et al., 2023). Higher 
+AI-literacy has been found to be connected to increased engagement with AI tools for 
+learning purposes, which, in turn, leads to better learning outcomes and improved aca-
+demic performance (Singh et al., 2024; Soni, 2024), leading to more student satisfaction 
+due to individualised AI-supported adaptive learning (Shete et  al., 2024). This means 
+that AI-powered tools can offer support to students in a wide variety of areas ranging 
+from simple information retrieval to the provision of interactive exchanges that allow 
+for individual and personalised learning experiences, as well as give support in fields as 
+diverse as research, writing and designing (Aggarwal et al., 2023; Akgun & Greenhow, 
+2022; Bećirović & Mattoš, 2024; Ou, 2024; Parsakia, 2023).
+
+Naturally, all these advantages are closely tied to potential disadvantages. A decline 
+in creativity, critical thinking and problem-solving abilities has been pointed out due to 
+an overreliance on AI tools. Equally, increases in and the facilitation of plagiarism and 
+cheating are major concerns. In addition, concerns have been voiced related to the loss 
+of human interaction between teachers and students as a result of AI technology usage 
+(Ou, 2024). Clearly, these issues pose major challenges for educational policy makers 
+and administration, instructors, researchers and others in the field of education (Brew 
+et al., 2023).
+
+While students generally tend to have very distinct AI awareness within the domain 
+of private use and daily life, there is room for improvement in the academic sector. This 
+calls for a more holistic approach to AI-literacy development and a balanced integra-
+tion of AI in educational settings (Fazil et al., 2024), which is the research gap this paper 
+seeks to fill. Currently there is a limited amount of research pertaining to AI literacy and 
+AI technology usage and acceptance in educational settings in Austria, which makes it 
+difficult to adjust policies and adapt curricula to match the ongoing development of AI 
+and provide students with the training they need to employ AI tools responsibly and 
+successfully. Yet, it has been found that students have been using ChatGPT as a virtual 
+tutor who does not pass judgment (Brew et  al., 2023), to explain content (Alsobeh & 
+Woodward, 2023), prepare for exams, generate presentations and homework assign-
+ments (Khoso et al., 2023), but also to cheat in exams. Further, AI tools may be used to 
+generate translations (Brew et al., 2023) and support problem-solving and the streamlin-
+ing of processes (PricewaterhouseCoopers, 2023a, 2023b). A recent Austrian study on 
+AI acceptance in education (Brandhofer & Tengler, 2024) also found that almost 50% of 
+student teachers and 75% of teachers rate the opportunities of using AI higher than the 
+potential risks. This study also shows that 49.7% of participants expect AI applications 
+to enhance their ability to reach their learning goals, which is demonstrated by survey 
+(Krone, 2024) reporting that 73% of Austrian students feel generally competent in AI 
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 3 of 25
+
+usage in 2024 – an increase of 22% compared to 2023. However, Brandlhofer and Ten-
+gler (2024) also found that, while a large number of students is enthusiastic about AI’s 
+ability to support their learning, more than 45% stated that they distrust the output of AI 
+applications. This is underlined by the fact that in Austria the application and integration 
+of AI tools in educational processes are still regarded with skepticism. 80% of Austrians 
+are deeply concerned about future AI-related developments, especially regarding gen-
+erative AI tools such as ChatGPT (PricewaterhouseCoopers, 2024).
+
+These contradictory perspectives highlight the need for more thorough and detailed 
+inquiry and analyses of AI literacy and its influence on academic achievement. More-
+over, further research is required to elaborate on the contradictory findings regarding 
+the beneficial or detrimental effects of AI-powered tools on students’ academic perfor-
+mance. Additionally, it is necessary to identify strategies for mitigating the misuse and 
+negative consequences of AI-powered technologies use, while simultaneously enhancing 
+their positive impact on students’ academic achievement and overall development.
+
+AI is a swiftly advancing technology that continually introduces new advancements 
+to worldwide education and other systems. Staying informed about the most recent 
+advancements and having the ability to effectively and confidently utilise AI technol-
+ogy have become essential skills in students’ daily lives. Therefore, the purpose of this 
+quantitative study is to examine students’ AI literacy, including AI technological under-
+standing, its practical application, and critical appraisal and their effects on students’ AI 
+output quality, AI self-efficacy, and academic performance. Moreover, this study exam-
+ines the effects of students’ AI self-efficacy and AI output quality on their academic 
+achievement.
+
+In addition to shedding light on the effects of AI-powered technology use on stu-
+dents’ learning outcomes, filling the gaps, and contributing to professional literature in 
+this relatively new and emerging academic area, this study may deepen knowledge and 
+understanding of AI literacy among AI non-expert university students studying social 
+sciences. Furthermore, gaining a more profound comprehension of the aforementioned 
+relationships can aid in the implementation of successful approaches to effectively incor-
+porate AI-powered technologies into educational processes. Such integration can assist 
+students in enhancing their AI literacy and proficiency in utilising AI competently and 
+efficiently, while also enabling them to employ these technologies ethically and responsi-
+bly. Similarly, the findings of this study may aid in revising existing and designing new AI 
+policies, curricula, and teaching approaches.
+
+Literature review
+The number of studies conducted on AI has seen a significant increase across the globe 
+in recent years (Potter et al., 2024). People will need to have the ability to interact inde-
+pendently and knowledgeably with AI (Alsobeh & Woodward, 2023; André, 2021; Car-
+olus et  al., 2023; Ng et  al., 2021b). Thus, AI literacy is a crucial factor not only in the 
+rapidly developing globalized world but also in the field of education as more and more 
+research is conducted on this topic (Crompton & Burke, 2023; Pinzolits, 2023). Students 
+require the skills to understand, employ and evaluate AI tools to gain maximum advan-
+tage when using them (Bozkurt, 2023).
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 4 of 25
+
+Ng et  al. (2021b) come to define AI literacy as a set of “different types of ‘literacies’ 
+which have […] been applied to define skill sets in varied disciplines” (p. 507). These 
+skills encompass “know and understand AI”, “apply AI”, “evaluate and create AI” and “AI 
+ethics”, which overlap with the factors investigated in this research (Ng et  al., 2021b). 
+Numerous studies on AI literacy (Cetindamar et al., 2024; Ng et al., 2021b; Wang et al., 
+2023; Zhang et al., 2023) have been conducted and a number of competence fields have 
+emerged, in addition and expansion to the ones found by Ng et al. (2021b) mentioned 
+above. Technological understanding, practical application, critical appraisal, self-efficacy 
+and output quality related to AI technology are all relevant and critical factors (Carolus 
+et al., 2023) and form the core of this research.
+
+This study’s research model comprises six factors (Fig.  1). It is based on Laupichler 
+et  al.’s (2023a) framework of assessing non-experts’ AI literacy, which includes three 
+factors: technical understanding, critical appraisal, and practical application of AI. 
+The framework of assessing non-experts’ AI literacy ultimately suits the research sam-
+ple of this study, which is social science students who are not experts in information 
+and AI technologies. The research model of this study measures how these three fac-
+tors, as main predictive variables, affect students’ AI self-efficacy, founded on (Carolus 
+et al., 2023) Meta AI literacy, which assesses students’ problem-solving and learning by 
+using AI tools. Furthermore, the research model evaluates how the three factors men-
+tioned above influence students’ AI output quality, derived from TAM3 (Venkatesh & 
+Bala, 2008) and, students’ academic achievement. Additionally, the model examines the 
+effects of students’ AI self-efficacy and their AI output quality on students’ academic 
+achievement.
+
+Ultimately, the model evaluates the effects of students’ AI technical understand-
+ing, their AI critical appraisal, and AI practical application, as well as AI self-efficacy, 
+AI output quality, and students’ academic performance. The justification for including 
+each variable in the current research model, as well as the hypothesized relationships 
+between them, is described in the following sections.
+
+AI technological understanding
+Students have become aware of the potential of AI tools in educational settings and are 
+interested in expanding their knowledge in this area (Daher et al., 2024; Mohamed et al., 
+2024). They need to “know the basic functions of AI and how to use AI applications in 
+
+Fig. 1  The research model
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 5 of 25
+
+everyday life ethically” (Ng et  al., 2021a, p. 507), if they want to employ this technol-
+ogy successfully. Recent studies showed that technological awareness of AI seems to be 
+relatively equally distributed among age groups and genders, showing a medium level of 
+self-perceived competence (Asirit & Hua, 2023; Kamoun et al., 2024). However, diverg-
+ing levels of technological awareness by field of study were found (Bećirović, 2023a). 
+Students in programs related to education and criminology showed higher levels of 
+awareness of AI tools and their potential than students studying in business programs 
+(Asirit & Hua, 2023), while management students outperformed engineering students 
+(Kamoun et al., 2024). Recent findings support the shift in AI technology competence 
+from engineering to other fields (Chu et al., 2022; Zawacki-Richter et al., 2019) where 
+AI is being implemented and used increasingly. Therefore, a technical understanding of 
+AI may have a significant influence on the effectiveness of its use. Despite related stud-
+ies on AI and its role in education, research on the relationship between AI technical 
+understanding and students’ AI self-efficacy is still lacking. Considering that, the follow-
+ing hypotheses were put forward:
+
+Technical understanding of AI significantly predicts AI self-efficacy.
+Technical understanding of AI significantly predicts AI output quality.
+Technical understanding of AI significantly predicts students’ academic perfor-
+mance.
+
+AI practical application
+Educational systems should teach students how to use AI tools meaningfully, ethically 
+and effectively (Bećirović & Mattoš, 2024; Stracke et al., 2025). Ng et al. (Ng et al., 2021b) 
+emphasized that “applying AI knowledge, concepts, and applications in different scenar-
+ios” constitutes one of the four pillars of AI literacy (p. 507). Students generally exhibit a 
+positive attitude towards AI tools such as ChatGPT (Haque et al., 2022) and are mostly 
+in favor of applying such tools into education as these can support the learning journey 
+(Kamoun et al., 2024; Lepik, 2024; Mohamed et al., 2024).
+
+Most notably, AI tools are used to gather information as they can effectively and effi-
+ciently retrieve vast amounts of data in a structured and personalized form (Asirit & 
+Hua, 2023; Mohamed et al., 2024; Potter et al., 2024). AI tools have also been employed 
+successfully to improve students’ writing skills (Pratama & Hastuti, 2024), helping them 
+overcome writer’s block by providing prompts and fostering creativity (Lepik, 2024; 
+Shanto et  al., 2024) and obtaining feedback on a text (Brew et  al., 2023; Potter et  al., 
+2024). Similarly, AI technologies have been used in online assessment and students 
+appreciate the immediate feedback and the opportunity to follow their progress while 
+enjoying the gamification aspect provided (Ningsih, 2023). In another vein, student-AI 
+collaboration has been shown to positively impact creativity in the context of drawing, 
+depending on students’ AI skills and attitudes (Kim & Lee, 2023). Consequently, we 
+wanted to evaluate AI’s practical application on students’ AI self-efficacy, output quality, 
+and academic performance and proposed the following hypotheses:
+
+Practical application of AI significantly predicts AI self-efficacy.
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 6 of 25
+
+Practical application of AI significantly predicts AI output quality.
+Practical application of AI significantly predicts students’ academic performance.
+
+AI critical appraisal
+In order to be able to use AI technology safely and ethically, students must be able 
+to use their “higher-order thinking skills” (Ng et  al., 2021a) to reflect critically on 
+various issues connected to AI tools and their’ output. Critical thinking refers to the 
+ability to “methodically review and interpret information in a logical manner, ana-
+lyze underlying assumptions, evaluate the credibility of evidence, and ultimately 
+reach well-founded and valid conclusions” (Shanto et  al., 2024). Assessing the use 
+of AI technology is critical to ensuring that its employment is ethically sound in the 
+given circumstances. Also, it is essential for students to evaluate AI carefully in order 
+to communicate and collaborate responsibly with this complex technology (Long & 
+Magerko, 2020) and take issues of data protection and privacy into account (Asirit & 
+Hua, 2023).
+
+The importance of acquiring AI skills to remain competitive in the job market and 
+a potential over-reliance on technology to the detriment of human interaction are 
+topics that cause concern. Likewise, students are aware that output generated by AI 
+might not be entirely reliable and be subject to certain hidden biases (Asirit & Hua, 
+2023; Kamoun et  al., 2024; Lepik, 2024). This was confirmed by Austrian respond-
+ents who expressed concerns about the reliability of data accessed by AI (Pricewater-
+houseCoopers, 2023b), which concurs with research that has shown that AI-driven 
+conversational models struggle with reliability and bias issues (Amaro et  al., 2023; 
+Brew et al., 2023). Some also consider AI-based technology to inhibit critical thinking 
+and a tool that makes the learning experience more passive (Potter et  al., 2024). AI 
+tools have also been labeled as applications that might encourage plagiarism in aca-
+demic writing, especially among weaker students, echoing persistent concerns among 
+educational institutions (Aithal & Aithal, 2023; Shanto et al., 2024).
+
+Recent findings show that, while using AI to support the creation of high-quality 
+output, students do recognize the importance of engaging with the generated text to 
+check its plausibility and applicability to the task at hand (Lepik, 2024). Similarly, in 
+the Austrian context, younger people are also more concerned with the accuracy of 
+the output generated by AI-based systems such as ChatGPT (PricewaterhouseCoop-
+ers, 2023b). Therefore, the wish to exclude AI from the educational sector has been 
+voiced and may be connected to concerns about an overreliance on these tools and 
+the dreaded negative impact on skills such as critical thinking, independent work 
+(Potter et  al., 2024), creativity, and the quality of generated output. Accordingly, in 
+our study, we wanted to assess the impact of students’ AI critical appraisal on their AI 
+self-efficacy, output quality, and academic performance. In order to achieve this aim, 
+we hypothesized:
+
+Critical appraisal of AI significantly predicts AI self-efficacy.
+Critical appraisal of AI significantly predicts AI output quality.
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 7 of 25
+
+Critical appraisal of AI significantly predicts students’ academic performance.
+
+AI Output quality
+According to TAM (the technology acceptance model), people will focus on “how well 
+the system performs those tasks” (Venkatesh & Davis, 2000, p. 191) that are relevant 
+to reaching the desired outcome. This is supported by findings that students perceive 
+ChatGPT to improve the quality of their knowledge, possibly also through the reading 
+of AI-generated academic texts (Kamoun et  al., 2024). Further, it has been found that 
+ChatGPT was able to provide students with feedback on assignments, asking thought-
+provoking questions to encourage students to think more deeply about certain concepts 
+and, thereby, enhancing critical thinking and output quality (Shanto et al., 2024). How-
+ever, in other cases, the output generated by AI tools has been labeled as frequently con-
+taining generic thoughts and repetitive argumentation (Lepik, 2024).
+
+Students in Estonia have been found to employ AI tools to escape overwork and reduce 
+the workload placed on them by their studies. In these cases, AI is not perceived as an 
+‘easy way out’ but as a welcome support to generate ideas or, in some cases, entire texts. 
+However, students are critical of AI output quality and have pointed out that it must be 
+treated with care, checked, and verified (Lepik, 2024). Particularly, the issue of wrong or 
+non-existent references or sources given by AI tools caused a significant amount of skep-
+ticism, and students expressed appreciation of scholarly databases as a more reliable and 
+easily accessible source of information. Further, an overreliance on AI tools may impact 
+student performance negatively (Khoso et al., 2023). Therefore, the following hypothesis 
+was proposed:
+
+AI output quality of AI significantly predicts students’ academic performance.
+
+AI self‑efficacy
+Self-efficacy generally refers to “the conviction that one can successfully execute the 
+behavior required to produce the [desired] outcomes” (Bandura, 1977, p. 193). Chat-
+bots and AI have the ability to influence self-efficacy positively (Parsakia, 2023). Studies 
+revealed that people who experience success when using technology or, specifically, AI 
+feel they are more self-efficacious and, thus, do not have any negative feelings related 
+to these tools (Bećirović & Dervić, 2022; Kraus et  al., 2020; Yildiz Durak, 2023). This 
+implies, in turn, that the fast-paced development of new AI technologies might inter-
+fere with users’ perceived self-efficacy as the demand to continuously improve one’s 
+skills exerts considerable pressure. This might lead to a more negative perception of AI 
+and cause individuals stress. Both, increased pressure and stress could contribute to 
+decreased self-efficacy (Ahmetović et al., 2020; Bandura et al., 1999). Further, experienc-
+ing anxiety when using technology can result in less interest in employing such tools for 
+educational purposes (Wang et al., 2023).
+
+Apart from higher demands placed on skills development, acceptance of technology 
+can be affected by aspects such as user-friendliness, gamification and perceived individ-
+ual digital competence, as well as by the subjectively attributed usefulness of the technol-
+ogy concerned (Venkatesh & Morris, 2000). However, if competence has been increased 
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 8 of 25
+
+through technology, this can increase intrinsic motivation (Dautbašić & Bećirović, 2022; 
+Schweder & Raufelder, 2021), which is in accordance with the above claim that success-
+ful usage of AI increases the perception of self-efficacy (Kraus et al., 2020; Yildiz Durak, 
+2023). Accordingly, the following hypotheses were proposed:
+
+AI self-efficacy of AI significantly predicts students’ AI output quality.
+AI self-efficacy of AI significantly predicts students’ academic performance.
+
+Methods
+Participants
+This quantitative study was conducted on a sample of 286 university students from Aus-
+tria (Table 1). Regarding the magnitude of the sample size, the total number of observed 
+variables can be utilized for calculation and determining the sample size (Rokhman 
+et al., 2022). The minimal number of participants should be at least five times (Memon 
+et al., 2020), ideally ten times (Yew et al., 2022), or, as recommended by Hair et al. (2014), 
+15 to 20 times the number of variables. This study examines six variables, as presented 
+in Fig. 1. The study’s sample size, comprising 286 respondents, is 47.7 times the num-
+ber of variables. Consequently, this sample size exceeds experts’ recommendations. Fur-
+thermore, applying the formula p(100−p)z2
+
+n =  to determine the sample size (Taherdoost, 
+E2
+
+2017) showed that this study included a sufficient number of participants to provide 
+valid and generalizable results.
+
+The participants were selected using the convenience sampling approach, which has 
+advantages and disadvantages. Convenience sampling is a non-random selection tech-
+nique that chooses participants who are readily available for the study, who live near the 
+research site, and whom the researcher knows (VanderStoep & Johnston, 2009). In this 
+
+Table 1  The participants of the study
+
+Categories Classification N Percent
+
+Age groups 18–29 113 39.5
+30–40 73 25.5
+40 +  100 35.0
+
+Academic field Primary school teachers 104 36.4
+Elementary pedagogy 21 7.3
+Secondary school teachers 30 10.5
+Economics 36 12.6
+Digital Education 32 11.2
+Other pedagogical fields 62 21.7
+
+Gender Female 227 79.4
+Male 56 19.6
+Prefer not to say 3 1.0
+
+Educational level University entrance qualification 105 37.1
+Bachelor 86 30.4
+Master 81 28.6
+PhD 4 1.4
+Others 7 2.5
+
+Total 286 100.0
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 9 of 25
+
+study, the researchers recruited students from five higher education institutions where 
+they either teach or received assistance in data collection. The advantage of convenience 
+sampling lies in its relatively simple process of participant recruitment, while its draw-
+back, similar to all non-random sampling methods, is the lack of representativeness, as 
+included individuals may display different characteristics than the population to whom 
+the researcher aims to generalise the research results (VanderStoep & Johnston, 2009). 
+However, in this study, this limitation is alleviated by the fact that data was gathered 
+from students studying at five educational institutions across three distinct federal states 
+of Austria, which enables solid results generalisation and application to the students of 
+tertiary level education.
+
+The age range of the participants varied from 18 to 60 (M = 34.6; SD = 11.3). They were 
+categorized into three age groups: 18–29 (N = 113; 39.5%), 30–39 (N = 73; 25.5%), and 
+40 + (N = 100; 35.0%). This categorisation depicts the varied age spectrum of students in 
+Austrian higher education institutions, where further and continuous education as well 
+as career changes are prominent. Therefore, the research sample encompasses typical 
+students and a substantial percentage of adult learners who balance their job commit-
+ments with higher education. The first age group represents typical university entry-age 
+students, who have completed their secondary education and are pursuing their stud-
+ies. The second age group includes older students, as Austria has 18% of students over 
+30 years old (Austrian Student Social Survey, 2019). This group represents adults in 
+their early to mid-career stages, particularly since Austria has many working students, 
+especially in universities of applied sciences (Austrian Student Social Survey, 2019), and 
+university colleges of teacher education, who often manage work alongside their further 
+education or career changes. The third age category, 40 + , includes students in their 
+mid to late career stages, pursuing typically master’s degrees, PhDs, career changes, or 
+engaging in further or continuous education.
+
+An array of academic fields is represented by the participants, such as students study-
+ing to become primary school teachers (N = 104; 36.4%), students in the field of elemen-
+tary pedagogy (N = 21; 7.3%), students studying to become secondary school teachers 
+(N = 30; 10.5%), students in the field of economics (N = 36; 12.6%), students in the field 
+of digital education, (N = 32; 11.2%), as well as students in other pedagogical fields 
+(N = 62; 21.7%). In Austria, primary school teachers are responsible for teaching pupils 
+aged between six and ten in all subjects except for religious education, while elementary 
+pedagogues take care of and educate children from the age of 2.5 years until they enter 
+primary school.
+
+The research sample comprised 105 (37.1%) students holding university entrance qual-
+ifications, 86 (30.4%) with BA, 81 (28.6%) with MA, 4 (1.4%) with PhDs, and 7 (2.4%) 
+with other educational levels. In terms of gender, the study consisted mainly of female 
+students (N = 227; 79.4%) outnumbering males (N = 56; 19.6%), with three individuals 
+(1%) choosing not to disclose their gender.
+
+Instruments and procedures
+A two-part online survey was utilized in the present study. The first section of the 
+survey focused on demographic data, encompassing students’ age, academic dis-
+cipline, educational attainment, and gender (Table  1). The second section of the 
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 10 of 25
+
+Table 2  Data collecting instruments
+
+Variables included in the study Items Sources of the instruments
+
+Technical understanding (TU) 14 Laupichler et al. (Laupichler et al., 2023)
+Critical appraisal (CA) 10 Laupichler et al. (Laupichler et al., 2023)
+Practical application (PA) 7 Laupichler et al. (Laupichler et al., 2023)
+Self-efficacy (SE) 6 Carolus et al. (2023)
+Output quality (OUT) 4 Adapted from Venkatesh (2000); Jan 
+
+and Contreras (2016)
+Academic performance (AP) 4 Wut et al. (2023)
+
+Table 3  Descriptive results, normality distribution, and reliability coefficients, correlations
+
+No Variables Mean SD Skewness Kurtosis Cronbach’s 1 2 3 4 5 6
+
+1 TU 2.62 1.51 1.002 .163 .964 1 .617** .622** .607** .228** .130*
+
+2 CA 4.73 1.50 − .383 − .678 .944 1 .803** .523** .131* .324**
+
+3 PA 4.59 1.46 − .491 − .405 .920 1 .612** .262** .275**
+
+4 SE 3.12 1.44 .388 − .593 .913 1 .368** .207**
+
+5 OUT 3.18 1.78 .363 − .876 .957 1 .041
+6 AP 5.92 1.11 − 1.583 3.576 .839 1
+
+**Correlation is significant at the 0.01 level (2-tailed); *Correlation is significant at the 0.05 level (2-tailed)
+
+questionnaire (Table  2) consisted of six variables, with each variable including 
+between four and fourteen items that were obtained from studies that underwent 
+rigorous validation. The evaluation of each response was conducted using a 7-point 
+Likert scale, which ranged from one (indicating strong disagreement) to seven (indi-
+cating strong agreement). The Cronbach’s alpha reliability scores spanned from 
+0.839 to 0.964 (Table 3), showing that all variables exhibited internal consistency.
+
+Before the data was gathered, school officials and students were provided with 
+detailed information and granted their explicit consent. All participants received 
+comprehensive information about the study’s goal and were given instructions on 
+how to successfully fill out the questionnaire. The respondents were guaranteed 
+confidentiality and were advised that their involvement in the study was entirely vol-
+untary. The survey was administered via an internet-based platform and required 
+participants to allocate approximately 15–20 min to complete it.
+
+Data analysis
+The data collected during this research were analyzed using the statistical software 
+packages SPSS and AMOS, both of which were version 29.0. Following the establish-
+ment of the data’s reliability and the distribution’s normality, descriptive results were 
+examined. Before performing structural equation modeling (SEM), confirmatory 
+factor analysis (CFA) was employed to investigate the fit between observed indica-
+tors and underlying constructs, as recommended by Anderson and Gerbing (1988). 
+After confirming adequate model fit and the validity of discriminant and convergent 
+measures, SEM was employed to examine the associations proposed in the theoreti-
+cal model (Fig. 1).
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 11 of 25
+
+Results
+Preliminary results
+The variables studied had mean values between 2.62 and 5.92, and standard deviations 
+between 1.11 to 1.78. (Table 3). The participants scored lowest on AI technical under-
+standing (M = 2.62; SD = 1.51), suggesting they needed more comprehension of the tech-
+nical aspects of AI technologies. Further, the participants obtained the greatest score in 
+academic achievement (M = 5.92; SD = 1.11), implying that AI could be a beneficial and 
+valuable tool for their learning. However, students’ AI output quality scores could be 
+higher (M = 3.18; SD = 1.78), signaling that they still have issues with AI output and need 
+training on using AI tools effectively. The results related to AI self-efficacy (M = 3.12; 
+SD = 1.44) confirm students’ relatively low AI technical understanding and need for 
+guidance on how to utilize AI tools meaningfully and ethically. Additionally, the descrip-
+tive data shows that the responses for AI practical application (M = 4.59; SD = 1.46) and 
+AI critical appraisal (M = 4.73; SD = 1.50) were primarily positive, indicating a tendency 
+to apply AI tools actively and critically in their learning processes.
+
+The Pearson correlation analysis (Table  3) demonstrates the significant association 
+between almost all relations among the investigated constructs. The highest correlation 
+was obtained between AI critical appraisal and AI practical application (r = 0.803), indi-
+cating students’ high consideration for the proper and adequate use of AI tools. High 
+and significant correlations were obtained between AI technical understanding and AI 
+practical application (r = 0.622), demonstrating the increase of AI tools use as students 
+increase their technical understanding of these tools. Interestingly, there was no rela-
+tionship between AI output quality and academic achievement (r = 0.041). As for the 
+normality distribution (Table 3), all variables exhibited skewness and kurtosis values fall-
+ing within the permitted ranges of -3 to + 3 and -10 to + 10, correspondingly, having val-
+ues spanning a range from -1.583 to 1.002 and -0.876 to 3.576 (Brown, 2006).
+
+Testing the measurement model
+The measurement model was evaluated by confirmatory factor analysis (CFA) perform-
+ing maximum likelihood estimation. The multivariate normality of the collected data 
+was evaluated by performing Mardia’s (1970) normalized multivariate kurtosis score. 
+The Mardia’s coefficient, a metric for measuring multivariate kurtosis, has been calcu-
+lated to be 315,855, which is lower than the value of 2115 obtained by employing the 
+equation p (p + 2), where p represents the total number of variables that were observed 
+(45 [47] = 2155). The data in this investigation were presumed to follow a multivariate 
+normal distribution (Raykov & Marcoulides, 2008). The output of the confirmatory fac-
+tor analysis (CFA) suggests that each item (Table 4) had satisfactory loadings and pro-
+vided significant contributions to explaining their respective constructs, as evidenced by 
+the standardized estimate (SE) of every single item (Hair et al., 2014; Hara et al., 2010).
+
+According to Hair et al., (2014) the χ2 value and degrees of freedom, along with the 
+RMSEA (root mean square error of approximation), and the CFI or TLI (compara-
+tive fit index or Tucker-Lewis index) are sufficient when assessing a model. A good 
+fit is defined as having a minimum fit function (χ2) and a ratio of χ2 to its degree of 
+freedom (2 /df ) with a value less than 3.0 (Carmines & McIver, 1981). An RMSEA 
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 12 of 25
+
+Table 4  Results of the measurement model
+
+Factors Estimate SE P CR AVE
+
+Technical understanding TU1  < -- Technical understanding 1,000 ,785 0,963 0,654
+TU2  < -- Technical understanding 1,023 ,787 ***
+TU3  < -- Technical understanding 1,034 ,810 ***
+TU4  < -- Technical understanding 1,008 ,780 ***
+TU5  < -- Technical understanding ,937 ,843 ***
+TU6  < -- Technical understanding 1,034 ,797 ***
+TU7  < -- Technical understanding 1,164 ,876 ***
+TU8  < -- Technical understanding 1,074 ,823 ***
+TU9  < -- Technical understanding 1,181 ,881 ***
+TU10  < -- Technical understanding ,997 ,804 ***
+TU11  < -- Technical understanding ,867 ,807 ***
+TU12  < -- Technical understanding ,999 ,861 ***
+TU13  < -- Technical understanding 1,111 ,769 ***
+TU14  < -- Technical understanding ,851 ,676 ***
+
+Critical appraisal CA10  < -- Critical appraisal 1,000 ,803 0,938 0,604
+CA9  < -- Critical appraisal 1,178 ,823 ***
+CA8  < -- Critical appraisal 1,099 ,813 ***
+CA7  < -- Critical appraisal ,885 ,733 ***
+CA6  < -- Critical appraisal 1,120 ,793 ***
+CA5  < -- Critical appraisal 1,122 ,804 ***
+CA4  < -- Critical appraisal 1,048 ,826 ***
+CA3  < -- Critical appraisal 1,140 ,784 ***
+CA2  < -- Critical appraisal 1,076 ,704 ***
+CA1  < -- Critical appraisal 1,000 ,670
+
+Practical application PA7  < -- Practical application 1,000 ,822 0,911 0,594
+PA6  < -- Practical application ,921 ,854 ***
+PA5  < -- Practical application ,905 ,739 ***
+PA4  < -- Practical application ,911 ,800 ***
+PA3  < -- Practical application ,747 ,684 ***
+PA2  < -- Practical application ,862 ,743 ***
+PA1  < -- Practical application ,749 ,738 ***
+
+AI self efficacy PS1  < -- AI self efficacy 1,000 ,607 0,894 0,588
+PS2  < -- AI self efficacy 1,273 ,728 ***
+PS3  < -- AI self efficacy 1,191 ,685 ***
+LRN1  < -- AI self efficacy 1,484 ,929 ***
+LRN2  < -- AI self efficacy 1,280 ,792 ***
+LRN3  < -- AI self efficacy 1,303 ,819 ***
+
+Output quality OUT4  < -- Output quality 1,000 ,927 0,955 0,842
+OUT3  < -- Output quality 1,031 ,983 ***
+OUT2  < -- Output quality ,945 ,895 ***
+OUT1  < -- Output quality ,841 ,860 ***
+
+Academic performance AP4  < -- Academic performance 1,000 ,608 0,865 0,622
+AP3  < -- Academic performance 1,568 ,922 ***
+AP2  < -- Academic performance 1,357 ,870 ***
+AP1  < -- Academic performance 1,247 ,716 ***
+
+USE,  unstandardized estimates; SE,  standardized estimates; CR, composite reliability; AVE,  average variance extracted
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 13 of 25
+
+Table 5  Validity analysis (convergent and discriminant)
+
+Factors CR AVE 1. AP 2. TU 3. SE 4. OUT 5. PA 6. CA
+
+Academic performance (AP) 0,865 0,622 0,789
+Technical understanding (TU) 0,963 0,654 0,168 0,809
+Self-efficacy (SE) 0,894 0,588 0,230 0,680 0,767
+Output quality (OUT) 0,955 0,842 0,062 0,233 0,349 0,917
+Practical application (PA) 0,911 0,594 0,319 0,659 0,683 0,278 0,770
+Critical appraisal (CA) 0,938 0,604 0,339 0,648 0,570 0,131 0,898 0,777
+
+Table 6  The results of testing hypothesized relationships
+
+Hypotheses Observed variables Relationships SE T value p Results
+
+H1 Technical understanding  →  Self-efficacy ,441 5,703  < 0.01 Supported
+H2 Critical appraisal  →  Self-efficacy -,348 -2,412 ,016 Supported
+H3 Practical application  →  Self-efficacy ,705 4,391  < 0.01 Supported
+H4 Technical understanding  →  Output quality ,052 ,565 ,572 Not Supported
+H5 Critical appraisal  →  Output quality -,571 -3,064 ,002 Supported
+H6 Practical application  →  Output quality ,599 2,841 ,005 Supported
+H7 Self-efficacy  →  Output quality ,229 2,177 ,029 Supported
+H8 Technical understanding  →  Academic performance -,158 -1,667 ,096 Not Supported
+H9 Critical appraisal  →  Academic performance ,343 1,746 ,081 Not Supported
+H10 Practical application  →  Academic performance ,035 ,159 ,874 Not Supported
+H11 Self-efficacy  →  Academic performance ,116 1,100 ,271 Not Supported
+H12 Output quality  →  Academic performance ,004 ,057 ,955 Not Supported
+
+SE,  standardized estimates
+p < 0.05
+
+of 0.03 to 0.08 with 95% confidence is considered adequate (Hair et al., 2014). The 
+TLI and CFI were higher than 0.90 in our measurement model, indicating a good 
+fit (Hair et al., 2010). A well-fitting model may be indicated by an SRMR (standard-
+ized root mean residual) value of less than 0.09 (Hair et  al., 2014), and our results 
+of 0.0525 align with this criterion. The measurement model of this inquiry demon-
+strated a good fit based on the following indicators: (χ2 = 1466.624, χ2 /df = 1.657, 
+TLI = 0.946, CFI = 0.951, SRMR = 0.0525, RMSEA = 0.048, PCLOSE = 0.771).
+
+The convergent validity of each construct was assessed by employing composite 
+reliability (CR) and average variance extraction (AVE). The threshold values for CR 
+and AVE are 0.70 and 0.50, respectively, as established by Fornell and Larcker (For-
+nell & Larcker, 1981). All the AVE (0,588 to 0,842) and CR values (0,865 to 0,963) 
+in this study were deemed acceptable (Table  5). To evaluate discriminant validity, 
+employment of the square of the correlation between the constructs and the AVE 
+scores was implemented. The AVE scores should exceed the square of the correla-
+tion value (Eraslan Yalcin & Kutlu, 2019; Escobar-Rodriguez & Monge-Lozano, 
+2012). Table 5 demonstrates discriminant validity since all the constructs’ AVE val-
+ues are higher than the correlation square.
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 14 of 25
+
+Testing the structural model
+The structural model was determined to have a good model fit (χ2 = 1459,788, χ2 
+/df = 1,653, TLI = 0.946, CFI = 0.952, SRMR = ,0525, RMSEA = 0.048, PCLOSE 0,787. 
+Six of the twelve hypotheses (Table  6) were confirmed (H1, H2, H3, H5, H6, and 
+H7), whereas six were refuted (H4, H8, H9, H10, H11, and H12). AI technical under-
+standing significantly predicted (β = 0.441, p < 0.001) AI self-efficacy (H1) but not 
+(β = 0.052, p = 0.572) AI output quality (H4) and academic performance (β = -0,158, 
+p = 0.96) (H8). While AI critical appraisal was a significant predictor (β = -0. 348, 
+p = 0.016) of AI self-efficacy (H2) and AI output quality (β = -0. 571, p = 0.002) (H5), 
+there was an insignificant association between AI critical appraisal and academic 
+performance (β = 0.343, p = 0.81) (H9). Further, the practical application of AI had a 
+significant impact (β = 0.705, p < 0.001) on AI self-efficacy (H3) and AI output qual-
+ity (β = 0.599, p = 0.005) (H6). However, AI practical application was an insignificant 
+predictor (β = 0.035, p = 0.874) of academic performance (H10). In addition, AI self-
+efficacy significantly (β = 0.229, p = 0.029) predicted AI output quality (H7) but not 
+academic performance (β = 0.116, p = 0.271) (H11). Further, AI output quality was 
+also an insignificant predictor (β = 0.004, p = 0.955) of academic performance (H12). 
+Figure 2 depicts the strengths of all the associations studied. 
+
+Discussion
+This study aimed to investigate the effect of Austrian students’ AI literacy on their 
+AI self-efficacy, output quality, and academic performance. In particular, it sought 
+to determine the influence of AI technical understanding, critical appraisal, practi-
+cal application, self-efficacy, and output quality on students’ academic achievement 
+as well as the effects of students’ AI output quality, and AI self-efficacy on their aca-
+demic performance. The following subsections discuss the findings in light of the 
+higher education context and previous research. However, due to the fact that AI lit-
+eracy is a relatively new and emerging area of research in higher education, and the 
+lack of research exploring all of the relationships included in our research design, in 
+some cases, we have compared our results with similar previous studies.
+
+Fig. 2  Results of the research model
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 15 of 25
+
+Supported relationships
+The results of the structural model presented in Table 6 show that the following rela-
+tionships are significant: TU → SE (,441), CA → SE (−,348), PA → SE (,705), CA → OQ 
+(−,571), PA → OQ (,599), SE → OQ (,229).
+
+The results indicate that a technical understanding of AI significantly predicts AI self-
+efficacy (H1). This suggests that students who have a deep understanding of the key con-
+cepts and functions of AI, as well as the ability to evaluate its limitations, opportunities, 
+advantages, and disadvantages and to envision new applications for AI, rely more heavily 
+on their skills and abilities in challenging situations and when tackling complex tasks in 
+contrast to those with a limited understanding of AI technology. These results are sup-
+ported by Stolpe and Hallström (2024), who found an association between the interest 
+in and understanding of technology and self-efficacy on a meta-level, as well as by Ayan-
+wale et  al. (2024), who revealed that a thorough understanding of AI indirectly influ-
+ences the ability to solve problems with AI effectively.
+
+The students’ critical appraisal of AI tools had a significant negative impact on their AI 
+self-efficacy (H2). This suggests that when students analytically assess AI tools, includ-
+ing privacy, security, legal issues, risks, ethical considerations, weaknesses, and soci-
+etal and individual impacts, they may feel less confident in using AI to solve problems, 
+find solutions, and be productive. Our results are supported by Obenza et  al. (2024), 
+who revealed a mediating effect of trust in AI on students’ self-efficacy. Other studies 
+(Choung et al., 2023; Kraus et al., 2020; Montag et al., 2023; Schepman & Rodway, 2023) 
+found a positive association between students’ affirmative view of AI and their self-effi-
+cacy. These results further suggest that excessive doubts and uncertainties regarding AI 
+output have a detrimental effect on students’ self-efficacy. This implies that in order for 
+students to feel more confident in using AI technology, their confidence in AI output 
+and their capabilities must be strengthened.
+
+The results of our study also demonstrate a significant negative impact of critical 
+appraisal on output quality (H5), which reinforces the findings and supports the inter-
+pretation of the previous hypothesis. Additionally, these findings indicate that students 
+have unfulfilled expectations regarding the quality, efficiency, and efficacy of AI tools in 
+carrying out certain tasks, primarily due to concerns about ethical, security, privacy and 
+risk factors associated with AI and its outcomes. Previous studies (Amaro et al., 2023; 
+Asirit & Hua, 2023; Kamoun et al., 2024; Lepik, 2024; PricewaterhouseCoopers, 2023b; 
+Shanto et al., 2024) support our results and their interpretation by suggesting that there 
+is a relationship between students’ awareness that AI technology needs to be critically 
+reflected and assessed and the quality of AI output.
+
+Consistent with previous studies, (Essel et al., 2022; Kraus et al., 2020; Lee et al., 2022; 
+Yildiz Durak, 2023) practical application of AI significantly predicted AI self-efficacy 
+(H3), revealing that being able to use AI technologies for daily professional or personal 
+use, being aware of the importance of AI and familiar with apps that have integrated AI 
+into their systems, assessing if problems should be solved with AI tools, and critically 
+evaluating the implications of AI use, significantly affect students’ abilities to apply AI 
+tools successfully in solving problems, finding solutions and executing the school tasks. 
+These results are in line with Pintrich et al. (1993), who found that mastering tasks is 
+influential to students’ self-efficacy and with Bećirović et al. (2022), who revealed that 
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 16 of 25
+
+the time students spend online significantly impacts their internet self-efficacy. There-
+fore, as students improve their understanding of and are more familiar and experienced 
+with AI technology, their self-efficacy in using AI for personal and professional tasks 
+increases significantly.
+
+The practical application of AI significantly predicted output quality (H6), which is in 
+line with other studies (Asirit & Hua, 2023; Ng et al., 2021a, 2021b) that prove that uti-
+lizing AI in practice is crucial for successful performance and efficiency. The confirma-
+tion of this hypothesis also supports the previous hypothesis’s discussion and inferences. 
+Thus, daily use of AI for personal or professional needs, familiarity with technologies 
+that integrate AI into their operations, the ability to solve problems by using AI, and 
+the awareness of AI and its critical evaluation significantly influence students’ AI output 
+quality.
+
+The results show that AI self-efficacy significantly predicts the quality of AI output 
+(H7). This suggests that students’ abilities to handle and solve problems, perform com-
+plex tasks, and continuously learn and stay updated using new AI tools, significantly 
+impact the quality, ease, effectiveness, and productivity of their learning. These results 
+align with previous related studies that found self-efficacy to be a significant predictor 
+of students’ motivation, learning, choices, effort, persistence (Zimmerman, 2000), and 
+performance (Bernacki et al., 2015).
+
+Unsupported relationships
+The results (Table 6) show that the following relationships are insignificant: TU → OQ 
+(,052), TU → AP (−,158), CA → AP (,343), PA → AP (,035), SE → AP (,116), OQ → AP 
+(,004).
+
+The findings indicated that there is no significant relationship between technical 
+understanding of AI and AI output quality (H4). This suggests that students’ familiarity 
+with AI systems, concepts, and machine and deep learning models does not significantly 
+impact their ease, quality, effectiveness, and efficiency of learning by employing AI tools. 
+The AI output quality scores of our participants are rather low, indicating that they per-
+ceive AI to improve the quality, efficiency, effectiveness, and productivity of their learn-
+ing only to a limited extent. Our results corroborate the findings of Lepik (Lepik, 2024), 
+whose participants express concerns regarding AI output in terms of accuracy, authen-
+ticity, and validity. Furthermore, the fear of being insufficiently prepared to use AI out-
+put adequately (Kamoun et al., 2024) or the concern of limited creativity of AI output 
+(Lepik, 2024; Pavlik, 2023) may explain the participants’ low scores in AI output. The 
+results are also in line with related studies conducted by Bećirović (2023b), indicating 
+that the use of LMS platforms does not significantly influence output quality.
+
+Contrary to Ayanwale et  al. (2024), there was an insignificant influence of technical 
+understanding of AI on students’ academic performance (H8). Overall, our participants 
+reported a low level of technical understanding of AI technology while achieving high 
+scores in academic performance. The lack of AI technical understanding may account 
+for its insignificant impact on students’ academic achievement. The current results are 
+particularly noteworthy when compared to the findings of Asirit and Hua (2023), Chu 
+et  al. (2022), Kamoun et  al. (2024a), and Richter et  al., (Zawacki-Richter et  al., 2019) 
+whose research indicates that students’ technical understanding is largely influenced by 
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 17 of 25
+
+their field of study. Therefore, our findings may be explained by the fact that most par-
+ticipants come from fields, in Austria, generally associated with minimal technological 
+affinity (Brandhofer & Micheuz, 2011; Brandhofer et al., 2019), specifically elementary, 
+primary, and secondary education preservice teachers, whose knowledge of systems, 
+concepts, and models of machine and deep learning does not significantly impact their 
+academic achievement. In contrast to our findings, Asirit and Hua (2023a) discovered 
+that students in educational disciplines show elevated levels of technological compre-
+hension. Additionally, Brandhofer and Tengler (2024) reported in their investigation 
+on AI acceptance among university students and educators that 56.2% of participants 
+claimed to possess the requisite knowledge for competent AI application. This suggests 
+that our participants need adequate and sufficient training to cultivate understanding, 
+knowledge, skills, and competencies to effectively utilize AI technology in educational 
+settings to enhance the effects of AI use on their academic performance.
+
+In contrast to Chan and Hu (2023), whose findings suggest that students’ concerns 
+regarding AI may promote their learning results, our findings revealed that critical 
+appraisal of AI had no significant effect on students’ academic performance (H9). This 
+suggests that the students’ concerns regarding AI use such as ethical, privacy, security, 
+risks, legal issues, etc. do not significantly influence their academic performance, nei-
+ther positively nor negatively. Further, this indicates students’ insecurity with AI use for 
+academic purposes and their commitment to follow ethical and legal standards in their 
+learning and while doing their university assignments. Moreover, the immediate accessi-
+bility of rapid responses may diminish students’ engagement with the subject matter and 
+consequently impede their learning (Cotton et al., 2023; Sallam et al., 2023). The findings 
+of Zastudil et al. (2023), which demonstrate that AI can promote critical thinking and 
+improve learning outcomes, along with Dahri et al. (2024), which reveal that AI-based 
+academic support significantly enhances students’ academic achievement, indicate 
+that students necessitate adequate training and support for the effective utilization of 
+AI-powered tools in their educational pursuits. Consequently, AI proficiency among 
+educators and students is essential and the integration of AI in teaching and learning 
+should represent a pedagogical revolution rather than merely a technological transition 
+(Grájeda et al., 2024).
+
+Contrary to Lee et al. (2022), as well as to García-Martínez et al. (2023), and in line 
+with Maamor et al. (2024) the impact of AI practical application on students’ academic 
+performance (H10) was insignificant, suggesting that students’ current knowledge, skills, 
+experiences, and abilities of AI use for academic purposes do not significantly affect 
+their academic achievement. These results may be further explained by the fact that stu-
+dents use AI for academic purposes with wariness (Fotea et al., 2019), as the concern is 
+that the practical application of AI is associated with wrong information, and the inhibi-
+tion of critical thinking and cheating, which is still prevalent (Kamoun et al., 2024; Price-
+waterhouseCoopers, 2023b). These arguments could be further substantiated by Wecks 
+et al. (2024), who discovered that students’ utilization of GenAI adversely affects their 
+exam performance. This occurs as students employ GenAI tools as a means to circum-
+vent workload, thereby evading the cognitive processes of comprehension, analysis, and 
+summarization, which hinders their retention of learning materials and impedes their 
+deeper understanding (Wecks et al., 2024). Further, the influence of AI output quality 
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 18 of 25
+
+on students’ academic performance (H12) was insignificant, implying that the effective-
+ness, efficacy and quality of their learning by using AI technology does not significantly 
+influence their academic performance. The experiences of our participants may be simi-
+lar those of University of Auckland students, who strongly oppose the implementation 
+of AI tutors, asserting that “AI is constantly incorrect, environmentally damaging and 
+such a stupid way of learning” and “How am I supposed to reliably learn topics for a 
+test when the AI will barely know what it’s saying and spew out incorrect and irrelevant 
+information?” (Raphael & Plummer, 2025, para. 4). Additionally, our results are in line 
+with previous studies, which indicated that students are not convinced that AI output 
+corresponds to the quality standards necessary to achieve the targeted results (Asirit & 
+Hua, 2023). Furthermore, our results are related to the findings of Wecks et al. (2024), 
+who discovered that while using GenAI increases student engagement, it actually hin-
+ders learning and diminishes learning outcomes. Consequently, in order to improve the 
+impact of AI use on students’ performance, both the use of AI strategies and the quality 
+and accuracy of AI-powered products must be enhanced.
+
+According to a meta-analysis of 51 studies conducted by Honicke and Broadbent 
+(2016), academic performance and academic self-efficacy have a moderate positive cor-
+relation with goal orientation, deep processing techniques and effort control, acting 
+as mediating and moderating variables. In consonance with related studies (Baruah & 
+Sabu, 2024; Bećirović et al., 2022) on the impact of students’ self-efficacy on their learn-
+ing outcomes, our study showed a positive but insignificant relationship between AI 
+self-efficacy and academic performance (H11). The generally low AI self-efficacy results 
+imply that students perceive their skills in keeping up to date with the rapid develop-
+ment in the field of AI, as well as using AI in difficult situations and solving complicated 
+tasks, to be limited. Further, such results may also stem from the improper utilization of 
+AI tools, as students often employ them as shortcuts to get outcomes instead of actively 
+and deeply engaging in reading, analyzing, synthesizing, problem-solving, and creating 
+during the learning process. These results further underscore the necessity for enhanc-
+ing AI utilization skills and the quality of AI tools to properly harness AI’s potential.
+
+Conclusion
+The findings of this study indicate that technical understanding of AI significantly and 
+positively influenced AI self-efficacy, which in turn significantly and positively affected 
+AI output quality. Given that participants demonstrated the lowest levels of comprehen-
+sion in AI technology, it is crucial to enhance students’ AI technological knowledge and 
+awareness. These skills are essential for effectively and confidently deploying AI, which 
+in turn should positively impact their academic achievement.
+
+The current study also revealed that the practical application of AI had a signifi-
+cant and positive influence on AI self-efficacy and AI output quality, while AI critical 
+appraisal significantly and negatively impacted AI self-efficacy and AI output quality. 
+These findings highlight the importance of comprehending the utilization of AI and 
+thoughtfully implementing AI technology. Additionally, they suggest that students pos-
+sess a strong awareness of the potential problems associated with the employment of 
+AI. At the same time, a lack of AI technical understanding, as well as an unsubstantiated 
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 19 of 25
+
+hypercritical approach, may lead to an unfavorable perception of AI and, thus, create a 
+feeling of incompetence and poor results when using AI.
+
+Although technical understanding of AI significantly influenced AI self-efficacy, its 
+impact on AI output quality and academic performance was insignificant, implying 
+that the effectiveness of AI use still needs to be improved among Austrian university 
+students. Further, AI critical appraisal, practical application, self-efficacy, and output 
+quality had an insignificant effect on academic performance, implying the necessity of 
+comprehensively training and improving students’ AI skills to enhance academic perfor-
+mance subsequently.
+
+The findings emphasize the importance of enhancing AI literacy among students by 
+improving their comprehension, awareness, skills, knowledge, and competencies; inte-
+grating AI applications into the curricula; and addressing potential risks to ensure the 
+effective, efficient, ethical, and legal use of AI-powered tools to improve students’ aca-
+demic performance through the usage of AI tools.
+
+Limitations and suggestions for further research
+Regardless of the detailed design of this study and its value, there are certain limitations 
+and proposals for further research. Although distributing an online questionnaire has 
+advantages, such as the relatively quick and direct access to the target population, the 
+readiness to participate remains limited (Lefever et  al., 2007). It cannot be ruled out 
+that participants provide socially desirable responses rather than express their actual 
+perspectives (Van de Mortel, 2008). The sample did not include teachers at universities, 
+which is why their AI literacy and its impact on students’ academic outcomes remains 
+open. In addition, the study’s cross-sectional design did not allow exploration of AI lit-
+eracy development over time as students gain experience and enhance their skills.
+
+Future research could address these limitations by conducting quasi-experimental 
+studies comparing the academic outcomes of students using AI with those of students 
+not using AI, which could provide insight into the specific impact of AI applications on 
+different learning scenarios and study fields. Further, investigating university lecturers’ 
+AI literacy may shed light on its influence on students’ academic performance. Moreo-
+ver, longitudinal studies could offer insights into the development of AI literacy as well as 
+its influence on and relationship with other factors determining academic performance.
+
+Study contributions and practical implications
+This study contributes to the professional literature on the impact of students’ AI literacy 
+on their academic performance. Its relevance stems from the potential practical implica-
+tions in legal, institutional, and personnel terms that may help policymakers, curricula 
+developers, and teachers improve students’ AI literacy and, consequently, increase their 
+educational outcomes. Likewise, as AI increasingly influences the educational settings, 
+universities, instructors, administrators, and students must accept, adapt to, and effec-
+tively and ethically utilize AI-powered tools. Similarly, the integration of AI-powered 
+tools into educational practices should be regarded not merely as an add-on or tech-
+nological progress but as a transformative pedagogical revolution necessitating critical 
+comprehension, awareness, knowledge, skills and attitudes to equip students with the 
+competencies essential for effective engagement in an AI-driven society.
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 20 of 25
+
+As results showed that AI technical understanding and practical application had a 
+significantly positive influence on AI self-efficacy, and AI practical application and AI 
+self-efficacy positively and significantly impacted AI output quality, it seems pertinent 
+to develop or adapt curricula that integrate AI literacy in university courses in order to 
+strengthen students’ theoretical and practical knowledge in AI-powered tools applica-
+tion. University policies and guidelines should, therefore, not focus on preventing the 
+use of AI but rather on providing a framework for the safe, ethical and effective use of AI 
+in academic contexts.
+
+Considering that AI critical appraisal significantly and negatively influences AI self-
+efficacy and output quality, teachers should integrate AI technology into their teaching 
+by addressing the opportunities, risks, and concerns while providing learning experi-
+ences that include the proper use of AI-powered tools. Consequently, further educa-
+tion and training programs for teachers must be adapted or developed to enable them 
+to integrate AI knowledge and applications in a technically, didactically, legally, and ethi-
+cally sound manner, thereby promoting the effective implementation of AI technology in 
+the education system.
+
+Previous research indicated both positive and negative impacts of AI utilization on 
+students’ academic achievement. Since none of our five tested variables (AI technical 
+understanding, AI critical appraisal, AI practical application, AI self-efficacy, and AI 
+output quality) significantly affected students’ academic achievement, either positively 
+or negatively, educational institutions should reconsider integrating AI into teaching 
+and learning methodologies. Reevaluating university policies on AI use and assessment 
+should be the initial step toward enhancing students’ academic performance through 
+AI. This process must ensure that AI-generated outputs do not replace students’ essen-
+tial academic skills such as reasoning, critical thinking, writing, problem-solving, and 
+research. Additionally, students’ training should not focus solely on developing their 
+technical AI skills; rather, it should strategically support learning by emphasizing the 
+teaching and learning context while prioritizing pedagogical effectiveness and improv-
+ing their academic achievement. Consequently, AI tools should function as aids rather 
+than replacements for students’ cognitive processes during educational experiences. 
+This approach must also consider awareness and build positive attitudes and percep-
+tions among students to use AI tools meaningfully and efficiently. Likewise, instructors 
+should effectively guide students through examples of employing AI tools for creativity, 
+research, problem-solving, writing, and critical thinking development and enhancement 
+instead of simply enabling them to generate AI output, which could significantly harm 
+their academic performance.
+Acknowledgements
+The authors express gratitude to the colleagues who helped with data collection.
+
+Author contributions
+Although all authors contributed to the article, the first author wrote the methodology and results sections, the second 
+author the introduction and literature review, and the third author the discussion and conclusion. The corresponding 
+author confirms that the manuscript has been read and approved by all named authors and that there are no other indi-
+viduals who meet the criteria for authorship but are not listed. Furthermore, the order of authors listed on the Title Page 
+has been approved by all of us. The corresponding author is the sole contact for the editorial process and is responsible 
+for communicating with the other authors regarding progress, submission of revisions, and final approval of proofs. All 
+authors have reviewed and approved the manuscript and agree with its submission to Smart Learning Environments.
+
+Funding
+No funds, grants, or other support was received.
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 21 of 25
+
+Availability of data and materials
+The datasets generated during and/or analyzed during the current study are available from the corresponding author 
+upon reasonable request.
+
+Declarations
+Competing interests
+The authors declare that they have no conflicts of interest to disclose. They confirm that this work is original and has not 
+been published elsewhere, nor is it currently under consideration for publication elsewhere.
+
+Received: 27 August 2024   Accepted: 31 March 2025
+
+References
+Aggarwal, D., Sharma, D., & Saxena, A. B. (2023). Adoption of Artificial Intelligence (AI) For Development of Smart Educa-
+
+tion as the Future of a Sustainable Education System. Journal of Artificial Intelligence, Machine Learning and Neural 
+Network, 36, 23–28. https://​doi.​org/​10.​55529/​jaiml​nn.​36.​23.​28
+
+Ahmetović, E., Bećirović, S., & Dubravac, V. (2020). Motivation, anxiety and students’ performance. European Journal of 
+Contemporary Education, 9(2), 271–289.
+
+Aithal, P. S., & Aithal, S. (2023). The changing role of higher education in the era of AI-based GPTs. International Journal of 
+Case Studies in Business, IT, and Education. https://​doi.​org/​10.​47992/​IJCSBE.​2581.​6942.​0267
+
+Akgun, S., & Greenhow, C. (2022). Artificial intelligence in education: Addressing ethical challenges in K-12 settings. AI and 
+Ethics, 2(3), 431–440. https://​doi.​org/​10.​1007/​s43681-​021-​00096-7
+
+Alsobeh, A., & Woodward, B. (2023). AI as a Partner in Learning: A Novel Student-in-the-Loop Framework for Enhanced 
+Student Engagement and Outcomes in Higher Education. In The 24th Annual Conference on Information Technol-
+ogy Education. https://​doi.​org/​10.​1145/​35850​59.​36114​05
+
+Amaro, I., Della Greca, A., Francese, R., Tortora, G., & Tucci, C. (2023). AI Unreliable Answers: A Case Study on ChatGPT. In H. 
+Degen & S. Ntoa (Eds.), Artificial Intelligence in HCI (pp. 23–40). Springer Nature Switzerland.
+
+Anderson, J. C., & Gerbing, D. W. (1988). Structural equation modeling in practice: A review and recommended two-step 
+approach. Psychological Bulletin, 103(3), 411–423. https://​doi.​org/​10.​1037/​0033-​2909.​103.3.​411
+
+André, E., & Bauer, W. (2021). AI competence development in office and production work. Lernende Systeme – Die Plat-
+tform für Künstliche Intelligenz.
+
+Ayanwale, M., Adelana, O., Molefi, R., Adeeko, O., & Ishola, A. (2024). Examining artificial intelligence literacy among pre-
+service teachers for future classrooms. Computers and Education Open, 6, 100179. https://​doi.​org/​10.​1016/j.​caeo.​
+2024.​100179
+
+Bandura, A. (1977). Self-efficacy: Toward a Unifying Theory of Behavioral Change. Psychological Review, 84(2), 191–215.
+Bandura, A., Freeman, W. H., & Lightsey, R. (1999). Self-Efficacy: The Exercise of Control. Journal of Cognitive Psychotherapy, 
+
+13(2), 158–166. https://​doi.​org/​10.​1891/​0889-​8391.​13.2.​158
+Baruah, A. (2024). Exploring the Effect of One’s Efficacy on Learning Outcomes Among University Students. International 
+
+Journal for Research in Applied Science and Engineering Technology, 12(4), 5889–5894. https://​doi.​org/​10.​22214/​ijras​
+et.​2024.​61358
+
+Bećirović, S., Ahmetović, E., & Skopljak, A. (2022). An Examination of Students Online Learning Satisfaction, Interaction, Self-
+Efficacy and Self-Regulated Learning (SSRN Scholarly Paper No. 4066025). https://​papers.​ssrn.​com/​abstr​act=​40660​
+25
+
+Bećirović, S., & Mattoš, B. (2024). Artificial Intelligence in the Transformation of Higher Education: Threats, Promises and 
+Implementation Strategies. In L. Miltiadis D., A. C. Serban, E. Alkhalidi, M. Sawsan, & T. Aldosemani (Eds.), Digital 
+Transformation in Higher Education, Part A: Best Practices and Challenges (pp. 23–43). Emerald Publishing.
+
+Bećirović, S. (2023a). Digital Pedagogy: The Use of Digital Technologies in Contemporary Education. Springer Nature. 
+https://​doi.​org/​10.​1007/​978-​981-​99-​0444-0
+
+Bećirović, S. (2023b). Examining learning management system success: A multiperspective framework. Education and 
+Information Technologies. https://​doi.​org/​10.​1007/​s10639-​023-​12308-0
+
+Bećirović, S., & Dervić, M. (2022). Students’ perspectives of digital transformation of higher education in Bosnia and 
+Herzegovina. The Electronic Journal of Information Systems in Developing Countries, 89(2), 1–22. https://​doi.​org/​10.​
+1002/​isd2.​12243
+
+Bernacki, M. L., Nokes-Malach, T. J., & Aleven, V. (2015). Examining self-efficacy during learning: Variability and relations 
+to behavior, performance, and learning. Metacognition and Learning, 10(1), 99–117. https://​doi.​org/​10.​1007/​
+s11409-​014-​9127-x
+
+Bozkurt, A. (2023). Unleashing the Potential of Generative AI, Conversational Agents and Chatbots in Educational Praxis: A 
+Systematic Review and Bibliometric Analysis of GenAI in Education. Open Praxis, 15(4), 261–270. https://​doi.​org/​10.​
+55982/​openp​raxis.​15.4.​609
+
+Brandhofer, G., Baumgartner, P., Ebner, M., Köberer, N., Trültzsch-Wijnen, C., & Wiesner, C. (2019). Bildung im Zeitalter der 
+Digitalisierung. https://​doi.​org/​10.​17888/​nbb20​18-2-8
+
+Brandhofer, G., & Tengler, K. (2024). Zur Akzeptanz von KI-Applikationen bei Lehrenden und Lehramtsstudierenden. R&E-
+SOURCE—Open Online Journal for Research and Education.
+
+Brandhofer, G., & Micheuz, P. (2011). Digitale Bildung für die österreichische Lehrerschaft. BzL—Beiträge Zur Lehrerinnen- 
+und Lehrerbildung, 29(2), 185–198. https://​doi.​org/​10.​36950/​bzl.​29.2.​2011.​9739
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 22 of 25
+
+Brew, M., Taylor, S., Lam, R., Havemann, L., & Nerantzi, C. (2023). Towards Developing AI Literacy: Three Student Provoca-
+tions on AI in Higher Education. https://​doi.​org/​10.​5281/​ZENODO.​80323​87.
+
+Brown, T. A. (2006). Confirmatory factor analysis for applied research (pp. xiii, 475). The Guilford Press.
+Carmines, E. G., & McIver, J. P. (1981). Analyzing Models with Unobserved Variables: Analysis of Covariance Structures. In G. 
+
+W. Bohrnstedt & E. F. Borgatta (Eds.), Social Measurement: Current Issues (pp. 65–115). Sage.
+Carolus, A., Koch, M. J., Straka, S., Latoschik, M. E., & Wienrich, C. (2023). MAILS - Meta AI literacy scale: Development and 
+
+testing of an AI literacy questionnaire based on well-founded competency models and psychological change- 
+and meta-competencies. Computers in Human Behavior: Artificial Humans, 1(2), 100014. https://​doi.​org/​10.​1016/j.​
+chbah.​2023.​100014
+
+Cetindamar, D., Kitto, K., Mengjia, W., Zhang, Y., Abedin, B., & Knight, S. (2024). Explicating AI Literacy of Employees at 
+Digital Workplaces. IEEE Transactions on Engineering Management, 71, 810–823. https://​doi.​org/​10.​1109/​TEM.​2021.​
+31385​03
+
+Chan, C. K. Y., & Hu, W. (2023). Students’ voices on generative AI: Perceptions, benefits, and challenges in higher educa-
+tion. International Journal of Educational Technology in Higher Education, 20(1), 43. https://​doi.​org/​10.​1186/​
+s41239-​023-​00411-8
+
+Choung, H., David, P., & Ross, A. (2023). Trust in AI and Its Role in the Acceptance of AI Technologies. International Journal 
+of Human-Computer Interaction, 39(9), 1727–1739. https://​doi.​org/​10.​1080/​10447​318.​2022.​20505​43
+
+Chu, H.-C., Hwang, G.-H., Tu, Y.-F., & Yang, K.-H. (2022). Roles and research trends of artificial intelligence in higher educa-
+tion: A systematic review of the top 50 most-cited articles. Australasian Journal of Educational Technology.
+
+Cotton, D. R. E., Cotton, P. A., & Shipway, J. R. (2023). Chatting and cheating: Ensuring academic integrity in the era of 
+ChatGPT. Innovations in Education and Teaching International, 61(2), 228–239. https://​doi.​org/​10.​1080/​14703​297.​
+2023.​21901​48
+
+Crompton, H., & Burke, D. (2023). Artificial intelligence in higher education: The state of the field. International Journal of 
+Educational Technology in Higher Education, 20(1), 22. https://​doi.​org/​10.​1186/​s41239-​023-​00392-8
+
+Daher, O. A., Dabbousi, A. A., Chamroukh, R., Saab, A. Y., Al Ayoubi, A. R., & Salameh, P. (2024). Artificial Intelligence: Knowl-
+edge and Attitude Among Lebanese Medical Students. Cureus. https://​doi.​org/​10.​7759/​cureus.​51466
+
+Dautbašić, A., & Bećirović, S. (2022). Teacher and Student Experiences in Online Classes During COVID-19 Pandemic in 
+Serbia, Bosnia and Herzegovina and Croatia. MAP Social Sciences, 2(1), Article 1. https://​doi.​org/​10.​53880/​2744-​
+2454.​2022.2.​1.9
+
+Eraslan Yalcin, M., & Kutlu, B. (2019). Examination of students’ acceptance of and intention to use learning management 
+systems using extended TAM. British Journal of Educational Technology, 50(5), 2414–2432. https://​doi.​org/​10.​1111/​
+bjet.​12798
+
+Escobar-Rodriguez, T., & Monge-Lozano, P. (2012). The acceptance of Moodle technology by business administration 
+students. Computers & Education, 58(4), 1085–1093. https://​doi.​org/​10.​1016/j.​compe​du.​2011.​11.​012
+
+Essel, H. B., Vlachopoulos, D., Tachie-Menson, A., Johnson, E. E., & Baah, P. K. (2022). The impact of a virtual teaching assis-
+tant (chatbot) on students’ learning in Ghanaian higher education. International Journal of Educational Technology 
+in Higher Education, 19(1), 57. https://​doi.​org/​10.​1186/​s41239-​022-​00362-6
+
+Fazil, A. W., Hakimi, M., Shahidzay, A. K., & Hasas, A. (2024). Exploring the Broad Impact of AI Technologies on Student 
+Engagement and Academic Performance in University Settings in Afghanistan. RIGGS: Journal of Artificial Intel-
+ligence and Digital Business, 2(2), 56–63. https://​doi.​org/​10.​31004/​riggs.​v2i2.​268
+
+Fornell, C., & Larcker, D. F. (1981). Evaluating Structural Equation Models with Unobservable Variables and Measurement 
+Error. Journal of Marketing Research, 18(1), 39–50. https://​doi.​org/​10.​1177/​00222​43781​01800​104
+
+Fotea, S., Fotea, I., & Țundrea, E. (2019). Artificial Intelligence in Education—Romanian Students’ Attitudes toward Artificial 
+Intelligence and its Impact on their Career Development. ICERI2019 Proceedings, 9330–9338. https://​doi.​org/​10.​
+21125/​iceri.​2019.​2259
+
+García-Martínez, I., Fernández-Batanero, J. M., Fernández-Cerero, J., & León, S. P. (2023). Analysing the Impact of Artificial 
+Intelligence and Computational Sciences on Student Performance: Systematic Review and Meta-analysis. Journal 
+of New Approaches in Educational Research, 12(1), 171–197. https://​doi.​org/​10.​7821/​naer.​2023.1.​1240
+
+Grájeda, A., Burgos, J., Córdova, P., & Sanjinés, A. (2024). Assessing student-perceived impact of using artificial intelligence 
+tools: Construction of a synthetic index of application in higher education. Cogent Education, 11(1), 2287917. 
+https://​doi.​org/​10.​1080/​23311​86X.​2023.​22879​17
+
+Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2014). Multivariate data analysis (Seventh edition, Pearson new interna-
+tional edition). Pearson Education Limited.
+
+Haque, M. U., Dharmadasa, I., Sworna, Z. T., Rajapakse, R. N., & Ahmad, H. (2022). “I think this is the most disruptive technol-
+ogy”: Exploring Sentiments of ChatGPT Early Adopters using Twitter Data (No. arXiv:​2212.​05856). arXiv. http://​arxiv.​
+org/​abs/​2212.​05856
+
+Hara, H., Takemura, A., & Yoshida, R. (2010). On connectivity of fibers with positive marginals in multiple logistic regres-
+sion. Journal of Multivariate Analysis, 101(4), 909–925. https://​doi.​org/​10.​1016/j.​jmva.​2009.​12.​014
+
+Honicke, T., & Broadbent, J. (2016). The Influence of Academic Self-Efficacy on Academic Performance: A Systematic 
+Review. Educational Research Review, 17, 63–84. https://​doi.​org/​10.​1016/j.​edurev.​2015.​11.​002
+
+Austrian Student Social Survey 2019. (2019). Institut for advanced studies Vienna. https://​www.​sozia​lerhe​bung.​at/​images/​
+Beric​hte/​Austr​ian-​Stude​nt-​Survey-​2019-​At-a-​Glance.​pdf
+
+Kamoun, F., El Ayeb, W., Jabri, I., Sifi, S., & Iqbal, F. (2024). Exploring Students’ and Faculty’s Knowledge, Attitudes, and 
+Perceptions Towards ChatGPT: A Cross-Sectional Empirical Study. Journal of Information Technology Education: 
+Research, 23, 004. https://​doi.​org/​10.​28945/​5239
+
+Khoso, F. J., Ali, N., & Aslam, N. (2023). Use of Chat-GPT and AI Tools by Undergraduates: Students and Teachers’ Perspective.
+Kim, J., & Lee, S.-S. (2023). Are Two Heads Better Than One?: The Effect of Student-AI Collaboration on Students’ Learning 
+
+Task Performance. TechTrends, 67(2), 365–375. https://​doi.​org/​10.​1007/​s11528-​022-​00788-9
+Kraus, J., Scholz, D., Messner, E.-M., Messner, M., & Baumann, M. (2020). Scared to Trust? – Predicting Trust in Highly Auto-
+
+mated Driving by Depressiveness, Negative Self-Evaluations and State Anxiety. Frontiers in Psychology. https://​doi.​
+org/​10.​3389/​fpsyg.​2019.​02917
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 23 of 25
+
+Krone. (2024, March 5). Are Austria’s pupils losing interest in AI? Kronen. https://​www.​krone.​at/​32783​76
+Laupichler, M. C., Aster, A., Haverkamp, N., & Raupach, T. (2023). Development of the “Scale for the assessment of non-
+
+experts’ AI literacy”—An exploratory factor analysis. Computers in Human Behavior Reports, 12, 100338. https://​
+doi.​org/​10.​1016/j.​chbr.​2023.​100338
+
+Lee, Y.-F., Hwang, G.-J., & Chen, P.-Y. (2022). Impacts of an AI-based chabot on college students’ after-class review, 
+academic performance, self-efficacy, learning attitude, and motivation. Educational Technology Research and 
+Development. https://​doi.​org/​10.​1007/​s11423-​022-​10142-8
+
+Lefever, S., Dal, M., & Matthíasdóttir, Á. (2007). Online data collection in academic research: Advantages and limita-
+tions. British Journal of Educational Technology, 38(4), 574–582. https://​doi.​org/​10.​1111/j.​1467-​8535.​2006.​
+00638.x
+
+Lepik, K. (2024). Trust, but Verify: Students’ Reflections on Using Artificial Intelligence in Written Assignments. In S. 
+Kurbanoğlu, S. Špiranec, J. Boustany, Y. Ünal, İ Şencan, D. Kos, E. Grassian, D. Mizrachi, & L. Roy (Eds.), Informa-
+tion Experience and Information Literacy: 8th European Conference on Information Literacy, ECIL 2023, Kraków, 
+Poland, October 9–12, 2023, Revised Selected Papers, Part I (pp. 27–38). Cham: Springer Nature Switzerland. 
+https://​doi.​org/​10.​1007/​978-3-​031-​53001-2_3
+
+Long, D., & Magerko, B. (2020). What is AI Literacy? Competencies and Design Considerations. Proceedings of the 2020 
+CHI Conference on Human Factors in Computing Systems, 1–16. https://​doi.​org/​10.​1145/​33138​31.​33767​27
+
+Lynard, B. L., Asirit, J. H., & Hua,. (2023). Converging perspectives: Assessing AI readiness and utilization in Philippine 
+higher education. Polaris Global Journal of Scholarly Research and Trends, 2(3), 1–50. https://​doi.​org/​10.​58429/​
+pgjsrt.​v2n3a​152
+
+Maamor, H., Achim, N., Ahmad, N., Roszaman, N., Anuar, N., Azwa, N., Rahman, S., & Hamjah, N. (2024). The Effect of 
+Artificial Intelligence (AI) on Students’ Learning. Information Management and Business Review, 16(3), 856–867. 
+https://​doi.​org/​10.​22610/​imbr.​v16i3​S(I)a.​4178
+
+Mardia, K. V. (1970). Measures of multivariate skewness and kurtosis with applications. Biometrika, 57(3), 519–530. 
+https://​doi.​org/​10.​1093/​biomet/​57.3.​519
+
+Memon, M. A., Ting, H., Cheah, J.-H., Thurasamy, R., Chuah, F., & Cham, T. H. (2020). Sample Size for Survey Research: 
+Review and Recommendations. Journal of Applied Structural Equation Modeling, 4(2), i–xx. https://​doi.​org/​10.​
+47263/​JASEM.​4(2)​01
+
+Mohamed, K., Elkaimbillah, Z., & El Asri, B. (2024). Significance and Impact of AI on Pedagogical Learning: A Case 
+Study of Moroccan Students at the Faculty of Legal and Economics. In Y. Farhaoui, A. Hussain, T. Saba, H. Taher-
+doost, & A. Verma (Eds.), Artificial Intelligence, Data Science and Applications: ICAISE’2023, Volume 2 (pp. 124–129). 
+Cham: Springer Nature Switzerland. https://​doi.​org/​10.​1007/​978-3-​031-​48573-2_​18
+
+Montag, C., Kraus, J., Baumann, M., & Rozgonjuk, D. (2023). The propensity to trust in automated technology mediates 
+the links between technology self-efficacy and fear and acceptance of artificial intelligence. Computers in 
+Human Behavior Reports, 11, 100315. https://​doi.​org/​10.​1016/j.​chbr.​2023.​100315
+
+Montenegro-Rueda, M., Fernández-Cerero, J., Fernández-Batanero, J. M., & López-Meneses, E. (2023). Impact of the 
+Implementation of ChatGPT in Education: A Systematic Review. Computers, 12(8), 153. https://​doi.​org/​10.​3390/​
+compu​ters1​20801​53
+
+Van de Mortel, T. (2008). Faking it: Social desirability response bias in self-report research. Australian Journal of 
+Advanced Nursing. https://​www.​seman​ticsc​holar.​org/​paper/​Faking-​it%​3A-​Social-​desir​abili​ty-​respo​nse-​bias-​in-​
+Mortel-​Thea/​92a15​73529​b46fe​ebf24​b6438​48ea6​c431a​1b7e6
+
+Ng, D. T. K., Leung, J. K. L., Chu, K. W. S., & Qiao, M. S. (2021a). AI Literacy: Definition, Teaching, Evaluation and Ethical 
+Issues. Proceedings of the Association for Information Science and Technology, 58(1), 504–509. https://​doi.​org/​10.​
+1002/​pra2.​487
+
+Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021b). Conceptualizing AI literacy: An exploratory review. Com-
+puters and Education: Artificial Intelligence, 2, 100041. https://​doi.​org/​10.​1016/j.​caeai.​2021.​100041
+
+Ningsih, F. (2023). Classtime.Com as an Ai-Based Testing Platform: Analysing ESP Students’ Performances and Feed-
+back. Journal of Languages and Language Teaching, 11(3), 390. https://​doi.​org/​10.​33394/​jollt.​v11i3.​8286
+
+Obenza, B. N., Ian, J. S., Baguio, E., Karyl Maxine, W., Bardago, L. B., Granado, K. C., Loreco, A., Matugas, L. P., Talaboc, D. 
+J., Don, R. K., Zayas, D., John Harry, S., Caballo, R. B., & Caangay, R. (2023). The Mediating Effect of AI Trust on AI 
+Self-Efficacy and Attitude Toward AI of College Students. International Journal of Metaverse, 2(1), 1–10. https://​
+doi.​org/​10.​54536/​ijm.​v2i1.​2286
+
+Parsakia, K. (2023). The Effect of Chatbots and AI on The Self-Efficacy, Self-Esteem, Problem-Solving and Critical Think-
+ing of Students. Health Nexus, 1(1), 71–76. https://​doi.​org/​10.​61838/​hn.1.​1.​14
+
+Pavlik, J. V. (2023). Collaborating With ChatGPT: Considering the Implications of Generative Artificial Intelligence for 
+Journalism and Media Education. Journalism & Mass Communication Educator, 78(1), 84–93. https://​doi.​org/​10.​
+1177/​10776​95822​11495​77
+
+Pintrich, P. R., Smith, D. A. F., Garcia, T., & Mckeachie, W. J. (1993). Reliability and Predictive Validity of the Motivated 
+Strategies for Learning Questionnaire (Mslq). Educational and Psychological Measurement, 53(3), 801–813. 
+https://​doi.​org/​10.​1177/​00131​64493​05300​3024
+
+Pinzolits, R. F. J. (2023). AI in academia: An overview of selected tools and their areas of application. MAP Education 
+and Humanities, 4(1), 37–50. https://​doi.​org/​10.​53880/​2744-​2373.​2023.4.​37
+
+Potter, K., Abill, R., & Louis, F. (2024). The Impact of Artificial Intelligence on Students’ Learning Experience (SSRN Scholarly 
+Paper No. 4716747). https://​doi.​org/​10.​2139/​ssrn.​47167​47
+
+Pratama, R. M. D., & Hastuti, D. P. (2024). The use of artificial intelligence to improve EFL students’ writing skill. English 
+Learning Innovation, 5(1), 13–25. https://​doi.​org/​10.​22219/​englie.​v5i1.​30212
+
+PricewaterhouseCoopers. (2023b). PwC ChatGPT & KI-Studie: Fast zwei Drittel der Österreicher:innen sind für ein Verbot 
+von ChatGPT an Schulen—jede:r Dritte fürchtet um Arbeitsplatz. PwC. https://​www.​pwc.​at/​de/​presse/​2023/​chatg​
+pt-​ki.​html
+
+
+
+Bećirović et al. Smart Learning Environments           (2025) 12:29 Page 24 of 25
+
+PricewaterhouseCoopers. (2023a). PwC ChatGPT & KI-Studie: Fast zwei Drittel der Österreicher:innen sind für ein Verbot 
+von ChatGPT an Schulen—jede:r Dritte fürchtet um Arbeitsplatz. PwC. https://​www.​pwc.​at/​de/​presse/​2023/​chatg​
+pt-​ki.​html
+
+PricewaterhouseCoopers. (2024). PwC Studie: Mehrheit der Konsument:innen über KI-Entwicklung besorgt. PwC. https://​
+www.​pwc.​at/​de/​presse/​2024/​mehrh​eit-​der-​konsu​menti​nnen-​ueber-​ki-​entwi​cklung-​besor​gt.​html
+
+Raphael, F., & Plummer, B. (2025, March 1). Outrage as university says AI tutors will run lectures in course. NZ Herald. 
+https://​www.​nzher​ald.​co.​nz/​nz/​unive​rsity-​of-​auckl​and-​stude​nts-​criti​cise-​intro​ducti​on-​of-​artif​icial-​intel​ligen​ce-​
+tutors-​in-​busin​ess-​and-​econo​mics-​course/​EKNMR​EEVPZ​EY7E2​P7YNU​YKHWUY/
+
+Raykov, T., & Marcoulides, G. A. (2008). An Introduction to Applied Multivariate Analysis. Routledge. https://​doi.​org/​10.​
+4324/​97802​03809​532
+
+Rokhman, F., Mukhibad, H., Bagas Hapsoro, B., & Nurkhin, A. (2022). E-learning evaluation during the COVID-19 
+pandemic era based on the updated of Delone and McLean information systems success model. Cogent 
+Education, 9(1), 1–25. https://​doi.​org/​10.​1080/​23311​86X.​2022.​20934​90
+
+Sallam, M., Salim, N., Barakat, M., & Al-Tammemi, A. (2023). ChatGPT applications in medical, dental, pharmacy, and 
+public health education: A descriptive study highlighting the advantages and limitations. Narra J, 3(1), e103. 
+https://​doi.​org/​10.​52225/​narra.​v3i1.​103
+
+Schepman, A., & Rodway, P. (2023). The General Attitudes towards Artificial Intelligence Scale (GAAIS): Confirmatory 
+Validation and Associations with Personality, Corporate Distrust, and General Trust. International Journal of 
+Human-Computer Interaction, 39(13), 2724–2741. https://​doi.​org/​10.​1080/​10447​318.​2022.​20854​00
+
+Schweder, S., & Raufelder, D. (2021). Needs satisfaction and motivation among adolescent boys and girls during 
+self-directed learning intervention☆. Journal of Adolescence, 88(1), 1–13. https://​doi.​org/​10.​1016/j.​adole​scence.​
+2021.​01.​007
+
+Shanto, S. S., Ahmed, Z., & Jony, A. I. (2024). Enriching Learning Process with Generative AI: A Proposed Framework to 
+Cultivate Critical Thinking in Higher Education using Chat GPT. 45(1).
+
+Shete, S. G., Koshti, P., & Pujari, V. I. (2024). The Impact of AI-Powered Personalization on Academic Performance in 
+Students. 2024 5th International Conference on Recent Trends in Computer Science and Technology (ICRTCST), 
+295–301.
+
+Shiyun, O. (2024). Transforming Education: The Evolving Role of Artificial Intelligence in The Students Academic Per-
+formance. International Journal of Education and Humanities, 13(2), 163–173. https://​doi.​org/​10.​54097/​cc1x7​r95
+
+Singh, E., Vasishta, P., & Singla, A. (2024). AI-enhanced education: Exploring the impact of AI literacy on generation 
+Z’s academic performance in Northern India. Quality Assurance in Education. https://​api.​seman​ticsc​holar.​org/​
+Corpu​sID:​27217​0920
+
+Soni, K. (2024). The Impact of AI-Powered Personalized Learning on Student Performance in Udaipur Colleges. Recent 
+Trends in Management and Commerce. https://​api.​seman​ticsc​holar.​org/​Corpu​sID:​27365​0991
+
+Stolpe, K., & Hallström, J. (2024). Artificial intelligence literacy for technology education. Computers and Education 
+Open, 6, 100159. https://​doi.​org/​10.​1016/j.​caeo.​2024.​100159
+
+Stracke, C. M., Griffiths, D., Pappa, D., Bećirović, S., Polz, E., Perla, L., Grassi, A. D., Massaro, S., Skenduli, M. P., Burgos, D., 
+Punzo, V., Amram, D., Ziouvelou, X., Katsamori, D., Gabriel, S., Nahar, N., Schleiss, J., & Hollins, P. (2025). Analysis 
+of Artificial Intelligence Policies for Higher Education in Europe. International Journal of Interactive Multimedia 
+and Artificial Intelligence, 9, 124–137. https://​doi.​org/​10.​9781/​ijimai.​2025.​02.​011
+
+Taherdoost, H. (2017). Determining Sample Size; How to Calculate Survey Sample Size. International Journal of Eco-
+nomics and Management System, 2, 237–239.
+
+Un Jan, A., & Contreras, V. (2016). Success model for knowledge management systems used by doctoral researchers. 
+Computers in Human Behavior, 59, 258–264. https://​doi.​org/​10.​1016/j.​chb.​2016.​02.​011
+
+VanderStoep, S. W., & Johnston, D. D. (2009). Research methods for everyday life: Blending qualitative and quantitative 
+approaches (1st ed). Jossey-Bass. http://​catdir.​loc.​gov/​catdir/​toc/​ecip0​826/​20080​37380.​html
+
+Venkatesh, V. (2000). Determinants of Perceived Ease of Use: Integrating Control, Intrinsic Motivation, and Emotion 
+into the Technology Acceptance Model. Information Systems Research, 11(4), 342–365. https://​doi.​org/​10.​1287/​
+isre.​11.4.​342.​11872
+
+Venkatesh, V., & Bala, H. (2008). Technology Acceptance Model 3 and a Research Agenda on Interventions. Decision 
+Sciences, 39(2), 273–315. https://​doi.​org/​10.​1111/j.​1540-​5915.​2008.​00192.x
+
+Venkatesh, V., & Davis, F. D. (2000). A Theoretical Extension of the Technology Acceptance Model: Four Longitudinal 
+Field Studies. Management Science, 46(2), 186–204. https://​doi.​org/​10.​1287/​mnsc.​46.2.​186.​11926
+
+Venkatesh, V., & Morris, M. G. (2000). Why Don’t Men Ever Stop to Ask for Directions? Gender, Social Influence, and 
+Their Role in Technology Acceptance and Usage Behavior. MIS Quarterly, 24(1), 115–139. https://​doi.​org/​10.​
+2307/​32509​81
+
+Wang, B., Rau, P.-L.P., & Yuan, T. (2023). Measuring user competence in using artificial intelligence: Validity and reli-
+ability of artificial intelligence literacy scale. Behaviour & Information Technology, 42(9), 1324–1337. https://​doi.​
+org/​10.​1080/​01449​29X.​2022.​20727​68
+
+Wecks, J. O., Voshaar, J., Plate, B. J., & Zimmermann, J. (2024). Generative AI Usage and Academic Performance. SSRN 
+Electronic Journal. https://​doi.​org/​10.​2139/​ssrn.​48125​13
+
+Wut, T. M., Ng, P. M., & Low, M. P. (2023). Engaging university students in online learning: A regional comparative study 
+from the perspective of social presence theory. Journal of Computers in Education. https://​doi.​org/​10.​1007/​
+s40692-​023-​00278-8
+
+Xiao, F., Zhu, S., & Wen, X. (2025). Exploring the Landscape of Generative AI (ChatGPT)—Powered Writing Instruction 
+in English as a Foreign Language Education: A Scoping Review. ECNU Review of Education. https://​doi.​org/​10.​
+1177/​20965​31124​13108​81
+
+Yew, W. C., Kong, S. M., Awang, A. H., & Yi, G. R. (2022). Developing a Conceptual Model for the Causal Effects of Out-
+door Play in Preschools Using PLS-SEM. Sustainability, 14(6), 3365. https://​doi.​org/​10.​3390/​su140​63365
+
+
+
+B	 ećirović et al. Smart Learning Environments           (2025) 12:29 Page 25 of 25
+
+Yildiz Durak, H. (2023). Conversational agent-based guidance: Examining the effect of chatbot usage frequency and 
+satisfaction on visual design self-efficacy, engagement, satisfaction, and learner autonomy. Education and 
+Information Technologies, 28(1), 471–488. https://​doi.​org/​10.​1007/​s10639-​022-​11149-7
+
+Zastudil, C., Rogalska, M., Kapp, C., Vaughn, J., & MacNeil, S. (2023). Generative AI in computing education: Perspectives of 
+students and instructors. https://​doi.​org/​10.​48550/​arXiv.​2308.​04309
+
+Zawacki-Richter, O., Marín, V. I., Bond, M., & Gouverneur, F. (2019). Systematic review of research on artificial intel-
+ligence applications in higher education—Where are the educators? International Journal of Educational 
+Technology in Higher Education, 16(1), 39. https://​doi.​org/​10.​1186/​s41239-​019-​0171-0
+
+Zhang, H., Lee, I., Ali, S., DiPaola, D., Cheng, Y., & Breazeal, C. (2023). Integrating Ethics and Career Futures with Technical 
+Learning to Promote AI Literacy for Middle School Students: An Exploratory Study. International Journal of Artificial 
+Intelligence in Education, 33(2), 290–324. https://​doi.​org/​10.​1007/​s40593-​022-​00293-3
+
+Zimmerman, B. (2000). Self-Efficacy: An Essential Motive to Learn. Contemporary Educational Psychology, 25(1), 82–91. 
+https://​doi.​org/​10.​1006/​CEPS.​1999.​1016
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.

@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import Link from "next/link";
-import { AlertTriangle, RefreshCw, Home, CreditCard } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 
 export default function ErrorBoundary({
   error,
@@ -27,9 +27,9 @@ export default function ErrorBoundary({
       <div className="max-w-md w-full bg-panel border border-sidebar-border rounded-3xl p-8 shadow-xl text-center space-y-6">
         <div className="w-16 h-16 rounded-2xl bg-accent-red/10 text-accent-red flex items-center justify-center mx-auto">
           {is402 ? (
-            <CreditCard className="w-8 h-8 text-amber-500" />
+            <Icon id="91124" className="w-8 h-8 bg-amber-500" />
           ) : (
-            <AlertTriangle className="w-8 h-8" />
+            <Icon id="82783" className="w-8 h-8 bg-accent-red" />
           )}
         </div>
 
@@ -54,14 +54,14 @@ export default function ErrorBoundary({
             onClick={() => reset()}
             className="w-full sm:w-auto px-5 py-2.5 bg-text-strong hover:bg-black text-background rounded-full text-sm font-semibold transition-all flex items-center justify-center gap-2"
           >
-            <RefreshCw className="w-4 h-4" />
+            <Icon id="85469" className="w-4 h-4 bg-background" />
             Coba Lagi
           </button>
           <Link
             href="/"
             className="w-full sm:w-auto px-5 py-2.5 bg-black/5 hover:bg-black/10 text-text-strong rounded-full text-sm font-semibold transition-all flex items-center justify-center gap-2"
           >
-            <Home className="w-4 h-4" />
+            <Icon id="83326" className="w-4 h-4 bg-text-strong" />
             Ke Dashboard
           </Link>
         </div>

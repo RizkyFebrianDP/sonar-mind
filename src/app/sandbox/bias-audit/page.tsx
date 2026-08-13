@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import { Scale } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 import { CandidateTable } from "@/components/sandbox/bias/CandidateTable";
 import { BiasChecklist } from "@/components/sandbox/bias/BiasChecklist";
 import { JustificationInput } from "@/components/sandbox/bias/JustificationInput";
@@ -115,14 +115,14 @@ export default function BiasAuditPage() {
         </div>
         <div className="flex items-center gap-3 mb-2">
           <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center">
-            <Scale className="w-5 h-5 text-purple-500" />
+            <Icon id="87375" className="w-5 h-5 bg-purple-500" />
           </div>
           <div>
             <h1 className="text-2xl font-bold font-heading text-text-strong">
               Algorithmic Bias Audit
             </h1>
             <p className="text-sm text-text-muted">
-              Pilar 2: Algorithmic Bias Awareness — Bobot 25%
+              Algorithmic Bias Awareness — Bobot 25%
             </p>
           </div>
         </div>

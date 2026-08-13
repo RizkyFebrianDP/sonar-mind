@@ -8,11 +8,24 @@ import { DidYouKnowCard } from "@/components/assessments/DidYouKnowCard";
 
 export default function AssessmentsPage() {
   return (
-    <div className="max-w-6xl mx-auto space-y-8 pb-12">
+    <div className="p-4 sm:p-6 lg:p-8 max-w-6xl mx-auto space-y-8 pb-12">
       {/* Header */}
-      <div className="flex flex-col gap-1 mb-8">
-        <h1 className="text-3xl font-heading font-bold text-text-strong">Assessments</h1>
-        <p className="text-text-muted">Test how critically, ethically, and independently you interact with AI.</p>
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 mb-8">
+        <div className="space-y-3">
+          <div className="flex items-center gap-2 text-sm text-text-muted">
+            <span>Dashboard</span>
+            <span className="opacity-50">/</span>
+            <span className="font-medium text-text-strong">Assessments</span>
+          </div>
+          <div>
+            <h1 className="text-2xl md:text-3xl font-bold text-text-strong font-heading tracking-tight">
+              Assessments
+            </h1>
+            <p className="text-text-muted text-sm mt-1">
+              Test how critically, ethically, and independently you interact with AI.
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Hero Card */}

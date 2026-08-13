@@ -1,0 +1,2079 @@
+﻿Zhai et al. Smart Learning Environments           (2024) 11:28  Smart Learning Environments
+https://doi.org/10.1186/s40561-024-00316-7
+
+RESEARCH Open Access
+
+The effects of over‑reliance on AI dialogue 
+systems on students’ cognitive abilities: 
+a systematic review
+Chunpeng Zhai1*   , Santoso Wibowo1 and Lily D. Li1 
+
+*Correspondence:   
+c.zhai@cqu.edu.au Abstract 
+1 School of Engineering & The growing integration of artificial intelligence (AI) dialogue systems within educa-
+Technology/Tertiary Education tional and research settings highlights the importance of learning aids. Despite exami-
+Division, CQUniversity, nation of the ethical concerns associated with these technologies, there is a notice-
+Rockhampton, Australia able gap in investigations on how these ethical issues of AI contribute to students’ 
+
+over-reliance on AI dialogue systems, and how such over-reliance affects students’ 
+cognitive abilities. Overreliance on AI occurs when users accept AI-generated recom-
+mendations without question, leading to errors in task performance in the context 
+of decision-making. This typically arises when individuals struggle to assess the reli-
+ability of AI or how much trust to place in its suggestions. This systematic review 
+investigates how students’ over-reliance on AI dialogue systems, particularly those 
+embedded with generative models for academic research and learning, affects their 
+critical cognitive capabilities including decision-making, critical thinking, and analytical 
+reasoning. By using the Preferred Reporting Items for Systematic Reviews and Meta-
+Analyses (PRISMA) guidelines, our systematic review evaluated a body of literature 
+addressing the contributing factors and effects of such over-reliance within educa-
+tional and research contexts. The comprehensive literature review spanned 14 articles 
+retrieved from four distinguished databases: ProQuest, IEEE Xplore, ScienceDirect, 
+and Web of Science. Our findings indicate that over-reliance stemming from ethical 
+issues of AI impacts cognitive abilities, as individuals increasingly favor fast and opti-
+mal solutions over slow ones constrained by practicality. This tendency explains why 
+users prefer efficient cognitive shortcuts, or heuristics, even amidst the ethical issues 
+presented by AI technologies.
+Keywords:  Cognitive abilities, Decision-making, Critical thinking, Analytical thinking, 
+Ethical issues of AI, Generative AI
+
+Introduction
+Artificial intelligence (AI) dialogue systems, often known as conversational agents, are 
+complex software mechanisms that emulate human dialogue, leveraging the prow-
+ess of AI, natural language processing, and machine learning technologies (Zhai & 
+Wibowo, 2023a). Integrating generative dialogue systems in research and education 
+has drawn considerable interest in recent years. This is because these technologies 
+
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits 
+use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original 
+author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third 
+party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the mate-
+rial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or 
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://
+creativecommons.org/licenses/by/4.0/.
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 2 of 37
+
+promise to revolutionize research and education by streamlining repetitive tasks, aiding 
+in data interpretation, and pioneering new learning and assessment methods (George 
+& Wooden, 2023; Song & Xiong, 2021; Zhai & Wibowo, 2023). However, there are con-
+cerns about the potential negative impact of its widespread use on cognitive abilities, 
+particularly in academic writing (Liu et  al., 2023). Research and education fundamen-
+tally rely on evidence, decision-making, critical thinking, and analytical thinking are cru-
+cial for thoroughly analyzing and evaluating the quality of information found in existing 
+literature studies (Hanim et al., 2020). The importance of cultivating a mindset of cogni-
+tive abilities cannot be overstated, especially for students who are tasked with synthesiz-
+ing, evaluating, and forming arguments (Kaeppel, 2021).
+
+Few of studies have explored ethical concerns associated with AI dialogue systems, 
+including but not limited to AI hallucinations (Gao et  al., 2022), algorithmic biases 
+(Mbalaka, 2023), plagiarism (De Angelis et al., 2023), privacy concerns (Alrazaq et al., 
+2023) and transparency concerns (Carvalho et  al., 2019). AI hallucinations in AI dia-
+logue systems are characterized by the generation of inaccurate or misleading informa-
+tion (Hatem et al., 2023). Research indicates that these ethical concerns could contribute 
+to an over-reliance on AI dialogue systems (George & Wooden, 2023; Song & Xiong, 
+2021; Zhai & Wibowo, 2023), potentially impairing critical cognitive skills such as criti-
+cal thinking (Dergaa et al., 2023), decision-making (Duhaylungsod & Chavez, 2023), and 
+analytical thinking (Grassini, 2023).
+
+A few studies have been conducted on the issues concerning over-reliance on AI 
+dialogue systems. Gao et  al. (2022) found a concerning trend where users exhibit an 
+over-reliance on AI dialogue systems, often accepting their generated outputs, AI hal-
+lucination, without validation. This overdependence is exacerbated by cognitive biases 
+where judgments deviate from rationality and heuristics or the use of mental shortcuts, 
+leading to uncritical acceptance of AI-generated information. Grassini (2023) identified 
+that algorithmic biases are frequently a result of AI systems being trained on datasets 
+with inherent prejudices, causing users to regard these biased outputs as objective mis-
+takenly. This misplaced trust can skew analysis and interpretation, further entrenching 
+the issue. Xie et al. (2021) found that over-reliance on unverified AI outputs can cause 
+misclassification and misinterpretation. The generation of such unvalidated content 
+by AI systems poses a significant risk, potentially culminating in research misconduct, 
+including plagiarism, fabrication, and falsification. Dempere et al. (2023) highlighted the 
+risks associated with embedding AI dialogue systems in higher education, such as pri-
+vacy violations and illegal data use. These authors caution against the normalization of 
+intrusive data practices that might emerge from an over-reliance on AI, where the col-
+lection and analysis of student data do not fully honor privacy rights. Meanwhile, Dergaa 
+et al. (2023) argued the importance of data transparency in AI systems within research 
+and education.
+
+Other studies revealed that regular utilization of dialogue systems is linked to a decline 
+in abilities of cognitive abilities, a diminished capacity for information retention, and an 
+increased reliance on these systems for information (Dergaa et al., 2023; Marzuki et al., 
+2023). This over-reliance often occurs without verifying the validity and authenticity of 
+the provided data, especially when such information lacks proper references (Krullaars 
+et al., 2023). Krullaars et al. (2023) argue that the over-reliance on AI dialogue systems 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 3 of 37
+
+might diminish students’ drive and commitment to learning, as they might lean too 
+heavily on these systems for answers instead of actively participating in the learning 
+experience. The adoption and over-reliance on AI dialogue systems have overshadowed 
+critical ethical concerns whereby issues such as the generation of inaccurate or mislead-
+ing content, algorithmic biases, plagiarism, privacy breaches, and transparency concerns 
+have not been adequately addressed (Hua et al., 2023).
+
+To address this research gap, we conducted a systematic literature review to investigate 
+the contributing factors and effects of over-reliance on AI dialogue systems in research 
+and education. The study specifically examines the contributing factors of over-reliance, 
+such as AI hallucination, algorithmic bias, plagiarism, privacy concerns, and transpar-
+ency issues, and how over-reliance impacts cognitive abilities, including decision-mak-
+ing, critical thinking, and analytical thinking. Additionally, this review outlines potential 
+strategies and technological interventions to alleviate these challenges, aiming to foster 
+responsible use of AI dialogue systems. Several research questions are formulated to 
+address the concerns stated above:
+
+1.	 How does over-reliance on AI dialogue systems affect critical and analytical thinking 
+abilities in different educational subjects and levels?
+
+2.	 What are the primary ethical concerns causing over-reliance on AI dialogue systems 
+in research and education?
+
+Literature review
+Cognitive abilities of critical thinking, decision-making, and analytical thinking are 
+important elements in research, particularly in higher education (Soufi & See, 2019). 
+It involves constructing well-reasoned arguments supported by evidence (McKinley, 
+2013). Dwyer (2023) defines critical thinking abilities as a blend of cognitive abilities 
+and critical thinking dispositions, emphasizing skills such as truth-seeking, systematic 
+evaluation, inference, and self-regulation in problem-solving. Critical thinking disposi-
+tions refer to the attitudes and qualities that facilitate engagement in critical thinking 
+activities (Facione & Facione, 1996). They include the desire to be informed, the abil-
+ity to consider multiple perspectives, the identification of relationships, reflective think-
+ing, evidence-seeking, skepticism, respect for others’ views, and tolerance. Liang (2023) 
+highlights its importance in contemporary education, underscoring its role in fostering 
+various competencies, including drawing conclusions, understanding contributing fac-
+tors and effects, assessing source credibility, and distinguishing facts from opinions.
+
+Decision-making abilities are critical for processing and reasoning through complex 
+information across diverse domains, including research and education, in return nur-
+turing proficient decision-making capabilities (Duhaylungsod & Chavez, 2023). In 
+exploring decision-making theories, a distinction can be seen between descriptive and 
+normative theories (Bell et al., 1988). Descriptive theories focus on understanding actual 
+decision-making behaviors, including both rational and irrational elements, through 
+empirical research. Normative theories, on the other hand, advocate for decisions that 
+maximize expected utility, grounded in mathematical models and ideal behavioral prin-
+ciples (Damnjanović & Janković, 2014).
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 4 of 37
+
+Analytical thinking embodies the thorough exploration and critical analysis of data, 
+which are vital for problem-solving and informed decision-making (Pokkakillath & 
+Suleri, 2023). These elements are crucial for enhancing learning experiences, as they per-
+tain to reasoning, planning, inquiry, interpretation of findings, and the subsequent deri-
+vation of conclusions in research and education (Ismail, 2023).
+
+Incorporating AI dialogue systems in research and educational settings, particularly 
+those utilizing generative modules like variational autoencoders (VAEs), holds sub-
+stantial potential for boosting creativity and elevating the quality of work (Aydin & 
+Karaarslan, 2023). VAEs provide considerable support to writers, particularly in sur-
+mounting challenges like writer’s block or navigating complex parts of their manuscripts. 
+This is achieved through the pioneering method of automated text generation, which not 
+only aids in content creation but also inspires innovative thinking and problem-solving 
+approaches (Eapen, 2023). AI dialogue systems, bolstered by interdisciplinary insights 
+from psychology and neuroscience, is set to revolutionize the way students approach 
+writing and decision-making, critical thinking and analytical thinking in research and 
+education (Carvalho et al., 2019; Gao et al., 2022).
+
+These advancements promise to enhance educational experiences by providing more 
+interactive and personalized learning environments (Carvalho et al., 2019). However, as 
+AI systems grow more sophisticated and their role in automated analysis expands, there 
+is a risk that students may become overly reliant on these technologies (Krullaars et al., 
+2023). This over-reliance could lead to a range of issues, including diminished critical 
+thinking (Iskender, 2023), analytical thinking (Ferrajão, 2020), and decision-making abil-
+ities (Pokkakillath & Suleri, 2023) susceptibility to AI-generated errors or AI hallucina-
+tions (Hatem et  al., 2023), increased instances of plagiarism (De Angelis et  al., 2023), 
+and challenges related to lack of transparency (Carvalho et  al., 2019) and algorithmic 
+biases (Mbalaka, 2023). Moreover, habitual dependence on AI for decision-making may 
+reduce individuals’ motivation to engage in independent thinking and analysis, poten-
+tially leading to a weakening of essential cognitive abilities (Grinschgl & Neubauer, 2022) 
+and automation bias (Gsenger & Strle, 2021).
+
+Given that these AI systems can handle vast data and yield accurate forecasts, there is 
+a looming danger of humans becoming excessively reliant on AI when making choices. 
+This over-reliance might stifle creativity and innovative thinking in both educators and 
+learners, possibly degrading educational quality (Ahmad et  al., 2023). Krullaars et  al. 
+(2023) posit that an over-reliance on dialogue systems hinders students from developing 
+their critical thinking and problem-solving abilities.
+
+As AI dialogue systems offer pre-formulated answers, this practice can curtail stu-
+dents’ freedom to convey their unique thoughts and viewpoints (Krullaars et al., 2023). 
+Similarly, Ahmad et al. (2023) argue that one consequence of over-reliance on dialogue 
+systems is a potential decline in user prowess of cognitive abilities. Furthermore, Gao 
+et al. (2022) claim that students often overly rely on the source of information, leading to 
+challenges in differentiating whether the content produced by an AI dialogue system was 
+referenced to a credible source. This scenario of AI hallucination involves the AI creating 
+plausible but untrue statements or assertions, which can mislead users and obscure the 
+line between fact and fiction. This phenomenon raises important questions about users’ 
+ability to critically evaluate and discern the accuracy of AI-generated content. Moreover, 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 5 of 37
+
+Hatem et al. (2023) discuss the issue of AI systems referencing non-existent sources, a 
+form of confabulation that presents false information within a seemingly credible frame-
+work. This misrepresentation can deceive users and undermine the trustworthiness of 
+the information provided by AI systems. Athaluri et al. (2023) argue that the issue of AI 
+confabulations can potentially have adverse effects on decision-making and may lead to 
+ethical and legal dilemmas. The authors found that among 178 reference sources pro-
+duced by AI dialogue systems, 69 lacked a Digital Object Identifier (DOI), and 28 could 
+not be found through a Google search, nor did they possess an existing DOI.
+
+The utilization of AI tools to compose a paper in any academic or professional context 
+constitutes plagiarism (Gao et al., 2022). Studies show that the increasing prevalence of 
+journals lacking rigorous quality controls has led to concerns about the potential surge 
+of AI-generated articles in the scientific community, with notable plagiarism detection 
+tools failing to identify infringements effectively (Dehouche, 2021; Francke & Bennett, 
+2019). De Angelis et al. (2023) found that the rise of journals that neglect essential qual-
+ity controls, like verifying for plagiarism or ensuring ethical standards, might result in a 
+significant influx of AI-generated articles within the scientific realm. Such a trend could 
+gravely undermine the credibility of scientific studies and tarnish the prestige of schol-
+arly publications. Khalil and Er (2023) have reported that popular plagiarism detection 
+tools, such as Turnitin and iThenticate, show a significant limitation in identifying pla-
+giarism in essays that are based on existing literature. Concerningly, their studies reveal 
+that these tools could only detect plagiarism in less than 15% of cases. This low detection 
+rate raises serious concerns about the potential misuse of these platforms by students for 
+academic purposes. It also highlights a critical issue regarding the lack of transparency 
+in the algorithms that drive these plagiarism detection procedures (Ventayen, 2023).
+
+The issue of a lack of transparency in algorithm-driven procedures in the realm of 
+social-legal contributions, often referred to as "black-boxing" (Carvalho et  al., 2019). 
+According to Carvalho et al. (2019), such transparency is pivotal for enhancing under-
+standing of AI dialogue systems, laying a solid foundation for the challenges and advan-
+tages of algorithmic decisions, and ensuring that decision-making processes are both 
+accountable and fair. Additionally, it is crucial to scrutinize how information is accessed 
+online, especially on digital platforms. Beck (2019) explored the intricate dimensions of 
+media ethics, identifying similarities to online communication ethics. The core of this 
+discourse revolves around practices valuing truth. This includes shedding light on the 
+decision-making behind content selection, validating the genuineness of content, under-
+standing authorship, and pinpointing deliberate misinformation, including algorithmic 
+biases.
+
+Algorithmic biases refer to the unintended and systematic discrimination present in 
+computer algorithms (Alrazaq et al., 2023). Often, these biases stem from historical data 
+sources upon which the software relies, potentially reflecting or amplifying past preju-
+dices. Remarkably, even when explicit sensitive attributes are omitted from the input, a 
+proficient machine-learning algorithm might still act upon these attributes due to under-
+lying correlations in the data (Kordzadeh & Ghasemaghaei, 2022). Mbalaka (2023) found 
+that the DALL-E 2 struggled notably in generating detailed images of "An African Fam-
+ily" compared to more generic "Family" images. In contrast, StarryAI outshined DALL-E 
+2 by producing clearer facial features. However, it still lacked accuracy in depicting the 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 6 of 37
+
+cultural nuances. Feine et  al. (2020) argue that AI dialogue system designs frequently 
+incorporate gender-specific indicators. Many of these AI dialogue systems are char-
+acterized, overtly or subtly, by a particular gender. Notably, many AI dialogue systems 
+bear female names, present female-centric avatars, and are often referred to as female. 
+The study found a prevailing preference for female representations over male ones. This 
+highlights an inherent gender bias in AI dialogue system design practices.
+
+With issues such as AI hallucinations, plagiarism, lack of transparency, and algorith-
+mic biases, there arises a critical concern that over-reliance on AI dialogue systems’ 
+decision-making capabilities might potentially impede the cultivation of critical thinking 
+skills (Carobene et al., 2023; Hosseini et al., 2023). Students can inadvertently become 
+overly dependent on AI-generated assistance, potentially detracting from their ability to 
+make independent, well-informed decisions (Buçinca et al., 2021). Yet, in the academic 
+realm, particularly among junior faculty members, there exists the perpetual challenge 
+of balancing research, publishing commitments, and teaching responsibilities (Holmes 
+et  al., 2023). Institutions often require a specific quota of research articles to be pub-
+lished annually for career advancement (Sharma, 2020). Additionally, the ever-dreaded 
+‘writer’s block’ poses a formidable obstacle, affecting both novice and experienced 
+writers, including students and educators (Köbis & Mossink, 2021). AI-generated text 
+emerges as a valuable resource to surmount these hurdles, serving as an effective tool to 
+overcome writer’s block and streamline the publishing process (Washington, 2023).
+
+There is still a noticeable gap in the current literature to explore the effects of over-
+reliance on dialogue systems on abilities such as decision-making, critical thinking, and 
+analytical thinking in education and research (Ahmad et al., 2023). To fill this knowledge 
+gap, a systemic review is conducted with a specific emphasis on research examining the 
+implications of over-reliance on AI dialogue systems. This study aims to investigate the 
+over-reliance on AI dialogue systems in educational and research contexts, with a par-
+ticular focus on their impact on decision-making, critical thinking, and analytical think-
+ing facilitated through the use of dialogue systems.
+
+Rationale for the study
+With the rapid advancement of AI dialogue systems, the landscape of research and edu-
+cation has been significantly transformed. These systems, particularly those equipped 
+with generative modules, have been successfully used to expedite data analysis and 
+streamline the research process, thereby enhancing the quality and efficiency of aca-
+demic endeavors. The acclaim surrounding the benefits of AI dialogue systems, espe-
+cially among practitioners and students, is undeniable, highlighting their pivotal role in 
+facilitating access to information and simplifying complex research tasks.
+
+The necessity to explore the impact of over-reliance on AI systems on students’ cogni-
+tive capabilities and to identify the challenges associated with this dependency is under-
+scored by the transformative effects these technologies have had on the research and 
+educational landscapes. While AI dialogue systems, particularly those with generative 
+capabilities, have revolutionized the way information is accessed and complex research 
+tasks are simplified, they also introduce a range of ethical concerns that have yet to be 
+fully examined. This research primarily draws data from the context of higher educa-
+tion, thereby not considering the cognitive developmental differences across various 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 7 of 37
+
+age groups, such as teenagers and primary or secondary school students. These younger 
+cohorts are typically not included in independent research studies, yet their cognitive 
+abilities and learning processes could be significantly impacted by AI dialogue systems 
+in ways distinct from those observed in older students. Therefore, a more inclusive 
+approach considering different educational levels and age groups would provide a more 
+robust and comprehensive analysis of the effects of AI dialogue systems.
+
+The adoption and over-reliance on AI dialogue systems have overshadowed critical 
+ethical concerns. Issues such as the generation of inaccurate or misleading content, algo-
+rithmic biases, plagiarism, privacy breaches, and transparency concerns have not been 
+adequately addressed (Hua et al., 2023). The tendency among users, including students 
+and researchers, to overlook or minimize these ethical challenges is concerning. There 
+exists a substantial gap in the academic discourse regarding the long-term implications 
+of such over-reliance on AI systems for essential cognitive skills like decision-making, 
+critical thinking, and analytical thinking.
+
+The existing literature, while acknowledging these ethical concerns, lacks a com-
+prehensive analysis of their impacts or offering strategies for mitigating these risks. 
+This oversight is alarming, given the potential for AI dialogue systems to inadvertently 
+weaken users’ cognitive abilities by fostering an environment of dependency and uncriti-
+cal acceptance of generated content.
+
+Therefore, the rationale for this study stems from the urgent need to delve into the 
+ethical quandaries posed by AI dialogue systems within educational settings. It aims to 
+provide a nuanced understanding of how these systems influence users’ cognitive skills 
+and to develop a framework for navigating the ethical pitfalls associated with their use. 
+By addressing this research gap, the study endeavors to ensure that the integration of AI 
+dialogue systems into educational and research practices is conducted in a manner that 
+is both ethically sound and cognitively enriching.
+
+Systematic review method
+This section aligns with the systematic review guidelines recommended by Montenegro-
+Rueda et al. (2023), offering insights into over-reliance on AI systems for essential cogni-
+tive abilities like decision-making, critical thinking, and analytical thinking in research 
+and education. Systematic reviews are defined as methodical syntheses of knowledge 
+that address specific exploratory research questions through the careful selection, iden-
+tification, and integration of existing data. Such reviews are instrumental in charting the 
+expanse of the literature landscape, pinpointing areas lacking in research, formulating 
+research aims, and delivering evidence-based recommendations to policymakers (Tricco 
+et al., 2018).
+
+This study aims to investigate the over-reliance on AI dialogue systems in educational 
+and research contexts, with a particular focus on their impact on decision-making, criti-
+cal thinking and analytical thinking facilitated through the use of dialogue systems. To 
+achieve this, the study adopts the comprehensive five-step methodology for conducting 
+systematic literature reviews proposed by Macdonald et  al. (2023). This methodology 
+facilitates an exhaustive literature search and the critical assessment and synthesis of rel-
+evant articles from academic databases. The process involves (a) defining the review’s 
+scope, (b) executing a thorough literature search, (c) selecting the final set of articles, (d) 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 8 of 37
+
+analyzing the chosen articles through content analysis, and (e) reporting the findings. 
+Through this structured approach, the study aims to provide a nuanced understanding 
+of how these systems influence users’ cognitive skills and to develop a framework for 
+navigating the ethical pitfalls associated with their use.
+
+Determining the scope of a review
+This initial stage involves establishing inclusion and exclusion criteria for selecting rel-
+evant sources, as well as the criteria for identifying and retrieving relevant literature. For 
+inclusion in the review, journal articles must meet the following selection criteria: (a) 
+publication in English as a full-text article, (b) relevance to AI dialogue systems incor-
+porating a generative module for research and education, (c) emphasis on ethical issues 
+related to AI dialogue systems, and (d) publication date ranging from 2017 to 2023. Con-
+versely, articles are excluded if they (a) lack focus on AI dialogue systems with generative 
+modules for research and education, (b) are written in languages other than English, (d) 
+fall into the categories of editorials or opinion pieces, and (f ) are dissertations. These cri-
+teria for inclusion and exclusion are outlined in Table 1.
+
+Conducting a literature search
+The second phase involves conducting the search query across selected databases to 
+compile the search findings. Key databases such as ProQuest, IEEE Xplore, ScienceDi-
+rect, and Web of Science were utilized for the systematic review. These databases were 
+specifically chosen for their relevance to educational research and artificial intelligence, 
+with the aim of enhancing the thoroughness of the review.
+
+The review process was meticulously structured and executed in sequential steps. Ini-
+tially, to ensure the incorporation of the most recent and relevant literature, the authors 
+confined the selection of publications to a specific timeframe, from 2017 to 2023. This 
+time frame was selected specifically to concentrate on the recent breakthroughs in AI, 
+especially in the realm of transformer models, introduced by the “Attention Is All You 
+Need”(Vaswani et al., 2017), and their integration with generative modules. This tech-
+nology has undergone substantial advancements since 2017 (Montenegro-Rueda et al., 
+2023). Furthermore, prior to 2017, AI technology had not achieved the level of sophisti-
+cation and performance that transformer models have enabled, marking a pivotal shift in 
+artificial intelligence (Zhai & Wibowo, 2023b).
+
+Table 1  Inclusion and exclusion
+
+Inclusion Exclusion
+
+(a) Articles must be published in English in a full-text (a) Articles did not focus on AI dialogue systems with 
+article generative modules for research and education
+(b) Articles must be associated with AI dialogue sys- (b) Articles were written in languages other than English
+tems incorporating a generative module for research (c) Articles were editorials, opinion pieces, or disserta-
+and education tions on AI dialogue systems
+(c) Articles must focus on ethical issues related to AI 
+dialogue systems
+(d) Articles must be published between 2017 and 
+2023
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 9 of 37
+
+Following this initial step, the process entailed the removal of redundant entries, effec-
+tively reducing the initial collection of studies to 70. The next stage broadened the inclu-
+sion criteria to cover both peer-reviewed journal articles and conference proceedings. 
+This expansion was balanced by a deliberate exclusion of trade publications, editorials, 
+books, and review articles to prioritize original research contributions. Further refine-
+ment of the criteria led to the selection of articles written in English that specifically 
+addressed AI dialogue systems with generative modules, which brought the number of 
+potential papers down to 35.
+
+A detailed examination of the titles and abstracts of these papers ensued, aimed at 
+determining their relevance to the deployment of AI dialogue systems within research 
+and educational frameworks. This careful evaluation resulted in the selection of 14 stud-
+ies that were identified as pertinent to further analysis in the final review phase. The 
+criteria for both inclusion and exclusion, as well as the tally of studies that progressed 
+through each stage of the selection process, are meticulously documented in Fig. 2, pro-
+viding a transparent and comprehensive view of the methodological approach and its 
+resulting dataset.
+
+Choosing the final samples
+The search strategy commenced with four search terms, each tailored to capture vari-
+ous facets of AI dialogue systems equipped with generative modules. These sets encom-
+passed specific search keywords, such as "AI chatbot with a generative module" and 
+"AI conversational agent with a generative module," “misleading information,” “biases,” 
+“algorithmic biases,” “plagiarism,” “privacy concerns,” “privacy issues,” “transparency 
+concerns,” “transparency concerns,” “decision-making,” “critical thinking,” “critical rea-
+soning,” “analytical thinking,” and “analytical reasoning.” The fourth collection of terms 
+was introduced to probe cognitive abilities, emphasizing critical thinking, analytical 
+reasoning, and decision-making skills within research and education. This inclusion 
+expanded the search’s scope to encompass studies that explore the enhancement or 
+assessment of cognitive processes using AI dialogue systems.
+
+Throughout this search process, 14 publications were identified, each featuring all the 
+specified search terms in its title or abstract. This comprehensive approach ensured the 
+inclusion of relevant literature that spans the technical, educational, and ethical dimensions 
+of AI dialogue systems with generative modules. Figure 1 illustrates the PRISMA flowchart.
+
+Evaluating the samples using content analysis
+In alignment with the defined research goals, a selection of 14 articles underwent 
+detailed examination and evaluation through a systematic review process. This approach 
+involved collecting, processing, identifying, and summarizing data to uncover key 
+insights. The methodology was structured around a six-step procedure aimed at identi-
+fying recurring themes and dimensions within the literature.
+
+The initial phase was dedicated to conducting a thematic analysis, which facilitated a 
+deeper comprehension of the data. Following this, preliminary codes were established 
+to categorize the findings systematically. The subsequent third and fourth steps involved 
+the identification of sub-dimensions and a thorough review of these sub-dimensions, 
+respectively, to refine the analysis further. The fifth step entailed aggregating all relevant 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 10 of 37
+
+Identification of studies via databases and registers
+
+Records removed before screening:
+Records identified from: Databases 
+(n =70) Duplicate records removed (n =7)
+ProQuest (n=18) Records marked as ineligible by 
+IEEE (n=22) automation tools (n = 8)
+Science Direct (n=16) Records removed for other reasons 
+Web of Science (n=14) (n =2)
+
+Records screened (n =55) Records excluded (n = 15)
+
+Reports sought for retrieval (n = 
+40) Reports not retrieved (n = 5)
+
+Reports assessed for eligibility
+(n =35) Reports excluded:
+
+Not AI dialogue systems (n= 6).
+Not for research and education (n=5)
+No generative modules (n=5)
+Thesis writing (n= 4)
+Editorial (n= 1)
+
+Studies included in review (n = 9)
+Reports of included studies (n = 5)
+
+Fig. 1  The PRISMA flowchart
+
+concepts to form a coherent framework of understanding. The final step focused on ana-
+lyzing the data to ascertain its direct relevance and contribution to the study’s objectives.
+
+To guarantee the relevance and integrity of the review, the literature sourced from the 
+databases underwent a dual screening process in accordance with the PRISMA guide-
+lines. PRISMA, which stands for Preferred Reporting Items for Systematic Reviews and 
+Meta-Analyses, provides a foundational set of standards for reporting evidence-based 
+systematic reviews and meta-analyses. This protocol includes a 27-item checklist and 
+a four-phase flow diagram, offering a structured approach to ensuring the quality and 
+comprehensiveness of the review (Sarkis-Onofre et al., 2021).
+
+Method of dimensional analysis
+In our analysis, we adhered to the three-step method outlined by Kools et al.’s (1996), 
+a seminal framework for applying dimensional analysis. Initially, we identified and 
+
+Included Screening Ident
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 11 of 37
+
+generated dimensions along with their characteristics, breaking these down into subcat-
+egories to reveal preliminary concepts through data expansion. In this initial phase, our 
+focus was particularly on the identification of codes that embodied the contributing fac-
+tors and effects of AI dialogue systems embedded with generative modules in research 
+and education. We iterated the process until a substantial array of dimensions and prop-
+erties was established.
+
+Following this, we constructed an explanatory matrix, assigning varying degrees of 
+importance to different attributes, a process akin to the constant comparison method 
+used in Grounded Theory. This step involved elevating each dimension to a status that 
+allowed for the identification of a central perspective. The dimension offering the most 
+comprehensive explanation of the interrelations among dimensions was designated as 
+the central or key perspective, serving as the organizational foundation for the data. This 
+hierarchical structuring of dimensions into categories such as salient, relevant, mar-
+ginal, or irrelevant is a critical aspect of the dimensional analysis as described by Kools 
+et al. (1996). Lastly, leveraging the central perspective as a foundational viewpoint, we 
+explored the patterns and interactions among the various aspects of the phenomenon. 
+By employing an explanatory matrix, this approach facilitated a thorough elucidation of 
+the involved elements, thereby uncovering the intricate dynamics at play. This compre-
+hensive method allowed us to delve deeply into the dimensions of contributing factors 
+(ethical issues of AI) and effects (cognitive abilities) of over-reliance on AI dialogue sys-
+tems embedded with generative modules.
+
+Result
+This section summarizes the findings from the 14 articles investigated and addresses 
+the ethical issues associated with the use of AI dialogue systems. Studies have explored 
+AI dialogue systems with the integration of generative modules, which demonstrate the 
+capability to generate new data akin to existing datasets for various applications (Car-
+valho et  al., 2019; Gao et  al., 2022). For instance, they are instrumental in detecting 
+defects, extracting pertinent features from sensor data for predictive maintenance, eval-
+uating uncertainty in construction projects for risk assessment, and innovating in the 
+design of buildings and infrastructure (Eapen, 2023). The incorporation of AI in literary 
+studies has opened new pathways for understanding and interpreting literary narratives 
+(Ahmad et al., 2023; Krullaars et al., 2023). However, this advancement is not without its 
+challenges. Ethical concerns include generating false information (hallucination) (Gao 
+et al., 2022), algorithmic bias (Alrazaq et al., 2023), plagiarism (De Angelis et al., 2023), 
+privacy concerns (Dempere et al., 2023) and transparency concerns (Dergaa et al., 2023). 
+Cognitive abilities include decision-making, critical thinking (Soufi & See, 2019) and 
+analytical thinking (Pokkakillath & Suleri, 2023) have been identified as areas of concern 
+in current AI applications. These capabilities are pivotal in understanding the complex 
+interactions between AI technologies and human cognitive processes. Table 2 summa-
+rizes the findings of AI dialogue systems in research and education relating to cognitive 
+abilities and ethical issues. The next section answers the first research question: How 
+does over-reliance on AI dialogue systems affect critical and analytical thinking abilities 
+in different educational subjects and levels?
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 12 of 37
+
+Table 2  Findings of AI dialogue systems in research and education relating cognitive abilities and ethical issues
+Authors Research aim Outcomes Cognitive abilities Ethical issues of AI
+
+Alrazaq et al. (2023) Examined the impact of AI generative modules are revo- AI generative modules improve the quality of medical Analytical Thinking Algorithmic bias
+lutionizing medical curriculum development, teaching education, and the key concerns include addressing Plagiarism
+methodologies, personalized study plans, learning materi- algorithmic biases, the potential for over-reliance on tech- Misinformation
+als, and student assessments nology, issues of plagiarism, the spread of misinformation, Privacy
+
+inequities in access and usage, privacy vulnerabilities, and Copyright
+copyright issues within the realm of medical education
+
+Dergaa et al. (2023) Explore the potential advantages and drawbacks of Chat- ChatGPT possesses the capacity to augment the effi- Critical Thinking Transparency
+GPT and other Natural Language Processing (NLP) tech- ciency of academic writing and research. The study places Plagiarism
+nologies in academic writing and research publications particular emphasis on upholding ethical and academic Bias
+and the influence they might exert on the authenticity principles, with human intelligence and critical think- Hallucination
+and trustworthiness of academic work ing serving as pivotal elements in the research process. 
+
+However, the utilization of these systems also prompts 
+concerns regarding the authenticity and integrity of 
+academic endeavors
+
+Duhaylungsod and Chavez (2023) Examined college students’ experiences with AI chat mod- AI dialogue systems effectively reduced the time spent Decision-Making Plagiarism
+els for their academic tasks on research and information retrieval. However, students 
+
+expressed concerns about becoming overly dependent 
+on AI models, which could potentially limit their creativ-
+ity and innovation. Some students acknowledged that 
+relying too much on AI models could undermine their 
+autonomy and decision-making abilities
+
+Gao et al. (2022) Evaluated the ability of ChatGPT to generate abstracts, Of the abstracts generated by ChatGPT, 68% were cor- Critical Thinking Plagiarism
+assessing its effectiveness through the use of an AI plagia- rectly identified as such (true positives), while 14% of Bias
+rism detection tool and the critical analysis of a blinded authentic abstracts were mistakenly categorized as chat- Hallucination
+human reviewer bot-generated (false positives). These findings indicate 
+
+that AI dialogue systems’ capacity to generate credible 
+references for research topics might be constrained by the 
+presence of DOIs and the accessibility of online articles
+
+Grassini (2023) Examines the effectiveness of the AI models within These models’ text-generation abilities can mimic human Analytical Thinking Plagiarism
+research and education domains writing. However, critics argue that reliance on AI could Hallucination
+
+diminish students’ critical thinking and analytical capabili- Bias
+ties, as well as potentially foster academic dishonesty Academic Integrity
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 13 of 37
+
+Table 2  (continued)
+Authors Research aim Outcomes Cognitive abilities Ethical issues of AI
+Kim et al. (2023) Focused on difficulties EFL learners encounter when using The challenge is primarily attributed to the absence of Decision-Making Data bias
+
+AI dialogue systems to paraphrase texts detailed explanations accompanying these AI-generated 
+paraphrases, making it harder for them to understand the 
+context and accuracy of the rephrased content
+
+Koos and Wachsmann (2023) Explored the impact and implications of AI-driven The important role of ChatGPT/GPT-4 is to assist students Critical Thinking Hallucination
+language systems, such as ChatGPT/GPT-4, on academic and researchers in streamlining the writing process, over- Plagiarism
+paper writing within the context of universities and other coming language barriers, and enhancing overall produc- Transparency
+higher educational institutions tivity. Also, the study showed that AI-generated content, 
+
+including concerns related to plagiarism, the potential 
+erosion of critical thinking skills, and a potential reduction 
+in creativity within the realm of academic writing
+
+Lee et al. (2023) Explored the potential advantages and disadvantages ChatGPT is beneficial in the medical field. However, these Critical Thinking Hallucination
+of integrating GPT-4, an advanced artificial intelligence AI hallucinations can be especially risky because they Bias
+model, into medical practice might be nuanced, and the chatbot often delivers them 
+
+in a persuasive way that can lead the user to believe its 
+accuracy
+
+Malik et al. (2023) Investigated how students perceive the integration of AI AI had a positive influence on students’ writing skills, Critical Thinking Plagiarism
+in writing academic essays self-confidence, and their grasp of academic integrity Hallucination
+
+principles. However, some students raised concerns about Algorithm bias
+potential repercussions for creativity, critical thinking, and 
+ethical writing practices
+
+Marzuki et al. (2023) Investigated the existing AI writing tools and evaluated The incorporation of AI writing tools can be advantageous Critical Thinking Plagiarism
+how they impact student writing, specifically in content in enhancing students’ writing. However, some partici- Hallucination
+and structure pants are against over-reliance on constraining critical Algorithm bias
+
+thinking and individual creativity
+Pokkakillath and Suleri (2023) Evaluate the impact of dialogue systems embedded with These dialogue systems hold the potential to transform Analytical Thinking Plagiarism
+
+generative models, such as ChatGPT, on research and the educational environment by providing immediate False information
+educational sectors feedback, customizing learning experiences to meet indi- Bias
+
+vidual requirements, and ensuring availability 24/7 Academic Integrity
+Santiago Jr et al. (2023) Applied text mining techniques to extract patterns and Faculty respondents highly appreciate the use of writing Critical Thinking Plagiarism
+
+trends related to using writing assistance tools in research. assistance tools as they expedite research processes and Incorrect information
+The data for this analysis is derived from the responses enhance the clarity of their writing Bias
+of 327 faculty researchers from various higher learning Academic Integrity
+institutions in the Philippines
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 14 of 37
+
+Table 2  (continued)
+Authors Research aim Outcomes Cognitive abilities Ethical issues of AI
+Semrl et al. (2023) Explored the feasibility of dialogue systems to address AI dialogue systems are a promising tool for assisting Decision-Making Plagiarism
+
+scientific questions and to assist academic writing in the writing of scientific papers. However, their lack of Less creative
+originality, the tendency for excessive text, and use of Data bias
+nuanced and vaguer language could suggest that a paper Hallucination
+is produced by AI rather than a human author Transparency
+
+Watts et al. (2023) Explored AI chatbots’ mechanistic reasoning capability Chatbot responses either underperform or reason on Critical Thinking Data bias
+when tasked with chemistry Writing-to-Learn assignments par with students and occasionally provide inaccurate Hallucination
+
+answers to content questions. Further, the results suggest 
+that dialogue systems exhibit limited mechanistic reason-
+ing capabilities compared to students. This limitation is 
+attributed to the infrequent discussion of electron move-
+ment, a central feature of mechanistic reasoning
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 15 of 37
+
+Question 1: How does over-reliance on AI dialogue systems affect critical and 
+analytical thinking abilities in different educational subjects and levels?
+
+Findings show that integrating AI dialogue systems in different educational subjects, 
+such as various academic writing from college and higher education, has a dual impact 
+on students’ cognitive abilities. While these technologies can enhance writing profi-
+ciency, boost self-confidence, and streamline research tasks, they also introduce risks 
+such as diminished creativity, over-reliance, and ethical concerns like plagiarism and 
+data bias. Studies highlight that although AI tools can aid decision-making and improve 
+efficiency, they often lead to reduced critical and analytical thinking skills, especially 
+when students become overly dependent on AI-generated content.
+
+Cognitive abilities
+Research exploring decision-making, critical, and analytical thinking abilities has uncov-
+ered a complex impact of AI tools on academic performance. While these technologies 
+can enhance writing proficiency and boost self-confidence, they introduce risks to origi-
+nality, critical thinking, and adherence to ethical standards, including plagiarism con-
+cerns. Furthermore, findings indicate that over-reliance on AI dialogue systems may 
+lead to diminished creativity, an increase in dependency, and challenges in understand-
+ing (Duhaylungsod & Chavez, 2023; Kim et al., 2023; Semrl et al., 2023). Figure 2 shows 
+these three critical cognitive abilities.
+
+Decision‑making abilities
+Three studies collectively highlighted the benefits and challenges of using AI dialogue 
+systems in academic settings, emphasizing task efficiency alongside concerns about 
+dependency, comprehension, originality, and data bias. Duhaylungsod and Chavez 
+(2023) investigated 16 college students’ interactions with AI dialogue systems for aca-
+demic tasks. The results indicated that AI dialogue systems efficiently decreased the 
+time dedicated to research and information retrieval. This over-reliance fostered com-
+placency and an undue dependency on AI dialogue systems.
+
+Moreover, concerns regarding plagiarism, decreased creativity, data bias, security 
+issues, and potential discrimination have also emerged. Kim et  al. (2023) investigated 
+the challenges English as a Foreign Language (EFL) learners face when employing AI 
+dialogue systems for text paraphrasing. The study involved 15 individuals who are 
+
+Decision-Making Abilities 
+
+Critical-Thinking Abilities
+
+Analytical-Thinking Abilities
+
+Fig. 2  Three key cognitive abilities
+
+Cognitve abilities
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 16 of 37
+
+non-native English speakers. It reveals that the main difficulty arises from the lack of 
+comprehensive explanations accompanying AI-generated paraphrases. This deficiency 
+makes it challenging for learners to grasp the context and verify the accuracy of the 
+reformulated content. Furthermore, the study highlights the issue of data bias: when 
+explanations are overly simplified, it may result in an increased reliance on AI. Conse-
+quently, this undermines learners’ ability to analyze and grasp the information indepen-
+dently, impairing their decision-making skills.
+
+Semrl et al. (2023) examined the feasibility of dialogue systems in addressing scientific 
+questions and assisting academic writing. The findings show that AI dialogue systems 
+are a promising tool for assisting in the writing of scientific papers. However, their lack 
+of originality, the tendency for excessive text, and the use of nuanced and vaguer lan-
+guage could suggest that a paper is produced by AI rather than a human author. Addi-
+tional challenges identified in the study include limited creativity, data bias issues, AI 
+hallucinations (inaccurate or misleading information generated by the AI), and concerns 
+regarding transparency in the AI’s decision-making processes.
+
+Overreliance on AI dialogue systems can significantly impact decision making, criti-
+cal and analytical thinking abilities by fostering dependency and potentially diminishing 
+individual judgment skills. When individuals rely heavily on AI for problem-solving or 
+decision-making, they may become less inclined to engage in independent, critical infor-
+mation analysis, decreasing their ability to judge between AI-generated and human-gen-
+erated insights.
+
+Critical thinking abilities
+Eight studies examined the integration of AI in academic writing, revealing its positive 
+impact on skills and efficiency while also highlighting significant concerns about creativ-
+ity, critical thinking, and ethical concerns such as plagiarism and algorithmic bias. For 
+example, Malik et al. (2023) investigated how students perceive the integration of AI in 
+the process of writing academic essays. The research employed a case study design and 
+enlisted the participation of 245 undergraduate students representing 25 tertiary insti-
+tutions across Eastern and Central Indonesian provinces. The study’s findings demon-
+strated that AI had a positive influence on students’ writing skills, self-confidence, and 
+their grasp of academic integrity principles. However, some students raised concerns 
+about potential repercussions for creativity, critical thinking, and ethical writing prac-
+tices. The study reports the potential reduction in critical thinking skills when depend-
+ing on AI (75%), the risk of excessive reliance on technology (73%), and the prevalence of 
+misinformation and inaccuracies (70%). Furthermore, there is substantial apprehension 
+regarding the ethical implications of unintentional plagiarism (69%) and algorithmic 
+biases (40%).
+
+Marzuki et al. (2023) investigated the range of available AI writing tools and evaluated 
+their influence on student writing, particularly concerning content and organization, 
+as perceived by English as a Foreign Language (EFL) teachers. Employing a qualitative 
+approach, the research was conducted as a case study. Data collection involved semi-
+structured interviews, focusing on gathering insights into the variety of AI writing tools 
+and their effects on the quality of students’ writing. The findings of this study suggest 
+that the integration of AI writing tools can be advantageous in enhancing the quality of 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 17 of 37
+
+EFL student writing. The study also reported ethical concerns related to plagiarism, hal-
+lucination, and algorithm bias.
+
+Dialogue systems offer efficiency gains in academic writing, yet there is a cautionary 
+note against potential overdependence, which might impede the development of critical 
+thinking and writing skills within the academic community. Dergaa et al. (2023) explore 
+the potential advantages and drawbacks of ChatGPT and other Natural Language Pro-
+cessing (NLP) technologies in academic writing and research publications and the influ-
+ence they might exert on the authenticity and trustworthiness of academic work. The 
+study found that ChatGPT possesses the capacity to augment the efficiency of academic 
+writing and research. The study places particular emphasis on upholding ethical and 
+academic principles, with human intelligence and critical thinking serving as pivotal ele-
+ments in the research process.
+
+The dual nature of AI in academic writing is evident: while it offers significant ben-
+efits in enhancing writing skills and efficiency, it also presents concerns regarding over-
+reliance, reduced originality, and potential ethical challenges, such as plagiarism and 
+biases, within higher education. Santiago Jr et al. (2023) delved into text mining tech-
+niques to extract patterns and trends related to the utilization of writing assistance 
+tools in research. The data for this analysis is derived from the responses of 327 faculty 
+researchers from various higher learning institutions in the Philippines. The introduc-
+tion of these tools in specific higher education institutions may pose challenges, includ-
+ing concerns about over-reliance, which could potentially impede the development of 
+critical thinking and writing skills among students and researchers. The study found 
+that AI dialogue systems may pose challenges, including concerns about over-reliance, 
+which could potentially impede the development of critical thinking and writing skills 
+among students and researchers. Koos and Wachsmann (2023) delved into the impact 
+and implications of AI-driven language systems, such as ChatGPT/GPT-4, on academic 
+paper writing within the context of universities and other higher educational institu-
+tions. The findings underscore the positive role of ChatGPT/GPT-4 in assisting students 
+and researchers in streamlining the writing process, overcoming language barriers, 
+and enhancing overall productivity. Also, the study showed that AI-generated content, 
+including concerns related to plagiarism, the potential erosion of critical thinking skills, 
+and a potential reduction in creativity within the realm of academic writing.
+
+Analytical thinking abilities
+Three studies examined the use of AI dialogue systems and generative models in edu-
+cation and research, highlighting their potential to enhance research writing, custom-
+ize learning, and provide 24/7 feedback, but caution against overdependence which may 
+erode analytical and critical thinking skills, writing proficiency, and understanding of 
+plagiarism, potentially fostering academic dishonesty. For example, Abd-Alrazaq et  al. 
+(2023) explored text mining methods to uncover patterns and trends in the use of dia-
+logue systems of generative models for research, based on the feedback of 327 faculty 
+researchers from diverse higher education institutions in the Philippines. The results 
+showed that faculty participants appreciate the benefits of dialogue systems in bolstering 
+research writing by streamlining workflows and enhancing clarity.
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 18 of 37
+
+However, the adoption of these tools in certain higher education settings may face 
+challenges, including potential problems like overdependence, which could impede 
+the development of essential skills such as analytical and critical thinking, writing pro-
+ficiency, and the understanding of plagiarism among students and researchers. Pok-
+kakillath and Suleri (2023) evaluated the impact of dialogue systems embedded with 
+generative models, such as ChatGPT, on research and educational sectors. The results 
+show that these dialogue systems hold the potential to transform the educational envi-
+ronment by providing immediate feedback, customizing learning experiences to meet 
+individual requirements, and ensuring availability 24/7. However, the authors argue that 
+when students become overly dependent on dialogue systems equipped with generative 
+capabilities for completing assignments or generating creative work without applying 
+their analytical thinking and decision-making skills, such reliance could diminish their 
+ability for independent thought and analytical reasoning. Grassini (2023) examines the 
+effectiveness of the AI models within research and education domains. The findings 
+reveal that these models’ text-generation abilities can mimic human writing. However, 
+critics argue that reliance on AI could diminish students’ critical thinking and analytical 
+capabilities, as well as potentially foster academic dishonesty.
+
+Question 2: What are the primary ethical concerns causing over-reliance on AI 
+dialogue systems in research and education?
+
+The systematic review found that the largely ethical concerns leading to an over-
+reliance on AI dialogue systems within research and education are primarily driven by 
+ethical concerns. These issues encompass the generation of misleading or fabricated 
+information by AI (often referred to as "hallucination"), algorithmic bias, which can per-
+petuate existing inequalities, plagiarism concerns that challenge academic integrity, pri-
+vacy issues related to the handling of sensitive information, and a lack of transparency in 
+how AI systems make decisions and process data.
+
+Over‑reliance on AI
+Four studies examined the complex implications of integrating AI tools into educational 
+settings. Abd-Alrazaq et  al. (2023) cautioned the propensity of generative AI tools to 
+fabricate so-called facts and generate false information convincingly. This may lead 
+users to place undue trust in these technologies, escalating the risk of dependency. Such 
+over-reliance could impede the cultivation of essential skills in medical students, includ-
+ing critical thinking, problem-solving, and effective communication. The convenience 
+offered by AI tools in providing quick answers might deter students from engaging in 
+thorough research and forming their insights, challenging the integration of these tools 
+in ways that enhance rather than diminish critical faculties and problem-solving abilities.
+
+Duhaylungsod and Chavez (2023) argued that over-reliance on AI could reduce stu-
+dents’ skills of creativity and innovation. The authors believed that they were overly 
+reliant on technology for information, potentially undermining their capacity for inde-
+pendent critical thinking and problem-solving.
+
+Koos and Wachsmann (2023) discussed the detrimental effects of over-reliance on 
+the AI dialogue system, noting it may compromise the development of students’ critical 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 19 of 37
+
+thinking and problem-solving skills. They argue that if students lean too heavily on AI 
+for content generation, they risk not developing the ability to analyze information, con-
+struct logical arguments, or integrate knowledge from diverse sources for academic 
+and professional success. Santiago Jr et al. (2023) reported mixed reactions from users 
+and faculty regarding the use of AI tools. While some appreciate these tools’ support in 
+enhancing writing skills, there is a prevailing concern about potential overdependence 
+leading to reduced effort in crafting well-structured sentences and adhering to proper 
+grammar and spelling. The faculty fear that such reliance could compromise the devel-
+opment of essential research and writing skills. Overusing AI tools might also weaken 
+the practice of evaluating information sources critically, cross-referencing data, and cul-
+tivating a deep understanding of research topics, ultimately affecting the ability for inde-
+pendent analysis and interpretation.
+
+Ethical concerns
+Studies highlight ethical issues surrounding AI dialogue systems in research and edu-
+cation. Scholars underline the potential and limitations of AI in generating scientific 
+content and specialized reasoning, with concerns over AI’s ability to produce credible 
+references, the risks of hallucination in various contexts, and limited mechanistic rea-
+soning capabilities (Lee et al., 2023). Moreover, studies identified algorithmic bias as a 
+significant issue, primarily attributed to the datasets used for training, with Large Lan-
+guage Models like GPT-4 potentially reinforcing social biases and stereotypes (Grassini, 
+2023). Privacy concerns were also a focal point, with studies indicating that AI sys-
+tems could inadvertently disclose personal information (Abd-Alrazaq et al., 2023). EFL 
+students face challenges related to breaches of academic integrity (Duhaylungsod & 
+Chavez, 2023). Finally, transparency concerns were raised due to the lack of clarity on AI 
+data sources (Dergaa et al., 2023). Figure 3 outlines these five ethical issues of AI identi-
+fied through the course of this study, highlighting the critical areas of concern in the 
+intersection of AI and literary analysis.
+
+Hallucination 
+
+Algorithmic Bias
+
+Plagiarism
+
+Privacy Concerns 
+
+Transparency Concerns
+
+Fig. 3  Five ethical issues of AI identified in this study
+
+Ethical Concerns
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 20 of 37
+
+AI hallucination
+Three studies critically examined the capabilities of AI dialogue systems in generating 
+scientific content and their proficiency in specialized reasoning tasks, highlighting both 
+the potential and the limitations of AI in academic and professional domains. In Gao 
+et  al.’s (2022) study, the authors utilized 50 abstracts sourced from five scientific jour-
+nals and assigned ChatGPT to create abstracts based on their titles. Subsequently, both 
+sets of abstracts underwent scrutiny by AI plagiarism detection software and impartial 
+human assessors. The results revealed that out of the abstracts generated by ChatGPT, 
+68% were correctly identified as such (true positives), while 14% of authentic abstracts 
+were mistakenly categorized as chatbot-generated (false positives). These findings indi-
+cate that AI dialogue systems’ capacity to generate credible references for research top-
+ics might be constrained by the presence of DOIs and the accessibility of online articles.
+
+Lee et  al. (2023) argue that in medical contexts, this hallucination can be especially 
+risky because they might be nuanced, and the chatbot often delivers them in a persua-
+sive way that can lead the user to believe its accuracy. Watts et al. (2023) evaluated the 
+mechanistic reasoning of three dialogue systems (ChatGPT-3.5, ChatGPT-4, and Bard). 
+The findings revealed that chatbot responses either underperform or reason on par with 
+students and occasionally provide inaccurate answers to content questions. Further, the 
+results suggest that dialogue systems exhibit limited mechanistic reasoning capabili-
+ties compared to students. This limitation is attributed to the infrequent discussion of 
+electron movement, a central feature of mechanistic reasoning. Electron movement is 
+pivotal as it explicitly signifies reasoning at a scalar level, representing the primary phe-
+nomenon of interest and, thus, is a key component of mechanistic reasoning.
+
+Algorithmic bias
+Ten studies identified instances of algorithmic bias within their research. The major-
+ity attributed these biases to the datasets used for training the algorithms. For example, 
+Abd-Alrazaq et al. (2023) highlighted that recent Large Language Models (LLMs), such 
+as GPT-4, are developed using extensive datasets from various internet sources, includ-
+ing websites, books, news articles, scientific publications, and movie subtitles. However, 
+this extensive data collection process does not preclude including biased or unrepre-
+sentative information within these models. OpenAI has recognized the possibility that 
+GPT-4, similar to its predecessors, may produce responses that inadvertently reinforce 
+existing social biases and stereotypes. This issue is of particular concern in scenarios 
+where an LLM is trained on data that disproportionately focuses on disease prevalence 
+within specific ethnic groups, potentially leading to biased outputs in essays, exams, and 
+clinical case scenarios.
+
+Grassini (2023) found that the risk of bias stems from predominantly training data-
+sets. This is particularly evident in scenarios where models, such as those used for essay 
+evaluation, are trained on data that mainly represents a single demographic, leading to 
+a potential bias against essays authored by individuals from other demographics. The 
+root contributing factors of these biases are multifaceted, often stemming from an over-
+emphasis on research and educational materials sourced from economically advanced 
+countries, or from textbooks that neglect a comprehensive global perspective. The 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 21 of 37
+
+author stated that there have been observations that ChatGPT’s responses can exhibit 
+biases related to politics, religion, race, gender, and equity.
+
+Similarly, Kim et al. (2023) argued that the choices design made in the development 
+of explanation interfaces for AI tools can inadvertently contain biases. Their study (Kim 
+et al., 2023) focuses on difficulties encountered by EFL learners when using AI dialogue 
+systems to paraphrase texts. The way an explanation is visualized or conveyed to users 
+may significantly impact their decision-making processes. Such design nuances could 
+skew users’ perceptions, leading to outcomes in text that are inadvertently biased. The 
+researchers further contend that when users engage in collaborative writing with AI, the 
+interaction can subtly influence their perspectives, potentially shaping the narrative or 
+substance of the collaborative text. This phenomenon suggests that the way AI explana-
+tions and interactions are structured and presented could have profound implications 
+on the objectivity and inclusiveness of the content generated through such partnerships.
+
+Plagiarism
+Three studies explored the academic challenges faced by students and the role of AI 
+dialogue systems in creating a more inclusive educational environment, amid broader 
+concerns about plagiarism and the integrity of academic publications. Kim et al. (2023) 
+argue that a significant challenge for higher education students from non-English speak-
+ing backgrounds is language barriers, which can impede their academic progress. This 
+can lead to feelings of exclusion or fear of missing out and increase the risk of academic 
+integrity breaches, like unintentional plagiarism. AI dialogue systems like ChatGPT, 
+with capabilities such as language editing, translation, adaptive learning from human 
+prompts, and swift responses, might offer a more equitable academic environment for 
+these students. Santiago Jr et al. (2023) found that the rise of journals that neglect essen-
+tial quality controls, like verifying for plagiarism or ensuring ethical standards, might 
+result in a significant influx of AI-generated articles within the scientific realm. Such a 
+trend could gravely undermine the credibility of scientific studies and tarnish the pres-
+tige of scholarly publications. Dergaa et  al. (2023) claimed that renowned plagiarism 
+detection tools like Turnitin were largely unsuccessful in spotting plagiarism in essays 
+based on existing literature. Alarmingly, these tools detected plagiarism in fewer than 
+15% of cases, raising fears about students potentially leveraging the platform for aca-
+demic tasks.
+
+Privacy concerns
+Eight studies briefly mentioned privacy concerns and underscored the importance of 
+addressing these issues, yet only two of them conducted an in-depth exploration into the 
+matter of privacy concerns. For example, Abd-Alrazaq et al. (2023) found that LLMS can 
+lead to the disclosure of personal information by students and educators, such as names, 
+email addresses, phone numbers, prompts, uploaded images, and images generated by 
+the AI. OpenAI might utilize this personal information for a variety of purposes. These 
+include service analysis, maintenance, enhancement, research activities, fraud preven-
+tion, compliance with legal obligations, and potentially sharing this data with third par-
+ties without additional notice or consent from users.
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 22 of 37
+
+Abd-Alrazaq et  al. (2023) examined how AI generative modules are revolutionizing 
+medical curriculum development, teaching methodologies, personalized study plans, 
+learning materials, and student assessments. The authors emphasize the significance 
+of proper citation and attribution in academic settings, such as medical schools, and to 
+educate on navigating the challenges associated with user privacy, copyright concerns, 
+misinformation, and biases. The authors identified several key challenges that need to 
+be addressed in the educational use of AI, including academic dishonesty, misinforma-
+tion, privacy concerns, copyright issues, dependency on AI, algorithmic bias, the need 
+for consistency and human interaction, and disparities in access. These are crucial areas 
+where awareness and guidelines must be developed to ensure the ethical and effective 
+use of AI technologies in educational contexts.
+
+Dempere et al. (2023) posited that integrating AI dialogue systems into higher educa-
+tion systems comes with various risks, including privacy concerns, illegal usage of data, 
+false information, cognitive biases, diminished human interaction, restricted access, and 
+unethical data collection practices. The authors warned of the dangers associated with 
+adopting AI technologies in academic settings, particularly emphasizing the potential 
+continuation of existing systemic biases and discrimination. They highlight the risk of 
+reinforcing inequalities for students from historically underserved and marginalized 
+communities, exacerbating racism, sexism, xenophobia, and other forms of prejudice 
+and injustice. Furthermore, the authors also cautioned against the deployment of AI sys-
+tems that can monitor and analyze students’ thoughts and ideas, warning of the creation 
+of surveillance mechanisms that could infringe upon student privacy.
+
+Transparency concerns
+Nine studies briefly address transparency concerns within dialogue systems; how-
+ever, only a few undertake in-depth analysis. For example, Dergaa et  al. (2023) argue 
+that biases and inaccuracies in AI systems can arise from a lack of transparency in the 
+training datasets. They stress the importance of educating students on the ethical use 
+of dialogue systems and advocating for principles of honesty, integrity, and transpar-
+ency. Furthermore, they recommend establishing fundamental guidelines for interacting 
+with these systems. Koos and Wachsmann (2023) stated that the lack of transparency of 
+ChatGPT’s data sources in text generation poses a critical challenge, especially in aca-
+demic contexts where proper citation and attribution are fundamental to uphold integ-
+rity and prevent plagiarism. The authors argue that the lack of transparency regarding 
+the content generated by ChatGPT complicates the accurate attribution of specific ideas 
+or concepts to their original authors, potentially compromising academic integrity.
+
+Discussion
+The systematic review of this study shows that most AI dialogue systems featuring the 
+integration of generative models have shown these systems’ capacity to augment the effi-
+ciency of academic writing and research (Carvalho et al., 2019; Gao et al., 2022). These 
+technologies reduce the time spent on research and information retrieval (Eapen, 2023). 
+Furthermore, the adoption of AI in the realm of literary studies has forged novel ave-
+nues for the analysis and interpretation of literary narratives (Ahmad et al., 2023; Krul-
+laars et  al., 2023). Despite these advancements, the integration of AI presents several 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 23 of 37
+
+challenges. Ethical concerns have been raised regarding the potential for AI hallucina-
+tions (Gao et al., 2022), algorithmic bias (Alrazaq et al., 2023), plagiarism (De Angelis 
+et al., 2023), privacy issues (Dempere et al., 2023), transparency concerns (Dergaa et al., 
+2023), and over-reliance (Koos & Wachsmann, 2023). Moreover, the impact of AI on 
+cognitive abilities, including decision-making, critical thinking (El Soufi & See, 2019), 
+and analytical thinking (Pokkakillath & Suleri, 2023), remains a significant area of con-
+cern in the deployment of AI technologies.
+
+Over‑reliance on AI
+The findings on over-reliance on AI dialogue systems collectively emphasize significant 
+concerns regarding the over-reliance on AI dialogue systems in educational settings. 
+Alrazaq et  al. (2023) highlight the risk of AI tools generating convincingly false infor-
+mation, leading to undue trust in these technologies and impeding the development of 
+critical thinking, problem-solving, and effective communication skills. This dependency 
+is problematic as it can deter students from engaging in thorough research and forming 
+their insights, potentially diminishing their critical faculties. Duhaylungsod and Chavez 
+(2023) argue the ease of access to AI tools can lead to complacency, reducing students’ 
+creativity and innovation. Their research suggests that an over-reliance on AI can under-
+mine students’ capacity for independent critical thinking and problem-solving, as they 
+may become too dependent on AI-generated information. This concern is echoed by 
+Koos and Wachsmann (2023), who discuss the detrimental effects of over-reliance on 
+AI dialogue systems. They caution that students leaning too heavily on AI for content 
+generation risk not developing essential skills such as analyzing information, construct-
+ing logical arguments, and integrating diverse knowledge and skills that are crucial for 
+both academic and professional success. Santiago Jr et al. (2023) provide a nuanced view, 
+reporting mixed reactions from users and faculty regarding the use of AI tools. While 
+some users appreciate the enhancement in writing skills facilitated by AI tools, there is 
+a prevailing concern about potential overdependence. This overdependence could lead 
+to reduced effort in crafting well-structured sentences, adhering to proper grammar and 
+spelling, and critically evaluating information sources. Such a trend might ultimately 
+weaken students’ ability to perform independent analysis and interpretation, thereby 
+compromising the development of essential research and writing skills.
+
+Decision‑making abilities
+Three studies collectively highlighted the benefits and challenges of using AI dialogue 
+systems in academic settings, emphasizing task efficiency alongside concerns about 
+dependency, comprehension, originality, and data bias. The concern of overreliance on 
+AI in the research and educational sector is growing, particularly regarding the dimin-
+ishment of academic writing decision-making capabilities and the tendency to encour-
+age academic laziness (Sabharwal et al., 2023). A study employing qualitative methods 
+and the partial least squares (PLS)-Smart for data analysis gathered primary data from 
+285 students across various universities in Pakistan and China. This study revealed that 
+overreliance on AI dialogue systems embedded with generative models resulted in 68.9% 
+of students exhibiting increased laziness and 27.7% experiencing a degradation in deci-
+sion-making abilities, attributable to AI’s influence in Pakistani and Chinese societies. 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 24 of 37
+
+The authors observed a progressive decline in decision-making capabilities throughout 
+the duration of the study, which was attributed to the integration of generative functions 
+within the AI dialogue system (Ahmad et al., 2023).
+
+Decision-making abilities are critical for processing and reasoning through complex 
+information across diverse domains, including research and education, in return nur-
+turing proficient decision-making capabilities (Duhaylungsod & Chavez, 2023). Morelli 
+et al. (2022) detailed the decision-making process through distinct phases: stimuli pres-
+entation predicting outcomes, evaluation of options and formation of preferences, action 
+selection in response to stimuli, and evaluation of those actions, offering a thorough per-
+spective on decision-making structure. Further research underscores the (Bankins et al., 
+2022; Kim et al., 2023; Semrl et al., 2023). The continuous replacement of human roles in 
+decision-making by AI undermines important mental practices such as decision-mak-
+ing, critical thinking and analytical thinking (Jain et al., 2023).
+
+In exploring decision-making theories, a distinction can be seen between descriptive 
+and normative theories (Bell et  al., 1988). Descriptive theories focus on understand-
+ing actual decision-making behaviors, including both rational and irrational elements, 
+through empirical research. They highlight how deviations from rational choice theory, 
+influenced by cognitive biases (deviation from norm or rationality in judgment) and 
+heuristics (simplified strategies or mental shortcuts), can be understood as adaptations 
+shaped by evolutionary pressures. Normative theories, on the other hand, advocate for 
+decisions that maximize expected utility, grounded in mathematical models and ideal 
+behavioral principles. This contrast underscores the complexity of decision-making 
+as AI assumes roles traditionally filled by human cognitive processes (Damnjanović & 
+Janković, 2014).
+
+With the previously mentioned concept of heuristics in decision-making, scholars 
+argue that the effectiveness of decision-making abilities tends toward fast and optimal 
+solutions rather than slow ones constrained by practicality. This explains why users tend 
+to opt for efficient cognitive shortcuts (heuristics) that, despite a tendency for bias in AI 
+generations, offer a quicker, intuitive approach to decision-making compared to slower, 
+analytical methods (Bankins et  al., 2022; Kim et  al., 2023; Semrl et  al., 2023). Further 
+arguments suggest that while humans perceive benefits and time savings from integrat-
+ing AI into decision-making, this reliance may diminish cognitive capabilities by over-
+shadowing human biological processing abilities (Politanskyi & Klymash, 2019; Tolan 
+et al., 2021).
+
+Some scholars delve further into neuroscience. The decision-making process encom-
+passes the evaluation of potential actions and the interplay between cognitive and affec-
+tive neurocircuits in forming preferences (Morelli et  al., 2022; Yoder & Decety, 2018). 
+This thorough examination of decision-making illuminates both the cognitive and neu-
+rological foundations of the process and highlights the diversity of approaches in ana-
+lyzing decision-making strategies, bridging the gap between rational choice theory’s 
+normative ideals and the practical adaptations identified by descriptive theories (Padilla 
+et al., 2018). The decision-making abilities are influenced by the ventromedial prefron-
+tal cortex (vmPFC) and the amygdala, highlighting the significant overlap between cog-
+nitive and emotional aspects of these processes (Ishikawa et al., 2020; Qiu et al., 2018; 
+Tang et al., 2021). The vmPFC plays a pivotal role in encoding the value of rewards and 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 25 of 37
+
+punishments, integrating emotional and motivational data to guide decision-making 
+(Hiser & Koenigs, 2018). Concurrently, the amygdala is essential for processing emo-
+tional reactions and fear learning, which are integral to evaluating the emotional salience 
+of different options (Ishikawa et  al., 2020). Furthermore, the prefrontal cortex (PFC) 
+and the hippocampus emerge as critical structures in the decision-making landscape. 
+The PFC is involved in various executive functions, including planning, reasoning, and 
+problem-solving, which are crucial for making informed decisions (Qiu et al., 2018). The 
+hippocampus, on the other hand, plays a key role in memory formation and retrieval, 
+providing the necessary context to inform present decisions (Tang et  al., 2021). Such 
+cognitive processes are essential for academic rigor and avoiding laziness, suggesting 
+that disengagement from challenging cognitive tasks could potentially weaken activities 
+in key neural regions: the ventromedial prefrontal cortex (vmPFC) and the amygdala and 
+prefrontal cortex (PFC) and the hippocampus (Friedman & Robbins, 2022).
+
+Critical thinking abilities
+Six studies examined the integration of AI in academic writing, revealing its positive 
+impact on skills and efficiency while highlighting significant concerns about creativity, 
+critical thinking, and ethical concerns such as plagiarism and algorithmic bias. Critical 
+thinking is a multifaceted skill that encompasses more than just the ability to analyze an 
+event; it involves synthesis, evaluation, and judgment based on specific criteria to ensure 
+that evaluations are not made arbitrarily but are conducted with order and consistency 
+(Malik et al., 2023; Marzuki et al., 2023). This comprehensive approach emphasizes the 
+importance of a structured and criterion-based evaluation process (Dergaa et al., 2023). 
+McPeck (2016) further define critical thinking as the capacity to identify, analyze, and 
+evaluate the necessary components to achieve an accurate outcome, highlighting the 
+goal-oriented nature of critical thinking in achieving precise results. Alkhatib (2019) 
+describes critical thinking as a purposeful and logical approach employed in decision-
+making, problem-solving, and understanding fundamental concepts, emphasizing its 
+utility across various domains of knowledge and action.
+
+The overreliance on AI for information acquisition can negatively impact both critical 
+thinking skills and dispositions (Guo & Lee, 2023). Critical thinking dispositions refer 
+to the underlying attitudes and qualities that facilitate engagement in critical thinking 
+activities, including the desire to be informed, the ability to consider multiple perspec-
+tives, the identification of relationships, reflective thinking, evidence-seeking, skepti-
+cism, respect for others’ views, and tolerance (Facione & Facione, 1996). Facione and 
+Facione (1996) categorize these dispositions into six dimensions: inquisitiveness, open-
+mindedness, being systematic, analysis, truth-seeking, and confidence in reasoning. 
+These dimensions encapsulate the essential traits that support and enhance the critical 
+thinking process, from the curiosity to learn and the openness to diverse viewpoints to 
+the methodical approach to problems and the reliance on evidence for problem-solv-
+ing. Ersoy and Baser (2012) conducted a study with 615 primary education students to 
+examine their critical thinking dispositions. The findings indicated that students strug-
+gled to develop higher-order thinking skills due to low scores in critical thinking disposi-
+tion, suggesting a direct link between disposition and the ability to engage in complex 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 26 of 37
+
+cognitive processes. This supports the argument that nurturing critical thinking disposi-
+tions is crucial for developing effective critical thinking skills.
+
+Critical thinking at higher levels involves considering evidence, context, conceptual-
+ization, methods, and the criteria required for judgment (Dergaa et al., 2023), emphasiz-
+ing a comprehensive and evaluative approach to thinking that goes beyond surface-level 
+analysis (Rodriguez & Towns, 2018). However, it has been noted in various studies that 
+the education provided in faculties of education often fails to contribute to developing 
+critical thinking dispositions. This results in educators who possess low to medium lev-
+els of critical thinking dispositions, underscoring the need for educational strategies that 
+not only teach critical thinking skills but also foster the dispositions necessary for their 
+effective application in teaching and learning contexts (McPeck, 2016).
+
+Analytical thinking abilities
+3 studies examined the use of AI dialogue systems and generative models in education 
+and research, highlighting their potential to enhance research writing, customize learn-
+ing, and provide 24/7 feedback, but caution against overdependence which may erode 
+analytical and critical thinking skills, writing proficiency, and understanding of plagia-
+rism, potentially fostering academic dishonesty. Duhaylungsod and Chavez’s (2023) 
+study indicated that over-reliance on AI dialogue systems fostered complacency and 
+an undue dependency on AI dialogue systems. In Kim et al.’s (2023) study, EFL learners 
+using AI dialogue systems for various academic writing proposes that this undermines 
+learners’ ability to analyze and grasp the information independently, thereby impairing 
+their decision-making abilities. Over-reliance on AI poses a negative effect on analytical 
+thinking abilities, as it can lead to uncritical acceptance of biased or inaccurate AI-gen-
+erated content (hallucination) (Ismail, 2023). This underscores the need for heightened 
+awareness and scrutiny of cognitive biases and their impact on analytical thinking abili-
+ties (Sok & Heng, 2023). Such biases, often stemming from overconfidence or ignorance 
+in one’s perceptions, can significantly influence analytical thinking processes and the 
+acceptance of information, including the uncritical reception of AI-generated content 
+(Ismail, 2023).
+
+Analytical thinking embodies thorough exploration and critical data analysis, vital for 
+problem-solving and informed decision-making (Pokkakillath & Suleri, 2023). These 
+elements are crucial for enhancing learning experiences, as they pertain to reasoning, 
+planning, inquiry, interpretation of findings, and the subsequent derivation of conclu-
+sions in research and education (Ismail, 2023). Ideal analytical thinking is characterized 
+by methodical reasoning in research and education, with the primary goal of uncovering 
+truth and facts to facilitate learning. This process involves presenting well-founded rea-
+sons to support claims, which act as the premises leading to logical conclusions (Mon-
+teiro et al., 2020). However, scrutinizing and establishing arguments requires significant 
+cognitive effort and time (Stromer-Galley et al., 2021). To streamline analytical thinking 
+processes, we often resort to mental shortcuts (heuristics), which are generally efficient 
+and beneficial in managing timely and content-related decisions and inadvertently lead 
+us to accept incorrect information as factual (Kelley et al., 2023).
+
+Challenges such as AI hallucinations, algorithmic biases, privacy and transparency 
+issues, questions of source credibility, and social norms can disrupt the flow of the 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 27 of 37
+
+analytical thinking process. These obstacles may lead us to accept information as true or 
+judge its veracity based on flawed natures, influencing our reasoning while overlooking 
+critical evaluation steps (Fui-Hoon Nah et al., 2023; Kim et al., 2023).
+
+To address over-reliance effectively, incorporating AI-assisted technologies can be a 
+strategic approach to enhance learners’ critical thinking skills. For instance, AI can serve 
+as a tool for stimulating engagement with critical thinking activities, encouraging learn-
+ers to question assumptions, evaluate the reliability of information, and make informed 
+decisions. By integrating AI into educational activities, learners can be guided to criti-
+cally assess AI-generated content, understand its limitations, and appreciate the value 
+of human insight and creativity. Activities that combine AI with traditional learning 
+materials can challenge learners to scrutinize AI responses critically, identify biases, and 
+develop balanced arguments or solutions based on a comprehensive understanding of 
+the subject matter.
+
+Educational strategies that utilize AI while emphasizing the development of critical 
+thinking skills can help mitigate the risks associated with over-reliance. These strategies 
+include prompting learners to compare AI-generated ideas with their own, encourag-
+ing reflection on the biases present in AI outputs, and engaging in activities that require 
+critical evaluation and synthesis of information from AI and human sources alike. By 
+actively involving learners in analyzing and evaluating AI-generated content, educa-
+tors can foster a learning environment that not only leverages the benefits of AI but 
+also cultivates essential cognitive skills such as critical analysis, problem-solving, and 
+decision-making.
+
+AI hallucination
+The findings reveal that these AI dialogue systems embedded with generative models 
+that closely mimic human writing and the enablement of automated dialogues hold sig-
+nificant potential across multiple fields, notably in education (Gao et al., 2022; Lee et al., 
+2023). Despite the evident benefits, the integration of such AI technologies in educa-
+tional environments has provoked a spectrum of responses, some educators view this 
+as a forward-thinking innovation that can enhance learning and teaching methodolo-
+gies, but there exists a concern among others regarding its implications (Wach et  al., 
+2023; Zhou et al., 2023). Critics argue that reliance on AI could diminish students’ criti-
+cal thinking and analytical capabilities, as well as potentially foster academic dishonesty, 
+such as language models that contain incorrect or misleading information presented as 
+factual. The issue of AI hallucination became prominent around 2022 with the rise of 
+LLMs like ChatGPT, which often produce responses interspersed with inaccuracies or 
+fabrications (Khlaif et  al., 2023). Reasons for AI hallucinations include data inconsist-
+encies in vast datasets, training inaccuracies during the encoding and decoding phases, 
+and biased sequences (Khlaif et al., 2023).
+
+Li and Little (2023) posit that individuals using AI dialogue systems, irrespective of 
+their expertise level in the subject matter, are at risk of becoming overly reliant on them. 
+Those with lower subject matter expertise are particularly prone to trust the AI’s advice, 
+even when it is incorrect—a phenomenon as mentioned before as "hallucination." The 
+authors argue that this issue is especially prevalent during the initial training phases for 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 28 of 37
+
+individuals with limited knowledge in the subject area, which increases their likelihood 
+of depending too much on AI dialogue systems. Such over-reliance can lead to subopti-
+mal outcomes in their decision-making processes and tasks.
+
+The phenomenon of hallucination poses a significant challenge for educators and 
+students using generative dialogue systems and underscores the importance of aware-
+ness regarding AI hallucinations. An over-reliance on AI algorithms can result in com-
+placency, which is particularly detrimental to the critical thinking abilities of clinicians, 
+especially those with less experience (Gao et al., 2022; Lee et al., 2023).
+
+Algorithmic bias
+Ten studies identified instances of algorithmic bias within their research. The majority 
+attributed these biases to the datasets used for training the algorithms. Alrazaq et  al. 
+(2023) highlighted that recent LLMS are developed using extensive datasets from various 
+internet sources, including websites, books, news articles, scientific publications, and 
+movie subtitles. Gichoya et al. (2023) argue that AI systems, trained on extensive data-
+sets sourced from the internet, inherently mirror societal biases. This mirroring results 
+in AI inadvertently perpetuating these biases (Tejani et al., 2023). One observable impact 
+of this in educational settings is when dialogue systems use gendered pronouns based on 
+stereotypes, which can negatively influence students’ learning experiences and improp-
+erly shape their perceptions of the world (O’Connor & Liu, 2023). The phenomenon of 
+bias in educational assessments, recognized since the 1960s, foreshadowed many facets 
+of bias and fairness currently under scholarly examination. These facets include soci-
+etal, population, representative, aggregation, feedback, and reuse biases throughout the 
+machine-learning lifecycle (Schwartz et al., 2022). Consequently, this issue introduces an 
+ethical quandary by transferring the responsibility of ensuring fairness from policymak-
+ers to educators (Scatiggio, 2022). To tackle algorithmic bias effectively, a deliberate and 
+analytical approach to developing and deploying AI in education is required. The goal is 
+to harness the potential of dialogue systems in a manner that enhances learning without 
+perpetuating societal biases (Gichoya et al., 2023).
+
+Plagiarism
+Three studies explored the academic challenges students face and the role of AI dialogue 
+systems in creating a more inclusive educational environment amid broader concerns 
+about plagiarism and the integrity of academic publications. Lim et al. (2023) argue that 
+a significant challenge for higher education students from non-English speaking back-
+grounds is language barriers, which can impede their academic progress. This can lead 
+to feelings of exclusion or fear of missing out and increase the risk of academic integrity 
+breaches, like unintentional plagiarism. This finding is on par with the existing study, 
+in the integration of AI technologies into education, plagiarism emerges as a significant 
+ethical issue.
+
+The ease of use of AI-powered tools like ChatGPT could tempt students to present 
+AI-generated content as their own, undermining the integrity of academic work. This 
+concern is amplified in education systems that prioritize outcomes, such as grades or 
+qualifications, over the learning process itself, a trend observed in various phases of 
+the Australian education system (Kumar et al., 2023). For non-native English speakers, 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 29 of 37
+
+AI dialogue systems offer substantial benefits in enhancing language proficiency, high-
+lighting the dual-edged nature of AI in education (Hwang et al., 2023). De Angelis et al. 
+(2023) found that the rise of journals that neglect essential quality controls, like verify-
+ing for plagiarism or ensuring ethical standards, might result in a significant influx of 
+AI-generated articles within the scientific realm. Such a trend could gravely undermine 
+the credibility of scientific studies and tarnish the prestige of scholarly publications. This 
+finding is similar to Fyfe’s (2023) study, where the author found that the ability of AI dia-
+logue systems to generate complex textual responses and complete assignments poses a 
+risk of encouraging academic dishonesty, particularly in environments that value high 
+grades and qualifications. Relying on AI for ethical risk assessments in research might 
+overlook the educational value of students learning to identify and manage these risks 
+themselves.
+
+Addressing plagiarism in the AI context requires a multifaceted approach, emphasiz-
+ing the importance of academic honesty and the detrimental effects of plagiarism on 
+moral development and learning integrity (Lukac & Lazareva, 2023). Establishing clear 
+policies on academic misconduct and introducing advanced plagiarism detection tools 
+that can adapt to AI’s evolution are critical steps (Mulenga & Shilongo, 2024). Some 
+skepticism remains about the ability of such technologies to stay ahead of AI advance-
+ments without generating false positives. Revising assessment methods to focus on 
+understanding, originality, and skills beyond AI’s capabilities is advocated (Dalalah & 
+Dalalah, 2023).
+
+Privacy concerns
+2 studies conducted an in-depth exploration into the matter of privacy concerns. 
+Alrazaq et al. (2023) found that LLMS can lead to the disclosure of personal information 
+by students and educators, such as names, email addresses, phone numbers, prompts, 
+uploaded images, and AI-generated images. This finding echoes Kronemann et  al’s 
+(2023) study that integrating dialogue systems in research and education environments 
+demonstrates a shift towards sophisticated data handling practices, including collect-
+ing, analyzing, and storing student information. This data, extending beyond academic 
+performance to encompass sensitive personal details, enables predicting students at 
+risk of falling behind, facilitating the development of targeted support and early inter-
+vention strategies. However, the advent of big data in education raises critical concerns 
+regarding privacy and data protection, areas that remain underexplored in scholarly lit-
+erature (Hu & Min, 2023). The transition from rule-based to more advanced NLP and 
+machine-learning techniques in chatbot technology introduces additional complexities 
+(Mahendran et al., 2021; Wu et al., 2023). These methods learn from data that may con-
+tain personal information, presenting a dilemma for encrypted data learning and high-
+lighting the need for a nuanced approach to policy-making in this domain (Curzon et al., 
+2021).
+
+Addressing these concerns requires a multi-faceted strategy emphasizing data protec-
+tion, secure storage, and the anonymization or deletion of data post-use, ensuring its 
+application remains strictly educational (Wu et al., 2023). Moreover, it is imperative to 
+cultivate an environment of transparency and awareness among students, parents, edu-
+cators, and stakeholders regarding data protection measures, promoting an informed 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 30 of 37
+
+understanding of how personal information is utilized within educational frameworks 
+(Alawida et al., 2023).
+
+Transparency concerns
+Nine studies briefly address transparency concerns within dialogue systems; however, 
+only a few undertake in-depth analysis. Dergaa et al. (2023) argue that biases and inac-
+curacies in AI systems can arise from a lack of transparency in the training datasets. 
+The authors stressed the importance of educating students on the ethical use of dia-
+logue systems and advocating for principles of honesty, integrity, and transparency. 
+Some scholars believe that the complexity of transparency within trustworthy AI sys-
+tems is multifaceted and context-dependent rather than being straightforward or follow-
+ing a linear relationship (Lucic et al., 2021; Mei et al., 2023). Finkenstadt and Handfield 
+(2021) introduced two types of transparency: the visibility and accessibility of informa-
+tion. There is also a comprehensive review of 84 global ethical AI guidelines reveals that 
+transparency (Larsson & Heintz, 2020), along with related concepts like explainability, 
+interpretability, and disclosure, emerges as a predominant ethical principle, cited in 73 
+of these documents (Larsson, 2020). In practical terms, transparency is fundamental to 
+ethical AI, encompassing accountability, traceability, justification, and a thorough evalu-
+ation of an AI system’s capabilities and limitations. It is divided into two distinct ethical 
+principles: "failure transparency," which focuses on identifying the reasons behind an AI 
+system’s harmful outcomes, and "judicial transparency," which emphasizes the explain-
+ability of judicial decision-making processes to experts (Du, 2022).
+
+Transparency and privacy are interrelated (Larsson & Heintz, 2020). While AI offers 
+valuable services, the general public is often uninformed about AI systems using their 
+data and the potential privacy implications, an inherently unethical situation (Anshari 
+et al., 2023).
+
+Implications of integrating AI dialogue systems
+This study contributes to the existing research from both theoretical and practical per-
+spectives. Theoretically, this study identifies the need for balance between the benefits 
+and the potential cognitive and ethical challenges. Over-reliance on AI can lead to 
+diminished creativity and critical thinking abilities, as students may become too depend-
+ent on AI-generated content and less engaged in developing their ideas (Duhaylungsod 
+& Chavez, 2023; Kim et al., 2023). This dependency can foster complacency and reduce 
+essential problem-solving skills. Ethical issues such as plagiarism and data bias highlight 
+the need for transparent and fair AI models to ensure academic integrity and fairness 
+(Alrazaq et al., 2023; De Angelis et al., 2023). Additionally, the impact of AI on decision-
+making abilities and analytical thinking remains a significant area of concern, suggesting 
+the need for further research into mitigating these adverse effects while leveraging AI’s 
+potential benefits (El Soufi & See, 2019; Pokkakillath & Suleri, 2023).
+
+Practically, this study provides valuable information to higher education providers 
+on the benefits of AI dialogue systems in enhancing efficiency in research and writ-
+ing processes, improving writing proficiency, and increasing students’ self-confidence. 
+Moreover, AI dialogue systems can greatly enhance the efficiency of academic tasks. For 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 31 of 37
+
+instance, students can streamline their research and writing processes, quickly retrieving 
+information and generating well-structured content (Duhaylungsod & Chavez, 2023). 
+This increased efficiency can improve writing proficiency and self-confidence as stu-
+dents produce higher-quality work in less time (Malik et al., 2023). Additionally, AI tools 
+can provide immediate feedback, allowing for customized learning experiences and 24/7 
+support, which can be particularly beneficial in large classroom settings or for distance 
+learning (Pokkakillath & Suleri, 2023).
+
+However, these benefits come with substantial risks. Over-reliance on AI systems can 
+lead to diminished creativity, as students in research and education might depend too 
+heavily on AI-generated content, neglecting the development of their ideas and origi-
+nal thought processes. This dependency can foster complacency, making students less 
+inclined to engage deeply with the material or develop essential problem-solving skills.
+
+Ethical concerns are also significant, particularly regarding plagiarism and data bias. 
+AI tools can generate content that, if used uncritically, may lead to unintentional plagia-
+rism. The lack of comprehensive explanations accompanying AI-generated paraphrases 
+can obscure the nuances of the content, potentially resulting in academic dishonesty 
+(Kim et al., 2023). Moreover, biases in the data used to train AI models can perpetuate 
+existing social biases, leading to discriminatory outcomes and skewed analyses (Grassini, 
+2023). Over-reliance on AI can also negatively impact critical and analytical thinking 
+abilities, as students may become less adept at independently analyzing information, 
+forming logical arguments, and making well-reasoned decisions. (Koos & Wachsmann, 
+2023). The convenience of AI-generated answers might deter students from engaging in 
+thorough research and critical evaluation of sources, which are crucial for developing 
+robust cognitive skills The convenience of AI-generated answers might deter students 
+from engaging in thorough research and critical evaluation of sources, which are crucial 
+for developing robust cognitive skills (Santiago Jr et al., 2023).
+
+To mitigate these risks, it is essential to integrate AI dialogue systems in a balanced 
+manner that promotes the development of critical and analytical thinking skills. Edu-
+cational strategies should emphasize the importance of questioning AI-generated con-
+tent, comparing it with human-generated insights, and understanding the limitations of 
+AI. Encouraging reflection on the biases present in AI outputs and engaging students 
+in activities that require critical evaluation and synthesis of information from diverse 
+sources can foster a more nuanced and critical approach to using AI tools (Dergaa et al., 
+2023).
+
+Conclusion
+This systematic review has critically examined the implications of students’ over-reli-
+ance on AI dialogue systems, especially those embedded with generative models, within 
+educational and research contexts. The findings underscore the significant impact of 
+such overdependence on essential cognitive abilities, including decision-making, criti-
+cal thinking, and analytical reasoning. Despite the undeniable advantages of AI dia-
+logue systems in streamlining research processes and enhancing academic efficiency, 
+our analysis reveals a concerning trend: the potential erosion of critical cognitive skills 
+due to ethical challenges such as misinformation, algorithmic biases, plagiarism, privacy 
+breaches, and transparency issues. The nuanced exploration of these factors indicates a 
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 32 of 37
+
+pressing need to address the ethical considerations surrounding using AI dialogue sys-
+tems to prevent cognitive detriment among users.
+
+Limitations
+One of the primary limitations of this study is its narrow scope, focusing predominantly 
+on the negative effects of over-reliance on AI dialogue systems in research and education 
+without equally examining the potential benefits or outcomes in other domains. This 
+limited perspective may result in a skewed understanding of the overall impact of AI 
+dialogue systems. Additionally, the study is based on a review of literature from only 14 
+databases, which, although comprehensive, might not encompass the full range of exist-
+ing studies on this topic, potentially omitting relevant findings from other significant 
+databases.
+
+The second limitation is that the study is primarily focused on higher education. It 
+does not consider the cognitive developmental differences across various age groups, 
+such as teenagers and primary or secondary school students. Therefore, a more inclu-
+sive approach considering different educational levels and age groups would be desirable 
+for providing a more robust and comprehensive analysis of the effects of AI dialogue 
+systems.
+
+Recommendations
+Educators and policymakers should integrate critical media literacy into curricula to 
+equip students with the skills to critically evaluate AI-generated content. This includes 
+developing an understanding of AI technologies’ underlying mechanisms, potential 
+biases, and ethical considerations. Institutions should implement AI literacy programs 
+that emphasize the ethical use of AI technologies, highlighting the importance of main-
+taining cognitive skills such as critical thinking and analytical reasoning in the age of 
+automation. Future studies should measure the cognitive impacts of using AI dialogue 
+systems in educational settings. Such research could provide more concrete evidence to 
+guide the development of best practices for AI integration.
+Acknowledgements
+Not applicable.
+
+Author contributions
+C.Zhai was responsible for the overall conceptualization, research, and writing of the manuscript. S.Wibowo contributed 
+to the proofreading and editing of the manuscript. L.D.Li contributed to the proofreading of the manuscript.
+
+Funding
+Funding was provided by Central Queensland University Australia.
+
+Availability of data and materials
+Not applicable.
+
+Declarations
+Ethics approval and consent to participate
+The author intends to submit a comprehensive application for ethical clearance concerning both the research instru-
+ment and the data collection process to the CQUniversity Human Research Ethics Committee (CQUHREC). Given that 
+this project constitutes a systematic review, it does not require an ethics approval number.
+
+Consent for publication
+The author(s) hereby grant the publisher the irrevocable, perpetual, and unrestricted right to publish, reproduce, distrib-
+ute, and use the manuscript titled "The Effects of Over-Reliance on AI Dialogue Systems on Students’ Cognitive Abilities: 
+A Systematic Review" in any form or medium, including but not limited to digital and print formats. The author(s) affirm 
+that the manuscript is original, has not been published elsewhere in any form, and is not currently under consideration 
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 33 of 37
+
+for publication by another journal. The author(s) acknowledge that all data and materials as presented in the manuscript 
+are either original or that all necessary permissions have been obtained for their use. The author(s) guarantee that the 
+publication of the manuscript does not infringe on any third-party rights, including but not limited to privacy rights 
+and intellectual property rights. Furthermore, the author(s) certify that all individuals who have a significant contribu-
+tion to the manuscript are listed as authors and that consent for publication has been received from all co-authors. The 
+author(s) also ensure that all participants involved in the study have given their consent for the publication of the data. 
+For any individual under the age of 18, consent has been obtained from a parent or legal guardian. This consent for pub-
+lication also extends to the use of the manuscript’s content in subsequent editions, derivative works, and promotional 
+activities conducted by the publisher, in any country and in any language.
+
+Competing interests
+The author(s) of the manuscript entitled "The Effects of Over-Reliance on AI Dialogue Systems on Students’ Cognitive 
+Abilities: A Systematic Review ’ hereby declare that there are no non-competing interests related to this publication. 
+Specifically, this declaration affirms that: None of the author(s) have any personal relationships, affiliations, or engage-
+ments within or outside the academic community that could inappropriately influence or bias the work presented in 
+this manuscript. There are no direct or indirect financial interests, such as employment, consultancies, stock ownership, 
+honoraria, patents, or grants, associated with the content of this publication that could be perceived as affecting the 
+objectivity of the research or its interpretation. The authors have no involvement in any organization or entity with a 
+financial or non-financial interest in the subject matter or materials discussed in this manuscript that could be construed 
+as influencing the research. There are no personal connections, academic rivalries, or beliefs among the authors that 
+could be seen as potential conflicts of interest regarding the manuscript’s content, methodology, or conclusions.
+
+Received: 3 March 2024   Accepted: 28 May 2024
+
+References
+Abd-Alrazaq, A., AlSaad, R., Alhuwail, D., Ahmed, A., Healy, P. M., Latifi, S., Aziz, S., Damseh, R., Alrazak, S. A., & Sheikh, J. 
+
+(2023). Large language models in medical education: Opportunities, challenges, and future directions. JMIR Medi-
+cal Education, 9(1), e48291.
+
+Ahmad, S. F., Han, H., Alam, M. M., Rehmat, M., Irshad, M., Arraño-Muñoz, M., & Ariza-Montes, A. (2023). Impact of artificial 
+intelligence on human loss in decision making, laziness and safety in education. Humanities and Social Sciences 
+Communications, 10(1), 1–14. https://​doi.​org/​10.​1057/​s41599-​023-​01787-8
+
+Alawida, M., Mejri, S., Mehmood, A., Chikhaoui, B., & Isaac Abiodun, O. (2023). A comprehensive study of chatgpt: 
+Advancements, limitations, and ethical considerations in natural language processing and cybersecurity. Informa-
+tion, 14(8), 462. https://​doi.​org/​10.​3390/​info1​40804​62
+
+Alkhatib, O. J. (2019). A framework for implementing higher-order thinking skills (problem-solving, critical thinking, 
+creative thinking, and decision-making) in engineering & humanities. In 2019 Advances in science and engineering 
+technology international conferences (ASET).
+
+Alrazaq, A., AlSaad, R., Alhuwail, D., Ahmed, A., Healy, P. M., Latifi, S., Aziz, S., Damseh, R., Alrazak, S. A., & Sheikh, J. (2023). 
+Large language models in medical education: Opportunities, challenges, and future directions. JMIR Medical 
+Education, 9(1), e48291. https://​doi.​org/​10.​2196/​48291
+
+Anshari, M., Hamdan, M., Ahmad, N., Ali, E., & Haidi, H. (2023). Covid-19, artificial intelligence, ethical challenges and policy 
+implications. AI & SOCIETY, 38(2), 707–720. https://​doi.​org/​10.​1007/​s00146-​022-​01471-6
+
+Athaluri, S. A., Manthena, S. V., Kesapragada, V. K. M., Yarlagadda, V., Dave, T., & Duddumpudi, R. T. S. (2023). Exploring the 
+boundaries of reality: Investigating the phenomenon of artificial intelligence hallucination in scientific writing 
+through chatgpt references. Cureus. https://​doi.​org/​10.​7759/​cureus.​37432
+
+Aydin, Ö., & Karaarslan, E. (2023). Is chatgpt leading generative ai? What is beyond expectations? Academic Platform 
+Journal of Engineering and Smart Systems, 11(3), 118–134.
+
+Bankins, S., Formosa, P., Griep, Y., & Richards, D. (2022). Ai decision making with dignity? Contrasting workers’ justice 
+perceptions of human and ai decision making in a human resource management context. Information Systems 
+Frontiers, 24(3), 857–875. https://​doi.​org/​10.​1007/​s10796-​021-​10223-8
+
+Beck, K. (2019). Ethik der online-kommunikation. In Handbuch Online-Kommunikation (pp. 131–164).
+Bell, D. E., Raiffa, H., & Tversky, A. (1988). Descriptive, normative, and prescriptive interactions in decision making. Decision 
+
+Making: Descriptive, Normative, and Prescriptive Interactions, 1, 9–32.
+Buçinca, Z., Malaya, M. B., & Gajos, K. Z. (2021). To trust or to think: Cognitive forcing functions can reduce overreliance on 
+
+ai in ai-assisted decision-making. Proceedings of the ACM on Human-Computer Interaction, 5(CSCW1), 1–21. https://​
+doi.​org/​10.​1145/​34492​87
+
+Carobene, A., Padoan, A., Cabitza, F., Banfi, G., & Plebani, M. (2023). Rising adoption of artificial intelligence in scientific 
+publishing: Evaluating the role, risks, and ethical implications in paper drafting and review process. Clinical Chemis-
+try and Laboratory Medicine (CCLM). https://​doi.​org/​10.​1515/​cclm-​2023-​1136
+
+Carvalho, D. V., Pereira, E. M., & Cardoso, J. S. (2019). Machine learning interpretability: A survey on methods and metrics. 
+Electronics, 8(8), 832. https://​doi.​org/​10.​3390/​elect​ronic​s8080​832
+
+Curzon, J., Kosa, T. A., Akalu, R., & El-Khatib, K. (2021). Privacy and artificial intelligence. IEEE Transactions on Artificial Intel-
+ligence, 2(2), 96–108. https://​doi.​org/​10.​1109/​TAI.​2021.​30880​84
+
+Dalalah, D., & Dalalah, O. M. (2023). The false positives and false negatives of generative ai detection tools in education 
+and academic research: The case of chatgpt. The International Journal of Management Education, 21(2), 100822. 
+https://​doi.​org/​10.​1016/j.​ijme.​2023.​100822
+
+Damnjanović, K., & Janković, I. (2014). Normative and descriptive theories of decision making under risk. Theoria, Beograd, 
+57(4), 25–50. https://​doi.​org/​10.​2298/​THEO1​40402​5D
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 34 of 37
+
+De Angelis, L., Baglivo, F., Arzilli, G., Privitera, G. P., Ferragina, P., Tozzi, A. E., & Rizzo, C. (2023). Chatgpt and the rise of large 
+language models: The new ai-driven infodemic threat in public health. Frontiers in Public Health, 11, 1166120. 
+https://​doi.​org/​10.​3389/​fpubh.​2023.​11661​20
+
+Dehouche, N. (2021). Plagiarism in the age of massive generative pre-trained transformers (gpt-3). Ethics in Science and 
+Environmental Politics, 21, 17–23. https://​doi.​org/​10.​3354/​esep0​0195
+
+Dempere, J., Modugu, K. P., Hesham, A., & Ramasamy, L. (2023). The impact of chatgpt on higher education. Frontiers in 
+Education, 8, 1206936. https://​doi.​org/​10.​3389/​feduc.​2023.​12069​36
+
+Dergaa, I., Chamari, K., Zmijewski, P., & Saad, H. B. (2023). From human writing to artificial intelligence generated text: 
+Examining the prospects and potential threats of chatgpt in academic writing. Biology of Sport, 40(2), 615–622. 
+https://​doi.​org/​10.​5114/​biols​port.​2023.​125623
+
+Du, Y. (2022). On the transparency of artificial intelligence system. Journal of Autonomous Intelligence, 5(1), 13. https://​doi.​
+org/​10.​32629/​jai.​v5i1.​486
+
+Duhaylungsod, A. V., & Chavez, J. V. (2023). Chatgpt and other ai users: Innovative and creative utilitarian value and mind-
+set shift. Journal of Namibian Studies: History Politics Culture, 33, 4367–4378. https://​doi.​org/​10.​59670/​jns.​v33i.​2791
+
+Dwyer, C. P. (2023). An evaluative review of barriers to critical thinking in educational and real-world settings. Journal of 
+Intelligence, 11(6), 105. https://​doi.​org/​10.​3390/​jinte​llige​nce11​060105
+
+Eapen, T. (2023). Augmenting creativity using generative ai: The method of trisociation. Available at SSRN 4603145. 
+https://​doi.​org/​10.​2139/​ssrn.​46031​45
+
+Ersoy, E., & Baser, N. (2012). Critical thinking trends of primary education second level students. Journal of Education and 
+Training Research, 1(3), 113–122.
+
+Facione, N. C., & Facione, P. A. (1996). Externalizing the critical thinking in knowledge development and clinical judgment. 
+Nursing Outlook, 44(3), 129–136.
+
+Feine, J., Gnewuch, U., Morana, S., & Maedche, A. (2020). Gender bias in chatbot design. Chatbot Research and Design: Third 
+International Workshop, CONVERSATIONS 2019, Amsterdam, The Netherlands, November 19–20, 2019, Revised 
+Selected Papers 3,
+
+Ferrajão, P. C. (2020). The role of parental emotional validation and invalidation on children’s clinical symptoms: A study 
+with children exposed to intimate partner violence. Journal of Family Trauma, Child Custody & Child Development, 
+17(1), 4–20. https://​doi.​org/​10.​1080/​15379​418.​2020.​17313​99
+
+Finkenstadt, D. J., & Handfield, R. (2021). Blurry vision: Supply chain visibility for personal protective equipment during 
+covid-19. Journal of Purchasing and Supply Management, 27(3), 100689. https://​doi.​org/​10.​1016/j.​pursup.​2021.​
+100689
+
+Francke, E., & Bennett, A. (2019). The potential influence of artificial intelligence on plagiarism: A higher education per-
+spective. In European conference on the impact of artificial intelligence and robotics (ECIAIR 2019).
+
+Friedman, N. P., & Robbins, T. W. (2022). The role of prefrontal cortex in cognitive control and executive function. Neuropsy-
+chopharmacology, 47(1), 72–89. https://​doi.​org/​10.​1038/​s41386-​021-​01132-0
+
+Fui-Hoon Nah, F., Zheng, R., Cai, J., Siau, K., & Chen, L. (2023). Generative ai and chatgpt: Applications, challenges, and ai-
+human collaboration. In (Vol. 25, pp. 277–304). Taylor & Francis.
+
+Fyfe, P. (2023). How to cheat on your final paper: Assigning ai for student writing. AI & SOCIETY, 38(4), 1395–1405. https://​
+doi.​org/​10.​1007/​s00146-​022-​01397-z
+
+Gao, C. A., Howard, F. M., Markov, N. S., Dyer, E. C., Ramesh, S., Luo, Y., & Pearson, A. T. (2022). Comparing scientific abstracts 
+generated by chatgpt to original abstracts using an artificial intelligence output detector, plagiarism detector, and 
+blinded human reviewers. BioRxiv. 2022.12.23.521610
+
+George, B., & Wooden, O. (2023). Managing the strategic transformation of higher education through artificial intelli-
+gence. Administrative Sciences, 13(9), 196. https://​doi.​org/​10.​3390/​admsc​i1309​0196
+
+Gichoya, J. W., Thomas, K., Celi, L. A., Safdar, N., Banerjee, I., Banja, J. D., Seyyed-Kalantari, L., Trivedi, H., & Purkayastha, S. 
+(2023). Ai pitfalls and what not to do: Mitigating bias in ai. The British Journal of Radiology, 96(1150), 20230023. 
+https://​doi.​org/​10.​1259/​bjr.​20230​023
+
+Grassini, S. (2023). Shaping the future of education: Exploring the potential and consequences of ai and chatgpt in edu-
+cational settings. Education Sciences, 13(7), 692. https://​doi.​org/​10.​3390/​educs​ci130​70692
+
+Grinschgl, S., & Neubauer, A. C. (2022). Supporting cognition with modern technology: Distributed cognition today and 
+in an ai-enhanced future. Frontiers in Artificial Intelligence, 5, 908261. https://​doi.​org/​10.​3389/​frai.​2022.​908261
+
+Gsenger, R., & Strle, T. (2021). Trust, automation bias and aversion: Algorithmic decision-making in the context of credit 
+scoring. Interdisciplinary Description of Complex Systems: INDECS, 19(4), 540–558. https://​doi.​org/​10.​7906/​indecs.​
+19.4.4
+
+Guo, Y., & Lee, D. (2023). Leveraging chatgpt for enhancing critical thinking skills. Journal of Chemical Education, 100(12), 
+4876–4883. https://​doi.​org/​10.​1021/​acs.​jchem​ed.​3c005​05
+
+Hanim, N., Aripin, N., & Lin, N. M. (2020). Exploring the connection between critical thinking skills and academic writing. 
+International Journal of Asian Social Science, 10(2), 118–128. https://​doi.​org/​10.​18488/​journ​al.1.​2020.​102.​118.​128
+
+Hatem, R., Simmons, B., & Thornton, J. E. (2023). Chatbot confabulations are not hallucinations. JAMA Internal Medicine. 
+https://​doi.​org/​10.​1001/​jamai​ntern​med.​2023.​4231
+
+Hiser, J., & Koenigs, M. (2018). The multifaceted role of the ventromedial prefrontal cortex in emotion, decision making, 
+social cognition, and psychopathology. Biological Psychiatry, 83(8), 638–647. https://​doi.​org/​10.​1016/j.​biops​ych.​
+2017.​10.​030
+
+Holmes, W., Bialik, M., & Fadel, C. (2023). Artificial intelligence in education. In. Globethics Publications. https://​doi.​org/​10.​
+58863/​20.​500.​12424/​42731​08
+
+Hosseini, M., Rasmussen, L. M., & Resnik, D. B. (2023). Using ai to write scholarly publications. In (pp. 1–9). Taylor & Francis.
+Hu, Y., & Min, H. K. (2023). The dark side of artificial intelligence in service: The “watching-eye” effect and privacy concerns. 
+
+International Journal of Hospitality Management, 110, 103437. https://​doi.​org/​10.​1016/j.​ijhm.​2023.​103437
+Hua, S., Jin, S., & Jiang, S. (2023). The limitations and ethical considerations of chatgpt. Data Intelligence. https://​doi.​org/​10.​
+
+1162/​dint_a_​00243
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 35 of 37
+
+Hwang, S. I., Lim, J. S., Lee, R. W., Matsui, Y., Iguchi, T., Hiraki, T., & Ahn, H. (2023). Is chatgpt a “fire of prometheus” for non-
+native English-speaking researchers in academic writing? Korean Journal of Radiology, 24(10), 952. https://​doi.​org/​
+10.​3348/​kjr.​2023.​0773
+
+Ishikawa, J., Sakurai, Y., Ishikawa, A., & Mitsushima, D. (2020). Contribution of the prefrontal cortex and basolateral amyg-
+dala to behavioral decision-making under reward/punishment conflict. Psychopharmacology (berl), 237, 639–654. 
+https://​doi.​org/​10.​1007/​s00213-​019-​05398-7
+
+Iskender, A. (2023). Holy or unholy? Interview with open ai’s chatgpt. European Journal of Tourism Research, 34, 3414–3414. 
+https://​doi.​org/​10.​54055/​ejtr.​v34i.​3169
+
+Ismail, A. R. (2023). Will artificial intelligence lead to genuine stupidity? A food for thought. SSRN Journal. https://​doi.​org/​
+10.​2139/​ssrn.​45667​81
+
+Jain, R., Garg, N., & Khera, S. N. (2023). Effective human–ai work design for collaborative decision-making. Kybernetes, 
+52(11), 5017–5040. https://​doi.​org/​10.​1108/K-​04-​2022-​0548
+
+Kaeppel, K. (2021). The influence of collaborative argument mapping on college students’ critical thinking about conten-
+tious arguments. Thinking Skills and Creativity, 40, 100809. https://​doi.​org/​10.​1016/j.​tsc.​2021.​100809
+
+Kelley, N. J., Hurley-Wallace, A. L., Warner, K. L., & Hanoch, Y. (2023). Analytical reasoning reduces internet fraud susceptibil-
+ity. Computers in Human Behavior, 142, 107648. https://​doi.​org/​10.​1016/j.​chb.​2022.​107648
+
+Khalil, M., & Er, E. (2023). Will chatgpt get you caught? Rethinking of Plagiarism Detection. Computer Science. https://​doi.​org/​
+10.​48550/​arXiv.​2302.​04335
+
+Khlaif, Z. N., Mousa, A., Hattab, M. K., Itmazi, J., Hassan, A. A., Sanmugam, M., & Ayyoub, A. (2023). The potential and con-
+cerns of using ai in scientific research: Chatgpt performance evaluation. JMIR Medical Education, 9, e47049. https://​
+doi.​org/​10.​2196/​47049
+
+Kim, Y., Lee, M., Kim, D., & Lee, S.-J. (2023). Towards explainable ai writing assistants for non-native english speakers. arXiv 
+preprint arXiv:​2304.​02625.
+
+Köbis, N., & Mossink, L. D. (2021). Artificial intelligence versus maya angelou: Experimental evidence that people cannot 
+differentiate ai-generated from human-written poetry. Computers in Human Behavior, 114, 106553. https://​doi.​org/​
+10.​1016/j.​chb.​2020.​106553
+
+Kools, S., McCarthy, M., Durham, R., & Robrecht, L. (1996). Dimensional analysis: Broadening the conception of grounded 
+theory. Qualitative Health Research, 6(3), 312–330.
+
+Koos, S., & Wachsmann, S. (2023). Navigating the impact of chatgpt/gpt4 on legal academic examinations: Challenges, 
+opportunities and recommendations. Media Iuris, 6, 255–270. https://​doi.​org/​10.​20473/​mi.​v6i2.​45270
+
+Kordzadeh, N., & Ghasemaghaei, M. (2022). Algorithmic bias: Review, synthesis, and future research directions. European 
+Journal of Information Systems, 31(3), 388–409. https://​doi.​org/​10.​1080/​09600​85X.​2021.​19272​12
+
+Kronemann, B., Kizgin, H., Rana, N., & Dwivedi, Y. K. (2023). How ai encourages consumers to share their secrets? The role 
+of anthropomorphism, personalisation, and privacy concerns and avenues for future research. Spanish Journal of 
+Marketing-ESIC, 27(1), 2–19. https://​doi.​org/​10.​1108/​SJME-​10-​2022-​0213
+
+Krullaars, Z. H., Januardani, A., Zhou, L., & Jonkers, E. (2023). Exploring initial interactions: High school students and gen-
+erative ai chatbots for relationship development. https://​doi.​org/​10.​18420/​muc20​23-​mci-​src-​415
+
+Kumar, R., Eaton, S. E., Mindzak, M., & Morrison, R. (2023). Academic integrity and artificial intelligence: An overview. In 
+Handbook of academic integrity (pp. 1583–1596). https://​doi.​org/​10.​1053/j.​semnu​clmed.​2023.​04.​008
+
+Larsson, S. (2020). On the governance of artificial intelligence through ethics guidelines. Asian Journal of Law and Society, 
+7(3), 437–451. https://​doi.​org/​10.​1017/​als.​2020.​19
+
+Larsson, S., & Heintz, F. (2020). Transparency in artificial intelligence. Internet Policy Review. https://​doi.​org/​10.​14763/​
+2020.2.​1469
+
+Lee, P., Bubeck, S., & Petro, J. (2023). Benefits, limits, and risks of gpt-4 as an ai chatbot for medicine. New England Journal 
+of Medicine, 388(13), 1233–1239. https://​doi.​org/​10.​1056/​NEJMs​r2214​184
+
+Li, M. D., & Little, B. P. (2023). Appropriate reliance on artificial intelligence in radiology education. Journal of the American 
+College of Radiology, 20(11), 1126–1130. https://​doi.​org/​10.​1016/j.​jacr.​2023.​04.​019
+
+Liang, W. (2023). Towards a set of design principles for technology-assisted critical-thinking cultivation: A synthesis of 
+research in English language education. Thinking Skills and Creativity, 47, 101203. https://​doi.​org/​10.​1016/j.​tsc.​2022.​
+101203
+
+Lim, W. M., Gunasekara, A., Pallant, J. L., Pallant, J. I., & Pechenkina, E. (2023). Generative ai and the future of education: 
+Ragnarök or reformation? A paradoxical perspective from management educators. The International Journal of 
+Management Education, 21(2), 100790. https://​doi.​org/​10.​1016/j.​ijme.​2023.​100790
+
+Liu, C., Hou, J., Tu, Y.-F., Wang, Y., & Hwang, G.-J. (2023). Incorporating a reflective thinking promoting mechanism into 
+artificial intelligence-supported english writing environments. Interactive Learning Environments, 31(9), 5614–5632. 
+https://​doi.​org/​10.​1080/​10494​820.​2021.​20128​12
+
+Lucic, A., Srikumar, M., Bhatt, U., Xiang, A., Taly, A., Liao, Q. V., & de Rijke, M. (2021). A multistakeholder approach towards 
+evaluating ai transparency mechanisms. arXiv preprint arXiv:​2103.​14976. https://​doi.​org/​10.​48550/​arXiv.​2103.​
+14976
+
+Lukac, D., & Lazareva, A. (2023). Artificial intelligence and educational assessment system landscape, challenges and ways 
+to tackle ai based plagiarism. In EDULEARN23 Proceedings.
+
+Macdonald, M. E., Siedlikowski, S., Liu, K., & Carnevale, F. A. (2023). Introducing sammsa, a five-step method for producing 
+‘quality’ qualitative analysis. Qualitative Health Research, 33(4), 334–344. https://​doi.​org/​10.​1177/​10497​32323​11544
+
+Mahendran, D., Luo, C., & Mcinnes, B. T. (2021). Privacy-preservation in the context of natural language processing. IEEE 
+Access, 9, 147600–147612. https://​doi.​org/​10.​1109/​ACCESS.​2021.​31241​63
+
+Malik, A. R., Pratiwi, Y., Andajani, K., Numertayasa, I. W., Suharti, S., & Darwis, A. (2023). Exploring artificial intelligence in aca-
+demic essay: Higher education student’s perspective. International Journal of Educational Research Open, 5, 100296. 
+https://​doi.​org/​10.​1016/j.​ijedro.​2023.​100296
+
+Marzuki, U. W., Rusdin, D., & Darwin, & Indrawati, I. (2023). The impact of ai writing tools on the content and organization 
+of students’ writing: Efl teachers’ perspective. Cogent Education, 10(2), 2236469. https://​doi.​org/​10.​1080/​23311​86X.​
+2023.​22364​69
+
+
+
+Zhai et al. Smart Learning Environments           (2024) 11:28 Page 36 of 37
+
+Mbalaka, B. (2023). Epistemically violent biases in artificial intelligence design: The case of dalle-e 2 and starry ai. Digital 
+Transformation and Society, 2, 376–402. https://​doi.​org/​10.​1108/​DTS-​01-​2023-​0003
+
+McKinley, J. (2013). Displaying critical thinking in efl academic writing: A discussion of Japanese to English contrastive 
+rhetoric. RELC Journal, 44(2), 195–208. https://​doi.​org/​10.​1177/​00336​88213​488386
+
+McPeck, J. E. (2016). Critical thinking and education. Routledge.
+Mei, A., Saxon, M., Chang, S., Lipton, Z. C., & Wang, W. Y. (2023). Users are the north star for ai transparency. arXiv preprint 
+
+arXiv:​2303.​05500. https://​doi.​org/​10.​48550/​arXiv.​2303.​05500
+Monteiro, S., Sherbino, J., Sibbald, M., & Norman, G. (2020). Critical thinking, biases and dual processing: The enduring 
+
+myth of generalisable skills. Medical Education, 54(1), 66–73. https://​doi.​org/​10.​1111/​medu.​13872
+Montenegro-Rueda, M., Fernández-Cerero, J., Fernández-Batanero, J. M., & López-Meneses, E. (2023). Impact of the imple-
+
+mentation of chatgpt in education: A systematic review. Computers, 12(8), 153. https://​doi.​org/​10.​3390/​compu​
+ters1​20801​53
+
+Morelli, M., Casagrande, M., & Forte, G. (2022). Decision making: A theoretical review. Integrative Psychological and Behavio-
+ral Science, 56(3), 609–629. https://​doi.​org/​10.​1007/​s12124-​021-​09669-x
+
+Mulenga, R., & Shilongo, H. (2024). Academic integrity in higher education: Understanding and addressing plagiarism. 
+Acta Pedagogia Asiana, 3(1), 30–43. https://​doi.​org/​10.​53623/​apga.​v3i1.​337
+
+O’Connor, S., & Liu, H. (2023). Gender bias perpetuation and mitigation in ai technologies: Challenges and opportunities. 
+AI & SOCIETY. https://​doi.​org/​10.​1007/​s00146-​023-​01675-4
+
+Padilla, L. M., Creem-Regehr, S. H., Hegarty, M., & Stefanucci, J. K. (2018). Decision making with visualizations: A cognitive 
+framework across disciplines. Cognitive Research: Principles and Implications, 3(1), 1–25. https://​doi.​org/​10.​1186/​
+s41235-​018-​0120-9
+
+Pokkakillath, S., & Suleri, J. (2023). Chatgpt and its impact on education. Research in Hospitality Management, 13(1), 31–34. 
+https://​doi.​org/​10.​1080/​22243​534.​2023.​22395​79
+
+Politanskyi, R., & Klymash, M. (2019). Application of artificial intelligence in cognitive radio for planning distribution of 
+frequency channels. In 2019 3rd International conference on advanced information and communications technologies 
+(AICT).
+
+Qiu, L., Su, J., Ni, Y., Bai, Y., Zhang, X., Li, X., & Wan, X. (2018). The neural system of metacognition accompanying decision-
+making in the prefrontal cortex. PLoS Biology, 16(4), e2004037. https://​doi.​org/​10.​1371/​journ​al.​pbio.​20040​37
+
+Rodriguez, J.-M.G., & Towns, M. H. (2018). Modifying laboratory experiments to promote engagement in critical thinking 
+by reframing prelab and postlab questions. Journal of Chemical Education, 95(12), 2141–2147. https://​doi.​org/​10.​
+1021/​acs.​jchem​ed.​8b006​83
+
+Sabharwal, D., Kabha, R., & Srivastava, K. (2023). Artificial intelligence (ai)-powered virtual assistants and their effect on 
+human productivity and laziness: Study on students of delhi-ncr (india) & fujairah (uae). Journal of Content, Com-
+munity and Communication, 17(9), 162–174. https://​doi.​org/​10.​31620/​JCCC.​06.​23/​12
+
+Santiago, C. S., Jr., Embang, S. I., Conlu, M. T. N., Acanto, R. B., Lausa, S. M., Ambojia, K. W. P., Laput, E. Y., Aperocho, M. D. B., 
+Malabag, B. A., & Balilo, B. B., Jr. (2023). Utilization of writing assistance tools in research in selected higher learning 
+institutions in the philippines: A text mining analysis. International Journal of Learning, Teaching and Educational 
+Research, 22(11), 259–284. https://​doi.​org/​10.​26803/​ijlter.​22.​11.​14
+
+Sarkis-Onofre, R., Catalá-López, F., Aromataris, E., & Lockwood, C. (2021). How to properly use the prisma statement. 
+Systematic Reviews, 10(1), 1–3. https://​doi.​org/​10.​1186/​s13643-​021-​01671-z
+
+Scatiggio, V. (2022). Tackling the issue of bias in artificial intelligence to design ai-driven fair and inclusive service systems. 
+How human biases are breaching into ai algorithms, with severe impacts on individuals and societies, and what 
+designers can do to face this phenomenon and change for the better. https://​hdl.​handle.​net/​10589/​186118
+
+Schwartz, R., Vassilev, A., Greene, K., Perine, L., Burt, A., & Hall, P. (2022). Towards a standard for identifying and managing 
+bias in artificial intelligence. NIST Special Publication. https://​doi.​org/​10.​6028/​NIST.​SP.​1270
+
+Semrl, N., Feigl, S., Taumberger, N., Bracic, T., Fluhr, H., Blockeel, C., & Kollmann, M. (2023). Ai language models in human 
+reproduction research: Exploring chatgpt’s potential to assist academic writing. Human Reproduction, 38(12), 
+2281–2288. https://​doi.​org/​10.​1093/​humrep/​dead2​07
+
+Sharma, B. (2020). Pressure upon the faculty to publish: Is it really necessary. SunText Review of Arts & Social Sciences. 
+https://​doi.​org/​10.​51737/​2766-​4600.​2020.​001
+
+Sok, S., & Heng, K. (2023). Chatgpt for education and research: A review of benefits and risks. Available at SSRN 4378735. 
+https://​doi.​org/​10.​2139/​ssrn.​43787​35
+
+Song, X., & Xiong, T. (2021). A survey of published literature on conversational artificial intelligence. In 2021 7th Interna-
+tional conference on information management (ICIM).
+
+Soufi, N., & See, B. H. (2019). Does explicit teaching of critical thinking improve critical thinking skills of English language 
+learners in higher education? A critical review of causal evidence. Studies in Educational Evaluation, 60, 140–162. 
+https://​doi.​org/​10.​1016/j.​stued​uc.​2018.​12.​006
+
+Stromer-Galley, J., Rossini, P., Kenski, K., McKernan, B., Clegg, B., Folkestad, J., Østerlund, C., Schooler, L., Boichak, O., & 
+Canzonetta, J. (2021). Flexible versus structured support for reasoning: Enhancing analytical reasoning through 
+a flexible analytic technique. Intelligence and National Security, 36(2), 279–298. https://​doi.​org/​10.​1080/​02684​527.​
+2020.​18414​66
+
+Tang, W., Shin, J. D., & Jadhav, S. P. (2021). Multiple time-scales of decision-making in the hippocampus and prefrontal 
+cortex. eLife, 10, e66227. https://​doi.​org/​10.​7554/​eLife.​66227
+
+Tejani, A. S., Retson, T. A., Moy, L., & Cook, T. S. (2023). Detecting common sources of ai bias: Questions to ask when pro-
+curing an ai solution. In (Vol. 307, pp. e230580): Radiological Society of North America.
+
+Tolan, S., Pesole, A., Martínez-Plumed, F., Fernández-Macías, E., Hernández-Orallo, J., & Gómez, E. (2021). Measuring the 
+occupational impact of ai: Tasks, cognitive abilities and ai benchmarks. Journal of Artificial Intelligence Research, 71, 
+191–236. https://​doi.​org/​10.​1613/​jair.1.​12647
+
+Tricco, A. C., Lillie, E., Zarin, W., O’Brien, K. K., Colquhoun, H., Levac, D., Moher, D., Peters, M. D., Horsley, T., & Weeks, L. (2018). 
+Prisma extension for scoping reviews (prisma-scr): Checklist and explanation. Annals of Internal Medicine, 169(7), 
+467–473.
+
+
+
+Z	 hai et al. Smart Learning Environments           (2024) 11:28 Page 37 of 37
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł, & Polosukhin, I. (2017). Attention is all you 
+need. Advances in Neural Information Processing Systems. https://​doi.​org/​10.​48550/​arXiv.​1706.​03762
+
+Ventayen, R. J. M. (2023). Openai chatgpt generated results: Similarity index of artificial intelligence-based contents. Avail-
+able at SSRN 4332664. https://​doi.​org/​10.​2139/​ssrn.​43326​64
+
+Wach, K., Duong, C. D., Ejdys, J., Kazlauskaitė, R., Korzynski, P., Mazurek, G., Paliszkiewicz, J., & Ziemba, E. (2023). The dark 
+side of generative artificial intelligence: A critical analysis of controversies and risks of chatgpt. Entrepreneurial Busi-
+ness and Economics Review, 11(2), 7–30. https://​doi.​org/​10.​21541/​apjess.​12937​02
+
+Washington, J. (2023). The impact of generative artificial intelligence on writer’s self-efficacy: A critical literature review. 
+Available at SSRN 4538043. https://​doi.​org/​10.​2139/​ssrn.​45380​43
+
+Watts, F. M., Dood, A. J., Shultz, G. V., & Rodriguez, J.-M.G. (2023). Comparing student and generative artificial intelligence 
+chatbot responses to organic chemistry writing-to-learn assignments. Journal of Chemical Education. https://​doi.​
+org/​10.​1021/​acs.​jchem​ed.​3c006​64
+
+Wu, X., Duan, R., & Ni, J. (2023). Unveiling security, privacy, and ethical concerns of chatgpt. Journal of Information and 
+Intelligence. https://​doi.​org/​10.​1016/j.​jiixd.​2023.​10.​007
+
+Xie, Y., Wang, K., & Kong, Y. (2021). Prevalence of research misconduct and questionable research practices: A systematic 
+review and meta-analysis. Science and Engineering Ethics, 27(4), 41. https://​doi.​org/​10.​1007/​s11948-​021-​00314-9
+
+Yoder, K. J., & Decety, J. (2018). The neuroscience of morality and social decision-making. Psychology, Crime & Law, 24(3), 
+279–295. https://​doi.​org/​10.​1080/​10683​16X.​2017.​14148​17
+
+Zhai, C., & Wibowo, S. (2023). A systematic review on artificial intelligence dialogue systems for enhancing English as for-
+eign language students’ interactional competence in the university. Computers and Education: Artificial Intelligence. 
+https://​doi.​org/​10.​1016/j.​caeai.​2023.​100134
+
+Zhai, C., & Wibowo, S. (2023b). A wgan-based dialogue system for embedding humor, empathy, and cultural aspects in 
+education. IEEE Access. https://​doi.​org/​10.​1109/​ACCESS.​2023.​32949​66
+
+Zhou, J., Ke, P., Qiu, X., Huang, M., & Zhang, J. (2023). Chatgpt: Potential, prospects, and limitations. Frontiers of Information 
+Technology & Electronic Engineering. https://​doi.​org/​10.​1631/​FITEE.​23000​89
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.

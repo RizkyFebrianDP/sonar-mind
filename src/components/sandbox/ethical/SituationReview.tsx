@@ -2,7 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { CheckCircle, XCircle, AlertCircle, Trophy } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
+import { CheckCircle, XCircle } from "lucide-react";
 import type { DilemmaCategory } from "@/types/assessment";
 
 interface Situation {
@@ -38,7 +39,8 @@ export function SituationReview({
   cognitiveScore,
   onContinue,
 }: SituationReviewProps) {
-  const getResult = (situation: Situation, answer: Answer) => {
+  const getResult = (situation: Situation, answer: Answer | undefined) => {
+    if (!answer) return "incorrect";
     return answer.chosen === situation.correctCategory ? "correct" : "incorrect";
   };
 
@@ -64,12 +66,12 @@ export function SituationReview({
         {/* Skor */}
         <div className="text-center mb-8">
           <div className="w-14 h-14 rounded-2xl bg-teal-500/10 flex items-center justify-center mx-auto mb-3">
-            <Trophy className="w-7 h-7 text-teal-500" />
+            <Icon id="85613" className="w-7 h-7 bg-teal-500" />
           </div>
           <h2 className="text-xl font-bold font-heading text-text-strong">
             Selesai! Hasil Ethical Dilemma
           </h2>
-          <p className="text-sm text-text-muted mb-5">Pilar 3 & 4: Ethical Reasoning + Cognitive Agency</p>
+          <p className="text-sm text-text-muted mb-5">Ethical Reasoning + Cognitive Agency</p>
 
           <div className="grid grid-cols-3 gap-3">
             <div className="bg-teal-500/10 rounded-xl p-3">
@@ -93,7 +95,8 @@ export function SituationReview({
             Review Per Situasi
           </h3>
           {situations.map((situation) => {
-            const answer = answers.find((a) => a.situationId === situation.id)!;
+            const answer = answers.find((a) => a.situationId === situation.id);
+            if (!answer) return null;
             const isCorrect = getResult(situation, answer) === "correct";
 
             return (

@@ -4,26 +4,16 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  LayoutDashboard,
-  BrainCircuit,
-  History,
-  BookOpen,
-  HelpCircle,
-  LogOut,
-  Loader2,
-  Menu,
-  X,
-} from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { createClient } from "@/lib/supabase/client";
 import type { User } from "@supabase/supabase-js";
 
 const navItems = [
-  { name: "Dashboard", href: "/", icon: LayoutDashboard },
-  { name: "Assessments", href: "/assessments", icon: BrainCircuit },
-  { name: "My Results", href: "/results", icon: History },
-  { name: "Learning", href: "/learning", icon: BookOpen },
+  { name: "Dashboard", href: "/", icon: "aVHe2jHuORcA" },
+  { name: "Assessments", href: "/assessments", icon: "101164" },
+  { name: "My Results", href: "/results", icon: "100254" },
+  { name: "Learning", href: "/learning", icon: "85767" },
 ];
 
 export function Sidebar() {
@@ -80,7 +70,7 @@ export function Sidebar() {
             className="p-2 rounded-lg text-text-strong hover:bg-black/5 transition-colors focus:outline-none"
             aria-label="Toggle Navigation Menu"
           >
-            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileOpen ? <Icon id="82771" className="w-6 h-6" /> : <Icon id="82749" className="w-6 h-6" />}
           </button>
           <div className="flex items-center">
             <div className="flex items-center justify-center w-7 h-7 rounded-lg bg-gray-100 text-text-strong mr-2">
@@ -158,7 +148,7 @@ export function Sidebar() {
                   className="p-1 rounded-lg text-text-muted hover:text-text-strong transition-colors"
                   aria-label="Close menu"
                 >
-                  <X className="w-5 h-5" />
+                  <Icon id="82771" className="w-5 h-5" />
                 </button>
               </div>
 
@@ -177,8 +167,9 @@ export function Sidebar() {
                           : "text-sidebar-text hover:bg-black/5 hover:text-text-strong"
                       }`}
                     >
-                      <item.icon
-                        className={`w-5 h-5 ${isActive ? "text-accent-blue" : ""}`}
+                      <Icon
+                        id={item.icon}
+                        className={`w-5 h-5 ${isActive ? "bg-accent-blue" : "bg-sidebar-text"}`}
                       />
                       {item.name}
                     </Link>
@@ -194,7 +185,7 @@ export function Sidebar() {
                     onClick={() => setMobileOpen(false)}
                     className="flex items-center gap-3 px-4 py-2 text-sm font-medium text-sidebar-text hover:text-text-strong transition-colors rounded-xl mx-2 hover:bg-black/5"
                   >
-                    <HelpCircle className="w-5 h-5" />
+                    <Icon id="83244" className="w-5 h-5 bg-sidebar-text group-hover:bg-text-strong" />
                     Support
                   </Link>
                   <ThemeToggle />
@@ -222,9 +213,9 @@ export function Sidebar() {
                     className="text-text-muted hover:text-red-500 transition-colors shrink-0"
                   >
                     {loggingOut ? (
-                      <Loader2 className="w-4 h-4 animate-spin" />
+                      <Icon id="93005" className="w-4 h-4 bg-text-muted animate-spin" />
                     ) : (
-                      <LogOut className="w-4 h-4" />
+                      <Icon id="82792" className="w-4 h-4 bg-text-muted hover:bg-red-500 transition-colors" />
                     )}
                   </button>
                 </div>
@@ -274,8 +265,9 @@ export function Sidebar() {
                     : "text-sidebar-text hover:bg-black/5 hover:text-text-strong"
                 }`}
               >
-                <item.icon
-                  className={`w-5 h-5 ${isActive ? "text-accent-blue" : ""}`}
+                <Icon
+                  id={item.icon}
+                  className={`w-5 h-5 ${isActive ? "bg-accent-blue" : "bg-sidebar-text"}`}
                 />
                 {item.name}
               </Link>
@@ -290,7 +282,7 @@ export function Sidebar() {
               href="/support"
               className="flex items-center gap-3 px-4 py-2 text-sm font-medium text-sidebar-text hover:text-text-strong transition-colors rounded-xl mx-2 hover:bg-black/5"
             >
-              <HelpCircle className="w-5 h-5" />
+              <Icon id="83244" className="w-5 h-5 bg-sidebar-text group-hover:bg-text-strong" />
               Support
             </Link>
             <ThemeToggle />
@@ -318,9 +310,9 @@ export function Sidebar() {
               className="text-text-muted hover:text-red-500 transition-colors shrink-0"
             >
               {loggingOut ? (
-                <Loader2 className="w-4 h-4 animate-spin" />
+                <Icon id="93005" className="w-4 h-4 bg-text-muted animate-spin" />
               ) : (
-                <LogOut className="w-4 h-4" />
+                <Icon id="82792" className="w-4 h-4 bg-text-muted group-hover:bg-red-500 transition-colors" />
               )}
             </button>
           </div>

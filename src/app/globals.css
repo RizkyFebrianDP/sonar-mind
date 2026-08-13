@@ -31,6 +31,10 @@
   --color-accent-yellow: var(--accent-yellow);
 }
 
+html {
+  font-size: 87.5%; /* Skala seluruh UI menjadi ~14px base, membuat layout tidak terlalu 'massive' */
+}
+
 :root {
   /* LIGHT THEME (Warm & Soft) */
   --background: #f7f5f0;
@@ -85,4 +89,17 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
   /* Optional: very subtle noise texture overlay could be added here via background-image */
+}
+
+/* Icons8 PNG Mask Utility */
+@layer utilities {
+  .icon-mask {
+    background-color: currentColor;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+  }
 }

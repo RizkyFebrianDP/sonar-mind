@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle, XCircle, AlertCircle } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 
 interface Sentence {
   id: number;
@@ -48,9 +48,9 @@ export function ScenarioText({
   };
 
   const stateIcons: Record<string, React.ReactNode> = {
-    "true-positive": <CheckCircle className="inline w-3.5 h-3.5 ml-1 text-green-500" />,
-    "false-positive": <XCircle className="inline w-3.5 h-3.5 ml-1 text-red-500" />,
-    missed: <AlertCircle className="inline w-3.5 h-3.5 ml-1 text-orange-500" />,
+    "true-positive": <Icon id="82766" className="inline w-3.5 h-3.5 ml-1 bg-green-500" />,
+    "false-positive": <Icon id="82771" className="inline w-3.5 h-3.5 ml-1 bg-red-500" />,
+    missed: <Icon id="82783" className="inline w-3.5 h-3.5 ml-1 bg-orange-500" />,
   };
 
   return (
@@ -97,15 +97,15 @@ export function ScenarioText({
           >
             <div className="flex flex-wrap gap-3 text-xs">
               <span className="flex items-center gap-1.5 text-green-600 dark:text-green-400">
-                <CheckCircle className="w-3.5 h-3.5" />
+                <Icon id="82766" className="w-3.5 h-3.5 bg-green-600" />
                 Benar Ditandai (True Positive)
               </span>
               <span className="flex items-center gap-1.5 text-red-500">
-                <XCircle className="w-3.5 h-3.5" />
+                <Icon id="82771" className="w-3.5 h-3.5 bg-red-500" />
                 Salah Ditandai (False Positive)
               </span>
               <span className="flex items-center gap-1.5 text-orange-500">
-                <AlertCircle className="w-3.5 h-3.5" />
+                <Icon id="82783" className="w-3.5 h-3.5 bg-orange-500" />
                 Terlewat (Missed)
               </span>
             </div>

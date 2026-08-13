@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import { Brain } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 import { ProgressBar } from "@/components/sandbox/ethical/ProgressBar";
 import { DilemmaCard } from "@/components/sandbox/ethical/DilemmaCard";
 import { SituationReview } from "@/components/sandbox/ethical/SituationReview";
@@ -104,39 +104,39 @@ export default function EthicalDilemmaPage() {
   };
 
   return (
-    <div className="p-6 md:p-8 max-w-3xl mx-auto">
+    <div className="p-3 md:p-8 max-w-3xl mx-auto">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-8"
+        className="mb-3 md:mb-8"
       >
-        <div className="flex items-center gap-2 text-xs text-text-muted mb-3">
+        <div className="flex items-center gap-2 text-[10px] md:text-xs text-text-muted mb-2 md:mb-3">
           <span>Assessments</span>
           <span>/</span>
           <span className="text-teal-500 font-medium">Ethical Dilemma</span>
         </div>
         <div className="flex items-center gap-3 mb-2">
           <div className="w-10 h-10 rounded-xl bg-teal-500/10 flex items-center justify-center">
-            <Brain className="w-5 h-5 text-teal-500" />
+            <Icon id="101174" className="w-5 h-5 bg-teal-500" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold font-heading text-text-strong">
+            <h1 className="text-xl md:text-2xl font-bold font-heading text-text-strong">
               Ethical Dilemma Classification
             </h1>
-            <p className="text-sm text-text-muted">
-              Pilar 3 & 4: Ethical Reasoning + Cognitive Agency — Bobot 45%
+            <p className="text-xs md:text-sm text-text-muted">
+              Ethical Reasoning + Cognitive Agency — Bobot 45%
             </p>
           </div>
         </div>
-        <p className="text-sm text-text-muted mt-2 max-w-xl">
+        <p className="hidden sm:block text-sm text-text-muted mt-2 max-w-xl">
           Klasifikasikan setiap situasi penggunaan AI ke dalam kategori yang tepat.
           Tidak ada jawaban sempurna — judgment-mu yang dinilai.
         </p>
       </motion.div>
 
       {/* Progress Bar */}
-      <div className="mb-6">
+      <div className="mb-3 md:mb-6">
         <ProgressBar current={currentIndex} total={totalSituations} />
       </div>
 

@@ -49,7 +49,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${outfit.variable} ${plusJakarta.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="h-full bg-background flex flex-col md:flex-row text-foreground overflow-hidden">
+      <body suppressHydrationWarning className="h-full bg-background flex flex-col md:flex-row text-foreground overflow-hidden">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <ToastProvider>
             <AssessmentProvider>

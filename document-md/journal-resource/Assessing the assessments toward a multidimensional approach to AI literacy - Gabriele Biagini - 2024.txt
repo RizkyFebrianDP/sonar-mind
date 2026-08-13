@@ -1,0 +1,723 @@
+﻿Firenze University Press 
+www.fupress.com/me
+
+Assessing the assessments: toward a 
+multidimensional approach to AI literacy
+
+Citation: Biagini, G. (2024). Assessing the 
+assessments: toward a multidimen-
+sional approach to AI literacy. Media Valutando la valutazione: verso un approccio multidisciplinare 
+Education 15(1): 91-101. doi: 10.36253/
+me-15831 alla literacy dell’intelligenza artificiale
+Received: February, 2024
+
+Accepted: April, 2024 Gabriele Biagini
+Published: May, 2024 University of Florence, Florence, Italy
+
+gabriele.biagini@unifi.it 
+Copyright: © 2024 Biagini, G. This is an 
+open access, peer-reviewed article 
+published by Firenze University Press Abstract. This scoping review explores the field of artificial intelligence (AI) literacy, 
+(https://www.fupress.com/me) and dis- focusing on the tools available for evaluating individuals’ self-perception of their AI lit-
+tributed under the terms of the Crea- eracy. In an era where AI technologies increasingly infiltrate various aspect of daily life, 
+tive Commons Attribution License, from healthcare diagnostics to personalized digital platforms, the need for a compre-
+which permits unrestricted use, distri- hensive understanding of AI literacy has never been more critical. This literacy extends 
+bution, and reproduction in any medi-
+um, provided the original author and beyond mere technical competence to include ethical considerations, critical thinking, 
+source are credited. and socio-emotional skills, reflecting the complex interplay between AI technologies 
+
+and societal norms. The review synthesizes findings from diverse studies, highlighting 
+Data Availability Statement: All rel- the development and validation processes of several key instruments designed to meas-
+evant data are within the paper and its ure AI literacy across different dimensions. These tools – ranging from the Artificial 
+Supporting Information files. Intelligence Literacy Questionnaire (AILQ) to the General Attitudes towards Artificial 
+Competing Interests: The Author(s) Intelligence Scale (GAAIS) – embody the nature of AI literacy, encompassing affective, 
+declare(s) no conflict of interest. behavioral, cognitive, and ethical components. Each instrument offers unique insights 
+
+into how individuals perceive their abilities to understand, engage with, and ethical-
+ly apply AI technologies. By examining these assessment tools, the review sheds light 
+on the current landscape of AI literacy measurement, underscoring the importance of 
+self-perception in educational strategies, personal growth, and ethical decision-making. 
+The findings suggest a critical need for educational interventions and policy formula-
+tions that address the gaps between perceived and actual AI literacy, promoting a more 
+inclusive, critically aware, and competent engagement with AI technologies. 
+
+Keywords: AI Literacy, self-perception, scale, questionnaire.
+
+Riassunto. Questa scoping review esplora il campo della literacy dell’intelligenza artifi-
+ciale (IA), concentrandosi sugli strumenti disponibili per valutarne l’autopercezione. In 
+un’epoca in cui le tecnologie di IA si infiltrano sempre più in vari aspetti della vita quo-
+tidiana, dalla diagnostica sanitaria alle piattaforme digitali personalizzate, la necessità 
+di una comprensione completa della literacy in IA non è mai stata così cruciale. Questa 
+alfabetizzazione va oltre la mera competenza tecnica ed include considerazioni etiche, 
+pensiero critico e competenze socio-emozionali, riflettendo l’interazione complessa tra 
+le tecnologie di IA e le norme sociali. La review sintetizza i risultati di diversi studi, 
+evidenziando i processi di sviluppo e di validazione di diversi strumenti progettati per 
+
+Media Education 15(1): 91-101, 2024
+ISSN 2038-3002 (print) ISSN 2038-3010 (online) | DOI: 10.36253/me-15831 
+
+
+
+92 Gabriele Biagini
+
+misurare la literacy su diverse dimensioni. Questi strumenti – che vanno dal Questionario sull’Alfabetizzazione in Intelligenza Arti-
+ficiale (AILQ) alla Scala delle Attitudini Generali verso l’Intelligenza Artificiale (GAAIS) – incarnano la natura complessa dell’argo-
+mento, abbracciando componenti affettive, comportamentali, cognitive ed etiche. Ogni strumento offre spunti su come gli individui 
+percepiscono le loro capacità di comprendere, interagire e applicare eticamente le tecnologie di IA. Esaminando questi strumenti, la 
+revisione analizza il panorama attuale degli strumenti di misurazione della literacy in IA, sottolineando l’importanza dell’autoperce-
+zione nella crescita personale e nella presa di decisioni etiche. I risultati suggeriscono un bisogno di interventi educativi e di policy 
+che affrontino le lacune tra la literacy percepita e quella reale, promuovendo un coinvolgimento più inclusivo, consapevole e compe-
+tente con le tecnologie di IA.
+
+Parole chiave: AI Literacy, autopercezione, scale di misurazione, questionario.
+
+1. INTRODUCTION facilitate work tasks (e.g., creation, collaboration, evalu-
+ation) (Chiu et al., 2020; Ng et al., 2021). Authors have 
+
+In an era defined by rapid technological advance- emphasized the idea that people cannot fully under-
+ments, the ability to navigate, understand, and leverage stand this technology if they perceive it merely as a set 
+digital tools has become indispensable. The advent of of knowledge and skills; AI also involves attitudes and 
+digital technologies and the internet has reshaped how moral decision-making, which are crucial for developing 
+we communicate, work, learn, and interact with the AI literacy and its responsible use (Chiu et al., 2020; Ng 
+world around us. This digital transformation has not et al., 2021; Druga et al., 2022). AI literacy can be seen 
+only reshaped the landscape of professional and per- as a multidimensional construct, encompassing a broad 
+sonal lives but has also raised important questions about set of knowledge, skills, and competencies that enable 
+the adequacy of our skills and competencies in the face individuals to engage effectively with AI technologies. 
+of evolving technological demands. As we move deeper This includes technical understanding, such as how algo-
+into the 21st century, the assessment of these skills and rithms function and how AI systems are trained, as well 
+the self-perception of digital competencies have emerged as a grasp of the societal impacts, such as ethical con-
+as critical areas of inquiry. Understanding how individu- siderations and the implications of AI on privacy and 
+als assess their own abilities to engage with technology, employment.
+and the accuracy of these self-assessments, has signifi-
+cant implications for education, workforce development, 
+and societal participation (Saracco, 2020). 2. BACKGROUND 
+
+Among these transformative technologies, Artifi-
+cial Intelligence (AI), due to its pervasive presence, is 2.1 Defining AI Literacy in the modern context
+rapidly becoming a constant feature of the 21st century. 
+As AI systems increasingly permeate various aspects of The concept of literacy has evolved significantly 
+life – from personalized recommendations on stream- from its traditional association with reading and writ-
+ing platforms to diagnostic assistance in healthcare – ing (Carolus et al., 2023). In the context of AI, literacy 
+(Laupichler et al., 2023; Southworth et al., 2023) under- extends beyond merely the ability to use technology; it 
+standing the fundamentals of AI is crucial not only implies a deeper comprehension of how AI tools are 
+for those working in tech-centric roles but also for the developed, their limitations, their potential biases, and 
+general population to make informed decisions (Kandl- the contexts in which they are applied. According to the 
+hofer et al., 2016; Ng et al., 2021; Long & Magerko, 2020; framework proposed by Ng et al. (2021), AI literacy also 
+UNESCO, 2022). involves a sense of empowerment to use AI responsibly 
+
+The competence related to this skill is defined as and a critical mindset for evaluating AI systems’ influ-
+AI Literacy, yet its concept remains in its infancy. Ini- ence on society and individuals’ lives.
+tially, the term was based on fundamental knowl- Moreover, AI literacy aims to democratize under-
+edge of AI and the proper use of this technology. More standing and access to AI technology, ensuring that 
+recently, researchers have proposed adding more depth diverse groups have the opportunity to learn about and 
+to the concept than merely being able to use AI-driven critically engage with these systems. This concept aligns 
+devices and software. Instead, AI literacy involves both with the agenda of many educational initiatives that aim 
+lower and higher-order thinking skills to comprehend to provide students with the necessary tools to become 
+the knowledge and skills behind AI technologies and to responsible digital citizens in the modern world (Carolus 
+
+
+
+Assessing the assessments: toward a multidimensional approach to AI literacy 93
+
+et al., 2023). Therefore, defining AI literacy encompasses tial advancements and personal growth. Moreover, self-
+recognizing its importance for an informed citizenship, perception plays a key role in the democratization of AI. 
+which is essential for societal participation in the age of It is essential for fostering inclusive participation across 
+digital transformation. different demographics (UNESCO 2021; DiSalvo et al., 
+
+To capture this evolving concept, researchers have 2017). A person’s background, culture, and experiences 
+highlighted the urgency to develop AI Literacy scales shape their interaction with technology, and thus, their 
+that reflect the multifaceted nature of such expertise (Ng self-perception in terms of AI literacy. Acknowledging 
+et al., 2023; Laupichler et al., 2023; Carolus et al., 2023; and understanding this personalized view of AI aptitude 
+Pinsky, M., & Benlian, A., 2023; Biagini et al., 2023; enables educators and policymakers to design interven-
+Wang et al., 2022; Wang & Wang, 2022; Sindermann et tions that are culturally sensitive and effective in reach-
+al., 2021; Schepman & Rodway, 2020). These scales aim ing a broader audience. Additionally, studies have indi-
+to measure an individual’s awareness, knowledge, atti- cated that self-perception in AI literacy affects ethical 
+tude, and ability related to AI – ranging from a basic decision-making (Druga et al., 2023). Individuals who 
+understanding of AI concepts to more advanced capaci- consider themselves well-versed in AI are more likely 
+ties such as identifying AI biases and understanding the to critically evaluate the social and ethical dimensions 
+implications of AI applications. Through this compre- of AI technologies, contributing to the development of 
+hensive approach, we can better understand the AI lit- responsible AI practices. In contrast, those with lower 
+eracy landscape and identify areas where education and self-perceived literacy may lack the confidence to ques-
+policy interventions are most needed. However, there are tion or understand the implications of AI systems, possi-
+still limited validated questionnaires that address all its bly leading to uncritical acceptance of AI outputs (Biag-
+dimensions, hence the need for a review. ini et al., 2023). In the pursuit of advancing AI literacy, 
+
+it is therefore imperative to not only develop tools that 
+assess an individual’s conceptual and practical knowl-
+
+2.2 AI literacy self-perception edge but also ones that measure their self-perception of 
+AI literacy. This dual focus enables the identification of 
+
+Self-perception refers to individuals’ assessment gaps between perceived and actual understanding. Fur-
+of their own knowledge, skills, and competencies in a thermore, it provides insights into how individuals posi-
+given domain. In the context of AI literacy, it encom- tion themselves in relation to AI, which is integral for 
+passes the evaluation by individuals of their capabil- crafting effective educational interventions and promot-
+ity to comprehend and engage with AI technologies. ing a critically aware and competent AI literate public.
+Understanding self-perception is crucial for numerous 
+reasons (Bandura, 1997), particularly in informing edu-
+cation strategies, personalizing learning experiences, 2.3 AI Literacy assessment tools
+and fostering a deeper, more reflective engagement with 
+AI. To begin with, self-perception in personal literacies In the field of AI literacy, scholars employ a diverse 
+influences motivation and learning outcomes (Bandura, range of quantitative and qualitative methods to assess 
+1997). Beliefs about one’s abilities have a direct impact students’ knowledge on the domain, including pre- and 
+on the effort expended in learning, perseverance when post-knowledge tests, self-reported questionnaires (Chiu 
+faced with challenges, and, ultimately, success in mas- et al., 2021; Kong et al., 2022; Lin et al., 2021; Ng et al., 
+tering new content. Individuals who perceive themselves 2023), surveys (Druga et al., 2022), curriculum guides 
+as competent in the AI domain are more likely to seek (Ng et al., 2023), interview tools, and project rubrics (Ng 
+out challenges, exhibit resilience, and experience efficacy et al., 2022; Zhang et al., 2022). 
+in their learning pursuits, all of which are critical in the The development of curricula aimed at enhanc-
+fast-evolving field of AI. Another important aspect is the ing AI literacy has led to the creation of comprehensive 
+alignment of self-perceived AI literacy with actual com- assessment/self-assessment tools (e.g., Carolus et al., 
+petence (Kruger, J., & Dunning, D., 1999). The discrep- 2023; Chai et al., 2020; Chiu et al., 2021; Dai et al., 2020; 
+ancies between self-assessment and actual proficiency Kong et al., 2023; Laupichler et al., 2023; Ng et al., 2023; 
+can lead to overconfidence or a lack of confidence. Both Pinski & Benlian, 2023; Wang et al., 2022), focusing on 
+can be detrimental: For example, overconfidence may a variety of factors such as confidence, readiness, rel-
+cause individuals to overlook learning opportunities or evance, behavioral intention, learning perceptions, moti-
+to fail to heed ethical implications of AI deployment, vation, attitudes, career aspirations, engagement, hands-
+while a lack of confidence can result in reluctance to on interactivity, futuristic and interdisciplinary think-
+engage with AI tools or technologies, hindering poten- ing, social good, and ethical learning. 
+
+
+
+94 Gabriele Biagini
+
+However, even if several scales have been developed, 3. METHODS 
+mostly are tailored to evaluate specific interventions, 
+therefore, their content often remains closely aligned To answer the research questions regarding the 
+with the evaluated intervention, limiting their broader available tools and their characteristic for evaluating AI 
+applicability (Carolus et al., 2023). literacy self-perception, a comprehensive review of aca-
+
+Furthermore, despite the breadth of these assess- demic literature was conducted. This investigation aimed 
+ments, few have undergone validation or retesting for to identify and assess the variety of instruments current-
+reliability across different settings and the factorial ly in use for gauging an individual’s self-perceived com-
+structure of used instruments in educational settings has petence and understanding of artificial intelligence con-
+rarely been examined in large samples, leading to a lack cepts and applications. Through this examination, a total 
+of differentiation among various aspects of AI literacy. of nine distinct tools were identified, encompassing a 
+
+Critically, the predominant focus of these instru- range of approaches from self-assessment questionnaires 
+ments on cognitive and ethical dimensions, with less to interactive digital platforms. Each tool was evaluated 
+attention to attitudinal and behavioral aspects essen- based on its characteristics (e.g., purpose, target, valida-
+tial for AI learning, signifies a gap in the comprehen- tion process). 
+sive assessment of AI literacy, especially considering The approach utilized for this study was a scoping 
+the diversity of age ranges targeted. This oversight is review (Grant & Booth, 2009), adhering to the frame-
+problematic, as a thorough understanding of AI literacy work established by the PRISMA guidelines (Moher et 
+requires exploring socio-emotional and higher cognitive al., 2009). Since, although not a systematic review of the 
+dimensions beyond mere technical proficiency. literature, the scoping review shares its characteristics 
+
+To adequately measure AI literacy across a broader of transparency, reproducibility and systematicity aim-
+spectrum of use cases it is essential to develop assess- ing to reduce mistakes and bias and thus, yielding more 
+ment tools that not only cover general criteria but also trustworthy outcomes (Cooper et al., 2019). The subse-
+allow for the modular incorporation of context-specific quent sections provide a concise overview and record the 
+aspects. Such an approach would address the current principal procedures applied in this method of research.
+limitations by ensuring a more generalized and differen- The process of the review was divided into five dis-
+tiated assessment of AI literacy, capturing its multifac- tinct phases: a) defining the problem and the research 
+eted nature. queries, b) identifying relevant literature, c) evaluat-
+
+ing the search outcomes, d) categorizing, decoding, and 
+summarizing the findings, and e) disseminating the 
+
+2.4 The present study review findings. The search encompassed several academ-
+ic databases, including Web of Science (Clarivate), ERIC 
+
+Recognizing the importance of assessment in AI lit- (Institute of Education Sciences), IEEE Xplore (IEEE), 
+eracy, this study seeks to identify and evaluate the tools and SCOPUS (Elsevier), and was conducted in March 
+designed to measure individuals’ self-assessment of their 2023. It is worth noting that the volume of literature on 
+AI knowledge and competencies. By exploring the char- AI literacy scales is comparatively limited. Hence, this 
+acteristics of these tools, including their purpose, target research aims to provide a comprehensive overview of 
+audience, and validation processes, the research aims the current literature. The focus was on articles explic-
+to provide a comprehensive overview of the methodolo- itly mentioning “AI literacy scales or questionnaire” or 
+gies currently employed in this domain. Furthermore, “artificial intelligence literacy scales or questionnaire” in 
+this study delves into the specific aspects of AI that these the title, abstract, or text. A subsequent search was con-
+instruments aim to measure, seeking to understand the ducted in September 2023, filtering out non-conforming 
+breadth and depth of AI concepts and skills captured by articles based on the established exclusion criteria. 
+such evaluations. Through an examination of existing Five exclusion criteria were formulated and applied 
+evaluation tools, this study aims to highlight the criti- during the abstract and full-text report reviews (refer to 
+cal dimensions of AI literacy as perceived by individu- Table 1). The criteria were as follows: works that utilized 
+als themselves. The research questions (RQ) addressed in the term AI literacy scale or questionnaire but concen-
+this study are as follows: trated on a different subject were omitted (criterion 1). 
+RQ1: Which are the tools for evaluating AI literacy self- Editorials and books were not included due to their non-
+perception? peer-reviewed nature (criterion 2). Articles that men-
+RQ2: Which characteristics (e.g., purpose, target, valida- tioned “AI literacy scale or questionnaire” but pertained 
+tion process) and what specific aspects of AI are meas- to AI’s application in specific fields unrelated to educa-
+ured by these questionnaires?
+
+
+
+Assessing the assessments: toward a multidimensional approach to AI literacy 95
+
+Table 1. Exclusion criteria for the scoping review.
+
+Criterion 
+number Criterion Name Criterion Explanation
+
+Missing focus on tools for AI literacy Works that utilized the term scale but concentrated on a different subject were omitted 
+1 assessment (e.g., pre-post course evaluation)
+2 Peer Review Editorials and books were not included due to their non-peer-reviewed nature
+
+3 Technical articles/Specific Context Articles that mentioned “AI literacy” but pertained to AI’s application in specific fields 
+unrelated to education were disregarded
+
+4 Foreign Language Reports published in languages other than English or Italian
+
+ 
+ Identification of studies via databases and registers that are included in the review based on this assessment. 
+ Figure 1 contains the details of the process.
+ Records identified from: 
+       Web of Science (n = 32) 
+ SCOPUS (n = 24) Records removed before 
+
+ ERIC (n=10) screening: 
+IEEE Xplore (n=22) Duplicate records removed (n 4. RESULTS 
+
+  = 56) 
+  
+ To address the research question regarding the iden-
+ 
+ tification of tools for evaluating self-perception of AI 
+ Records screened. Records excluded** literacy, our investigation uncovered a variety of instru-
+ (n = 32) (n = 8) ments designed to measure individuals’ understanding 
+ 
+ and competence in artificial intelligence. Here we briefly 
+ describe them:
+ Reports sought for retrieval. Reports not retrieved. 
+ (n = 24) (n = 0) 1) The AILQ Survey (Ng et al., 2023): The study 
+ introduces the Artificial Intelligence Literacy Question-
+ 
+ naire (AILQ), a comprehensive tool developed to assess 
+ Reports assessed for eligibility. Reports excluded: 
+
+(n = 24) Reason 1 (n = 9) the AI literacy of secondary students. It underscores 
+ Reason 2 (n = 2) 
+ Reason 3 (n =1) the necessity of evaluating AI literacy across four key 
+ Reason 4 (n = 2) 
+
+Reason 5 (n =1) dimensions: affective learning (which includes intrin-
+  
+ sic motivation and self-efficacy/confidence), behavioural 
+ learning (encompassing behavioural commitment and 
+ 
+ Studies included in review. collaboration), cognitive learning (covering knowledge 
+ (n = 9 + 3 from references) acquisition, application, evaluation, and creation), and 
+ ethical learning. These dimensions ref lect a holistic 
+
+Figure 1. Prisma Flowchart. **All records were excluded manually. approach to understanding AI literacy, incorporating 
+No automation tools were used at this stage. not only technical knowledge and skills but also ethical 
+
+considerations and socio-emotional aspects such as col-
+laboration and engagement. The AILQ was designed and 
+
+tion were disregarded (criterion 3). Finally, publications validated through a multi-step process, including theo-
+not in English or Italian were excluded to prevent mis- retical review, expert judgment, interviews, a pilot study, 
+interpretation due to language barriers, as these were the and confirmatory factor analysis, ensuring its reliabil-
+languages the authors were proficient in (criterion 4). ity and validity. The validation process involved a pilot 
+
+The journey of study selection begins with the iden- study with 363 secondary school students to examine 
+tification of studies from several databases: 32 from Web the psychometric properties of the AILQ. This process 
+of Science, 24 from SCOPUS, 10 from ERIC, and 22 confirmed a four-factor structure of the AILQ, demon-
+from IEEE Xplore, totalling 88 records. From this pool, strating its good reliability and validity as a measure-
+records are pre-screened, resulting in the removal of 56 ment scale. This tool is distinguished by its compre-
+duplicate records. This leaves 32 records to be screened. hensive coverage of the ABCE (Affective, Behavioural, 
+After screening, 8 records are excluded. This results in Cognitive, and Ethical) learning framework, making 
+24 reports being sought for retrieval. Of the 24 reports it a novel contribution to the field. The questionnaire is 
+that are retrieved and assessed for eligibility, a number designed to capture a wide range of competencies, from 
+are excluded for the exclusion criteria leaving 9 studies 
+
+Included Screening Identification 
+ 
+
+
+
+96 Gabriele Biagini
+
+basic understanding to higher-order thinking skills, and and expert interviews to define and conceptualize gen-
+includes items specifically aimed at assessing students’ eral AI literacy. This work led to the creation of an ini-
+confidence, self-efficacy, motivation, and ethical under- tial item set aimed at capturing the essence of individu-
+standing related to AI. als’ socio-technical competencies in interacting with 
+
+2) The “Scale for the Assessment of Non-Experts’ AI technologies (based on IS research and human-AI 
+AI Literacy” (SNAIL) (Laupichler et al., 2023) is a tool collaboration). To refine and validate this item set, the 
+designed to measure the AI literacy among non-experts, research team engaged in two rounds of card sorting 
+a demographic defined as individuals lacking formal involving a total of eleven judges, followed by a pre-test 
+education in AI or computer science. This tool emerged with 50 participants. This process culminated in a vali-
+from the need to provide a valid and reliable assessment dated measurement instrument comprising five dimen-
+of AI competencies. The development process of SNAIL sions and 13 items, offering empirical support for the 
+involved distributing an initial set of AI literacy items measurement model. The instrument elucidates general 
+through an online questionnaire to a diverse group of AI literacy through seven restructured dimensions, cat-
+non-experts. Subsequent analysis, leveraging exploratory egorized into AI actor knowledge (explicit literacy), AI 
+factor analysis, unveiled a three-factor structure encap- steps knowledge (explicit literacy), and AI experience 
+sulating the latent dimensions of AI competencies: Tech- (tacit literacy), thus providing a nuanced understand-
+nical Understanding, Critical Appraisal, and Practical ing of the competencies relevant to human-AI interac-
+Application. The final iteration of the SNAIL question- tion. By structuring human-AI competencies in such a 
+naire comprises 31 items, crafted to assess individuals’ detailed manner, the instrument lays the groundwork 
+or groups’ AI literacy. It also serves as a tool for evaluat- for future research directions in IS, inviting inquiries 
+ing the efficacy of AI literacy instructional courses. into the multifaceted relationships between AI literacy 
+
+3) Meta AI Literacy Scale (MAILS) (Carolus et al., and its effects on organizational and technological out-
+2023) was designed to offer a robust and flexible assess- comes.
+ment tool for AI literacy that is deeply grounded in 5) LTE’s Scale (Biagini et al., 2023): The LTE Scale is 
+the literature. It combines traditional AI literacy facets a tool designed to evaluate users’ skills in engaging with 
+with psychological competencies, making it applicable artificial intelligence (AI), spanning across knowledge-
+across various professional settings. The scale’s modular- related, operational, critical, and ethical dimensions. 
+ity allows for its facets to be used independently, tailor- This 40-item assessment scale is crafted to enhance 
+ing the assessment to specific goals and use cases. His comprehension of self-reported AI literacy, drawing 
+main target are adults, with the potential for broader inspiration from the foundational notions of digital lit-
+application given its foundation in universal competen- eracy outlined by Calvani et al. (2009) and the AI Lit-
+cies and psychological constructs. The scale was devel- eracy framework proposed by Cuomo et al. (2022). The 
+oped through the analysis of data collected online from development process of this scale was guided by DeVel-
+300 participants. It underwent both exploratory and lis’ strategic recommendations, initially generating an 
+confirmatory factor analyses to confirm its factorial item pool of 118 potential entries. This pool was refined 
+structure. This validation process ensured that MAILS through expert insights, culminating in a robust set 
+effectively measures AI literacy and psychological com- of items that underwent rigorous validation through 
+petencies related to problem-solving, learning, and emo- Exploratory Factor Analysis (EFA) and Confirmatory 
+tion regulation in the context of AI. The scale’s design Factor Analysis (CFA). The theoretical underpinning of 
+is based on Ng and colleagues’ (Ng et al., 2021) con- the LTE Scale, rooted in four distinct constructs, reflects 
+ceptualization of AI literacy, therefore Use & Apply AI, a comprehensive conceptualization of AI literacy, align-
+Understand AI, Detect AI, AI Ethics, with the addition ing with the multifaceted nature of this domain. This 
+of Create Ai and is enriched with psychological com- approach not only attests to the scale’s empirical robust-
+petencies to address the pervasive changes brought by ness – evidenced by a high reliability score and con-
+AI systems like, AI Self-efficacy in learning and prob- struct validity – but also recommends its application as 
+lem solving, AI Self-management, further divided into an integral tool rather than isolating its constructs, thus 
+AI Self-efficacy (covering AI Problem-solving and AI embracing the inherent multidimensionality of AI lit-
+Learning) and AI Self-competency (including AI Persua- eracy. The LTE Scale distinguishes itself in the scenarios 
+sion literacy and AI Emotion regulation). of AI literacy assessment tools by offering a holistic per-
+
+4) Pinsky et al. scale (Pinsky, M., & Benlian, spective that acknowledges and evaluates the intricate 
+A., 2023): This study embarked on a comprehensive complexity of AI literacy. 
+approach, starting with a systematic literature review 
+
+
+
+Assessing the assessments: toward a multidimensional approach to AI literacy 97
+
+6) The AI Literacy Scale (AILS) (Wang et al., 2022): discussions on AIA, emphasizing the need for multidi-
+This innovative scale is designed to capture the essence mensional analysis and targeted interventions to miti-
+of AI literacy through the core constructs of aware- gate anxiety. For practitioners, the AIAS underscores the 
+ness, use, evaluation, and ethics, distilled into a con- importance of understanding various anxiety dimen-
+cise 12-item instrument from an initial pool of 65 items sions—such as learning, job replacement, sociotechni-
+through a rigorous three-step content validation process. cal blindness, and AI configuration—to tailor corrective 
+By identifying these constructs and validating the scale measures. For educators, the AIAS can guide the devel-
+across two diverse data samples, the study establishes opment of teaching strategies that stimulate interest in 
+AILS as a reliable and valid tool for quantitatively meas- AI, thereby reducing anxiety and enhancing learning 
+uring AI literacy. AILS’s development was inspired by outcomes.
+the foundational work in digital literacy by Balfe, Shar- 8) The Attitude Towards Artificial Intelligence 
+ples, and Wilson, and Calvani et al. (2009), suggesting (ATAI) scale (Sindermann et al., 2021) represents an 
+a parallel framework could be effectively applied to AI important advancement in the measurement of pub-
+literacy. The scale underwent a thorough six-step meth- lic attitudes towards AI, addressing the dichotomy of 
+odological approach, ensuring its reliability and validity, acceptance and fear associated with the proliferation of 
+and confirmed the appropriateness of the four-construct AI technologies in daily life. This study introduces the 
+model for conceptualizing AI literacy. Despite some con- ATAI scale, crafted and validated across three languages: 
+structs having average variance extracted (AVE) values German, Chinese, and English, with participants from 
+slightly below the usual threshold, the scale demonstrat- Germany, China, and the UK providing a broad cultural 
+ed sufficient convergent validity, supporting its utility in perspective on AI attitudes. The ATAI scale’s develop-
+research and practice. The study’s findings underscore ment is a demonstration of the relationship individu-
+the significant relationship between AI literacy, as meas- als hold with AI, encapsulating both the optimism of 
+ured by AILS, and key variables such as digital literacy, embracing technological advancements and the skepti-
+attitudes towards robots, and daily AI usage, highlight- cism concerning potential societal implications. Com-
+ing the scale’s predictive relevance for understanding prising five items, the ATAI scale delineates two distinct 
+users’ interactions with AI technologies. Notably, the but interrelated dimensions: acceptance of AI and fear 
+study advocates for the use of AILS as a comprehensive of AI, revealing a balanced factorial structure that reso-
+instrument rather than focusing on individual con- nates across diverse cultural contexts. This bifurcation 
+structs, reflecting the multifaceted nature of AI literacy. allows for a nuanced understanding of attitudes towards 
+This approach aligns with the recognition that AI lit- AI, reflecting the complexity of human-machine inter-
+eracy extends beyond the competence in using specific actions in the digital age. The scale’s validation process, 
+applications, emphasizing the need to assess users’ gen- involving comparisons of willingness to interact with 
+eral AI competence. and use specific AI products like self-driving cars and 
+
+7) The AI Anxiety Scale (AIAS) (Wang & Wang, social robots among others, underscores its practical rel-
+2022): This paper introduces the AIAS as a standard- evance and applicability. The ATAI scale’s cross-cultural 
+ized tool designed to measure the general public’s anxi- validation signifies its robustness and universality, offer-
+ety towards AI development, a phenomenon increasingly ing a reliable and concise measure of AI attitudes that 
+prevalent as AI technologies become more integrated transcends geographical and linguistic barriers. Notably, 
+into daily life. The AIAS development process was com- the scale’s exploration of the fear dimension, particularly 
+prehensive, involving the conceptualization of the AIA concerning AI’s impact on employment, provides criti-
+construct, item generation, and rigorous validation cal insights into prevailing anxieties and perceptions, 
+through data analysis from 301 respondents. This pro- despite varying emphases on job loss across different 
+cess ensured the AIAS’s reliability and validity across samples. This highlights the scale’s sensitivity to contex-
+various dimensions, including criterion-related, con- tual nuances and the importance of considering specific 
+tent, discriminant, convergent, and nomological valid- sample characteristics in future research applications.
+ity. The finalized 21-item scale offers a understanding of 9) The General Attitudes towards Artificial Intelli-
+AIA, providing a robust metric for comparing individual gence Scale (GAAIS) (Schepman, A., & Rodway, P., 2020) 
+AIA levels against broader norms. The AIAS’s diverse is an instrument designed to measure public sentiment 
+sample basis enhances its applicability for developing toward artificial intelligence (AI) through both positive 
+related standards and offers a precise tool for assessing and negative lenses. This scale underwent an explora-
+AIA more accurately than existing measures. The AIAS’s tory factor analysis, unveiling two distinct subscales that 
+development contributes to theoretical and practical encapsulate positive perceptions, reflecting societal and 
+
+
+
+98 Gabriele Biagini
+
+Table 2. summary of all the tools examined during the review.
+
+Tool Name Authors General Purpose Main Target Validation Process Distinctive Features Number 
+of Items
+
+Assess secondary Pilot study with 363 Focuses on affective, 
+AILQ Ng et al., 2023 students’ AI literacy Secondary students students in Hong behavioural, cognitive, and 
+
+across four dimensions. Kong. ethical learning; validated 32
+in an educational context.
+
+Assess non-experts’ AI 
+literacy across technical Online questionnaire Caters to a broad audience 
+
+SNAIL Laupichler et 
+al., 2023 understanding, critical Non-experts with exploratory factor without formal AI 3
+
+appraisal, and practical analysis. education; three-factor 1
+
+application. model.
+
+Measure AI literacy Includes psychological 
+
+MAILS Carolus et al., integrating foundational German-speaking Data from 300 aspects like problem-
+2023 encies with adults individuals analysed solving and emotion 72 (60 + 
+
+compet
+psychological skills. with EFA and CFA. regulation alongside AI 12)
+
+competencies.
+Literature review, 
+
+Pinsky&Benlian Pinsky, M., & Measure general AI Researchers and expert interviews, card Seven dimensions 
+
+Scale Benlian, A., literacy in human-AI practitioners in IS sorting with 11 judges, categorizing explicit 
+2023 interaction contexts. nd AI and pre-test with 50 and tacit AI literacy 13
+
+a
+participants. knowledge.
+
+Evaluate critical skills Scoping assessment, Comprehensive approach 
+LTE’s Scale Biagini et al., in AI use, covering Non-experts, expert review, EFA, to AI literacy; high 
+
+2023 knowledge, operation, Academics and CFA with α=0.95, reliability and construct 40
+criticism, and ethics. AVE=0.53. validity.
+
+Assess AI literacy Three-step content 
+Wang et al., among ordinary users, validation, survey Short, validated measure 
+
+AILS 2022 focusing on awareness, ordinary users with two data samples correlating AI literacy 
+use, evaluation, and leading to a 12-item with digital literacy and 12
+
+ethics. instrument. attitudes towards robots.
+
+Wang, Y.-Y. & Data from 301 Introduces the concept of 
+AIAS Wang, Y.-S., Measure anxiety towards  anxiety (AIA) and its 
+
+2022 AI development. General public respondents analyzed AI
+for multiple forms of measurement; extensive 21
+
+validity. validation process.
+
+ attitudes towards Populations from Participants completed tilingual validation; 
+ATAI Scale Sindermann et Assess
+
+al., 2021 AI across acceptance Germany, China, and the ATAI scale; Mul
+factorial structure two negatively associated 5
+
+and fear dimensions. the UK tested across samples. factors.
+
+Develop a General Exploratory Factor Positive and negative 
+Schepman, A., Attitudes towards Analysis with cross- subscales capturing 
+
+GAAIS & Rodway, P., Artificial Intelligence General public validation on attitudes emotions and utility 21
+2020 Scale with positive and towards specific AI versus concerns; good 
+
+negative subscales. applications. psychometric properties.
+
+personal utility, and negative perceptions, which high- such as astronomy and pharmacology, appreciating its 
+light concerns surrounding AI. The GAAIS demonstrated utility and impact. Conversely, applications requiring 
+strong psychometric properties, including good indi- human judgment, like medical treatment and psycho-
+ces of reliability as well as convergent and discriminant logical counseling, elicit more negative reactions, driven 
+validity when juxtaposed against existing measures. The by ethical concerns and discomfort. This scale’s develop-
+GAAIS offers insight into the general public’s attitudes ment and validation process underscores the complexity 
+toward specific AI applications by correlating comforta- of public attitudes toward AI, revealing that comfort with 
+bleness and perceived capability with general attitudes. AI applications is a more potent predictor of general atti-
+The findings reveal a dichotomy: individuals are gener- tudes than perceived capability. This suggests that while 
+ally positive about AI’s use in areas involving big data, people may recognize the potential benefits of AI, their 
+
+
+
+Assessing the assessments: toward a multidimensional approach to AI literacy 99
+
+comfort level, likely influenced by emotional and ethical only enhance AI literacy but also address the emotional 
+considerations, plays a crucial role in shaping their over- and attitudinal barriers to effective AI engagement; the 
+all attitudes. Next table summarises the results (Table 2). alignment, or lack, between self-perceived and actual AI 
+
+literacy, as illuminated through these assessment tools, 
+presents significant implications for educational practice 
+
+5. DISCUSSION and policy. It underscores the need for educational cur-
+ricula and policies that foster not just the acquisition of 
+
+The exploration of tools for evaluating AI literacy AI knowledge and skills but also self-awareness and criti-
+self-perception revealed a growing interest in under- cal reflection on one’s AI competencies. Such initiatives 
+standing and measuring the multidimensional nature of are essential for preparing a populace that is not only 
+AI literacy. This interest is reflected in the development technologically proficient but also ethically informed and 
+of diverse assessment tools, each designed with specific socially responsible in the age of AI.
+constructs to capture the nuances of AI literacy from 
+various perspectives. Notably, the tools offer unique 
+insights into how individuals perceive their AI literacy, 6. CONCLUSION
+highlighting the complexity of this construct.
+
+The AILQ (Ng et al., 2023) and the SNAIL In conclusion, this scoping review has identified 
+(Laupichler et al., 2023) and LTE’s Scale (Biagini et al., and evaluated a range of tools designed to assess AI lit-
+2023) stand out for their comprehensive approaches, eracy self-perception, revealing a diverse array of meth-
+addressing not only cognitive and technical skills but odologies aimed at capturing the nature of AI literacy. 
+also affective, behavioral, or ethical dimensions of AI Through the examination of nine significant scales, our 
+literacy. Underlying the evolving understanding of AI study highlights the importance of assessing not only 
+literacy as not merely technical competency but encom- technical knowledge and skills but also ethical under-
+passing critical thinking, ethical reasoning, and socio- standing and socio-emotional competencies. The diver-
+emotional engagement with AI technologies. Socio-tech- sity of these tools reflects the evolving understanding of 
+nical aspects are explored in dept by Pinsky and Benlian AI literacy as a multidimensional construct that encom-
+(2023) who contributed to the understanding of AI lit- passes cognitive, technical, affective, behavioral, and 
+eracy by focusing on this kind of competencies required ethical dimensions. However, the review also points to a 
+for human-AI interaction. Their work underlines the gap in the comprehensive assessment of all facets of AI 
+significance of both explicit and tacit literacies in navi- literacy, indicating a need for further development of 
+gating the AI technologies. Furthermore, the diversity instruments that can accurately measure self-perception 
+in target audiences, from secondary students to non- in this critical area. As AI continues to permeate various 
+experts and professionals, as seen in the MAILS (Caro- aspects of life, fostering a deep and reflective engage-
+lus et al., 2023) suggests a need for tailored approaches ment with AI technologies through accurate self-assess-
+in AI literacy education and assessment. This variety ment tools becomes imperative for enabling informed 
+reflects the universal relevance of AI literacy across dif- decisions and responsible use of AI. This study paves the 
+ferent age groups and professional backgrounds, advo- way for future research to refine and expand the tools 
+cating for inclusive educational strategies that cater to available for AI literacy assessment, ensuring that edu-
+diverse learning needs. cation strategies can effectively address the needs of a 
+
+The introduction of tools like the AI Anxiety Scale diverse and rapidly evolving digital world.
+(Wang, Y.-Y. & Wang, Y.-S., 2022) and the AILS by 
+Wang et al. (2022) further enriches the perception of 
+AI literacy assessment by incorporating the psychologi- REFERENCES
+cal aspects of learning and interaction with AI. These 
+aspects, including anxiety and attitudes towards AI, play Bandura, A. (1997) Self-Efficacy: The Exercise of Control. 
+a significant role in shaping individuals’ engagement with W.H. Freeman and Company, New York.
+AI technologies. Finally, the ATAI Scale by Sindermann Biagini, G., Cuomo, S., & Ranieri, M. (2023). Develop-
+et al. (2021) and GAAIS by Schepman, A., & Rodway, P. ing and validating a multidimensional AI literacy 
+(2020) explore public attitudes towards AI, distinguish- questionnaire: Operationalizing AI literacy for high-
+ing between acceptance and fear, as well as positive and er education. Proceedings of the First International 
+negative perceptions. Understanding these psychological Workshop on High-performance Artificial Intelligence 
+dimensions is crucial for designing interventions that not Systems in Education Rome, Italy, Novembre 6, 2023.
+
+
+
+100 Gabriele Biagini
+
+Calvani, A., Fini, A., & Ranieri, M. (2009). Assessing Digi- Science in Education: From Kindergarten to Universi-
+tal Competence in Secondary Education. Issues, Mod- ty. 2016 IEEE Frontiers in Education Conference (FIE).
+els and Instruments. Issues in Information and Media Kong, S.-C., Cheung, W. M.-Y., & Tsang, O. (2022). Eval-
+Literacy: Education, Practice and Pedagogy, 153–172. uating an artificial intelligence literacy programme 
+
+Carolus, A., Koch, M.J., Straka, S., Latoschik, M.C., Wie- for empowering and developing concepts, literacy 
+nrich, C. (2023). MAILS – Meta AI literacy scale: and ethical awareness in senior secondary students. 
+Development and testing of an AI literacy question- Education and Information Technologies. https://doi.
+naire based on well-founded competency models and org/10.1007/s10639-022-11408-7.
+psychological change- and meta-competencies, Com- Kong, S. C., Cheung, W. M. Y., & Zhang, G. (2022). 
+puters in Human Behavior: Artificial Humans, Vol- Evaluating artificial intelligence literacy courses for 
+ume 1, Issue 2, pp. 1-10. fostering conceptual learning, literacy and empower-
+
+Chai, C. S., Lin, P. Y., Jong, M. S. Y., Dai, Y., Chiu, T. K., ment in university students: Refocusing to conceptual 
+& Huang, B. (2020). Factors influencing students’ building. Computers in Human Behavior Reports, 7, 
+behavioral intention to continue artificial intelligence 100223. https://doi.org/10.1016/j.caeai.2021.100026 
+learning. In 2020 International Symposium on Educa- Kruger, J., & Dunning, D. (1999). Unskilled and unaware 
+tional Technology (ISET), pp. 147–150. of it: how difficulties in recognizing one’s own incom-
+
+Chiu, T. K., & Chai, C. S. (2020). Sustainable curricu- petence lead to inflated self-assessments. Journal of 
+lum planning for artificial intelligence education: A Personality and Social Psychology, 77(6), 1121.
+self-determination theory perspective. Sustainability, Laupichler, M. C., Aster, A., & Raupach, T. (2023). Del-
+12(14), 1-18. phi study for the development and preliminary 
+
+Chiu, T. K., Meng, H., Chai, C. S., King, I., Wong, S., & validation of an item set for the assessment of non-
+Yam, Y. (2021). Creation and evaluation of a pre- experts’ AI literacy. Computers and Education: Arti-
+tertiary artificial intelligence (AI) curriculum. IEEE ficial Intelligence, 4, 100126. https://doi.org/10.1016/j.
+Transactions on Education, 65(1), 30–39. https://doi. caeai.2023.100126.
+org/10.1109/ TE.2021.3085878 Lin, C.-H., Yu, C.-C., Shih, P.-K., & Wu, L. Y. (2021). 
+
+Cuomo, S., Biagini, G., & Ranieri, M. (2022). Artifi- STEM-based Artificial Intelligence Learning in Gen-
+cial Intelligence Literacy, che cos’è e come promu- eral Education for Non- Engineering Undergraduate 
+overla. Dall’analisi della letteratura ad una propos- Students. 15.
+ta di Framework. Media Education. https://doi. Long, D., & Magerko, B. (2020). What is AI Literacy? 
+org/10.36253/me-13374. Competencies and Design Considerations. In Pro-
+
+Cooper, H., Hedges, L.V., & Valentine, J.C. (2019). The ceedings of the 2020 CHI Conference on Human Fac-
+Handbook of Research Synthesis and Meta-Analysis. tors in Computing Systems, pp. 1–16. https://doi.
+(3rd edition. ed.). Russell Sage Foundation. org/10.1145/3313831.3376727.
+
+Dai, Y., Chai, C. S., Lin, P. Y., Jong, M. S. Y., Guo, Y., & Moher, D., Liberati, A., Tetzlaff, J., Altman, D. G. & The 
+Qin, J. (2020). Promoting students’ well-being by PRISMA Group. (2009). Preferred Reporting Items 
+developing their readiness for the artificial intel- for Systematic Reviews and Meta-Analyses: The 
+ligence age. Sustainability, 12(16). https://doi. PRISMA Statement. PLoS Med 6(7): e1000097.
+org/10.3390/su12166597. Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. 
+
+DiSalvo, B., Yip, J., Bonsignore, E., & Carl, D. (2017). Par- S. (2021). Conceptualizing AI literacy: An explora-
+ticipatory design for learning. In Participatory design tory review. Computers and Education: Artificial 
+for learning, pp. 3-6. Routledge. Intelligence, 2, 100041. https://doi.org/10.1016/j.cae-
+
+Druga, S., Vu, S. T., Likhith, E., & Qiu, T. (2019). Inclu- ai.2021.100041.
+sive AI literacy for kids around the world. Proceed- Ng, D. T. K., Leung, J. K. L., Su, M. J., Yim, I. H. Y., Qiao, 
+ings of FabLearn 2019, pp. 104–111. https://doi. M. S., & Chu, S. K. W. (2022). AI Literacy in K-16 
+org/10.1145/3311890.3311904 Classrooms. Springer International Publishing. htt-
+
+Druga, S., Christoph, F. L., & Ko, A. J. (2022). Family as ps://doi.org/10.1007/978-3-031-18880-0
+a Third Space for AI Literacies: How do children and Ng, D. T. K., Wu, W., Leung, J. K. L., & Chu, S. K. W. 
+parents learn about AI together? CHI Conference on (2023). Artificial Intelligence (AI) literacy question-
+Human Factors in Computing Systems, pp. 1–17. htt- naire with confirmatory factor analysis. In 2023 IEEE 
+ps://doi.org/10.1145/3491102.3502031 International Conference on Advanced Learning Tech-
+
+Kandlhofer, M., Steinbauer, G., Hirschmugl-Gaisch, S., & nologies (ICALT), pp. 233–235. IEEE. https://doi.
+Huber, P. (2016). Artificial Intelligence and Computer org/10.1109/ICALT58122.2023.00074
+
+
+
+Assessing the assessments: toward a multidimensional approach to AI literacy 101
+
+Pinski, M., & Benlian, A. (2023). Ai literacy – towards 
+measuring human competency in artificial intelli-
+gence. In Proceedings of the 56th Hawaii internation-
+al conference on system sciences, pp. 165–174. Maui, 
+USA: IEEE Computer Society Press. 
+
+Saracco, R. (2020). Understanding Digital Transformation: 
+The Key Concepts. IEEE Communications Society.
+
+Schepman, A., & Rodway, P. (2020). Initial validation of 
+the general attitudes towards Artificial Intelligence 
+Scale. Computers in Human Behavior Reports, 1, 
+100014. https://doi.org/10.1016/j.chbr.2020.100014.
+
+Sindermann, C., Sha, P., Zhou, M., Wernicke, J., Schmitt, 
+H. S., Li, M., & Montag, C. (2021). Assessing the atti-
+tude towards artificial intelligence: Introduction of a 
+short measure in German, Chinese, and English Lan-
+guage. KI – Künstliche Intelligenz, 35(1), 109–118.
+
+Southworth, J., Migliaccio, K., Glover, J., Reed, D., McCa-
+rty, C., Brendemuhl, J., & Thomas, A. (2023). Devel-
+oping a model for AI across the curriculum: Trans-
+forming the higher education landscape via innova-
+tion in AI literacy. Computers and Education: Artifi-
+cial Intelligence, 4, 100127. https://doi.org/10.1016/j.
+caeai.2023.100127
+
+United Nations Educational, Scientific and Cultural 
+Organization. (2021). AI and education: Guidance 
+for policy makers. https://unesdoc.unesco.org/ark: 
+/48223/pf0000376709.
+
+Wang, B., Rau, P. L. P., & Yuan, T. (2022). In Measuring 
+user competence in using artificial intelligence: Valid-
+ity and reliability of artificial intelligence literacy 
+scale. Behaviour and Information Technology. https://
+doi.org/10.1080/0144929X.2022.2072768. 
+
+Wang, Y. Y., & Wang, Y. S. (2022). Development and valida-
+tion of an artificial intelligence anxiety scale: An initial 
+application in predicting motivated learning behavior. 
+Interactive Learning Environments, 30(4), 619–634. htt-
+ps://doi.org/10.1080/10494820.2019.1674887.
+
+Zhang, H., Lee, I., Ali, S., DiPaola, D., Cheng, Y., & 
+Breazeal, C. (2022). Integrating Ethics and Career 
+Futures with Technical Learning to Promote AI Liter-
+acy for Middle School Students: An Exploratory Study. 
+International Journal of Artificial Intelligence in Educa-
+tion. https://doi.org/10.1007/s40593-022-00293-3

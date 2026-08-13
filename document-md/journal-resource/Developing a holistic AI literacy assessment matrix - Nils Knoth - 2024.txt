@@ -1,0 +1,1213 @@
+﻿Computers and Education Open 6 (2024) 100177
+
+Contents lists available at ScienceDirect 
+
+Computers and Education Open 
+journal homepage: www.sciencedirect.com/journal/computers-and-education-open 
+
+Developing a holistic AI literacy assessment matrix – Bridging generic, 
+domain-specific, and ethical competencies 
+Nils Knoth a,*, Marie Decker b, Matthias Carl Laupichler c, Marc Pinski d, Nils Buchholtz e, 
+Katharina Bata f, Ben Schultz b 
+
+a Institute for Psychology (IfP), University of Kassel, Holländische Straße 36-38, Kassel 34127, Germany 
+b Gender and Diversity in Engineering (GDI), RWTH Aachen University, Kackertstraße 9, Aachen 52072, Germany 
+c Institute of Medical Education, University Hospital Bonn, Venusberg-Campus 1, Bonn 53127, Germany 
+d Information System & Electronic Services, Technische Universität Darmstadt, Hochschulstraße 1, Darmstadt 64289, Germany 
+e Faculty of Education, University of Hamburg, Von-Melle-Park 8, Hamburg 20146, Germany 
+f Faculty of Process Engineering, Energy and Mechanical Systems, TH Köln, Claudiusstraße 1, Köln 50678, Germany   
+
+A R T I C L E  I N F O   A B S T R A C T   
+
+Keywords: Motivated by a holistic understanding of AI literacy, this work presents an interdisciplinary effort to make AI 
+AI literacy literacy measurable in a comprehensive way, considering generic and domain-specific AI literacy as well as AI 
+Domain-specific AI literacy ethics. While many AI literacy assessment tools have been developed in the last 2-3 years, mostly in the form of 
+AI ethics literacy self-assessment scales and less frequently as knowledge-based assessments, previous approaches only accounted 
+Instruments 
+Assessment for one specific area of a comprehensive understanding of AI competence, namely cognitive aspects within 
+
+generic AI literacy. Considering the demand for AI literacy development for different professional domains and 
+reflecting on the concept of competence in a way that goes beyond mere cognitive aspects of conceptual 
+knowledge, there is an urgent need for assessment methods that capture domain-specific AI literacy on each of 
+the three competence dimensions of cognition, behavior, and attitude. In addition, competencies for AI ethics are 
+becoming more apparent, which further calls for a comprehensive assessment of AI literacy for this very matter. 
+This conceptual paper aims to provide a foundation upon which future AI literacy assessment instruments can be 
+built and provides insights into what a framework for item development might look like that addresses both 
+generic and domain-specific aspects of AI literacy as well as AI ethics literacy, and measures more than just 
+knowledge-related aspects based on a holistic approach.   
+
+1. Introduction literacy and focuses additionally on domain-specific and interdisci
+plinary AI competencies tailored to the needs and applications within 
+
+Research on artificial intelligence (AI) literacy and AI education is specific professional domains. However, prominent AI literacy frame
+critical in today’s technology-driven world. Given the ubiquity of AI- works often overlook the nuances of domain-specific differences and do 
+based technologies in professional work environments and the harm not align along more holistic competence dimensions, like those of 
+they can cause when poorly designed or applied, there is an urgent need cognition, behavior, and attitude, which are all necessary for real-world 
+for individuals to have the competencies that will enable them to competence deployment [32,176,182,185]. Furthermore, they do not 
+confidently use and assess the consequences of AI technologies in pro provide clear guidance on how to effectively operationalize these 
+fessional workflows. AI literacy, as defined by Long and Magerko [107] diverse aspects when it comes to assessing AI literacy. This conceptual 
+or Faruqe et al. [54], encompasses a broad, general set of knowledge and research paper addresses these gaps and aims for a holistic approach to 
+skills or competencies required by individuals interacting with AI AI literacy measurement by introducing a framework that distinguishes 
+technologies. This concept goes beyond mere familiarity with AI; it between generic AI literacy, domain-specific AI literacy, and their 
+addresses how these competencies vary across domains and disciplines. unique contextual factors, and explicitly addresses AI ethics as being 
+In this regard, a holistic understanding of AI literacy exceeds generic AI center stage for AI competencies. It also delineates cognition, behavior, 
+
+* Corresponding author. 
+E-mail address: nils.knoth@uni-kassel.de (N. Knoth).  
+
+https://doi.org/10.1016/j.caeo.2024.100177 
+Received 8 February 2024; Received in revised form 6 April 2024; Accepted 9 April 2024   
+Available online 10 April 2024
+2666-5573/© 2024 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+and attitudes in AI literacy [13,121,129,168,176], and explores appro within this AI-infused world as an informed and responsible person, it is 
+priate measurement and operationalization approaches. the general population and every digital citizen to whom our AI edu
+
+This paper is divided into six sections. First, it briefly introduces the cation efforts should be tailored, as it is foreseeable that AI literacy will 
+concept of AI literacy, considering its origins and its relationship to become a key competency for work, everyday life, and lifelong learning 
+earlier literacy terminologies, such as digital literacy [46,62] or statis [107,127,171], similar to digital [46,62,160], information [86,104], or 
+tical literacy [59]. Second, it discusses AI literacy as a generic compe basic computer literacy [57,154] in the past. 
+tency, delineating the aspects of AI literacy that each individual will Internationally, researchers are urging the need to promote AI lit
+need to thrive in an AI-infused world. Third, in contrast to generic AI eracy and generate greater interest in the subject among the general 
+literacy, the importance of domain-specific AI literacy will be explained, public [31,87,108,145]. Following this call, several international pol
+taking into account contextual factors such as specific roles or tools that icies and educational frameworks targeting AI education have been 
+shape the daily work routine in each professional domain. These two published, or existing frameworks have been complemented with AI 
+aspects will be enriched by AI ethics literacy as another general-purpose literacy considerations. One of the most prominent examples in this area 
+competency that deserves its own attention and shall not be subsumed is the DigComp, the European Union’s Digital Competence Framework 
+under either generic or domain-specific AI literacy. Fourth, to open our for Citizens [171]. This framework includes key digital competencies in 
+AI literacy framework, we will outline the notion of competence (or the areas of information and data literacy, communication and collab
+literacy) along the dimensions of cognition, behavior, and attitude, oration, digital content creation, safety, and problem solving. In its 
+considering different approaches to operationalize these aspects. Fifth, current iteration, DigComp 2.2 [171], these competencies are compre
+following this theoretical background, we will then present a holistic AI hensively described along eight proficiency levels, as well as illustrative 
+literacy assessment matrix to exemplify the utility of our framework (e. examples of each of these competencies (including their sub-aspects) 
+g. for guiding operationalization and future development of instruments along the dimensions of knowledge, skills, and attitudes. 
+for different areas of application), which will be thoroughly explained Of particular relevance to AI literacy research, DigComp 2.2 also 
+and explored through three professional domain use cases: AI literacy includes a chapter on "Citizens interacting with AI systems". The authors 
+for medicine, AI literacy for education, and AI literacy for engineering. write that "for citizens to engage confidently, critically, and safely with 
+Finally, we will reflect on and discuss the usability of our provided AI new and emerging technologies, including artificial intelligence (AI), 
+literacy assessment matrix for future guidance on scale developments they need to acquire a basic understanding of such tools and technolo
+and AI educational alignments, as well as provide an outlook on future gies" ([171], p. 77). This is also in line with the very fundamental call of 
+research perspectives. international research, which urges the advancement of AI literacy not 
+
+only for specific groups, but for society as a whole. Within DigComp 2.2, 
+2. Related work this is also justified by the fact that AI-related knowledge, skills and 
+
+attitudes can serve as resources for several challenges, such as ethical 
+2.1. AI literacy – existing constructs and frameworks issues, data protection and privacy, or bias in various forms. It therefore 
+
+emphasizes the importance of citizens interacting with AI systems, 
+While AI’s integration into our daily surroundings is not a recent rather than focusing on AI knowledge alone. To shape this approach 
+
+phenomenon, given that numerous user-oriented technologies and ap within this educational framework, they explained five central themes 
+plications already employ machine learning algorithms, the permeation and topics that citizens should learn, namely: 1. What do AI systems do 
+of AI technologies into our societies, workplaces, and personal lives is and what do they not do; 2. How do AI systems work? (including 
+becoming more pronounced [70,165]. This calls for specific AI-related awareness of what AI is); 3. When interacting with AI systems (...in 
+competencies, i.e. AI literacy, that will allow one to grow and act with terms of searching for information, using AI systems and apps, or 
+sovereignty in this new era. The recent emergence of generative AI focusing on privacy and personal data); 4. The challenges and ethics of 
+technologies, with large language models such as GPT-4 or Google AI; 5. Attitudes regarding human agency and control. 
+Gemini, as well as emerging reports on harms related to the use and Another international policy framework has recently been developed 
+design of AI technologies [40], highlight an even more pressing rele by UNESCO, entitled "Guidance for generative AI in education and 
+vance in the encounter with educational efforts and related assessment research", which also proposes several steps deemed necessary to foster 
+tools for AI literacy [33,35]. With this increasing pervasiveness of AI in an AI-competent society and to implement in particular generative AI 
+our decision-making processes and daily routines, there is, paradoxi technologies in educational institutions and contexts [80]. In addition to 
+cally, still a lack of awareness among people about the extent of AI use, regulatory and legislative aspects, they also suggest the development of 
+its inner workings, and its potential impact on their lives [60,180]. AI competencies, including Generative AI (GenAI) related skills for 
+Similar to how digital literacy [62] has empowered individuals to use learners, as "the development of AI competencies among learners is key 
+digital information and communication technologies, learning to to the safe, ethical and meaningful use of AI in education and beyond" 
+become AI literate is increasingly critical to interacting with the AI ([80], p. 25). In particular, “latest developments of GenAI have further 
+systems that are ubiquitous in our personal and professional surround reinforced the urgent need for everyone to achieve an appropriate level 
+ings [127,162]. of literacy in both the human and technological dimensions of AI, un
+
+The concept of AI literacy was first discussed by Kandlhofer, Stein derstanding how it works in broad terms, as well as the specific impact of 
+bauer, Hirschmugl-Gaisch, and Huber [87], and then significantly sha GenAI." ([80], p. 26). 
+ped in a widely cited paper by Long and Magerko [107]. Here, the Providing such frameworks in addition to current research on AI 
+authors define AI literacy as “a set of competencies that enable in literacy is central to addressing the acute shortage of skilled workers in 
+dividuals to critically evaluate AI technologies, communicate and the field [5], while strengthening the ability to use AI confidently and 
+collaborate effectively with AI, and use AI as a tool online, at home, and responsibly across the board. 
+in the workplace” ([107], p. 2). There are different views on what 
+exactly AI literacy is and what skills AI-literate people should have [98]. 2.2. AI literacy assessment approaches 
+However, there is a strong consensus that AI literacy is primarily for 
+non-experts, people who are not directly involved with AI through their Providing AI learning opportunities alone, in the form of AI educa
+studies or work and who have not received formal training in AI [98, tional programs and courses, is not enough to promote the vision of an 
+127,135]. This very fundamentality of AI literacy for society was also AI literate society. The design of educational content also depends on the 
+described by Kandlhofer et al. [87], where they introduced literacy in AI availability of good AI literacy assessment tools, as a valid measurement 
+by analogy to classical literacy such as reading or writing. To participate of AI literacy is a necessary condition for evaluating the effectiveness of 
+
+2
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+AI literacy interventions in any educational setting, be it K-12, higher research community calling for the development of assessment tools that 
+education, adult education, workforce development, or in the context of measure both domain-independent (generic) and domain-specific AI 
+online learning. literacy, as well as ethical considerations, and conceptually consider not 
+
+Several assessment instruments already exist that measure certain only knowledge aspects but also skills and attitudes [18,54,98,127,151]. 
+aspects of AI literacy. The first validated self-assessment scale for AI Such instruments would help assess individuals’ AI competencies in 
+literacy was developed and evaluated by Wang et al. [173]. Although their professional field, while also allowing for the collection of data to 
+questionnaires for surveying AI literacy existed prior to this scale, they validate the impact of AI literacy for specific professional contexts. The 
+were neither particularly content-valid nor psychometrically tested. goal of this paper is to lay the groundwork for a refined and compre
+Wang et al. [173] used exploratory and confirmatory factor analyses for hensive approach to measuring AI literacy that considers this distinction 
+model generation and model validation, and ultimately listed 12 items between generic and domain-specific AI literacies and specifically con
+that can be used to self-assess AI literacy using Likert scales. Shortly after siders AI ethics competencies. 
+the publication of this first self-assessment scale, similar instruments 
+were published that correspond to the core idea of the Wang et al. [173] 3. Conceptual framework: towards a holistic AI literacy 
+scale. These include the scales by Carolus et al. [29], Pinski and Benlian assessment matrix 
+[134], Laupichler et al. [97], Tully et al. [167], and Ng et al. [128]. 
+However, all these instruments have in common that they rely exclu The following sections outline the conceptual framework of our 
+sively on the self-assessment of the respondent. Yet, this may be subject approach. This framework, consisting of generic AI literacy, domain- 
+to certain confounding factors (e.g., social desirability) and might specific AI literacy, and AI ethics literacy, forms the basis for the ho
+therefore only be useful if taking the assessment is not associated with listic AI literacy assessment matrix that is prototypically presented in the 
+specific consequences for the respondent [49], such as promotion at conceptual framework section (see Table 1). 
+work or being assessed in a university course. Particularly, in some sit
+uations, such as assessing the level of AI literacy in a population to 
+decide on further measures to improve it, it is important to test AI lit 3.1. The horizontal dimension – AI literacy Types 
+eracy as objectively as possible. Weber et al. [175] and Hornberger et al. 
+[81] have therefore developed AI knowledge measurement tools that test 3.1.1. Generic AI literacy 
+respondents’ knowledge (rather than having them self-assess their The notion of non-expert AI literacy explained above [97] forms the 
+knowledge). For this purpose, they used multiple-choice questions based basis for a concept we call generic AI literacy, which describes AI-related 
+largely on common AI literacy constructs (e.g., [107]) and measures competencies (cognitions, behaviors, attitudes) that every citizen should 
+from item response theory (IRT) to optimize the objectivity of their as possess, regardless of their discipline or workplace role. Generic AI lit
+sessments. Taking this into perspective, the majority of the questions in eracy is a basic understanding of AI and thus the ability, knowledge, and 
+the self-assessment scales and AI literacy tests deal solely with AI skills to understand, monitor, effectively interact with, and critically 
+knowledge and AI skills, completely leaving out affective components reflect on AI-based technologies for basic daily and work purposes in a 
+such as “attitudes toward AI (ATAI)”. Schepman and Rodway’s GAAIS way that allows citizens to participate and act with confidence in an 
+[149,150] and Sindermann et al.’s ATAI scale [157] are two of only a AI-driven world [45,98,107,127]. Therefore, it can also be positioned as 
+few examples of “attitudes toward AI” scales that have been systemati a context-independent key competency that is equivalent in its use and 
+cally validated and used in various contexts. Other ATAI scales have effectiveness across a wide range of different tasks, situations, and in
+been published by Suh and Ahn [163] and Grassini [64]. teractions involving AI, thus meeting the demands that many people 
+
+Additionally, for the realm of AI ethics, different measurement ap face in everyday and social life in today’s information society [107,176]. 
+proaches can be named. To deal with the impractical measurement Generic AI literacy for non-experts is also characterized by not being 
+foundations of ethics, many researchers established their own mea involved in the construction and development of AI models per se, a 
+surements for each case. For non-professionals, Shih et al. [155] inves domain that rather characterizes AI experts and professionals [97]. 
+tigated the effects of their AI ethics course by measuring 15 items on 4 Rather, in accordance with other conceptualizations of generic skills, 
+ethical principles (transparency, responsibility, justice, benefit). Jang generic AI literacy encompasses cognitions, behaviors and attitudes that 
+et al. [84] created the AT‑EAI 17-item scale for investigation of adher are not specific to any particular professional domain [3,4,105,123, 
+ence to the five ethical dimensions of fairness, transparency, 190]. Following this, we also align our conceptualization of generic AI 
+non-maleficence, privacy, and responsibility. Hess and Fore [77] high literacy with the five questions that Long & Magerko [107] suggest as 
+light measurement approaches that go beyond philosophical ethics the fundamentals of AI literacy: "What is AI?", "What can AI do?", "How 
+(self-assessment of awareness of, knowledge of, or solutions for ethical does AI work?", "How should AI be used?", and "How do people perceive 
+issues) such as extra-curricular involvement, problem-based service AI?". According to their framework, the development of generic AI lit
+learning [183] or in-depth qualitative analysis through short texts or eracy should equip users with the ability to answer these questions and 
+position papers [74]. Others focused on personality traits or enable them to understand the core principles of AI [34]. 
+multiple-choice answers for ethical scenarios to evaluate Generic AI literacy can also be positioned as a fundamental skill, 
+decision-making strategies as well as meta-cognitive reasoning strate similar to other essential skills for lifelong learning, such as digital lit
+gies [92]. Another approach was reframing technical problems for eracy [10,30]. The notion of certain required literacies for dynamically 
+multiple solutions leading to a need for moral reasoning [42]. 
+
+Both the existing self-assessment instruments and the IRT-scaled test Table 1 
+instruments currently still mostly represent a very broad and generic Conceptual framework for the holistic AI literacy assessment matrix.   
+construct of AI literacy operationalized by its items. This seems to make AI literacy type 
+sense for measuring AI literacy of non-experts, although some aspects, Generic Domain-specific Ethics 
+such as human-AI interaction skills and behavioral indicators, are 
+largely neglected. However, the more specialized the measurement of AI Knowledge/ 
+
+Cognition    
+literacy is to be for specific contexts and occupational groups, or the 
+more specific educational contexts are to be examined, the more it be Competence dimension Skills/ 
+
+comes necessary to focus on professional demands-related aspects of AI Behavior    
+
+literacy in addition to generic AI literacy [151]. In developing a holistic Attitudes/ 
+AI literacy measurement, we, therefore, follow several voices in the Values     
+
+3
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+changing life and work environments has already proven its crucial tool in professional or academic settings. This is increasingly important, 
+importance, as much research has been done in the last two decades on as students outside of computer science often feel unprepared for the 
+digital literacy as a requirement for proactive interaction in a digitalized growing integration of AI into their fields [136,151,158]. This is 
+world [46,62,83,160,184]. While these skills are still very much needed, accompanied by widespread misconceptions about AI and a limited 
+the current disruption and widespread availability of AI-based tech understanding of AI’s capabilities and limitations for one’s professional 
+nologies requires that AI literacy is considered in every aspect of such domain or field of study [14]. One difficulty for domain-specific AI ed
+digital literacies, representing a comprehensive 21st-century ucation and AI literacy may be that the applications of AI and the 
+socio-technical competency [127,134]. The implication is to conceptu competencies required for each may vary widely across domains and 
+alize AI literacy as another key competency that complements existing disciplines, making different aspects of AI literacy differentially signif
+notions of digital literacy. icant depending on the professional domain [50]. Another challenge is 
+
+While digital literacy has been understood as preparation for the the emerging interdisciplinarity of domain-specific AI literacy, which 
+challenges of the digital information society, analogously AI literacy considers the domain requirements for the application of AI in that 
+must be understood as preparation for a society permeated by artificial domain and thus goes well beyond the concept of generic AI literacy, 
+intelligence. Following this, generic AI literacy should encompass a requiring that the constructors of domain-specific courses themselves 
+broader set of competencies, including socio-emotional literacy [130], possess both domain and AI knowledge [189]. Furthermore, the use 
+socio-cultural abilities [78], and other transferable skills such as cases, implications, and underlying data of AI technologies differ across 
+communication and collaboration [12,128], fundamentally enabling AI domains [65,132], indicating that domain-specific AI literacy requires 
+non-experts to thrive and participate in an AI-infused world. Thinking flexible adaptations that cannot necessarily be derived from other 
+methodologically, in the context of competence models and assess domain use cases. Taken together, these aspects may also explain the 
+ments, it is therefore necessary to consider which competencies must be gap in domain-specific AI education courses identified by Schleiss et al. 
+available to all members of a social group, which in terms of AI literacy [151]. Nevertheless, although very demanding, this outlined context 
+aims at enabling an AI-literate society, but also which competencies provides the boundary conditions under which domain-specific AI lit
+should be available in a complementary way, e.g. for the purposeful use eracy comes into play and offers opportunities to take these very aspects 
+and integration of AI technologies in specific professional domains [22, into account when conceptualizing domain-specific AI literacy. In sum, 
+127,176]. Accordingly, the following section introduces the concept of domain-specific AI literacy can be described as the ability to bridge an 
+domain-specific AI literacy as specific AI competencies that are relevant understanding of AI with an understanding of the needs for its appli
+to the purposeful and confident use of AI for professional endeavors. cation within that specific professional domain. 
+
+When conceptualizing domain-specific AI literacy and related as
+3.1.2. Domain-specific AI literacy sessments, it may be tempting to think primarily about the use of specific 
+
+Alongside generic AI literacy, there is an urgent need to integrate tools. Although domain-specific AI education often aims to equip 
+domain-specific AI literacy as a necessary component of a holistic and learners with knowledge about specific AI tools for their domain [144, 
+comprehensive approach to AI literacy when applied in practice within 169,186], this pragmatic approach should be enriched with aspects of 
+professional domains (e.g., medicine, education, engineering). Since knowledge about specific data, the impact of AI use on the domain, and 
+generic AI literacy may not compensate for a lack of domain-specific AI ethical issues, so that it does not get perceived as pure "tool literacy", as 
+literacy, a specific form of AI literacy may be necessary to address the the sole ability to use certain AI tools, without considering its broader 
+needs of each domain [4,176]. Accordingly, the word "domain" refers to implications. In accordance with Schleiss et al.’s [151] planning 
+the specific field or discipline in which AI is implemented or used. framework for AI course design, we propose that domain-specific AI 
+Domain-specific AI literacy is underexplored in current research, but literacy should include and represent three distinct aspects: First, po
+important insights could be gained from the literature dealing with the tential AI use cases ("What are the potential use cases for using AI in the 
+design of AI education [18,30,147,151]. These AI educational endeavors domain?"). There the goal is to help identify existing applications and 
+suggest that domain-specific AI literacy as a concept might refer to the predict potential future scenarios where AI can contribute to solving 
+capacity to integrate the knowledge of AI with the comprehension of its problems within a specific domain. Second, the data in the domain 
+application requirements within a particular professional field. ("What type of data is most common in the domain?" / “Is the data in the 
+
+Important research findings that necessitate a domain-specific view domain abundant or scarce?"). This aspect is crucial because under
+of AI literacy also result from the approaches of professions and exper standing the common types of data within a particular domain facilitates 
+tise research, in which the understanding of domains is linked to the more precise application of AI methods and the definition of the data 
+different "fields of learning", i.e. life-world or professional fields of ac involved. The nature of the data – whether it is time series, text, images, 
+tion or knowledge- and experience-based action routines as a compo or other forms of data – has a significant impact on the AI techniques 
+nent of expertise [51,52,67,191]. For example, Bromme [24,25] that should be taught. And third, the implications of using AI in the 
+distinguishes domain-specific knowledge of expert teachers for different domain ("What are the implications (ethical, legal, social) of using AI in 
+school subjects. Tricot and Sweller [166] argue for a domain-specific the domain/use case?"), taking into account the possible consequences 
+view of knowledge because intellectual abilities can be better of using AI in a particular domain, especially in terms of ethical, legal, 
+explained by long-term memory and by the high performance of experts and social implications. Domain-specific AI literacy assessments should 
+in certain domains, such as air traffic control or chess. In general, therefore reflect at least these three central themes in their item pool. 
+expertise research distinguishes between well-defined and poorly The gap in domain-specific AI education courses is also evident in the 
+defined domains based on the characteristics of the challenges or context of AI literacy assessments. While numerous AI literacy assess
+problems to be solved [68]. Well-defined domains are characterized by ments have emerged in recent years, they mainly focus on generic AI 
+clear problem statements, unambiguous solution methods, and defined literacy but do not meet the requirements for measuring AI literacy in 
+success criteria. In contrast, poorly defined domains are characterized specific domains. Accordingly, domain-specific AI literacy is included in 
+by complexity, ambiguity, and conflicting solution approaches. our holistic AI literacy assessment matrix as an area that is still lacking in 
+
+In the area of domain-specific AI literacy, Schleiss et al. [151] pro research but is of paramount importance if AI literacy is to be integrated 
+vided a framework for the development of domain-specific AI education into professional practice. For the development of domain-specific AI 
+courses. The authors argue that the relevance of AI in various domains literacy assessments, it may be essential that adaptations of existing 
+requires that the development of AI courses should be aligned with its assessment instruments can be flexibly evolved. The use of generative AI 
+domain, creating so-called domain-specific AI courses. Following this may be fruitful for this purpose [99]. A first attempt to generate 
+line of reasoning, domain-specific AI literacy focuses on the use of AI as a domain-specific items based on existing item structures is shown in our 
+
+4
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+exemplary completion of the holistic AI literacy assessment matrix for terms of attitudes, behaviors, and cognitions as elements of a compre
+the professional domains of medicine, education, and engineering (see hensive understanding of competence. The triad of cognition ("knowl
+Section 4). edge"), behavior ("skills"), and attitudes (or "values") is not 
+
+Given the paramount importance of knowledge about the impact and fundamentally new. Still, it has gained prominence in the debate on the 
+consequences of AI use in general as well as within a domain, we decided concept of competence because it can be a condition for people’s ability 
+that AI ethics should be a stand-alone dimension on the horizontal axis to solve situational problems in a flexible way [13,171]. 
+alongside generic and domain-specific AI literacy [20,39,113]. The conceptualization of competence as an ABC (Attitude, Behavior, 
+
+Cognition) model is rooted in Weinert’s [176,177] concept of compe
+3.1.3. AI ethics literacy tence. Weinert defines competencies as "the cognitive abilities and skills 
+
+The seamless integration of AI technologies into daily activities often that individuals possess or learn to use to solve particular problems, as 
+goes unnoticed, impacting lives without explicit recognition [53]. The well as the related motivational, volitional, and social dispositions and 
+lack of transparency on the one side, but also the lack of understanding abilities to use the problem solutions successfully and responsibly in 
+of AI technologies among non-experts on the other side, hinders effec variable situations" ([176], p. 27 f.). Thus, Weinert’s [176] concept of 
+tive evaluation and critique of possibly irreparable harm that these competence refers to the necessary prerequisites available to an indi
+technologies may cause [55,73]. That makes understanding of ethical vidual or a group of individuals to successfully meet complex demands, 
+theories and ethical evaluation of situations influenced by AI crucial – particularly in professional positions, that target domain-specific com
+not only for experts but also for non-experts [153]. Therefore, incor petencies, as well as in the context of social roles or personal projects, 
+porating ethics in AI literacy assessments is increasingly common but which target generic competencies for domain-unspecific actions [100, 
+not straightforward. 176]. The prominent rise of AI can be positioned as such a complex 
+
+First, due to its nature and because there seldom is a ‘right’ or demand for different professional domains and society, pointing to the 
+‘wrong’, ethics is difficult to assess using conventional scales. Addi need to think about the necessary cognitions, behaviors, and attitudes 
+tionally, ethics and other humanities are often seen as ‘soft skills’, giving for generic AI literacy and domain-specific AI literacy at the same time. 
+them side importance [140]. As a consequence, in many AI literacy as Weinert’s [176,177] definition of competence implies a distinction 
+sessments, ethics is not seamlessly integrated but given a supplemental between cognition, behavior, and attitude as constituents of compre
+role (e.g., [29,173]). Additionally, the field of ethics is complex, making hensive competence, as he describes different components of compe
+it necessary to comprise many different and complex aspects under one tence that correspond to these categories. For example, Weinert [176] 
+term. The most frequently addressed ethical principles in the AI literacy refers to cognition as "conceptual competence", which involves 
+assessment frameworks are privacy or surveillance ([97,107,128,167]), rule-based abstract knowledge about an entire domain, such as artificial 
+harm to people or general risks ([81,97,107,135]), diversity, bias and intelligence. This includes explicit and declarative knowledge and un
+fairness [107,167], transparency and explainability [107,128,167], re derstanding. Behavior is introduced by "procedural competence", which 
+sponsibility and accountability [107,128,150], reliability and safety is about the availability of procedures and skills needed to apply con
+[128], social good and societal challenges [81,128] as well as fear and ceptual competencies in concrete situations. This is consistent with the 
+trust [157]. Even though the importance of AI ethics is largely recog behavioral aspects, which focus on the practical application of skills and 
+nized in current AI literacy frameworks, ethics is not always explicitly knowledge. Finally, attitudes are added to this conceptualization 
+addressed. For example, Suh and Ahn [163] do not mention terms through Weinert’s [176] description of "action competence", which in
+related to ethics or morality explicitly in their work. Still, 6/26 items of cludes the cognitive, motivational, and social prerequisites necessary for 
+their scale are implicitly based on moral values. Within the scale by successful learning and action. This concept integrates cognitive skills, 
+Grassini [64], three of four items ask for the perception of the positive motivational tendencies, volitional control systems, personal value ori
+effects of AI on life, work, and humanity in general. Since the evaluation entations, and social behaviors, thereby addressing the attitudinal 
+of positivity is influenced by (moral) values, the scale is based on an component in addition to the cognitive and behavioral aspects required 
+ethical foundation, even though the author does not term it explicitly. for a comprehensive understanding of competence. In sum, individuals 
+
+In our framework, AI ethics literacy as a distinct horizontal dimen show their competence if they use their knowledge ("cognitions") to 
+sion was adopted due to several considerations: First, we acknowledge guide their actions ("behaviors"), and if these actions are supported by 
+the importance of ethics being an integral part of AI literacy. Ethics has values ("attitudes"). Consequently, competent behaviors may not be 
+emerged as an important aspect of AI literacy that both transcends performed if the necessary skills are present, but personal attitudes 
+categorizations of attitudes, behavior, and cognition (see Section 3.2) counteract performance. 
+and represents an incremental addition to generic and domain-specific The ABC model can also be aligned with Bloom’s and colleagues’ 
+AI literacies. Ethical literacy and awareness in the context of AI tech well-established taxonomy of educational objectives [9,17,94]. 
+nologies need to be reflected in every aspect of AI literacy and is Furthermore, ABC models can also be found in other research areas that 
+therefore represented in its own dimension. Ethical AI literacy includes strive to represent a holistic understanding of what we feel (attitude), 
+awareness of AI-related issues in personal and professional contexts. think (cognition), and do (behavior) [168]. 
+While there certainly are generic and domain-specific AI ethics com In the context of assessing AI literacy, the composition of competence 
+petencies, we give ethics its own place in the framework without sub through cognition, behavior, and attitudes was taken up by Ng et al. 
+suming it in the other two categories and thus, making it visible. [128] in a recent study that addressed the limitations of previous as
+Furthermore, placing ethics as a horizontal dimension allows us to assess sessments that primarily addressed cognitive aspects only. Conse
+a wider range of different ethical aspects – structured according to the quently, they developed a questionnaire covering affective, behavioral, 
+dimensions of competence of cognition, behavior and attitude ([176, cognitive, and ethical aspects of AI literacy, the AILQ. The rigorous 
+177]; see Section 3.2). This allows us to address far more different as psychometric validation of this questionnaire suggests that this 4-factor 
+pects of AI ethics literacy, instead of giving it just one box in the matrix. solution to AI literacy may indeed be adequate. These defining elements 
+
+of literacy are discussed in more detail in the following sections. 
+3.2. The vertical dimension – competence dimensions Although we acknowledge the conceptualization of Ng et al. [128], we 
+
+reflect the AI ethics component as a distinct literacy type alongside 
+3.2.1. The ABC approach generic and domain-specific AI literacy, as research suggests that AI 
+
+After explaining the important distinction between generic AI liter ethics literacy is itself constituted by cognitions, behaviors, and 
+acy, domain-specific AI literacy, and AI ethics literacy in the previous attitudes. 
+section, this section provides an overview of the assessment of literacy in While moral reasoning and character building are important aspects 
+
+5
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+of ethics education, their direct influence on behavior in critical situa sensitivity [19], or judging the relative importance of ethical principles, 
+tions or facing moral dilemmas remains unclear [47,71]. Consequently, trust, risk and opportunity awareness of AI, usage intention, re
+a heightened focus on behavior within ethics and ethics education be sponsibility attribution, or normative expectations for political decisions 
+comes essential to analyze how and why people make decisions in on AI [91]. 
+certain contexts [48,139]. Cognition in the context of ethics comprises 
+the acquisition of knowledge and understanding of ethical principles 3.2.3. Behavior 
+and aspects. This dimension explores the role of the brain in moral As discussed earlier, competent behaviors refer to the practical skills, 
+reasoning and decision-making processes, enhancing the intellectual expertise, and procedural knowledge that enable an individual to 
+foundation necessary for ethical conduct. This is in line with Newberry perform specific tasks effectively. These skills are typically acquired and 
+[126], who condensed ethics-related learning goals in the context of honed through hands-on practice and experiential learning. As such, 
+engineering into three key dimensions: emotional engagement, intel they also form the basis for goal-directed behaviors and are often 
+lectual engagement, and particular or discipline-specific knowledge. defined as procedural competencies, which include procedures and 
+Emotional engagement involves the desire to be ethical, while intellec skills necessary to apply conceptual competencies (cognition) in con
+tual engagement focuses on knowing how to be ethical, and crete situations [66,159,176]. In addition, behavior related to compe
+discipline-specific knowledge is necessary for making ethical decisions. tence can also be described as performance competence when 
+Hess and Fore [77] differentiate between ethical sensitivity and awareness performance indicators come into play [16]. 
+(awareness of ethically problematic situations or issues), ethical judg Ng et al.’s [129] AILQ captured behavior through a dimension they 
+ment, decision-making or imagination (knowing how to reason or act called behavioral learning, which reflects behavioral engagement and 
+ethically), and ethical courage, confidence, or commitment (being ethical). cooperation in AI educational contexts. While this is certainly an 
+These aspects can be mapped to all three ABC components: attitude, important aspect of AI education, it does not represent AI-literate be
+behavior, and cognition. To make the single elements of the ABC haviors in terms of performance indicators. The behavioral dimension 
+competence approach clearer, each component (Attitude, Behavior, referred to as behavioral learning in the Ng et al. [128] study, refers to 
+Cognition) is briefly described in more detail in the following sections. student actions, operational performance, and external behaviors that 
+
+demonstrate active learning. This includes aspects such as course 
+3.2.2. Attitude completion, behavioral intention, collaboration, and engagement. The 
+
+The special feature of Weinert’s approach to competence lies, among behavioral learning dimension in their study is specifically divided into 
+other things, in the emphasis on affective aspects such as attitudes. two factors: Students’ behavioral engagement and collaboration to build 
+Attitude encompasses an individual’s perspective, mindset, and relationships and pursue learning goals in an AI environment. According 
+approach to work and life in general [8]. It includes characteristics such to the authors, these factors are designed to assess how students engage 
+as motivation, enthusiasm, adaptability, resilience, and a willingness to with and apply their learning in practical contexts, particularly in 
+learn and grow. A positive attitude can significantly increase the effec collaborative and active learning settings related to AI. DigComp 2.2′s 
+tiveness with which one applies one’s skills and knowledge [152]. In requirements for citizens interacting with AI systems considered the 
+many professional and personal settings, attitude is considered an behavioral dimension as the skill to use, interact with, and provide 
+essential element of competence. A person with the necessary skills and feedback to AI systems as end users, as well as to configure, supervise, 
+knowledge may still underperform because of a negative attitude. On the and adapt AI systems (e.g., overwrite, tweak) [171]. 
+other hand, a person with a positive attitude typically demonstrates For an assessment of ethical behavior, the learning goal(s) of the 
+greater adaptability and problem-solving skills, contributing to course (or knowledge testing) must be clear [76]. This ethical behavior 
+enhanced competence in various scenarios [1,2]. White [179, p. 317 can be judged either generally or based in accordance with ethical 
+argued: "that it is necessary to make competence a motivational concept, theories. Rest et al. [143] introduced a fictitious scenario to their par
+that there is a competence motivation”. Such an aspect of competence is ticipants and asked for their behavioral intentions. Answers were judged 
+also related to self-efficacy 112 and forms beliefs about one’s learning on deontological measures. Such an approach can help to measure 
+and performance. Attitudes, as a component of competence, influence morally right behavior but is bound to a theory from philosophical 
+behaviors and cognitions through expectations and interpretative ethics. Instead, ethical courage, confidence, or commitment as being 
+schemata toward a subject matter (e.g., AI) 89. As a result, attitudes can ethical [77] can be evaluated in the context of AI ethics both via 
+also serve as volitional control systems in the form of motivational behavioral intention as well as statements on actual ethical behavior. 
+tendencies 38,181]. 
+
+The attitudinal dimension in the context of AI literacy was also 3.2.4. Cognition 
+pointed out in the recent questionnaire by Ng et al. [128] under the Although cognition is a term that can be conceptualized much more 
+dimension of affective learning, which also includes intrinsic motivation broadly, within concepts of competence, the term primarily targets 
+and self-efficacy. The attitudinal dimension refers to students’ innate declarative knowledge, such as the understanding and recognition of 
+emotional and physiological changes toward AI. It includes elements facts, data, concepts, and theories. It is essentially what an individual 
+such as interest, confidence, motivation, attitudes, and self-efficacy. understands and thinks about a particular subject or field. This knowl
+Specifically, the affective learning dimension in their study includes edge is typically acquired through education, training, reading, and 
+four factors: Intrinsic motivation, self-efficacy, career interest, and various other learning methods. This type of knowledge is also some
+confidence in learning AI. Taken together, this dimension aims to cap times referred to as conceptual competence [66,159]. 
+ture the emotional and motivational aspects of students’ learning ex Ng et al. [128] defined cognition within AI literacy as cognitive 
+periences, highlighting how students feel about and are driven to engage learning that reflects the knowing and understanding, applying, evalu
+with AI topics. Within the DigComp 2.2 framework, requirements for ating, and creating aspects of Bloom’s taxonomy of the cognitive domain 
+citizens interacting with AI systems on the attitudinal dimension were [9,17]. The cognitive dimension in the study by Ng et al. [128] focuses 
+captured as follows: human agency and control; critical yet open atti on students’ achievement of knowledge and skills in artificial intelli
+tude; ethical considerations of usage [171]. gence (AI). This dimension is broken down into three key factors that are 
+
+Attitudes in the context of ethical literacy are also highly relevant. consistent with Bloom’s taxonomy of the cognitive domain [9,17]. 
+For example, attitudes, or emotions, play an indispensable role in moral These are: Lower-order thinking skills, which include knowing and un
+deliberation and moral behavior [23]. Attitude, therefore, emerges as a derstanding AI; Mid-order skills, which include using and applying AI; 
+necessary component for ethical decisions and ethical behavior and can and Higher-order thinking skills, which include evaluating and creating 
+take on many facets, for example: moral judgment [77], ethical AI. Therefore, the cognitive dimension aims to capture the range of 
+
+6
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+cognitive skills from basic understanding to advanced application and and education. AI literacy is highly relevant in each field and continues 
+creation in the context of AI. However, the cognitive learning dimension to gain relevance as more AI applications and human-AI collaborations 
+in Ng et al.’s [129] AILQ faced challenges in distinguishing certain permeate hospitals, factory floors, and classrooms. Therefore, we review 
+subfactors, which led to the removal of overlapping items to achieve the relevance and assessment specificities of each domain in Sections 
+clearer discrimination. From a policy framework perspective, DigComp 4.1.1 to 4.1.3. Moreover, we provide example measurements (self- 
+2.2, in its requirements for citizens interacting with AI systems in their assessment Likert-scale items) for medicine-specific AI literacy, 
+cognitive dimension, formulates the basic knowledge of being aware of engineering-specific AI literacy, education-specific AI literacy, and AI 
+what AI systems do and do not do, as well as understanding the benefits, ethics as well as generic AI literacy items in Table 2. To complement the 
+limitations, and challenges of AI systems [171]. exemplary items from Table 2, we review other measurement methods 
+
+Cognitions within AI ethics imply knowledge about ethics in AI and for a holistic assessment of AI literacy in Section 4.2. 
+shall assess how much people know about questions from philosophical 
+ethics and more specific AI principles. In most common ethical frame 4.1. Domain-specific AI literacy assessments 
+works for AI [138], the following ethical issues are addressed: general 
+ethical aspects, privacy, fairness/bias, explainability, accountability, 4.1.1. AI literacy assessment for the medical domain 
+transparency, correctness/accuracy, diversity, robustness, reproduc One domain in which AI is already becoming increasingly important 
+ibility. The more granular the principles in a measurement are diversi is the healthcare sector [75]. Particularly, doctors must possess the 
+fied, the greater the detail of the measurement. For an introductory ability to interact with technological applications, which are at least 
+course to AI for laypeople with a short measurement, a smaller set of partially supported by AI models [170]. In their literature review on 
+principles to be measured might be more practical. Still, further diver medical students’ AI literacy, Mousavi Baigi et al. [121] also divide AI 
+sification should be considered for advanced levels. Further, addition literacy into three sub-areas of AI knowledge, AI attitudes, and AI skills. 
+ally including extra-ethical dimensions allows for an investigation of This subdivision makes particular sense in the medical field. While 
+shifts between goal-oriented usage and moral values. doctors need to understand how AI works, they mostly need to be able to 
+
+deal with medical AI applications and be open to AI rather than fearful of 
+4. Applying the holistic AI literacy assessment matrix it. Thus, it is essential to develop reliable and valid measurement in
+
+struments for investigating the AI literacy specific to medicine and 
+In the previous chapter, we introduced our conceptual framework for among medical students, doctors, and other healthcare sector em
+
+structuring a holistic AI literacy assessment and thoroughly explored the ployees. The reliable assessment of healthcare provider’s AI literacy is 
+theoretical grounding of its dimensions. In the following, we put this crucial, as AI systems applied in this field typically operate with patient 
+framework into practice by diving into the AI literacy (assessment) data, raising not only ethical questions [41] but also directly impacting 
+specificities of three concrete example domains: medicine, engineering, the well-being and recovery of patients. Examples of potential questions 
+
+Table 2 
+Holistic AI literacy assessment matrix – with example items from the domains of medicine, engineering, and education.   
+
+Generic AI literacy Domain-specific AI literacy Domain-specific AI literacy - Domain-specific AI literacy - AI Ethics literacy 
+- medicine engineering education 
+
+Knowledge/ 1. describe how 1. explain why medical 1. assess the fields of 1. explain how an AI system 1. describe the effects of the 
+Cognition machine learning imaging is application, advantages, reacts to students’ errors black box problem.  
+Please indicate your models are trained, increasingly relying and disadvantages of and creates personalized 2. differentiate the two 
+agreement with the validated, and on convolutional digital twins.  learning paths with main, different accounts 
+following statement, tested.1  neural networks.  2. distinguish the adapted exercises and of privacy violation. 
+from ‘Do not agree at 2. explain how rule- 2. discuss strengths and significance of different learning materials.  
+all’ to ‘Completely based systems weaknesses of clinical performance metrics 2. discuss how training data 
+agree’: differ from ma AI applications.  concerning supervised can lead to bias against 
+I can…  chine learning learning tasks in vulnerable groups of 
+
+systems.  unbalanced data sets.  learners.  
+
+Skills/ 1. assess if a problem 1. use at least one AI 1. describe an optimization 1. use an AI system in 1. value ethical principles 
+Behavior can and should be application in my problem including formative assessment to whenever using AI 
+Please indicate your solved with professional role as a objectives and constraints.  automatically assess applications or products.  
+agreement with the artificial physician.  2. explain the advantages of students’ answers to 2. weigh privacy and 
+following statement, intelligence 2. critically assess the generative design in a problems and provide information security 
+from ‘Do not agree at methods.  significance of the CAD tool (i.e. Autodesk- immediate individual issues whenever using AI 
+all’ to ‘Completely 2. describe results of a clinical AI Fusion).  feedback.  applications or products. 
+agree’: experiences in application.  2. use large language models 
+I can…  which I interacted (LLMs) to customize texts 
+
+with AI in my for students with learning 
+everyday life.  difficulties at different 
+
+levels.  
+
+Attitudes/ 1. Society will reap 1. I fear that AI systems 1. I am open to incorporating 1. AI in teaching can be a 1. It is ethical for AI systems 
+Values the benefits of a are going to replace AI-driven solutions in en useful resource to facilitate to make decisions that 
+Please indicate your future filled with medical imaging gineering projects to opti differentiated teaching.  significantly impact 
+agreement with the artificial specialists in the next mize decision-making and 2. Students should be allowed individuals without 
+following statement, intelligence.  few years.  problem-solving.  to use LLM-based AI when human oversight.  
+from ‘Do not agree at 2. I would feel uneasy 2. The use of AI in 2. I value the role of human creating texts for 2. AI systems should always 
+all’ to ‘Completely if I was given a job healthcare allows experience in engineering homework.  be transparent in their 
+agree’:  where I had to use physicians to spend tasks and am cautious decision-making pro
+
+AI.  more time with their about relying too heavily cesses, especially when 
+patients.  on AI-driven decision- their decisions affect in
+
+making.  dividuals or society.  
+1 From: Laupichler, M. C., Aster, A., Haverkamp, N., & Raupach, T. [97]. Development of the “Scale for the assessment of non-experts’ AI literacy”–An exploratory 
+
+factor analysis. Computers in Human Behavior Reports, 12, 100338. 
+
+7
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+for assessing medicine-specific AI literacy are provided in Table 2. It students) [28]. It is therefore essential for teachers to acquire AI-related 
+should be noted that the measurement modality (e.g., self-assessment vs. skills as part of their digital teaching skills. For example, they need to 
+multiple-choice test) should be adjusted according to the specific ques understand how intelligent tutoring systems work in order to manage 
+tion. If the measurement holds no immediate significance for the re automated feedback in a way that promotes learning and to create 
+spondents, a self-assessment is sufficient. In the medical context, this appropriate support plans for learners. They will also need to learn 
+would be applicable if a healthcare institution (e.g., a hospital) aimed to functional prompt engineering strategies to make targeted use of 
+gauge the AI literacy of its employees. However, if the measurement generative AI language models to adapt texts or systematically vary 
+affects the respondent, a test procedure should be employed with an tasks [88]. Finally, privacy issues and the dependence of AI-based 
+swers that can be clearly categorized as correct or incorrect. An example learning recommendations on training data must be understood to 
+of such a scenario would be measuring the medicine-specific AI literacy prevent harm to marginalized students and to identify systematic dis
+of medical students as part of an exam or as part of a job evaluation for advantages or biases. Finally, despite critical attitudes, teachers must 
+physicians. also have positive attitudes toward the benefits of AI and trust the 
+
+technology to use it productively and feel well prepared to use AI in the 
+4.1.2. AI literacy assessment for the engineering domain classroom, which means they must also acquire AI-related affective 
+
+As AI becomes more pervasive, the demand for professionals trained skills [125]. 
+in AI is expected to grow [72,141]. This is especially true for engi
+neering, where AI is already being used in various areas such as 4.2. Alternative assessment methods for the AI literacy matrix 
+autonomous driving, manufacturing, disaster risk management, and 
+smart buildings. The rise of Industry 4.0, driven by AI, necessitates a Our developed holistic AI literacy assessment framework demon
+shift in engineering education [26] towards advanced STEM knowledge strates that AI literacy is a multifaceted construct, spanning not only 
+and digital competencies, including AI literacy [69,117]. In this context, different domains but also different competence components along the 
+engineering tasks are closely linked to societal challenges, as demon ABC dimensions. Due to these different facets and components, different 
+strated by frameworks like the Sustainable Development Goals (SDGs) methods are required for a valid and reliable assessment and measure
+by the United Nations [122,172], the NAE Grand Challenges for Engi ment of the relevant aspects of AI literacy for a given context. In Table 2 , 
+neering (National Academy of Engineering (NAE)), and the EU’s ESG we exemplified a variety of Likert-type items intended for a self- 
+(Environment, Social, and Governance) Taxonomy Objectives (Euro assessment. However, self-assessed Likert-type items are only one 
+pean Commission). Training individuals working with AI is crucial to method to measure AI literacy, which, despite its advantages of easy 
+instilling the right values, addressing the responsibility gap, and deployment and comprehension, also has severe drawbacks, such as 
+enabling them to identify potential harms. When developing AI literacy, human biases in self-assessment [95]. As such, we want to emphasize 
+engineering-specific competencies can be found in all competence di that this method is only one from a potentially large toolbox of mea
+mensions of the presented approach: There is engineering-specific sures. Different competence dimensions of holistic AI literacy, like 
+knowledge, for example about digital twins or autonomous driving, as cognition and behavior, tend to be measured better by different methods 
+well as certain practices or tools that are used specifically in the field of [6,16]. For example, knowledge can be easily measured with a 
+engineering. In addition, the attitudes of engineers towards AI play a multiple-choice test, whereas actual behavior could be better measured 
+major role, especially regarding societal challenges. In this way, the with an observation. However, these relationships between measure
+approach presented emphasizes the increasing importance of AI in en ment methods and competence dimensions are not exclusive, i.e., there 
+gineering to train engineers to use AI in a socially responsible way [90, are no 1:1 relationships. Likert-type items can measure affective com
+117]. ponents as well as cognitive components and behavioral intentions. In 
+
+order to assess and measure AI literacy appropriately, one should first 
+4.1.3. AI literacy assessment for the educational domain use the developed conceptual framework to decide which component in 
+
+Especially with the emergence of large language models (LLMs), the which domain is most relevant to be measured and then decide upon an 
+challenges and risks that AI poses to the education system have been appropriate measure. 
+widely discussed (e.g., [33,58,80,88]). This is despite the fact that AI has So far, the measurement landscape of AI literacy is quite scarce. The 
+long since found its way into the increasingly data-driven education majority of developed instruments are Likert-type self-assessments (e.g. 
+system [36,98] and holds great potential for personalized learning. For [97,128,29,134,173]). Beyond that, some initial research ventured into 
+example, chatbots have already been used for educational purposes in developing objective tests, namely multiple-choice tests (e.g., [81,175]). 
+recent years [96]. The use of machine learning in the context of Whereas these current objective tests cover mostly generic AI literacy 
+educational data mining processes has been around for several years in aspects, such measurements are also suitable in principle for different 
+the context of large-scale international studies such as TIMSS or PISA domains. For example, in an educational setting like teacher education, 
+[79,156]. In the design of adaptive intelligent tutoring systems for an objective measurement item could be designed as illustrated in Fig. 1. 
+personalized learning, research and development work based on artifi Another measure, which we believe to be promising regarding its 
+cial intelligence models has also been carried out for over a decade [11, applicability and explanatory power based on its usage in other research 
+63], also in specific domains such as mathematics [27]. AI can be used fields, would be a situational judgment test (SJT). SJTs are increasingly 
+here, for example, to create curricula or as a teaching assistant [80]. used to measure behavioral intentions and simulate real-world perfor
+Educators around the world can use AI tools such as speech recognition mance, making them an effective supplement to cognitive tests for 
+or machine translation systems to provide adapted learning opportu competency assessment [102,148,178]. They offer realistic scenarios to 
+nities to students with disabilities, multilingual learners, or others who assess different knowledge dimensions, using vignettes in text or video 
+can benefit from personalized learning environments, and to enable formats that bridge theoretical knowledge and practical application 
+them to participate in the classroom [28]. AI large language models can [106,114,120,142]. The involvement of domain experts in vignette 
+also be used in school learning to personalize texts and other instruc development thereby ensures scenario relevance and authenticity, 
+tional materials. However, these new opportunities do not come without helping counteract respondent faking [131,137]. SJTs present hypo
+risks [124]. Of paramount importance for AI in education is that, in thetical scenarios to evaluate participants’ decision-making and 
+addition to the known risks to privacy and data security, AI could pose behavioral intentions, acting as "low-fidelity simulations" of real 
+new risks, such as the risk of scaling pattern recognition and automation behavior [21,119]. Responses are scored against expert norms, lending 
+leading to "algorithmic discrimination" (e.g., systematic inequity in credibility and objectivity to the results [178]. In AI literacy assess
+learning opportunities or resources recommended to certain groups of ments, SJTs could offer a practical solution for measuring specific 
+
+8
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+Fig. 1. Multiple-choice-test item for AI literacy in the educational domain.  
+
+competencies, especially behavior, not captured by traditional tests or programs, interventions, and curricula. We therefore propose to use the 
+self-assessments [56,161]. An exemplary SJT item for the medical holistic AI literacy assessment matrix to guide the development of future 
+domain could be designed like the one shown in Fig. 2. instruments in the manner of an item development heuristic [37,164, 
+
+Further options to catch more behavioral data in AI literacy could be 188]. Following a heuristic based on our matrix makes it possible to 
+performance data in practical applications or the recording of process distinguish between the generic, domain-specific, and ethical types of AI 
+data while interacting with certain AI technologies or working within literacy, as well as the cognitive, behavioral, and attitudinal dimensions 
+AI-based environments, in the form of event log data with time stamps, of competence. Certainly, not every aspect is needed in every AI literacy 
+browsing/interaction history and eye movements. assessment instrument, but following a straightforward item develop
+
+ment heuristic based on this AI literacy matrix allows one to clearly 
+5. Discussion position one’s own contribution to AI literacy measurement, while at the 
+
+same time clearly distinguishing aspects that are not intended to be 
+The holistic AI literacy assessment matrix presented in this paper captured within a given instrument. 
+
+possesses its specific strengths as well as limitations. Therefore, this Since the particular strength of the AI literacy matrix approach is its 
+section will reflect on the work presented here and critically discuss distinction between generic and domain-specific AI literacy types, as 
+which aspects are promising and which need further refinement. As a well as AI ethics literacy, this conceptualization of AI literacy may also 
+result of this process, a number of questions have arisen for a future inspire future AI educational efforts and the urgently needed creation of 
+research agenda in the area of AI literacy research. domain-specific AI learning opportunities [93,103,116,118,151]. In 
+
+With the concept presented here, we aim to inspire and assist the educational contexts, distinguishing between literacy types and 
+development of more refined AI literacy assessment instruments that competence dimensions not only provides a basis for improved assess
+particularly consider domain-specific differences between different ment methods but also offers an opportunity to develop assessment in
+forms of AI literacy. As it is foreseeable that AI will fundamentally struments that follow constructive alignment approaches [7,15,109]. In 
+change the future of education in every subject area [18,36,110,146], keeping with the constructive alignment method, it’s important to plan 
+and that future professions and work will be equally affected [82,133, ahead for the methods and ways in which learning objectives will be 
+174,187], there is an urgent need for assessments that take into account assessed, so that future educational efforts can use the provided holistic 
+this very feature of domain-specificity, as the availability of appropriate AI literacy matrix and target their efforts to specific constellations 
+assessments is a necessary prerequisite for targeted AI educational intended to be taught, e.g., cognitive and attitudinal aspects in the 
+
+Fig. 2. Situational judgement test item for AI literacy in the medical domain.  
+
+9
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+domain of medicine, or cognitive aspects and behaviors in engineering. does AI literacy in its different dimensions and its different literacy types 
+Therefore, the provided matrix can also be used to develop AI educa affect human-AI interactions, i.e., how do their patterns of use of AI 
+tional learning opportunities, such as courses, in a more targeted and technology differ qualitatively from those of less AI literate people? [31, 
+fine-grained perspective. 43,54,115]. 
+
+While our approach to a more holistic AI literacy assessment seems As such, future research points towards the need for environments 
+promising, it is beyond the scope of this conceptual paper to develop a that allow for the exploration of various indicators and influencing 
+comprehensive item pool and usable scales. This work does not repre factors relevant to the development of generic and domain-specific AI 
+sent a developed scale, but rather a practical guiding framework for literacy. AI MOOCs may be a suitable setting for such efforts, as 
+future developments in AI literacy assessment. Therefore, our concep contextual factors (e.g., type/number of courses completed), prior AI 
+tualization of AI literacy as consisting of generic, domain-specific, and and/or domain education, and other measures of survey, performance, 
+AI ethical literacies along the ABC dimensions lacks rigorous psycho or tracking data may provide important insights into the antecedents 
+metric validation, a task that must be addressed in future research. Such and implications of AI literacy. A set of items designed according to our 
+empirical evidence is central to establishing generic AI literacy, domain- matrix could also be tested in different learning opportunities facilitated 
+specific AI literacy, and AI ethics literacy as distinct constructs that by an AI MOOC platform. As a result, it could be explored how different 
+require further research, potentially serving precise constructive align aspects of AI literacy relate to each other, potentially providing impor
+ment goals for teaching, learning, and assessment in educational tant insights into the composition of the construct of AI literacy. Addi
+settings. tionally, this raises the question of successful models for teaching AI 
+
+In particular, psychometric validation needs to further explore the literacy in educational settings. For example, is it more promising to 
+uniqueness and incremental value of domain-specific AI literacy over teach holistic AI literacy using a respective holistic approach, or can 
+generic AI literacy, and whether such a distinction holds over time people also acquire holistic AI literacy using an atomistic approach in 
+[190]. Our conceptualization of AI ethics literacy also suffers from this which individual aspects are acquired in a focused manner? 
+lack of validation. While Ng et al. [128] position ethics along the ABC Finally, AI literacy research should span other relevant domains, not 
+dimensions as ABCE, we proposed to position ethics as an equivalent just the three chosen here (medicine, engineering, and education). The 
+type of literacy along with generic and domain-specific AI literacy. This choice of these three particular domains reflects the interdisciplinary 
+decision for AI ethics literacy as a distinct category is supported by the nature of the group involved in this work, as well as the fact that these 
+fact that not only Ng et al. [128], but most previous conceptualizations domains are already heavily impacted by AI and are already engaged in 
+of AI literacy have all crystallized an "AI ethics" factor in their factor a lively scientific discourse about the role of AI within their professional 
+analytic evaluations that is independent of the other categories (AI domain [26,41,75,80,121,141]. However, if AI literacy is to be devel
+knowledge, etc.), making it a distinct factor that recurs across different oped across all subjects and professional domains, we suggest and 
+conceptualizations of AI literacy. encourage AI literacy research in domains that are not currently found in 
+
+However, as we pointed out in Section 3.1.3, this approach also has the typical AI literacy research landscape. Subsequently, we envision 
+its limitations, as AI ethics literacy, if operationalized and psychomet that the matrix we provide, and in particular the introduction of 
+rically tested, might also show cross-loadings with generic AI literacy domain-specific AI literacy, a crucial aspect currently missing from 
+and domain-specific AI literacy. We acknowledge that our approach still existing frameworks, can stimulate and guide thinking about the specific 
+gives ethics a complementary role in the AI literacy framework. needs for AI literacy in different professional domains, and align 
+Furthermore, this approach cannot necessarily account for all the ethical domain-specific AI literacy with specific educational and workforce 
+details within generic and domain-specific AI literacies. needs. 
+
+6. Outlook and future research agenda 7. Conclusion 
+
+The discussion of the holistic AI literacy assessment matrix, in terms Concluding this present paper, to use this AI literacy matrix practi
+of its strengths and limitations outlined above, points towards a future cally, it is necessary to decide which aspects, constituents, and compo
+research agenda. First, we suggest developing more AI literacy assess nents are appropriate to adequately reflect the construct of AI literacy. 
+ment instruments, that use the suggested AI literacy matrix, to do the The main components within this work have been described as generic 
+broadness, diversity, and importance of the construct of AI literacy AI literacy, domain-specific AI literacy, and AI ethics literacy, each 
+justice. Therefore, we urge academics to use our holistic AI literacy consisting of cognitions, behaviors, and attitudes as different compe
+matrix to develop more refined tools that are able to capture more as tence dimensions. In particular, it was intended to illustrate how AI 
+pects of AI literacy, especially domain-specific AI literacy, and also to literacy can serve different purposes for the different domains of medi
+develop measurement tools that are more attuned to behavior, which is cine, engineering, and education, and the associated AI-related compe
+currently missing from most AI literacy tools. Alternative measurement tency requirements within each domain. It is hoped that the holistic AI 
+methods like SJTs might also be fruitful approaches to a more differ literacy assessment matrix provided here will contribute to the much- 
+entiated understanding of AI literacy as a construct [101]. Second, AI needed advancement of AI literacy measurement tools, particularly for 
+literacy instruments that were developed according to this matrix as well domain-specific AI literacy, as for this area a large research gap remains 
+as existing AI literacy instruments can be used to validate this holistic to date and could be of enormous importance if we are to successfully 
+framework and provide insights into the nature and the relationships integrate AI literacy into various subjects within educational in
+among generic, domain-specific, and ethical AI literacy [111]. Further stitutions, as well as foster the development of AI literacy for different 
+open questions regarding validity concern the predictive and criterion professional work domains. If we, as educators and researchers, envision 
+validity of our holistic AI literacy approach, which is not a limitation per AI literacy for all, this means that we need to broaden our scope beyond 
+se, but can rather be seen as another future research question within AI generic AI literacy – which of course is still very important – but we also 
+literacy research. Two aspects in particular arise here. First, questions need conceptualizations and assessment tools of AI literacy that 
+arise about the competencies and skills that serve as antecedents of AI adequately capture domain-specificity and ethical aspects of AI. Estab
+literacy, i.e., what role does the development of basic digital literacy, lishing AI literacy in different domains is key to enabling a hybrid 
+data literacy, or programming skills play in the different types of AI intelligent paradigm [44,85] that aligns human-AI interactions in a 
+literacies and competence dimensions of AI literacy proposed in this collaborative and co-creative way and benefits every student, worker, 
+work [61,175]? Also, what is the convergent validity of different types and citizen. 
+of AI literacy compared to existing AI literacy instruments? Second, how 
+
+10
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+Declaration of generative AI and AI-assisted technologies in the [14] Bewersdorff A, Zhai X, Roberts J, Nerdel C. Myths, mis- and preconceptions of 
+writing process artificial intelligence: a review of the literature. Comput Educ Artif Intell 2023;4: 
+
+100143. https://doi.org/10.1016/j.caeai.2023.100143. 
+[15] Biggs J. Enhancing teaching through constructive alignment. High Educ 1996;32 
+
+Statement: During the preparation of this work the author(s) used DEEPL (3):347–64. https://doi.org/10.1007/BF00138871 (Dordr). 
+Write in order to improve readability and streamline language. After using [16] Blömeke S, Gustafsson JE, Shavelson RJ. Beyond dichotomies. Z Psychol 2015; 
+
+223(1):3–13. https://doi.org/10.1027/2151-2604/a000194. 
+this tool/service, the author(s) reviewed and edited the content as needed and [17] Bloom BS, Engelhart MD, Furst EJ, Hill WH, Krathwohl DR. Taxonomy of 
+take(s) full responsibility for the content of the publication. educational objectives: the classification of educational goals: handbook I: 
+
+cognitive domain. David McKay Company; 1956. 
+
+Funding [18] Bond M, Khosravi H, Laat Mde, Bergdahl N, Negrea V, Oxley E, Pham P, 
+Chong SW, Siemens G. A meta systematic review of artificial intelligence in 
+higher education: a call for increased ethics, collaboration, and rigour. Int J Educ 
+
+The results presented in this article were developed in the research Technol High Educ 2024;21(1):1–41. https://doi.org/10.1186/s41239-023- 
+fellowship AI competences funded by the AI Campus and the Stifter 00436-z. 
+
+[19] Borenstein J, Drake M, Kirkman R, Swann J. The test of ethical sensitivity in 
+verband (Grant: 16DHBQP056). We thank the Stifterverband for sup science and engineering (Tesse): a discipline specific assessment tool for 
+porting our research. awareness of ethical issues. In: Proceedings of the 2008 annual conference & 
+
+exposition proceedings; 2008. https://doi.org/10.18260/1-2-3253 (13.1270.1- 
+13.1270.10)ASEE Conferences. 
+
+CRediT authorship contribution statement [20] Borenstein J, Howard A. Emerging challenges in AI and the need for AI ethics 
+education. AI Ethics 2021;1(1):61–5. https://doi.org/10.1007/s43681-020- 
+
+Nils Knoth: Writing – original draft, Visualization, Supervision, 00002-7. 
+[21] Borman WC, Motowidlo SJ. Task performance and contextual performance: the 
+
+Project administration, Methodology, Conceptualization. Marie meaning for personnel selection research. Hum Perform 1997;10(2):99–109. 
+Decker: Writing – review & editing, Methodology, Conceptualization. https://doi.org/10.1207/s15327043hup1002_3. 
+Matthias Carl Laupichler: Writing – review & editing, Methodology, [22] Boyatzis RE. Competencies in the 21st century. J Manag Dev 2008;27(1):5–12. 
+
+https://doi.org/10.1108/02621710810840730. 
+Conceptualization. Marc Pinski: Writing – review & editing, Method [23] Bratton, V.K. (2004). Affective morality: the role of emotions in the ethical 
+ology, Conceptualization. Nils Buchholtz: Writing – review & editing, decision-making process. https://search.proquest.com/openview/2c634b42ee 
+Methodology, Conceptualization. Katharina Bata: Writing – review & 5860606e51b58669ee85ce/1?pq-origsite=gscholar&cbl=18750&diss=y. 
+
+editing, Methodology, Conceptualization. Ben Schultz: Writing – re [24] Bromme R. Kompetenzen, funktionen und unterrichtliches handeln des lehrers. F. 
+E. Weinert (Hrsg.). Enzyklopädie der psychologie: pädagogische psychologie, Bd. 
+
+view & editing. 3: psychologie des unterrichts und der schule. Göttingen: Hogrefe; 1997. 
+p. S.177–212. 
+
+Declaration of competing interest [25] Bromme R. Der lehrer als experte: zur psychologie des professionellen Wissens. 
+Standardwerke aus psychologie und pädagogik - reprints: band 7. Waxmann; UTB 
+GmbH; 2014. https://elibrary.utb.de/doi/book/10.31244/9783830980421. 
+
+The authors declare that they have no known competing financial [26] Bühler MM, Jelinek T, Nübel K. Training and preparing tomorrow’s workforce for 
+interests or personal relationships that could have appeared to influence the fourth industrial revolution. Educ Sci 2022;12(11):782. https://doi.org/ 
+
+10.3390/educsci12110782 (Basel). 
+the work reported in this paper. [27] Bywater JP, Chiu JL, Hong J, Sankaranarayanan V. The teacher responding tool: 
+
+scaffolding the teacher practice of responding to student ideas in mathematics 
+References classrooms. Comput Educ 2019;139(1):16–30. https://www.learntechlib.org/p/ 
+
+209941/. 
+[28] Cardona MA, Rodríguez RJ, Ishmael K. Artificial intelligence and the future of 
+
+[1] Ajzen I. From intentions to actions: a theory of planned behavior. J. Kuhl (Ed.). teaching and learning: insights and recommendations. Department of Education; 
+Action control: from cognition to behavior. Berlin Heidelberg: Springer; 1985. 2023. United States, https://digital.library.unt.edu/ark:/67531/metad 
+p. 11–39. https://doi.org/10.1007/978-3-642-69746-3_2. c2114121/. 
+
+[2] Ajzen I. The theory of planned behavior. Organ Behav Hum Decis Process 1991; [29] Carolus A, Koch MJ, Straka S, Latoschik ME, Wienrich C. MAILS - Meta AI literacy 
+50(2):179–211. https://doi.org/10.1016/0749-5978(91)90020-T. scale: development and testing of an AI literacy questionnaire based on well- 
+
+[3] Alexander PA, Jablansky S, Singer LM, Dumas D. Relational reasoning. Policy founded competency models and psychological change- and meta-competencies. 
+Insights Behav Brain Sci 2016;3(1):36–44. https://doi.org/10.1177/ Comput Hum Behav Artif Hum 2023;1(2):100014. https://doi.org/10.1016/j. 
+2372732215622029. chbah.2023.100014. 
+
+[4] Alexander PA, Judy JE. The interaction of domain-specific and strategic [30] Casal-Otero L, Catala A, Fernández-Morante C, Taboada M, Cebreiro B, Barro S. 
+knowledge in academic performance. Rev Educ Res 1988;58(4):375–404. Ai literacy in K-12: a systematic literature review. Int J STEM Educ 2023;10(1): 
+https://doi.org/10.3102/00346543058004375. 1–17. https://doi.org/10.1186/s40594-023-00418-7. 
+
+[5] Alekseeva L, Azar J, Giné M, Samila S, Taska B. The demand for AI skills in the [31] Cetindamar D, Kitto K, Wu M, Zhang Y, Abedin B, Knight S. Explicating AI 
+labor market. Labour Econ 2021;71:102002. https://doi.org/10.1016/j. literacy of employees at digital workplaces. IEEE Trans Eng Manag 2024;71: 
+labeco.2021.102002. 810–23. https://doi.org/10.1109/tem.2021.3138503. 
+
+[6] Allen, J.P., & van der Velden, R.K.W. (2005). The role of self-assessment in [32] Chan CK, Chen SW. Students’ perceptions on the recognition of holistic 
+measuring skills. https://cris.maastrichtuniversity.nl/en/publications/the-role- competency achievement: a systematic mixed studies review. Educ Res Rev 2022; 
+of-self-assessment-in-measuring-skills. 35:100431. https://doi.org/10.1016/j.edurev.2021.100431. 
+
+[7] Ali L. The design of curriculum, assessment and evaluation in higher education [33] Chiu TKF. The impact of Generative AI (GenAI) on practices, policies and research 
+with constructive alignment. J Educ E Learn Res 2018;5(1):72–8. https://eric.ed. direction in education: a case of ChatGPT and Midjourney. Interact Learn Environ 
+gov/?id=ej1173088. 2023:1–17. https://doi.org/10.1080/10494820.2023.2253861. 
+
+[8] Allport GW. Attitudes. A handbook of social psychology. Clark University Press; [34] Chiu TKF, Meng H, Chai CS, King I, Wong S, Yam Y. Creation and evaluation of a 
+1935. p. 798–844. pretertiary artificial intelligence (AI) curriculum. IEEE Trans Educ 2022;65(1): 
+
+[9] Anderson LW, Krathwohl DR. A taxonomy for learning, teaching, and assessing: a 30–9. https://doi.org/10.1109/TE.2021.3085878. 
+revision of Bloom’s Taxonomy of educational objectives. Longman; 2001 [35] Chiu TK. Future research recommendations for transforming higher education 
+(Abridged ed.). with generative AI. Comput Educ Artif Intell 2024;6:100197. https://doi.org/ 
+
+[10] Anthonysamy L, Koo AC, Hew SH. Self-regulated learning strategies in higher 10.1016/j.caeai.2023.100197. 
+education: fostering digital literacy for sustainable lifelong learning. Educ Inf [36] Chiu TK, Xia Q, Zhou X, Chai CS, Cheng M. Systematic literature review on 
+Technol 2020;25(4):2393–414. https://doi.org/10.1007/s10639-020-10201-8 opportunities, challenges, and future research recommendations of artificial 
+(Dordr). intelligence in education. Comput Educ Artif Intell 2023;4:100118. https://doi. 
+
+[11] Graesser AC, VanLehn K, Rose CP, Jordan PW, Harter D. Intelligent tutoring org/10.1016/j.caeai.2022.100118. 
+systems with conversational dialogue. AI Mag 2001;22(4):39. https://doi.org/ [37] Choi SW, Lim S, van der Linden WJ. TestDesign: an optimal test design approach 
+10.1609/aimag.v22i4.1591. to constructing fixed and adaptive tests in R. Behaviormetrika 2022;49:191–229. 
+
+[12] Audrin C, Audrin B. Key factors in digital literacy in learning and education: a https://doi.org/10.1007/s41237-021-00145-9. 
+systematic literature review using text mining. Educ Inf Technol 2022;27(6): [38] Cialdini RB, Petty RE, Cacioppo JT. Attitude and attitude change. Annu Rev 
+7395–419. https://doi.org/10.1007/s10639-021-10832-5 (Dordr). Psychol 1981;32(1):357–404. https://doi.org/10.1146/annurev. 
+
+[13] Baartman LK, de Bruijn E. Integrating knowledge, skills and attitudes: ps.32.020181.002041. 
+conceptualising learning processes towards vocational competence. Educ Res Rev [39] Coeckelbergh M. Artificial intelligence, responsibility attribution, and a relational 
+2011;6(2):125–34. https://doi.org/10.1016/j.edurev.2011.03.001. justification of explainability. Sci Eng Ethics 2020;26(4):2051–68. https://doi. 
+
+org/10.1007/s11948-019-00146-8. 
+
+11
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+[40] Crawford K. The atlas of AI: power, politics, and the planetary costs of artificial [67] Gruber H, Harteis C, Rehrl M. Professional learning: erfahrung als grundlage von 
+intelligence. Yale University Press; ProQuest; 2021. handlungskompetenz. Bild Erzieh 2006;59(2):193–204. https://doi.org/ 
+
+[41] Dalton-Brown S. The ethics of medical AI and the physician-patient relationship. 10.7788/bue.2006.59.2.193. 
+Camb Q Healthc Ethics CQ 2020;29(1):115–21. https://doi.org/10.1017/ [68] Gruber H, Mandl H. Expertise und erfahrung. H. Gruber & A. Ziegler (Eds.). 
+S0963180119000847. The International Journal of Healthcare Ethics Expertiseforschung: theoretische und methodische Grundlagen. VS Verlag für 
+Committees. Sozialwissenschaften; 1996. p. 18–34. https://doi.org/10.1007/978-3-663- 
+
+[42] Davis M. Integrating ethics into technical courses: micro-insertion. Sci Eng Ethics 12111-4_2. Imprint. 
+2006;12(4):717–30. https://doi.org/10.1007/s11948-006-0066-z. [69] Grybauskas A, Stefanini A, Ghobakhloo M. Social sustainability in the age of 
+
+[43] Dell’Acqua, F., McFowland, E., Mollick, E.R., Lifshitz-Assaf, H., Kellogg, K., digitalization: a systematic literature review on the social implications of industry 
+Rajendran, S., Krayer, L., Candelon, F., & Lakhani, K.R. (2023). Navigating the 4.0. Technol Soc 2022;70:101997. https://doi.org/10.1016/j. 
+jagged technological frontier: field experimental evidence of the effects of AI on techsoc.2022.101997. 
+knowledge worker productivity and quality. 10.2139/ssrn.4573321. [70] Haefner N, Parida V, Gassmann O, Wincent J. Implementing and scaling artificial 
+
+[44] Dellermann D, Ebel P, Söllner M, Leimeister JM. Hybrid intelligence. Bus Inf Syst intelligence: a review, framework, and research agenda. Technol Forecast Soc 
+Eng 2019;61(5):637–43. https://doi.org/10.1007/s12599-019-00595-2. Change 2023;197:122878. https://doi.org/10.1016/j.techfore.2023.122878. 
+
+[45] Dignum V. Responsibleartificial intelligence: how to develop and use AI in a [71] Haidt J. Moral psychology for the twenty-first century. J Moral Educ 2013;42(3): 
+responsible way. 1st ed. Springer International Publishing; 2019. https://doi.org/ 281–97. https://doi.org/10.1080/03057240.2013.817327. 
+10.1007/978-3-030-30371-6. 2019Artificial Intelligence. [72] Harari YN. Reboot for the AI revolution. Nature 2017;550(7676):324–7. https:// 
+
+[46] DiSessa AA. Changing minds: computers, learning and literacy. The Mit Press; doi.org/10.1038/550324a. 
+2001. [73] Hardt M, Narayanan A. Fairness and machine learning: limitations and 
+
+[47] Doris JM. Lack of character: personality and moral behavior. Cambridge opportunities. The MIT Press; 2023. 
+University Press; 2002. https://doi.org/10.1017/CBO9781139878364. [74] Hashemian G, Loui MC. Can instruction in engineering ethics change students’ 
+
+[48] Drumwright M, Prentice R, Biasucci C. Behavioral ethics and teaching ethical feelings about professional responsibility? Sci Eng Ethics 2010;16(1):201–15. 
+decision making. Decis Sci J Innov Educ 2015;13(3):431–58. https://doi.org/ https://doi.org/10.1007/s11948-010-9195-5. 
+10.1111/dsji.12071. [75] Haug CJ, Drazen JM. Artificial intelligence and machine learning in clinical 
+
+[49] Durmaz A, Dursun İ, Kabadayi ET. Mitigating the effects of social desirability bias medicine, 2023. N Engl J Med 2023;388(13):1201–8. https://doi.org/10.1056/ 
+in self-report surveys. A. Ippolito, C. Inglese, & S. Chakraborty (Eds.). Advances in NEJMra2302038. 
+library and information science (ALIS) book series: 2020: 4. Challenges of [76] Hess JL, Beever J, Iliadis A, Kisselburgh LG, Zoltowski CB, Krane MJM, 
+globalization and inclusivity in academic research. IGI Global; 2024. p. 146–85. Brightman AO. An ethics transfer case assessment tool for measuring ethical 
+https://doi.org/10.4018/978-1-7998-1025-4.ch007. reasoning abilities of engineering students using reflexive principlism approach. 
+
+[50] Eaton E, Koenig S, Schulz C, Maurelli F, Lee J, Eckroth J, Crowley M, In: Proceedings of the 2014 IEEE frontiers in education conference (FIE). IEEE; 
+Freedman RG, Cardona-Rivera RE, Machado T, Williams T. Blue sky ideas in 2014. p. 1–5. https://doi.org/10.1109/FIE.2014.7044441. 
+artificial intelligence education from the EAAI 2017 new and future AI educator [77] Hess JL, Fore G. A systematic literature review of US engineering ethics 
+program. AI Matters 2018;3(4):23–31. https://doi.org/10.1145/ interventions. Sci Eng Ethics 2018;24(2):551–83. https://doi.org/10.1007/ 
+3175502.3175509. s11948-017-9910-6. 
+
+[51] Epstein RM, Hundert EM. Defining and assessing professional competence. JAMA [78] Heyder T, Posegga O. Extending the foundations of AI literacy. In: Proceedings of 
+2002;287(2):226–35. https://doi.org/10.1001/jama.287.2.226. the ICIS 2021; 2021. https://aisel.aisnet.org/icis2021/is_future_work/is_futu 
+
+[52] Ericsson KA. The influence of experience and deliberate practice on the re_work/9. 
+development of superior expert performance. K. A. Ericsson, N. Charness, P. J. [79] Hilbert S, Coors S, Kraus E, Frei M, Lindl A, Wild J, Krauss S, Goretzko D, Bischl B, 
+Feltovich, & R. R. Hoffman (Eds.). The Cambridge handbook of expertise and Stachl C. Machine learning for the educational sciences. Rev Educ 2021;9(3): 
+expert performance. Cambridge: University Press; 2012. p. 683–704. https://doi. e3310. Sven. 
+org/10.1017/CBO9780511816796.038. Repr. [80] Holmes W, Miao F, UNESCO. Guidance for generative AI in education and 
+
+[53] Eslami M, Vaccaro K, Lee MK, Elazari Bar On A, Gilbert E, Karahalios K. User research. UNESCO Publishing; 2023. 
+attitudes towards algorithmic opacity and transparency in online reviewing [81] Hornberger M, Bewersdorff A, Nerdel C. What do university students know about 
+platforms. S. Brewster, G. Fitzpatrick, A. Cox, & V. Kostakos (Eds.). In: Artificial Intelligence? Development and validation of an AI literacy test. Comput 
+Proceedings of the 2019 CHI conference on human factors in computing systems. Educ Artif Intell 2023;5:100165. https://doi.org/10.1016/j.caeai.2023.100165. 
+ACM; 2019. p. 1–14. https://doi.org/10.1145/3290605.3300724. [82] Howard J. Artificial intelligence: implications for the future of work. Am J Ind 
+
+[54] Faruqe, F., Watkins, R., & Medsker, L. (2021). Competency model approach to AI Med 2019;62(11):917–26. https://doi.org/10.1002/ajim.23037. 
+literacy: research-based path from initial framework to model. http://arxiv.org/ [83] Jacob SR, Warschauer M. Computational thinking and literacy. J Comput Sci 
+pdf/2108.05809.pdf. Integr 2018;1(1). https://doi.org/10.26716/jcsi.2018.01.1.1. 
+
+[55] Fast E, Horvitz E. Long-term trends in the public perception of artificial [84] Jang Y, Choi S, Kim H. Development and validation of an instrument to measure 
+intelligence. In: Proceedings of the AAAI conference on artificial intelligence. 31; undergraduate students’ attitudes toward the ethics of artificial intelligence (AT- 
+2017. https://doi.org/10.1609/aaai.v31i1.10635. EAI) and analysis of its difference by gender and experience of AI education. Educ 
+
+[56] Fisher DM, Good S, Toich MJ, Schutt E. Measuring moral disengagement with a Inf Technol 2022;27(8):11635–67. https://doi.org/10.1007/s10639-022-11086- 
+situational judgment test: advancing the assessment of an important workplace 5 (Dordr). 
+construct. Int J Sel Assess 2021;29(1):114–33. https://doi.org/10.1111/ [85] Järvelä S, Nguyen A, Hadwin A. Human and artificial intelligence collaboration 
+ijsa.12318. for socially shared regulation in learning. Br J Educ Technol 2023;54(5):1057–76. 
+
+[57] Fraillon J, Ainley J, Schulz W, Friedman T, Duckworth D. Preparing for life in a https://doi.org/10.1111/bjet.13325. 
+digital world: IEA international computer and information literacy study 2018 [86] Johnston B, Webber S. Information literacy in higher education: a review and 
+international report. 1st ed. Springer International Publishing; 2020. https://doi. case study. Stud High Educ 2003;28(3):335–52. https://doi.org/10.1080/ 
+org/10.1007/978-3-030-38781-5. 2020. 03075070309295. 
+
+[58] Fütterer T, Fischer C, Alekseeva A, Chen X, Tate T, Warschauer M, Gerjets P. [87] Kandlhofer M, Steinbauer G, Hirschmugl-Gaisch S, Huber P. Artificial intelligence 
+Chatgpt in education: global reactions to AI innovations. Sci Rep 2023;13(1): and computer science in education: from kindergarten to university. In: 
+15310. https://doi.org/10.1038/s41598-023-42227-6. Proceedings of the 2016 IEEE frontiers in education conference (FIE). IEEE; 2016. 
+
+[59] Gal I. Adults’ statistical literacy: meanings, components, responsibilities. Int Stat p. 1–9. https://doi.org/10.1109/FIE.2016.7757570. 
+Rev 2002;70(1):1. https://doi.org/10.2307/1403713. [88] Kasneci E, Sessler K, Küchemann S, Bannert M, Dementieva D, Fischer F, 
+
+[60] Ghallab M. Responsible AI: requirements and challenges. AI Perspect 2019;1(1): Gasser U, Groh G, Günnemann S, Hüllermeier E, Krusche S, Kutyniok G, 
+1–7. https://doi.org/10.1186/s42467-019-0003-z. Michaeli T, Nerdel C, Pfeffer J, Poquet O, Sailer M, Schmidt A, Seidel T, 
+
+[61] Gillath O, Ai T, Branicky MS, Keshmiri S, Davison RB, Spaulding R. Attachment Kasneci G. ChatGPT for good? On opportunities and challenges of large language 
+and trust in artificial intelligence. Comput Hum Behav 2021;115:106607. https:// models for education. Learn Individ Differ 2023;103:102274. https://doi.org/ 
+doi.org/10.1016/j.chb.2020.106607. 10.1016/j.lindif.2023.102274. 
+
+[62] Gilster P. Digital literacy. New York: Wiley Computer Publications; 1997. [89] Katz D. The functional approach to the study of attitudes. Public Opin Q 1960;24: 
+[63] Graesser AC, Hu X, Sottilare R. Intelligent tutoring systems. F. Fischer, C. E. 163. https://doi.org/10.1086/266945. 2, Special Issue: Attitude Change. 
+
+Hmelo-Silver, S. R. Goldman, & P. Reimann (Eds.). International handbook of the [90] Khakurel J, Penzenstadler B, Porras J, Knutas A, Zhang W. The rise of artificial 
+learning sciences. Routledge; 2018. p. 246–55. https://doi.org/10.4324/ intelligence under the lens of sustainability. Technologies 2018;6(4):100. https:// 
+9781315617572-24. doi.org/10.3390/technologies6040100 (Basel). 
+
+[64] Grassini S. Development and validation of the AI attitude scale (AIAS-4): a brief [91] Kieslich K, Keller B, Starke C. Artificial intelligence ethics by design. Evaluating 
+measure of general attitude toward artificial intelligence. Front Psychol 2023;14: public perception on the importance of ethical design principles of artificial 
+1191628. https://doi.org/10.3389/fpsyg.2023.1191628. intelligence. Big Data Soc 2022;9(1). https://doi.org/10.1177/ 
+
+[65] Greenhill AT, Edmunds BR. A primer of artificial intelligence in medicine. Tech 20539517221092956. 205395172210929. 
+Innov Gastrointest Endosc 2020;22(2):85–9. https://doi.org/10.1016/j. [92] Kligyte V, Marcy RT, Waples EP, Sevier ST, Godfrey ES, Mumford MD, 
+tgie.2019.150642. Hougen DF. Application of a sensemaking approach to ethics training in the 
+
+[66] Greeno JG, Riley MS, Gelman R. Conceptual competence and children’s counting. physical sciences and engineering. Sci Eng Ethics 2008;14(2):251–78. https:// 
+Cogn Psychol 1984;16(1):94–143. https://doi.org/10.1016/0010-0285(84) doi.org/10.1007/s11948-007-9048-z. 
+90005-7. [93] Kong SC, Cheung W, Zhang G. Evaluation of an artificial intelligence literacy 
+
+course for university students with diverse study backgrounds. Comput Educ Artif 
+Intell 2021;2:100026. https://doi.org/10.1016/j.caeai.2021.100026. 
+
+12
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+[94] Krathwohl DR, Bloom BS, Masia BB. Taxonomy of educational objectives: the J Appl Psychol 2006;91(4):749–61. https://doi.org/10.1037/0021- 
+classification of educational goals. 1st ed. David McKay; 1964. 9010.91.4.749. 
+reprintedTaxonomy of educational objectives: Handbook 2. [121] Mousavi Baigi SF, Sarbaz M, Ghaddaripouri K, Ghaddaripouri M, Mousavi AS, 
+
+[95] Kruger J, Dunning D. Unskilled and unaware of it: how difficulties in recognizing Kimiafar K. Attitudes, knowledge, and skills towards artificial intelligence among 
+one’s own incompetence lead to inflated self-assessments. J Pers Soc Psychol healthcare students: a systematic review. Health Sci Rep 2023;6(3):e1138. 
+1999;77(6):1121–34. https://doi.org/10.1037//0022-3514.77.6.1121. https://doi.org/10.1002/hsr2.1138. 
+
+[96] Kuhail MA, Alturki N, Alramlawi S, Alhejori K. Interacting with educational [122] Murphy, M., Hawwash, K., Vigild, M., & Fouger, X. (2016). Position paper on 
+chatbots: a systematic review. Educ Inf Technol 2023;28(1):973–1018. https:// engineering skills: developing graduate engineering skills. European Society for 
+doi.org/10.1007/s10639-022-11177-3 (Dordr). Engineering Education. https://www.sefi.be/publication/position-paper-on-en 
+
+[97] Laupichler MC, Aster A, Haverkamp N, Raupach T. Development of the “Scale for gineering-skills/. 
+the assessment of non-experts’ AI literacy” – An exploratory factor analysis. [123] Nagel MT, Zlatkin-Troitschanskaia O, Fischer J. Validation of newly developed 
+Comput Hum Behav Rep 2023;12:100338. https://doi.org/10.1016/j. tasks for the assessment of generic Critical Online Reasoning (COR) of university 
+chbr.2023.100338. students and graduates. Front Educ 2022;7. https://doi.org/10.3389/ 
+
+[98] Laupichler MC, Aster A, Schirch J, Raupach T. Artificial intelligence literacy in feduc.2022.914857 (Lausanne)Article 914857, 914857. 
+higher and adult education: a scoping literature review. Comput Educ Artif Intell [124] Navigli R, Conia S, Ross B. Biases in large language models: origins, inventory, 
+2022;3:100101. https://doi.org/10.1016/j.caeai.2022.100101. and discussion. J Data Inf Qual 2023;15(2):1–21. https://doi.org/10.1145/ 
+
+[99] Laupichler MC, Rother JF, Grunwald Kadow IC, Ahmadi S, Raupach T. Large 3597307. 
+language models in medical education: comparing ChatGPT- to human-generated [125] Nazaretsky T, Cukurova M, Ariely M, Alexandron G. Confirmation bias and trust: 
+exam questions. Acad Med J Assoc Am Med Coll 2023. https://doi.org/10.1097/ human factors that influence teachers’ attitudes towards AI-based educational 
+ACM.0000000000005626. Advance online publication. technology. In: Proceedings of the AI for blended-learning: empowering teachers 
+
+[100] Lévy-Leboyer C. La gestion des competences: une démarche essentielle pour la in real classrooms co-located with 16th European conference on technology 
+compétitivité des entreprises. Eyrolles; 2009. Nouvelle édition revue et enhanced learning (ECTEL 2021); 2021. https://discovery.ucl.ac.uk/id/eprint/ 
+augmentéeRessources humaines. 10141423/. 
+
+[101] Lievens F. Construct-driven SJTs: toward an agenda for future research. Int J Test [126] Newberry B. The dilemma of ethics in engineering education. Sci Eng Ethics 2004; 
+2017;17(3):269–76. https://doi.org/10.1080/15305058.2017.1309857. 10(2):343–51. https://doi.org/10.1007/s11948-004-0030-8. 
+
+[102] Lievens F, Schäpers P, Herde CN. Situational judgment tests: from low-fidelity [127] Ng DTK, Leung JKL, Chu SKW, Qiao MS. Conceptualizing AI literacy: an 
+simulations to alternative measures of personality and the person-situation exploratory review. Comput Educ Artif Intell 2021;2:100041. https://doi.org/ 
+interplay. A. Slaughter, P. D. Harms, S. J. Read, & D. Wood (Eds.). Measuring and 10.1016/j.caeai.2021.100041. 
+modeling persons and situations. Academic Press; 2021. p. 285–311. https://doi. [128] Ng DTK, Leung JKL, Su J, Ng RCW, Chu SKW. Teachers’ AI digital competencies 
+org/10.1016/B978-0-12-819200-9.00017-X. and twenty-first century skills in the post-pandemic world. Educ Technol Res Dev 
+
+[103] Lindvig K, Ulriksen L. Different, difficult, and local: a review of interdisciplinary ETRD 2023;71(1):137–61. https://doi.org/10.1007/s11423-023-10203-6. 
+teaching activities. Rev High Educ 2019;43(2):697–725. https://doi.org/ [129] Ng DTK, Wu W, Leung JKL, Chiu TKF, Chu SKW. Design and validation of the AI 
+10.1353/rhe.2019.0115. literacy questionnaire: the affective, behavioural, cognitive and ethical approach. 
+
+[104] Livingstone S, van Couvering E. Information literacy. W. Donsbach (Ed.). The Br J Educ Technol 2023. https://doi.org/10.1111/bjet.13411. Article bjet.13411. 
+international encyclopedia of communication (1. publ). Wiley; 2008. https://doi. Advance online publication. 
+org/10.1002/9781405186407.wbieci021. [130] Ng W. Can we teach digital natives digital literacy? Comput Educ 2012;59(3): 
+
+[105] Lohberger K, Braun E. Comparing learning opportunities of generic skills in 1065–78. https://doi.org/10.1016/j.compedu.2012.04.016. 
+higher education to the requirements of the labour market. Front Educ 2022;7: [131] Nguyen NT, Biderman MD, McDaniel MA. Effects of response instructions on 
+886307. https://doi.org/10.3389/feduc.2022.886307 (Lausanne)Article 886307. faking a situational judgment test. Int J Sel Assess 2005;13(4):250–60. https:// 
+
+[106] Lohse-Bossenz H, Bloss C, Dörfler T. Constructing multi-theory vignettes to doi.org/10.1111/j.1468-2389.2005.00322.x. 
+measure the application of knowledge in ambivalent educational situations. Front [132] Nti IK, Adekoya AF, Weyori BA, Nyarko-Boateng O. Applications of artificial 
+Educ 2022;7. https://doi.org/10.3389/feduc.2022.996029 (Lausanne)Article intelligence in engineering and manufacturing: a systematic review. J Intell 
+996029. Manuf 2022;33(6):1581–601. https://doi.org/10.1007/s10845-021-01771-6. 
+
+[107] Long D, Magerko B. What is AI literacy? Competencies and design considerations. [133] Pereira V, Hadjielias E, Christofi M, Vrontis D. A systematic literature review on 
+In: Proceedings of the 2020 CHI conference on human factors in computing the impact of artificial intelligence on workplace outcomes: a multi-process 
+systems. ACM; 2020. p. 1–16. https://doi.org/10.1145/3313831.3376727. perspective. Hum Resour Manag Rev 2023;33(1):100857. https://doi.org/ 
+
+[108] Long D, Teachey A, Magerko B. Family learning talk in AI literacy learning 10.1016/j.hrmr.2021.100857. 
+activities. In: Proceedings of the CHI conference on human factors in computing [134] Pinski M, Benlian A. Ai literacy - towards measuring human competency in 
+systems. ACM; 2022. p. 1–20. https://doi.org/10.1145/3491102.3502091. artificial intelligence. T. X. Bui (Ed.). In: Proceedings of the 56th annual hawaii 
+
+[109] Loughlin C, Lygo-Baker S, Lindberg-Sand Å. Reclaiming constructive alignment. international conference on system sciences: january 3-6, 2023. Department of IT 
+Eur J High Educ 2021;11(2):119–36. https://doi.org/10.1080/ Management Shidler College of Business University of Hawaii; 2023. https://hdl. 
+21568235.2020.1816197. handle.net/10125/102649. 
+
+[110] Luan H, Geczy P, Lai H, Gobert J, Yang SJH, Ogata H, Baltes J, Guerra R, Li P, [135] Pinski M, Haas M, Franz A. AiLingo – a design science approach to advancing non- 
+Tsai CC. Challenges and future directions of big data and artificial intelligence in expert adults’ AI literacy. In: Proceedings of the ICIS 2023; 2023. https://aisel.ais 
+education. Front Psychol 2020;11:580820. https://doi.org/10.3389/ net.org/icis2023/learnandiscurricula/learnandiscurricula/10. 
+fpsyg.2020.580820. [136] Pinto dos Santos D, Giese D, Brodehl S, Chon SH, Staab W, Kleinert R, Maintz D, 
+
+[111] MacKenzie, Podsakoff. Construct measurement and validation procedures in MIS Baeßler B. Medical students’ attitude towards artificial intelligence: a multicentre 
+and behavioral research: integrating new and existing techniques. MIS Q 2011;35 survey. Eur Radiol 2019;29(4):1640–6. https://doi.org/10.1007/s00330-018- 
+(2):293. https://doi.org/10.2307/23044045. 5601-1. 
+
+[112] MacTurk RH, Morgan GA. Advances in applied developmental psychology: Vol. [137] Ployhart RE, Ehrhart MG. Be careful what you ask for: effects of response 
+12. Mastery motivation: origins, conceptualizations, and applications. Ablex Pub; instructions on the construct validity and reliability of situational judgment tests. 
+1995. Int J Sel Assess 2003;11(1):1–16. https://doi.org/10.1111/1468-2389.00222. 
+
+[113] Mason RO. Four Ethical issues of the information age. J. Weckert (Ed.). [138] Prem E. From ethical AI frameworks to tools: a review of approaches. AI Ethics 
+International library of essays in public and professional ethics. Computer ethics. 2023;3(3):699–716. https://doi.org/10.1007/s43681-023-00258-9. 
+Routledge; 2017. https://doi.org/10.4324/9781315259697-8. [139] Prentice R. Teaching behavioral ethics. J Legal Stud Educ 2014;31(2):325–65. 
+
+[114] McDaniel MA, Hartman NS, Whetzel DL, Grubb WL. Situational Judgement tests, https://doi.org/10.1111/jlse.12018. 
+response instructions, and validity: a meta-analysis. Pers Psychol 2007;60(1): [140] Raji ID, Scheuerman MK, Amironesei R. You can’t sit with us. In: Proceedings of 
+63–91. https://doi.org/10.1111/j.1744-6570.2007.00065.x. the 2021 ACM conference on fairness, accountability, and transparency. ACM; 
+
+[115] Mikalef P, Gupta M. Artificial intelligence capability: conceptualization, 2021. p. 515–25. https://doi.org/10.1145/3442188.3445914. 
+measurement calibration, and empirical study on its impact on organizational [141] Rajnai Z, Kocsis I. Assessing industry 4.0 readiness of enterprises. In: Proceedings 
+creativity and firm performance. Inf Manag 2021;58(3):103434. https://doi.org/ of the 2018 IEEE 16th world symposium on applied machine intelligence and 
+10.1016/j.im.2021.103434. informatics (SAMI 2018). IEEE; 2018. p. 225–30. https://doi.org/10.1109/ 
+
+[116] Mishra P, Warr M, Islam R. TPACK in the age of ChatGPT and generative AI. SAMI.2018.8324844. 7-10 February 2018. 
+J Digit Learn Teach Educ 2023;39(4):235–51. https://doi.org/10.1080/ [142] Rehm M, Bölsterli K. Entwicklung von unterrichtsvignetten. D. Krüger, I. 
+21532974.2023.2247480. Parchmann, & H. Schecker (Eds.). Methoden in der 
+
+[117] Mitchell, J., & Guile, D. (2022). Fusion skills and industry 5.0: conceptions and naturwissenschaftsdidaktischen forschung. Berlin Heidelberg: Springer; 2014. 
+challenges. Chapters. https://ideas.repec.org/h/ito/pchaps/228513.html. p. 213–25. https://doi.org/10.1007/978-3-642-37827-0_18. 
+
+[118] Moore RL, Jiang S, Abramowitz B. What would the matrix do? a systematic [143] Rest JR, Narvaez D, Thoma SJ, Bebeau MJ. DIT2: devising and testing a revised 
+review of K-12 AI learning contexts and learner-interface interactions. J Res instrument of moral judgment. J Educ Psychol 1999;91(4):644–59. https://doi. 
+Technol Educ 2023;55(1):7–20. https://doi.org/10.1080/ org/10.1037/0022-0663.91.4.644. 
+15391523.2022.2148785. [144] Salazar-Gomez AF, Bagiati A, Minicucci N, Kennedy KD, Du X, Breazeal C. 
+
+[119] Motowidlo SJ, Dunnette MD, Carter GW. An alternative selection procedure: the Designing and implementing an AI education program for learners with diverse 
+low-fidelity simulation. J Appl Psychol 1990;75(6):640–7. background at scale. In: Proceedings of the 2022 IEEE frontiers in education 
+
+[120] Motowidlo SJ, Hooper AC, Jackson HL. Implicit policies about relations between conference (FIE). IEEE; 2022. p. 1–8. https://doi.org/10.1109/ 
+personality traits and behavioral effectiveness in situational judgment items. FIE56618.2022.9962632. 
+
+13
+
+
+
+N. Knoth et al.                                                                                                                                                                                          C  o  m  p  u  t e r  s  a  n  d  E  d  u  c a  t i o  n   O  p en 6 (2024) 100177
+
+[145] Sanusi IT, Ayanwale MA, Tolorunleke AE. Investigating pre-service teachers’ [169] Vazhayil A, Shetty R, Bhavani RR, Akshay N. Focusing on teacher education to 
+artificial intelligence perception from the perspective of planned behavior theory. introduce AI in schools: perspectives and illustrative findings. In: Proceedings of 
+Compu Educ Artif Intell 2024;6:100202. https://doi.org/10.1016/j. the 2019 IEEE tenth international conference on technology for education (T4E). 
+caeai.2024.100202. IEEE; 2019. p. 71–7. https://doi.org/10.1109/T4E.2019.00021. 
+
+[146] Sanusi IT, Olaleye SA, Oyelere SS, Dixon RA. Investigating learners’ competencies [170] Verghese A, Shah NH, Harrington RA. What this computer needs is a physician: 
+for artificial intelligence education in an African K-12 setting. Comput Educ Open humanism and artificial intelligence. JAMA 2018;319(1):19–20. https://doi.org/ 
+2022;3:100083. https://doi.org/10.1016/j.caeo.2022.100083. 10.1001/jama.2017.19198. 
+
+[147] Sanusi IT, Oyelere SS, Vartiainen H, Suhonen J, Tukiainen M. A systematic review [171] Vuorikari, R., Kluzer, S., & Punie, Y. (2022). DigComp 2.2: the digital competence 
+of teaching and learning machine learning in K-12 education. Educ Inf Technol framework for citizens - with new examples of knowledge, skills and attitudes. 
+2023;28(5):5967–97. https://doi.org/10.1007/s10639-022-11416-7 (Dordr). 1018-5593. Advance online publication. 10.2760/490274. 
+
+[148] Schäpers P, Mussel P, Lievens F, König CJ, Freudenstein JP, Krumm S. The role of [172] Walden S, Direito I, Berhan L, Clavero S, Galligan Y, Jolly A. ASEE & SEFI joint 
+situations in situational judgment tests: effects on construct saturation, predictive statement on diversity, equity, and inclusion: a call and pledge for action. 
+validity, and applicant perceptions. J Appl Psychol 2020;105(8):800–18. https:// American Society for Engineering Education; 2020. https://diversity.asee.org/ 
+doi.org/10.1037/apl0000457. wp-content/uploads/2020/05/ASEE-SEFI_DEIStatement.pdf. 
+
+[149] Schepman A, Rodway P. Initial validation of the general attitudes towards [173] Wang B, Rau PLP, Yuan T. Measuring user competence in using artificial 
+Artificial Intelligence Scale. Comput Hum Behav Rep 2020;1:100014. https://doi. intelligence: validity and reliability of artificial intelligence literacy scale. Behav 
+org/10.1016/j.chbr.2020.100014. & Inf Technol 2022;42(9):1324–37. https://doi.org/10.1080/ 
+
+[150] Schepman A, Rodway P. The general attitudes towards artificial intelligence scale 0144929X.2022.2072768. 
+(GAAIS): confirmatory validation and associations with personality, corporate [174] Wang W, Siau K. Artificial intelligence, machine learning, automation, robotics, 
+distrust, and general trust. Int J Hum Comput Interact 2023;39(13):2724–41. future of work and future of humanity. J Database Manag 2019;30(1):61–79. 
+https://doi.org/10.1080/10447318.2022.2085400. https://doi.org/10.4018/JDM.2019010104. 
+
+[151] Schleiss J, Laupichler MC, Raupach T, Stober S. AI course design planning [175] Weber P, Pinski M, Baum L. Toward an objective measurement of AI literacy. In: 
+framework: developing domain-specific AI education courses. Educ Sci 2023;13 Proceedings of the PACIS 2023; 2023. https://aisel.aisnet.org/pacis2023/60. 
+(9):954. https://doi.org/10.3390/educsci13090954 (Basel). [176] Weinert FE. Concept of competence: a conceptual clarification. D. S. Rychen & L. 
+
+[152] Schwarz N. Attitude construction: evaluation in context. Soc Cogn 2007;25(5): H. Salganik (Ed.). Defining and selecting key competencies. Hogrefe & Huber 
+638–56. https://doi.org/10.1521/soco.2007.25.5.638. Publishers; 2001. p. 45–65. 
+
+[153] Segun ST. Critically engaging the ethics of AI for a global audience. Ethics Inf [177] Weinert FE. Leistungsmessungen in schulen. Beltz; 2002. 
+Technol 2021;23(2):99–105. https://doi.org/10.1007/s10676-020-09570-y. [178] Whetzel D, Sullivan T, McCloy R. Situational judgment tests: an overview of 
+
+[154] Senkbeil M, Ihme JM, Schöber C. Wie gut sind angehende und fortgeschrittene development practices and psychometric characteristics. Pers Assess and Decis 
+Studierende auf das leben und arbeiten in der digitalen welt vorbereitet? 2020;6(1). https://doi.org/10.25035/pad.2020.01.001. 
+Ergebnisse eines standard setting-verfahrens zur beschreibung von ICT-bezogenen [179] White RW. Motivation reconsidered: the concept of competence. Psychol Rev 
+kompetenzniveaus. Z Erziehungswiss 2019;22(6):1359–84. https://doi.org/ 1959;66:297–333. https://doi.org/10.1037/h0040934. 
+10.1007/s11618-019-00914-z. [180] Wienrich C, Carolus A. Development of an instrument to measure 
+
+[155] Shih PK, Lin CH, Wu LY, Yu CC. Learning ethics in AI—teaching non-engineering conceptualizations and competencies about conversational agents on the example 
+undergraduates through situated learning. Sustainability 2021;13(7):3718. of smart speakers. Front Comput Sci 2021;3:685277. https://doi.org/10.3389/ 
+https://doi.org/10.3390/su13073718. fcomp.2021.685277. Article 685277. 
+
+[156] Shin D, Shim J. A systematic review on data mining for mathematics and science [181] Winter SJM, Chudoba K, Gutek BA. Attitudes toward computers: when do they 
+education. Int J Sci Math Educ 2021;19(4):639–59. https://doi.org/10.1007/ predict computer use? Inf Manag 1998;34(5):275–84. https://doi.org/10.1016/ 
+s10763-020-10085-7. s0378-7206(98)00065-2. 
+
+[157] Sindermann C, Sha P, Zhou M, Wernicke J, Schmitt HS, Li M, Sariyska R, [182] Winterton J, Turnbow T. What is competence? Theory, policy and practice. T. 
+Stavrou M, Becker B, Montag C. Assessing the attitude towards artificial Dundon & A. Wilkinson (Eds.). Case studies in work, employment and human 
+intelligence: introduction of a short measure in German, Chinese, and English resource management. Edward Elgar Publishing; 2020. p. 123–8. https://doi.org/ 
+Language. KI Künstl Intell 2021;35(1):109–18. https://doi.org/10.1007/s13218- 10.4337/9781788975599.00028. 
+020-00689-0. [183] Wittig A. Implementing problem based learning through engineers without 
+
+[158] Sit C, Srinivasan R, Amlani A, Muthuswamy K, Azam A, Monzon L, Poon DS. borders student projects. Adv Eng Educ 2013;3(4):1–20. https://advances.asee.or 
+Attitudes and perceptions of UK medical students towards artificial intelligence g/publication/implementing-problem-based-learning-through-engineers-witho 
+and radiology: a multicentre survey. Insights Imaging 2020;11(1):14. https://doi. ut-borders-student-projects/. 
+org/10.1186/s13244-019-0830-7. [184] Wolff A, Gooch D, Cavero Montaner JJ, Rashid U, Kortuem G. Creating an 
+
+[159] Sophian C. Beyond competence: the significance of performance for conceptual understanding of data literacy for a data-driven society. J Community Inform 
+development. Cogn Dev 1997;12(3):281–303. https://doi.org/10.1016/S0885- 2016;12(3). https://doi.org/10.15353/joci.v12i3.3275. 
+2014(97)90001-0. [185] Wong SC. Competency definitions, development and assessment: a brief review. 
+
+[160] Spante M, Hashemi SS, Lundin M, Algers A. Digital competence and digital Int J Acad Res Progress Educ Dev 2020;9(3):95–114. https://hrmars.com/index. 
+literacy in higher education research: systematic review of concept use. Cogent php/IJARPED/article/view/8223/Competency-Definitions-Development-and- 
+Educ 2018;5(1):1519143. https://doi.org/10.1080/2331186X.2018.1519143. Assessment-A-Brief-Review. 
+
+[161] Stemler SE, Sternberg RJ. Using situational judgment tests to measure practical [186] Xu JJ, Babaian T. Artificial intelligence in business curriculum: the pedagogy and 
+intelligence. Situational judgment tests. Psychology Press; 2013. p. 107–31. learning outcomes. Int J Manag Educ 2021;19(3):100550. https://doi.org/ 
+https://doi.org/10.4324/9780203774878-7. 10.1016/j.ijme.2021.100550. 
+
+[162] Stolpe K, Hallström J. Artificial intelligence literacy for technology education. [187] Younis HA, Eisa TAE, Nasser M, Sahib TM, Noor AA, Alyasiri OM, Salisu S, 
+Comput Educ Open 2024;6:100159. https://doi.org/10.1016/j. Hayder IM, Younis HA. A systematic review and meta-analysis of artificial 
+caeo.2024.100159. intelligence tools in medicine and healthcare: applications, considerations, 
+
+[163] Suh W, Ahn S. Development and validation of a scale measuring student attitudes limitations, motivation and challenges. Diagnostics 2024;14(1):109. https://doi. 
+toward artificial intelligence. Sage Open 2022;12(2). https://doi.org/10.1177/ org/10.3390/diagnostics14010109. 
+21582440221100463. 215824402211004. [188] Yu A, Douglas JA. IRT models for learning with item-specific learning parameters. 
+
+[164] Swanson L, Stocking ML. A model and heuristic for solving very large item J Educ Behav Stat 2023;48(6):866–88. https://doi.org/10.3102/ 
+selection problems. Appl Psychol Meas 1993;17(2):151–66. https://doi.org/ 10769986231193096. 
+10.1177/014662169301700205. [189] Zawacki-Richter O, Marín VI, Bond M, Gouverneur F. Systematic review of 
+
+[165] Touretzky D, Gardner-McCune C, Martin F, Seehorn D. Envisioning AI for K-12: research on artificial intelligence applications in higher education – where are the 
+what should every child know about AI?. In: Proceedings of the AAAI conference educators? Int J Educ Technol High Educ 2019;16(1):1–27. https://doi.org/ 
+on artificial intelligence. 33; 2019. p. 9795–9. https://doi.org/10.1609/aaai. 10.1186/s41239-019-0171-0. 
+v33i01.33019795. [190] Zlatkin-Troitschanskaia O, Brückner S, Nagel MT, Bültmann AK, Fischer J, 
+
+[166] Tricot A, Sweller J. Domain-specific knowledge and why teaching generic skills Schmidt S, Molerov D. Performance Assessment and digital training framework 
+does not work. Educ Psychol Rev 2014;26(2):265–83. https://doi.org/10.1007/ for young professionals’ generic and domain-specific online reasoning in law, 
+s10648-013-9243-1. medicine, and teacher practice. J Supranatl Polic Educ JoSPoE 2021;(13):9–36. 
+
+[167] Tully, S., Longoni, C., & Appel, G. (2023). Knowledge of artificial intelligence https://doi.org/10.15366/jospoe2021.13.001. 
+predicts lower AI receptivity. 10.31234/osf.io/t9u8g. [191] Zlatkin-Troitschanskaia O, Pant HA, Greiff S. Assessing generic and domain- 
+
+[168] van Harreveld F, Nohlen HU, Schneider IK. The ABC of ambivalence. J. M. Olson specific academic competencies in higher education. Z Pädagog Psychol 2019;33 
+& M. P. Zanna (Eds.). Advances in experimental social psychology, 52. Academic (2):91–3. https://doi.org/10.1024/1010-0652/a000236. 
+Press; 2015. p. 285–324. https://doi.org/10.1016/bs.aesp.2015.01.002. 
+
+14

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { Icon } from "@/components/ui/Icon";
 import { Check } from "lucide-react";
 
 const BIAS_OPTIONS = [

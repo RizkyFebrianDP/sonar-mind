@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle2, AlertCircle, Info, X } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 
 export type ToastType = "success" | "error" | "info" | "warning";
 
@@ -86,14 +86,14 @@ function ToastItem({ toast, onClose }: { toast: Toast; onClose: () => void }) {
   const getIcon = () => {
     switch (toast.type) {
       case "success":
-        return <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0 mt-0.5" />;
+        return <Icon id="82766" className="w-5 h-5 bg-emerald-500 shrink-0 mt-0.5" />;
       case "error":
-        return <AlertCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />;
+        return <Icon id="82783" className="w-5 h-5 bg-rose-500 shrink-0 mt-0.5" />;
       case "warning":
-        return <AlertCircle className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />;
+        return <Icon id="82783" className="w-5 h-5 bg-amber-500 shrink-0 mt-0.5" />;
       case "info":
       default:
-        return <Info className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />;
+        return <Icon id="82742" className="w-5 h-5 bg-blue-500 shrink-0 mt-0.5" />;
     }
   };
 
@@ -135,7 +135,7 @@ function ToastItem({ toast, onClose }: { toast: Toast; onClose: () => void }) {
         className="opacity-70 hover:opacity-100 transition-opacity rounded-lg p-0.5 shrink-0"
         aria-label="Dismiss toast"
       >
-        <X className="w-4 h-4 text-text-muted" />
+        <Icon id="82771" className="w-4 h-4 bg-text-muted" />
       </button>
     </motion.div>
   );

@@ -1,0 +1,1022 @@
+﻿Received: 4 January 2025  |  Accepted: 30 March 2025
+
+DOI: 10.1002/berj.4177  
+
+O R I G I N A L  A R T I C L E
+
+Artificial intelligence literacy in assessment: 
+Empowering pre-service teachers to design 
+effective exam questions for language learning
+
+Gamze Erdem Coşgun
+
+Department of English Language 
+Education, Amasya University, Abstract
+Amasya, Turkey The role of artificial intelligence (AI) in education 
+Correspondence plays a crucial role in teacher training digitalisation. 
+Gamze Erdem Coşgun, Department of Although AI has enormous potential, not much is 
+English Language Education, Amasya known about how pre-service teachers perceive and 
+University, Amasya, Turkey.
+Email: gamze.erdem@amasya.edu.tr utilise AI tools in professional practice. Hence, this 
+
+study, guided by the Unified Theory of Acceptance 
+and Use of Technology framework, investigates 
+pre-service English as a foreign language teachers’ 
+experiences using MagicSchool, an AI-based 
+educational tool, to design exam questions, aiming 
+to explore how AI tools can enhance assessment 
+practices in teacher education. Participants were 
+27 fourth-year pre-service teachers. Data for this 
+case study were collected through semi-structured 
+interviews and reflective reports and subsequently 
+subjected to thematic analysis. The findings reveal 
+that MagicSchool improved time efficiency and 
+reinforced the creation of various question types. 
+Participants also mentioned its practicality in 
+generating rubrics and materials for varied proficiency 
+levels. However, challenges such as crafting effective 
+prompts, verifying content and addressing cultural or 
+contextual mismatches were recognised. Moreover, 
+ethical concerns, such as plagiarism and minimised 
+creativity, were highlighted, with participants warning 
+against over-reliance on AI. The study underscores 
+the potential of AI in exam preparation while 
+emphasising challenges, advocating for a balanced 
+approach that integrates AI responsibly. Implications 
+
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which 
+permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no 
+modifications or adaptations are made.
+© 2025 The Author(s). British Educational Research Journal published by John Wiley & Sons Ltd on behalf of British 
+Educational Research Association.
+
+2340  |  w 	﻿ileyonlinelibrary.com/journal/berj  Br Educ Res J. 2025;51:2340–2357.
+
+
+
+AI LITERACY IN ASSESSMENT        |  2341
+
+for teacher education include fostering AI literacy, 
+promoting critical engagement with AI-generated 
+content and ensuring ethical and pedagogically 
+sound implementation in assessment design.
+
+K E Y W O R D S
+artificial intelligence, exam preparation, MagicSchool, pre-
+service EFL teachers
+
+Key insights
+
+What is the main issue that the paper addresses?
+This study explores pre-service EFL teachers’ experiences with MagicSchool, an AI 
+tool for exam preparation. It examines both its benefits—such as efficiency, practi-
+cality and adaptability—and its challenges, including prompt writing difficulties, veri-
+fication concerns and cultural mismatches, highlighting the need for AI literacy and 
+ethical considerations in teacher education.
+
+What are the main insights that the paper provides?
+The study shows that while MagicSchool helps teachers create exam questions 
+more easily and customise assessments, its limitations—such as creativity con-
+straints and contextual inconsistencies—reduce its overall effectiveness. These 
+findings highlight the importance of AI literacy in teacher training to ensure ethical 
+and effective use of AI tools in language education.
+
+INTRODUCTION
+Artificial intelligence (AI) is becoming a powerful force in education, fostering a new model of 
+collaboration between humans and machines that is reshaping educators’ role (Moorhouse 
+& Kohnke, 2024). Artificial intelligence tools open new avenues for enhancing educational 
+quality and boosting teaching efficiency (Mustafa et al., 2024), supporting educators in aca-
+demic tasks like curriculum planning, selecting effective learning activities and designing 
+personalised learning practices. Notably, AI is also making a significant impact on exam 
+preparation (Rivera-Rosas et  al.,  2024), as generative AI (GenAI) tools are increasingly 
+praised for their ability to innovate by automating test item design, practice test generation 
+and providing automated feedback (Xi, 2023). This integration of AI not only eases educa-
+tors’ workload but also enriches students’ learning experiences by offering more individual-
+ised and adaptive options.
+
+The adoption of AI is particularly relevant in English language education, which is consid-
+ered to be a key area for AI integration (Crompton & Burke, 2023). Consequently, teacher 
+education programmes must prioritise AI literacy, training teachers with the essential digital 
+skills to successfully navigate an increasingly automated educational landscape (Adeshola 
+& Adepoju,  2023). This preparedness extends beyond basic technical skills to include 
+the use of digital tools for optimising educational outcomes. Despite the potential of AI in 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2342  |      ERDEM COŞGUN
+
+assessment, many teachers continue to face challenges in developing effective assessment 
+practices that support learning (Willis et al., 2013). Artificial intelligence has the potential to 
+address these challenges by helping educators streamline the assessment process and 
+enhance learning products (Zhai et al., 2021). However, concerns about the responsible use 
+of AI in assessment highlight the need for best practices (Ciampa et al., 2024). To better 
+understand how English as a foreign language (EFL) teachers use AI-powered tools, this 
+study adopts the Unified Theory of Acceptance and Use of Technology (UTAUT) (Marikyan 
+& Papagiannidis, 2021) as its theoretical framework. The UTAUT provides a structured ap-
+proach to examine technological acceptance and includes performance expectancy, effort 
+expectancy, social influence and facilitating conditions. First, performance expectancy di-
+rectly relates to the first research question, as it examines how pre-service EFL teachers 
+perceive MagicSchool's impact on their pedagogical approaches and assessment skills in 
+exam preparation. Effort expectancy, on the other hand, considers how easy or challenging 
+they find the tool to use, influencing their willingness to integrate it into their teaching prac-
+tices. Social influence connects to the second research question by exploring how external 
+factor shape teachers’ attitudes towards AI adoption in assessment. Finally, facilitating con-
+ditions encompass ethical concerns highlighting factors that mediate pre-service teachers’ 
+acceptance of MagicSchool. By applying UTAUT, this study explores the intersection of AI 
+literacy, pedagogical decision-making and ethical considerations in pre-service teachers’ 
+engagement with MagicSchool.
+
+Thereby, the purpose of the study is to explore pre-service English language teachers’ 
+perceptions of MagicSchool, an AI tool specifically designed for educational contexts. Unlike 
+more general AI tools, MagicSchool was generated to support educators in academic set-
+tings, making it especially suited for language assessment. By examining pre-service teach-
+ers’ experiences with this tool, the study explores two key questions:
+
+1.	 How does the use of MagicSchool influence pre-service EFL teachers’ pedagogical 
+approaches and assessment skills in exam preparation?
+
+2.	What factors shape pre-service EFL teachers’ adoption of MagicSchool, and how do AI 
+literacy and ethical concerns mediate this process?
+
+This investigation offers significant insights into pre-service teachers’ adaptation of AI 
+in language assessment and underscores AI literacy within teacher education to prepare 
+future educators for the evolving demands of their profession.
+
+LITERATURE REVIEW
+AI in education and teacher preparation
+AI means how a system interprets received information, learns and applies knowledge to carry 
+out specific tasks through adaptable responses (Amin et al., 2024). While AI in education has 
+evolved significantly, its impact on teacher preparation remains an emerging area of study, 
+with both opportunities and challenges. Its integration into education began in the 1950s with 
+computer-assisted instruction, marking the first use of AI in learning (Chan & Tsi, 2023). Over 
+time, this evolved into advanced applications, enhancing learning by providing interactive, re-
+sponsive environments. However, the extent to which these tools improve teaching efficacy 
+and pedagogical strategies remains debated (Zawacki-Richter et al., 2019).
+
+Artificial intelligence technologies like natural language processing and machine learn-
+ing hold a great ability to reshape education (Zawacki-Richter et  al.,  2019). Research 
+shows AI's advantages in providing adaptive, customised learning experiences for students 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2343
+
+(Chan & Tsi,  2023). Platforms like Google Gemini, Claude, ChatGPT, Microsoft Copilot, 
+Bard and Jasper.ai demonstrate AI's ability to support learners (El Naggar et  al.,  2024; 
+Grassini,  2023), but their integration in teacher preparation programmes is still limited. 
+Artificial intelligence systems can analyse student progress and weaknesses, tailoring les-
+sons (Stоšić & Malyuga, 2024). Moreover, AI's advantages in education are well recognised, 
+especially for enhancing time efficiency (Hashem et al., 2023). However, there is a lack of 
+consensus on the pedagogical effectiveness of AI adaptations in teacher training. Some 
+studies argue that AI enhances personalised learning (Renz et al., 2020), while others cau-
+tion against over-reliance on automated systems that may overlook socio-emotional aspects 
+of teaching (Oh & Ahn, 2024).
+
+Artificial intelligence also promises further advances in adaptive learning, immediate 
+feedback and smart administrative support (Renz et  al.,  2020). However, concerns per-
+sist regarding the ethical implications of AI learning, including data privacy and the risk 
+of algorithmic biases in educational settings (Lim et al., 2023). Emerging AI technologies 
+are creating immersive educational experiences that enhance student engagement (Chen 
+et al., 2020). Artificial intelligence tools now perform tasks traditionally managed by human 
+educators, such as processing language, following instructions and answering queries, al-
+lowing for sustained interactions on web platforms (Lim et al., 2023). These systems also 
+provide individualised feedback and can manage administrative duties like attendance 
+tracking, assignment monitoring and paperwork, freeing educators to focus on curriculum 
+planning and student support (Chen et al., 2020). Nonetheless, research indicates that while 
+novice English language teachers acknowledge AI's potential, pre-service teachers often 
+lack the digital literacy and pedagogical knowledge necessary to integrate these tools effec-
+tively (Moorhouse, 2024). Closing this gap is crucial as AI becomes a central part of modern 
+education, helping educators enhance classroom instruction and streamline administrative 
+tasks (Chen et al., 2020; UNESCO, 2021). Thus, the study addresses these gaps by inves-
+tigating how pre-service teachers perceive AI in their training, focusing on their AI literacy, 
+challenges in adoption and its impact on their teaching preparedness.
+
+AI's role in enhancing language learning
+Artificial intelligence has significantly transformed English language teaching (ELT), offer-
+ing both opportunities and challenges (Edmett et  al.,  2024). GenAI, capable of creating 
+original content, has been particularly impactful in language learning by facilitating person-
+alised learning (Chiu, 2024). A review study of AI in ELT from 2014 to 2022 highlighted five 
+key areas of application: speaking, writing, reading, pedagogy and self-regulation (Edmett 
+et al., 2024). While these studies emphasise AI's benefits, they also highlight concerns re-
+garding its limitations and uneven adoption.
+
+For example, voice assistants like Alexa help learners practice speaking, yet they were 
+likely to abandon using the tool when faced with difficulties in IPA (International Phonetic 
+Alphabet) (Dizon & Tang, 2020). Tools like Grammarly provide automated feedback on writ-
+ing, but they may not effectively support higher-order writing skills, such as argumentation 
+(Dizon & Gayed, 2021; Nazari et al., 2021). Artificial intelligence games support vocabulary 
+acquisition (Zheng et al., 2015), yet some studies question their impact on long-term reten-
+tion Similarly, AI chatbots support listening comprehension but lack human-like conversa-
+tional adaptability, limiting deeper interaction (Hew et al., 2023).
+
+In addition, AI literacy among pre-service and in-service teachers remains a challenge. A 
+study of Slovak EFL pre-service teachers found that although many used AI tools regularly, 
+they lacked confidence in applying them in teaching contexts (Pokrivcakova, 2024). Similarly, 
+Ciampa et al. (2024) reported that teachers recognised AI's potential but felt unprepared to 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2344  |      ERDEM COŞGUN
+
+integrate it effectively. Wang and Lu (2023) emphasise that practical engagement with AI 
+tools can enhance teachers’ instructional competence, highlighting the need for targeted 
+professional development. Managing these challenges is important for maximising AI's role 
+in ELT, directly linking to this study's research questions on pre-service EFL teachers’ per-
+ceptions and the factors influencing AI adoption.
+
+AI's influence on assessment practices in education
+Artificial intelligence is transforming assessment by offering more efficient, personalised 
+and data-driven evaluations. However, while research highlights AI's potential, its full impact 
+remains debated, with concerns over reliability, ethical implications and the necessity of 
+human oversight (Grassini, 2023). Historically, educational assessments have been manual, 
+often constrained by subjectivity, time limitations and a teacher-centred approach (Penny & 
+Coe, 2004). GenAI has begun to challenge these limitations, enabling personalised learning 
+and more dynamic evaluation methods (Chiu, 2024).
+
+Assessment is crucial for monitoring student progress and adjusting teaching strate-
+gies (Wang et al., 2023). Artificial intelligence tools have been particularly effective in lan-
+guage proficiency evaluations, improving the accuracy of assessing grammar, vocabulary 
+and speaking skills (Lukácsi, 2020). However, concerns remain about over-reliance on AI-
+generated feedback, potential biases in automated grading and the loss of human judge-
+ment in nuanced assessments (Ciampa et al., 2024). Nevertheless, AI's ability to enhance 
+assessment speed and precision suggests that it may outperform traditional methods in 
+specific contexts (Stоšić & Malyuga, 2024).
+
+Looking ahead, AI is unlikely to replace human-led assessments entirely but rather com-
+plement them through hybrid models that integrate human judgement and AI-generated 
+insights (Grassini,  2023). This shift requires educators to develop AI literacy and critical 
+evaluation skills to effectively interpret AI-generated results. Technology-enhanced assess-
+ments, as noted by Williyan et al. (2024), offer significant opportunities for improving eval-
+uation methods. However, broader discussions in literature highlight challenges related to 
+transparency, accessibility and equity (Bulut et al., 2024).
+
+One emerging tool in AI assessment is Magic School AI, a platform designed specifically 
+for educators and utilised by over 1.5 million educators worldwide (Mustafa et al., 2024). 
+Unlike general AI tools like ChatGPT, which require significant prompt engineering and man-
+ual adjustments, Magic School AI provides structured prompts, reducing cognitive load and 
+streamlining workflows for teachers (Setyaningsih et al., 2024). However, while these ben-
+efits are promising, additional research is necessary to assess their ongoing effectiveness 
+and potential drawbacks, and whether AI platforms reinforce or mitigate existing assessment 
+biases. Thus, this study examines the use of Magic School AI into assessment practices, 
+considering both its potential to enhance accuracy and efficiency and the broader concerns 
+surrounding AI's role in education.
+
+AI literacy, limitations and ethical considerations
+While AI offers transformative potential in language teaching and assessment, its integration 
+raises concerns regarding accuracy, bias, ethical responsibility and over-reliance on auto-
+mated tools. Artificial intelligence literacy is an important skill for educators, supporting them 
+to critically assess AI's capabilities, limitations and ethical implications (Ng & Chu, 2021). 
+Artificial intelligence platforms are being used to personalise learning, analyse students’ 
+language proficiency and create interactive teaching materials (Berendt et  al.,  2020; 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2345
+
+Williamson,  2020). Advocates argue that such platforms enhance student engagement 
+and creativity by adapting content to individual learning preferences (Cai et al., 2024; Su & 
+Yang, 2023). However, critics caution that excessive reliance on AI-generated instruction 
+risks undermining critical thinking and deep learning, potentially shifting educators’ roles 
+from facilitators to mere supervisors of AI content (Xia et al., 2024). Despite AI's efficiency, 
+its limitations remain a major concern. Artificial intelligence-generated feedback may lack 
+context sensitivity and cultural awareness, leading to misinterpretations in language learn-
+ing (Stоšić & Malyuga, 2024). Additionally, the absence of emotional intelligence in AI limits 
+its ability to foster relational learning environments, which are critical for student motivation 
+and engagement (Pavlik, 2023; Schiff, 2021). These concerns support a hybrid approach, 
+where AI supports but does not replace human educators (Xi, 2023).
+
+To navigate these challenges, educators must cultivate AI literacy not only to leverage AI 
+efficiently but also critically assessing its outputs and ensure responsible use. Developing AI 
+literacy involves understanding AI's strengths and weaknesses, questioning its recommen-
+dations, and integrating human oversight in decision-making processes (Wang & Lu, 2023). 
+Institutions that prioritise AI literacy training will be better positioned to balance innovation 
+with ethical responsibility, maintaining high educational standards (Zhou et al., 2024). Ethical 
+considerations are also central to AI integration in education. Issues like data privacy and 
+academic integrity require careful oversight to prevent potential misuse (Xia et al., 2024). 
+Artificial intelligence-assisted grading, for instance, has been criticised for lacking trans-
+parency and reinforcing biases embedded in training data (Chan & Tsi, 2023). Thus, this 
+study examines how educators can effectively integrate AI into assessment practices while 
+addressing its limitations and ethical considerations. A key focus is Magic School AI, a tool 
+designed specifically for educators, which offers structured prompts to support assessment 
+practices. By investigating AI literacy, this study is anticipated to contribute to the broader 
+discourse on responsible AI adoption in education.
+
+METHODOLOGY
+Design
+A case study that enables the investigation of recent phenomena within their real-life con-
+texts, particularly when the borderline between the phenomenon and context is not clearly 
+defined (Yin, 2003), was adopted in this study. Through this methodology, the exam prep-
+aration experiences of senior pre-service EFL teachers were investigated in depth. This 
+approach provides a holistic understanding of how pre-service EFL teachers used and re-
+flected on the use of an AI tool, MagicSchool, in exam preparation.
+
+Context of the study
+The study took place in the Department of ELT at a state university in Türkiye. The de-
+partment offers undergraduate, Master's (MA) and Doctoral (PhD) programmes to train 
+educators and researchers in language teaching. At the undergraduate level, fourth-year 
+pre-service teachers take a compulsory Exam Preparation in ELT course, which equips 
+them with the skills to design and implement effective language proficiency assessments. 
+The course combines theory and practice: the first 9 weeks cover foundational principles, in-
+cluding exam formats, language skill assessment (reading, writing, listening, speaking, and 
+grammar) and test design best practices; the final 5 weeks focus on hands-on application, 
+where students develop comprehensive language proficiency exams.
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2346  |      ERDEM COŞGUN
+
+As part of the practical component, students utilised MagicSchool, an AI-based educa-
+tional tool, to design exams assessing all four language skills. The tool was chosen for its 
+education-specific design, offering features like automated rubric generation, proficiency-
+based question differentiation and structured prompts. Unlike general AI tools like Microsoft 
+Copilot or Chat GPT, it provides pre-set templates (Setyaningsih et al., 2024) that support 
+pedagogically sound exam creation while easing cognitive load. Its curriculum-focused ap-
+proach made it particularly relevant to our study's goals. Integrating AI technology enabled 
+pre-service teachers to explore innovative assessment design, critically evaluate its peda-
+gogical potential and reflect on its impact. By situating the study in this context, the research 
+underscores the value of blending traditional pedagogy with emerging technology to equip 
+future educators for evolving challenges in language assessment.
+
+Participants
+Participants were 27 senior pre-service EFL teachers at a state university in Türkiye. Among 
+them, 19 of them were female and eight were male and their ages ranged from 21 to 24. 
+They were selected through purposive sampling as suitable to the aim of the study. A demo-
+graphic survey given at the beginning of the semester, showed that 97% of the participants 
+were already familiar with AI, especially Chat GPT, which they had previously utilised for 
+various teaching purposes, including translation, lesson planning and exam preparation. 
+This prior exposure suggests that many participants entered the study with a foundational 
+understanding of AI tools, potentially shaping their perceptions and expectations regard-
+ing AI integration in assessment. However, their familiarity was largely limited to general 
+AI applications rather than specialised educational tools. Only 8% of the participants had 
+prior knowledge of MagicSchool, indicating that the tool itself was relatively new to most of 
+them. This limited familiarity may have influenced their initial engagement with MagicSchool, 
+requiring a learning curve before they could fully explore its features and pedagogical ap-
+plications. To provide a structured context for the study, all participants were enrolled in a 
+course titled Preparing Exam Questions in ELT. Within the scope of this course, they were 
+introduced to the AI tool MagicSchool, which was later employed to design exam questions. 
+This hands-on integration of MagicSchool offered participants practical exposure to AI-
+supported assessment development, enabling them to explore its potential and limitations in 
+ELT. The careful selection of participants with diverse backgrounds and prior AI experience 
+ensured rich insights into AI integration and teacher education.
+
+Data collection
+Data were collected between April and June 2024 in multiple ways (Figure 1). Primary 
+tools included focus group interviews and reflective reports. The process began with a 3 
+h training session introducing AI in education and MagicSchool's functionalities. This ses-
+sion featured an instructor-led presentation, AI tool demonstrations and a hands-on activ-
+ity where pre-service teachers used MagicSchool to create sample questions. Following 
+the training, participants were given the School Life unit from the 10th-grade curriculum 
+and tasked with designing an exam assessing all four language skills using MagicSchool. 
+After completing the task, they wrote reflective reports detailing their perceived successes 
+and challenges. While self-reported data has limitations, this study prioritised capturing 
+participants’ perspectives for meaningful insights. Moreover, semi-structured interviews 
+were done with eight randomly selected participants to explore the pedagogical benefits 
+and challenges of MagicSchool, as well as their familiarity and ease of use. Combining 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2347
+
+F I G U R E  1   Data collection process (April–June 2024). [Colour figure can be viewed at wileyonlinelibrary.com]
+
+reflective reports and interviews provided a more comprehensive understanding of their 
+experiences. All participants provided informed consent, ensuring ethical compliance with 
+data collection procedures.
+
+Data analysis
+Thematic analysis, in which patterns are identified, organised and interpreted, was selected 
+to analyse the data (Braun & Clarke, 2006) via MAXQDA. Through this method, key themes 
+were uncovered, providing insights into participants’ experiences with integrating the AI tool, 
+MagicSchool, in exam preparation. Codes emerged directly from the data, aligning with 
+an inductive approach. However, the research questions, in conjunction with insights from 
+prior studies, inevitably influenced the way texts were analysed, codes were developed and 
+themes were identified.
+
+To ensure credibility, a multi-tiered approach was employed. The primary researcher 
+conducted initial coding, while a language education expert independently coded 10% of 
+the data, achieving a high inter-coder reliability (0.80). ChatGPT, used as a third coder, 
+demonstrated comparable reliability (0.76). Discrepancies were resolved through discus-
+sions, with a third expert consulted when necessary. Transferability was supported through 
+detailed participant descriptions, allowing readers to assess applicability to similar contexts. 
+Trustworthiness was maintained through transparent coding, systematic cross-checking 
+and confidentiality measures.
+
+RESULTS
+Pedagogical benefits of AI in exam preparation
+Streamlining assessment design: Time efficiency, effectiveness, 
+practicality and personalisation
+Pre-service EFL teachers’ experiences with MagicSchool, an AI tool for developing exam 
+questions, revealed its transformative role in streamlining exam preparation by enhancing 
+time efficiency, effectiveness, practicality and personalisation. Participants consistently 
+highlighted how the tool enabled them to generate high-quality test items rapidly, signifi-
+cantly reducing their workload. A dominant theme in the responses was time efficiency. 
+Participants frequently emphasised that MagicSchool allowed them to complete tasks 
+in a fraction of the time it would typically take. For instance, Participant 7 shared, ‘I can 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2348  |      ERDEM COŞGUN
+
+complete a week's worth of work in just 2 days’, while Participant 15 noted, ‘It reduced the 
+time I spend preparing exams, making me feel like I'm using my time more efficiently’. 
+Similarly, Participant 3 emphasised the speed of the tool, saying, ‘MagicSchool gener-
+ated 20 questions for me in almost a minute. It was a very short time for me because if I 
+tried to write the questions myself, it would take me 2 or 3 days’. In addition to improving 
+time efficiency, MagicSchool enhanced the effectiveness of exam design by generating 
+high-quality, adaptable questions, simplifying complex tasks like creating distractors, and 
+aligning the questions with specific learning objectives. As Participant 10 explained,
+
+The exam questions generated by the AI were adaptable to different levels and 
+of very high quality. I used it to create a specific question for a paragraph, and 
+the result was excellent. The AI provided a well-crafted question that met the 
+needs of the task perfectly.
+
+A few participants also highlighted MagicSchool's educational focus compared with other 
+AI tools like ChatGPT, which they found to be more relevant and aligned with pedagog-
+ical needs. Participant 8 stated, ‘It is good that it specifically focuses on education, and 
+its answers and outputs are more relevant, and concrete compared to other AI tools like 
+ChatGPT’, while Participant 24 remarked, ‘I really liked the way teachers have their own 
+AI tool for educational purposes’, indicating that having an AI tool specifically designed for 
+educators enhances its relevance, usability and alignment with teaching needs. The tool's 
+practicality emerged as a key advantage, with participants highlighting its ease of use, ac-
+cessibility and ability to instantly generate questions and activities. Notably, even partici-
+pants with limited AI experience found it user-friendly. For example, Participant 11, who did 
+not frequently use AI or technology, stated, ‘I don't use AI or technology much, but this tool 
+is very practical and easy to use’. This suggests that MagicSchool's design lowers the bar-
+rier for adoption, making AI integration more accessible for educators with varying levels of 
+technological proficiency.
+
+Moreover, MagicSchool's ability to generate tailored outputs was praised, with partic-
+ipants noting the flexibility it offers in creating materials suited to different student pro-
+ficiency levels, learning needs and instructional goals. Participant 5 remarked, ‘Since it 
+allows you to choose every category (for example, grade, level, nationality), it went beyond 
+my expectations’. Finally, the tool proved especially valuable for novice teachers, offering 
+crucial support in exam preparation and serving as a source of inspiration for developing 
+innovative teaching materials. Participant 21 noted, ‘It's incredibly helpful for novice teach-
+ers since it's an AI specifically trained to assist in exam preparation. For newly graduated 
+teachers, it provides a valuable source of inspiration’. This suggests that MagicSchool not 
+only streamlines assessment design but also fosters creativity and confidence among less 
+experienced educators. These findings highlight AI's multifaceted pedagogical benefits in 
+assessment design. Beyond improving efficiency, quality, and personalisation, MagicSchool 
+also helped bridge the AI knowledge gap for pre-service teachers, underscoring its value 
+in teacher education.
+
+Fostering innovation in exam development: Creativity and adaptation to 
+educational demands
+The findings indicate that MagicSchool played an important role in transforming exam de-
+velopment by facilitating not only the creation of diverse question formats but also foster-
+ing pedagogical creativity and adaptability. Participants reported that the tool provided 
+structured guidance, particularly through its rubric assistance, while also encouraging 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2349
+
+them to explore new ways of engaging students. A predominant theme in the findings was 
+that MagicSchool enabled the development of various question types, including multiple-
+choice, open-ended and fill-in-the-blank formats, while offering flexibility to adapt materi-
+als such as passages, videos and songs for a range of activities. Participants 11 and 20 
+exemplified this by stating:
+
+I used it to prepare multiple-choice questions, open-ended questions, and fill-in-
+the-blank activities. It was easy to use, and the most beneficial part for me was 
+the song creator, as students, especially younger ones, enjoy it.
+
+When you provide MagicSchool with a passage or other sources, it can trans-
+form them into multiple formats, such as exams or songs, or open-ended ques-
+tions. I found this very beneficial.
+
+Beyond the variety of question types, the tool also streamlined rubric creation by offering 
+detailed, customisable scoring options and saving substantial time in evaluation preparation. 
+Participant 25 reflected on this benefit, stating:
+
+MagicSchool is very time-saving for me while preparing for an exam. Finding 
+the correct rubric can be challenging and time-consuming. Thanks to this tool, it 
+becomes much easier to prepare.
+
+This reflection was uttered by several participants, who highlighted the tool's efficiency 
+in streamlining the exam preparation process, indicating that MagicSchool not only saved 
+time but also reduced the cognitive load associated with rubric selection and exam design. 
+MagicSchool further enhanced creativity by generating innovative ideas for exams and ac-
+tivities, producing unique materials for lessons, and aligning smoothly with advancements in 
+technology and pedagogy. Participant 26 highlighted this, saying: ‘It provides more creative 
+and diverse results than traditional methods, especially for preparing reading passages and 
+listening tracks’, revealing that MagicSchool enhances the variety and adaptability of in-
+structional materials, making content more engaging for students. Additionally, Participant 
+13 emphasised the importance of modernising education to align with advancements in AI, 
+stating: ‘As human beings, we are entering an era of AI. Education must integrate with the 
+modern era, allowing us to improve the quality of our lives’, implying that adapting to AI ad-
+vancements in education is essential for enhancing both learning experiences and overall 
+well-being. Overall, these findings underscore MagicSchool's role as a transformative tool 
+in exam development, enabling teachers to navigate both pedagogical and technological 
+demands more effectively.
+
+Challenges in utilising MagicSchool for exam preparation
+Navigating prompt writing and verification requirements
+Participants reported several challenges in utilising MagicSchool for exam preparation, 
+revealing patterns in prompt writing difficulties and the necessity of verification. A key 
+issue was the need for precision in prompt formulation, as vague or general prompts 
+often led to unsatisfactory outputs. This required multiple iterations, increasing cogni-
+tive load and time investment. Additionally, participants expressed concerns about AI-
+generated content occasionally being too broad or misaligned with instructional goals, 
+reinforcing the need for rigorous verification. Some participants highlighted these 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2350  |      ERDEM COŞGUN
+
+challenges despite recognising the tool's potential to facilitate exam preparation. For 
+instance, Participant 18 noted,
+
+It facilitates exam preparation, but I need to enter a very specific prompt. Entering 
+a prompt is challenging since it's an AI; it often provides unnecessary informa-
+tion or makes absurd mistakes. Therefore, I have to think much more carefully 
+before entering a prompt.
+
+This highlights the cognitive demands placed on users to craft effective prompts. Similarly, 
+Participant 3 compared MagicSchool to ChatGPT and observed,
+
+The prompt command feature needs further development, as it is the only as-
+pect that makes this AI difficult to use. In comparison, ChatGPT performs better 
+in this regard by providing the exact answer you're looking for.
+
+This suggests that prompt optimisation plays a crucial role in user satisfaction and that 
+improvements in AI responsiveness could enhance usability. Participant 19 further empha-
+sised the impact of specificity in prompt writing:
+
+If you write appropriate prompts, it generates high-quality questions. For exam-
+ple, when I wrote, ‘Write me 5 multiple-choice questions for 10th grade,’ it did 
+not provide good questions. However, when I wrote, ‘Write me 5 multiple-choice 
+questions for 10th grade at the B1 level,’ it generated better questions.
+
+Beyond prompt-related difficulties, participants stressed the necessity of verifying AI-
+generated outputs to address inaccuracies. Participant 4 stated, ‘I believe it's essential to 
+review exams after generating them because there may sometimes be errors’. These in-
+sights suggest that while MagicSchool has potential in exam preparation, its effective use is 
+contingent on both user expertise in prompt crafting and a meticulous review process. The 
+need for verification reflects broader concerns about AI reliability in educational contexts, 
+reinforcing the importance of AI literacy for pre-service teachers.
+
+Balancing creativity and quality in output
+Another significant challenge identified by participants was the potential negative im-
+pact of MagicSchool on teachers’ creativity and critical thinking skills. Some expressed 
+concerns that excessive reliance on the tool could reduce the need for original thought 
+and problem-solving, ultimately making teachers dependent on AI-generated content 
+rather than developing their instructional materials. Participant 4 underscored this 
+concern, stating:
+
+I do not see any significant disadvantages. However, it could potentially de-
+crease teachers’ creativity and critical thinking skills and may make teachers 
+overly dependent on technology.
+
+This quotation reflects a broader apprehension that automation in education may replace 
+rather than support teachers’ cognitive engagement. If educators become too dependent on 
+AI-generated questions and materials, their ability to design unique, contextually appropri-
+ate assessments may weaken over time. Similarly, Participant 17 remarked, ‘These AI tools 
+can help the teacher, but it reduces the ability and creativity of the teacher’, while Participant 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2351
+
+2 simply noted, ‘It kills the creativity’. These concerns clearly show the significance of bal-
+ancing AI use to enhance rather than replace teacher practices.
+
+In terms of quality, participants observed that MagicSchool sometimes failed to meet their 
+expectations for generating exam content. For example, Participant 6 shared:
+
+When I want MagicSchool to write me micro and macro skill questions, it did not 
+work well. It was not so obvious that the questions were really micro or macro 
+skill questions.
+
+The quotation suggests that AI may struggle with distinguishing between different lin-
+guistic skill levels, potentially leading to the generation of questions that lack clarity or fail to 
+target specific language competencies effectively. As a result, educators may need to man-
+ually refine or adjust the output to ensure alignment with their instructional goals. Similarly, 
+Participant 25 pointed out a comparative limitation, stating, ‘I think it is average for exam 
+preparation because, for a reading exam, you need to provide the paragraph, and it gives 
+you questions. However, other general AIs like Chat GPT can directly provide both the para-
+graph and the questions’. The findings suggest that compared with traditional methods or 
+alternative AI tools, its utility may be constrained by the need for extensive user input and 
+verification as well as the risk of diminishing teachers’ creative engagement and critical 
+thinking skills, reinforcing the necessity for a balanced approach in AI-assisted teaching.
+
+Adapting to cultural and contextual nuances
+Another challenge noted by participants was adopting MagicSchool to cultural and contex-
+tual nuances specific to their teaching environments. Participant 9 highlighted a limitation in 
+customisation, stating,
+
+When it comes to the challenging part, a teacher cannot choose the students’ 
+classes; she can only choose their level, and it is not close to Turkey's standards 
+in a normal school.
+
+The quotation clearly implies a mismatch between the teacher's options and the local ed-
+ucation system's norms. Similarly, Participant 3 remarked, ‘Sometimes the questions make 
+me feel like they are from another world. It may not understand the context of your students’, 
+reflecting a disconnect between the AI-generated content and the realities of their class-
+rooms. Participant 17 expressed a similar concern, emphasising the lack of individualisation, 
+stating, ‘I do not think that AI can create unique and specific tests for our own students con-
+sidering their unique needs’, indicating a discrepancy between teachers’ unique needs and 
+what the tool presents. These observations suggest that MagicSchool has specific limita-
+tions to resonate with the specific cultural, educational and contextual demands of individual 
+classrooms, potentially limiting its effectiveness in diverse educational settings.
+
+Developing AI literacy: Navigating adoption and ethical concerns
+Participants reflected differing levels of AI literacy and its impact on tool adoption. Tech-
+savvy users found the tool more accessible, with some reporting little to no difficulty in navi-
+gating its features, while those less familiar with GenAI tools encountered an initial learning 
+curve. This variation suggests that MagicSchool's usability is highly influenced by prior tech-
+nological experience, highlighting the need for targeted teacher training to bridge this gap.
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2352  |      ERDEM COŞGUN
+
+For instance, participants who were already familiar with GenAI tools found MagicSchool 
+relatively straightforward to use, as clear from what Participant 16 stated, ‘I am familiar 
+with using GenAI tools, so I didn't have any difficulties in using it’, while Participant 5 re-
+marked, ‘It was very easy to learn and use because I was very familiar with this type of AI’. 
+These positive responses emphasise the tool's potential for users with prior experience. 
+However, for those without such familiarity, additional support or training might be essen-
+tial to ensure effective adoption. Concerning this, Participant 4 emphasised the value of 
+teacher-led training, stating:
+
+Overall, I found the platform very easy to use, thanks to the training provided by 
+our teacher before we started using it. Without this training, it would have taken 
+me at least a few hours to understand all the features of the website.
+
+Meanwhile, Participant 19 reflected, ‘It was hard for me because I have always been bad 
+at using technology, but when I tried it, I was able to use it properly within a week’. This in-
+dicates that although some participants faced initial struggles owing to limited technological 
+experience, they were able to overcome these challenges with training, time, and practice. 
+Participants also noted challenges such as navigating the platform's interface, as Participant 
+12 commented, ‘Having lots of sections was confusing compared to ChatGPT. When you 
+want to write or create something, you have to find the exact sections for it’, underscoring 
+the need for clear guidance on platform navigation and prompt writing to ensure effective 
+tool usage.
+
+In addition to these usability concerns, ethical implications were also raised. Participant 6 
+cautioned, ‘It may cause plagiarism since it's an AI’, underscoring the need for responsible 
+use of the tool. This reflects broader concerns about ethical challenges in adoption of AI, 
+particularly in educational contexts. These findings suggest that while MagicSchool is ac-
+cessible for users familiar with technology, structured training, and guidance are essential for 
+less tech-oriented users to maximise its potential while addressing ethical considerations.
+
+DISCUSSION
+This study found that MagicSchool enhanced exam preparation by improving efficiency, 
+effectiveness, practicality, personalisation, creativity, and adaptability. However, challenges 
+related to prompt writing and verification requirements, potential adverse effects on teach-
+ers’ creativity and the quality of outputs, and cultural and contextual mismatches limited its 
+pedagogical benefits. The coexistence of these advantages and limitations highlights the 
+complexity of integrating AI into assessment practices, underscoring the significance of AI 
+literacy and ethical awareness in effectively adopting AI tools for educational assessment.
+
+Participants reported significant improvements in efficiency, effectiveness, and practi-
+cality, aligning with Xi's (2023) utterance on AI's role in automating complex tasks and op-
+timising assessment design. Among them, time efficiency emerged as the most prominent 
+pedagogical advantage, as also noted by Hashem et al. (2023). Participants also mentioned 
+that it could generate diverse question types, facilitate distractor creation, and tailor mate-
+rials for students at different proficiency levels, proving its adaptability in meeting diverse 
+educational needs (El Naggar et  al.,  2024; Grassini,  2023). These findings reinforce the 
+broader argument that AI platforms can personalise learning, analyse student proficiency 
+and create interactive instructional materials (Berendt et  al.,  2020; Williamson,  2020). 
+Additionally, practicality of MagicSchool was another pedagogical advantage mentioned by 
+participants. The results showed that participants could easily manage the tool, probably 
+owing to MagicSchool AI's education-specific design. While some had used AI tools like 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2353
+
+ChatGPT, others had little exposure to AI in education. Yet MagicSchool's intuitive design 
+ensured easy adoption, even for novices. As Setyaningsih et al. (2024) note, its pre-set tem-
+plates and structured prompts ease cognitive load, making it more accessible than general 
+AI tools like Microsoft Copilot or ChatGPT. The findings also suggest that MagicSchool 
+played a key role in transforming exam development by fostering pedagogical creativity 
+and adaptability, aligning with claims that AI platforms enhance engagement by adapting 
+content to individual needs (Cai et al., 2024; Su & Yang, 2023). However, consistent with 
+concerns mentioned by Xia et al. (2024), some participants feared that excessive reliance 
+on the tool might diminish teachers’ creativity and critical thinking, potentially leading to 
+dependence on AI-generated content rather than the development of original instructional 
+materials, consistent with prior research emphasising the importance of preserving human 
+judgement and maintaining a balance between technological efficiency and pedagogical 
+values (Pavlik, 2023; Schiff, 2021). Moreover, the findings highlight MagicSchool's role as 
+a transformative tool in exam development, supporting teachers in balancing pedagogical 
+and technological demands. This aligns with calls for AI literacy for pre-service teachers 
+with the digital competencies needed for an increasingly automated educational landscape 
+(Adeshola & Adepoju, 2023).
+
+The findings also reveal that participants faced challenges in prompt formula-
+tion, requiring multiple repetitions that increased cognitive load and time investment 
+contrary to research emphasising AI's potential to improve time efficiency (Hashem 
+et al., 2023). This result underscores the digital literacy gaps among pre-service teach-
+ers (Moorhouse, 2024). Moreover, it was clear from the results that participants with prior 
+AI experience used MagicSchool more effectively than less familiar ones. However, with 
+time and practice they could overcome the challenges. As Wang and Lu (2023) suggest, 
+practical engagement with AI can enhance instructional competence, reinforcing the 
+need for targeted professional development. Moreover, consistent with Grassini (2023), 
+the necessity of verification highlights ongoing concerns about AI reliability and the sig-
+nificance of human supervision in assessment design. Moreover, the findings indicate 
+that while MagicSchool streamlines exam content creation, its outputs did not always 
+meet participants’ quality expectations, particularly in adapting to cultural and contextual 
+nuances. This aligns with concerns regarding AI's accuracy, bias, and ethical responsi-
+bility in educational settings (Ng & Chu, 2021). Similar to critiques of AI-assisted grading 
+(Chan & Tsi, 2023), participants’ experiences underscore the need for human oversight 
+to address contextual limitations. Additionally, as Stоšić and Malyuga  (2024) highlight, 
+AI-generated content may lack cultural sensitivity, reinforcing the necessity of a hybrid 
+approach where AI supports rather than replaces educators (Xi, 2023). Developing AI 
+literacy and critical evaluation skills is therefore essential for teachers to effectively inter-
+pret and refine AI-generated exam materials (Grassini, 2023).
+
+Overall, this study highlights opportunities and challenges in MagicSchool integration into 
+exam preparation. This study stresses both the benefits and challenges of using MagicSchool 
+in exam preparation. While it enhances efficiency, adaptability, and practicality, issues with 
+prompt formulation, verification and over-reliance on AI underscore the necessity for careful 
+application. These findings stress the importance of AI literacy and human oversight to en-
+sure AI complements, rather than replaces, teacher agency in assessment design.
+
+Practical implications
+The findings imply that blending AI with traditional strategies can help pre-service 
+teachers balance technological reliance with innovative pedagogy. Given the challenges 
+of adapting AI to cultural contexts, training should focus on localising AI-generated 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2354  |      ERDEM COŞGUN
+
+materials through exercises that refine outputs to align with diverse linguistic and 
+educational needs. Moreover, integrating AI literacy into teacher certification programmes 
+and curriculum standards can ensure that pre-service teachers develop the necessary 
+competencies for responsible AI use in language education. Ethical issues, including 
+data privacy, AI bias and over-reliance on technology, should be addressed through case 
+studies and discussions to foster responsible AI use. It is important to view AI as a tool 
+that supports, rather than replaces, human expertise. Teacher education programmes 
+should encourage pre-service teachers to use AI for material creation, assessments 
+and feedback while maintaining their role as primary decision-makers. Thus, teacher 
+education programmes should systematically embed AI literacy training to equip future 
+educators with both technological proficiency and critical awareness of its implications. By 
+embedding these practices, teacher education programmes can equip future educators 
+with the skills to harness AI tools like MagicSchool while preserving the essential human 
+elements of teaching.
+
+Limitations and suggestions for further studies
+The findings were limited to the use of a single AI tool, MagicSchool, within a short time-
+frame, restricting insights into its long-term impact. A longitudinal approach could provide a 
+deeper understanding of how AI influences pedagogical development, particularly in exam 
+preparation, creativity, and professional identity. Additionally, future research could compare 
+multiple AI tools to assess their effectiveness in different assessment contexts, offering 
+a more comprehensive perspective on AI integration in teacher education. Examining the 
+impact of AI literacy training on pre-service teachers’ professional development through 
+longitudinal studies would also provide valuable insights into how educators adapt to and 
+incorporate AI into their instructional practices.
+
+ACKNOWLEDGEMENTS
+This study was conducted as part of the course on Preparing Exam Questions in ELT within 
+the English language teacher education programme. I extend my gratitude to all of the par-
+ticipants who contributed their time and effort to share their experiences and insights, mak-
+ing this research possible.
+
+FUNDING INFORMATION
+Not applicable.
+
+CONFLICT OF INTEREST STATEMENT
+No conflict of interest.
+
+DATA AVAILABILIT Y STATEMENT
+Data will be available on request.
+
+ETHICS STATEMENT
+The study was conducted by considering ethical issues. Before conducting the study, nec-
+essary permissions were taken. Moreover, the privacy and confidentiality of the participant 
+teachers were ensured. All personal data were presented anonymously, and informed con-
+sent was taken from participants taking part in the study.
+
+ORCID
+Gamze Erdem Coşgun   https://orcid.org/0000-0003-4598-8799 
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2355
+
+R E FE R E N C E S
+Adeshola, I., & Adepoju, A. P. (2023). The opportunities and challenges of ChatGPT in education. Interactive 
+
+Learning Environments, 32(10), 1–14. https://​doi.​org/​10.​1080/​10494​820.​2023.​2253858
+Amin, M. A., Kim, Y. S., & Noh, M. (2024). Unveiling the drivers of ChatGPT utilization in higher education sec-
+
+tors: The direct role of perceived knowledge and the mediating role of trust in ChatGPT. Education and 
+Information Technologies, 1–27.
+
+Berendt, B., Littlejohn, A., & Blakemore, M. (2020). AI in education: Learner choice and fundamental rights. 
+Learning, Media and Technology, 45(3), 312–324. https://​doi.​org/​10.​1080/​17439​884.​2020.​1786399
+
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 
+77–101.
+
+Bulut, O., Beiting-Parrish, M., Casabianca, J. M., Slater, S. C., Jiao, H., Song, D., Ormerod, C. M., Fabiyi, D. 
+G., Ivan, R., Walsh, C., Rios, O., Wilson, J., Yildirim-Erbasli, S. N., Wongvorachan, T., Liu, J. X., Tan, B., & 
+Morilova, P. (2024). The rise of artificial intelligence in educational measurement: Opportunities and ethical 
+challenges. arXiv preprint arXiv:2406.18900. https://​doi.​org/​10.​48550/​​arXiv.​2406.​18900​
+
+Cai, L., Msafiri, M. M., & Kangwa, D. (2024). Exploring the impact of integrating AI tools in higher education using 
+the zone of proximal development. Education and Information Technologies, 1–74.
+
+Chan, C. K. Y., & Tsi, L. H. (2023). The AI revolution in education: Will AI replace or assist teachers in higher ed-
+ucation? arXiv preprint arXiv:2305.01185. https://​doi.​org/​10.​48550/​​arXiv.​2305.​01185​
+
+Chen, X., Xie, H., Zou, D., & Hwang, G.-J. (2020). Application and theory gaps during the rise of artificial intel-
+ligence in education. Computers and Education: Artificial Intelligence, 1, 100002. https://​doi.​org/​10.​1016/j.​
+caeai.​2020.​100002
+
+Chiu, T. K. F. (2024). Future research recommendations for transforming higher education with generative 
+AI. Computers and Education: Artificial Intelligence, 6, 100197. https://​doi.​org/​10.​1016/j.​caeai.​2023.​
+100197
+
+Ciampa, K., Wolfe, Z., & Hensley, M. (2024). From entry to transformation: Exploring AI integration in teachers' 
+K-12 assessment practices. Technology, Pedagogy and Education, 34(2), 1–20.
+
+Crompton, H., & Burke, D. (2023). Artificial intelligence in higher education: The state of the field. International 
+Journal of Educational Technology in Higher Education, 20, 22. https://​doi.​org/​10.​1186/​s4123​9-​023-​
+00392​-​8
+
+Dizon, G., & Gayed, J. M. (2021). Examining the impact of Grammarly on the quality of mobile L2 writing. JALT 
+CALL Journal, 17(2), 74–92. https://​doi.​org/​10.​29140/​​jaltc​all.​v17n2.​336
+
+Dizon, G., & Tang, D. (2020). Intelligent personal assistants for autonomous second language learning: An inves-
+tigation of Alexa. JALT CALL Journal, 16(2), 107–120. https://​doi.​org/​10.​29140/​​jaltc​all.​v16n2.​273
+
+Edmett, A., Ichaporia, N., Crompton, H., & Crichton, R. (2024). Artificial intelligence and English language teach-
+ing: Preparing for the future (2nd ed.). British Council. https://​doi.​org/​10.​57884/​​78EA-​3C69
+
+El Naggar, A., Gaad, E., & Inocencio, S. A. M. (2024). Enhancing inclusive education in the UAE: Inte grating AI 
+for diverse learning needs. Research in Developmental Disabilities, 147, 104685. https://​doi.​org/​10.​1016/j.​
+ridd.​2024.​104685
+
+Grassini, S. (2023). Shaping the future of education: Exploring the potential and consequences of AI and ChatGPT 
+in educational settings. Education Sciences, 13(7), 692.
+
+Hashem, R., Ali, N., Zein, F., Fidalgo, P., & Abu Khurma, O. (2023). AI to the rescue: Exploring the potential of 
+ChatGPT as a teacher ally for workload relief and burnout prevention. Research and Practice in Technology 
+Enhanced Learning, 19, 023. https://​doi.​org/​10.​58459/​​rptel.​2024.​19023​
+
+Hew, K. F., Huang, W., Du, J., & Jia, C. (2023). Using chatbots to support pupil goal setting and social presence 
+in fully online activities: Learner engagement and perceptions. Journal of Computing in Higher Education, 5, 
+40–68. https://​doi.​org/​10.​1007/​s1252​8-​022-​09338​-​x
+
+Lim, W. M., Gunasekara, A., Pallant, J. L., Pallant, J. I., & Pechenkina, E. (2023). Generative AI and the future of 
+education: Ragnar¨ok or reformation? A paradoxical perspective from management educators. International 
+Journal of Management in Education, 21(2), 100790. https://​doi.​org/​10.​1016/j.​ijme.​2023.​100790
+
+Lukácsi, Z. (2020). Standard setting and internal validation of a novel approach adopted for assessing speaking. 
+Training, Language and Culture, 4(4), 9–22. https://​doi.​org/​10.​22363/​​2521-​442X-​2020-​4-​4-​9-​22
+
+Marikyan, M., & Papagiannidis, P. (2021). Unified Theory of Acceptance and Use of Technology. TheoryHub 
+Book.
+
+Moorhouse, B. L. (2024). Beginning and first-year language teachers' readiness for the generative AI age. 
+Computers and Education: Artificial Intelligence, 6, 100201.
+
+Moorhouse, B. L., & Kohnke, L. (2024). The effects of generative AI on initial language teacher education: The 
+perceptions of teacher educators. System, 122, 103290. https://​doi.​org/​10.​1016/j.​system.​2024.​103290
+
+Mustafa, H. M., Mahmoud, S. S., Abouelnaga, H. M., Tayfour, M., Metwally, A. B. M., & Shehata, S. M. (2024). The 
+effect of the training of using magic school AI on self-efficacy in teaching and information overload among 
+Arabic teachers. Migration Letters, 21(S9), 1361–1370.
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+2356  |      ERDEM COŞGUN
+
+Nazari, N., Shabbir, M. S., & Setiawan, R. (2021). Application of artificial intelligence powered digital writing 
+assistance in higher education: Randomized controlled trial. Helyion, 7(5), e07014. https://​doi.​org/​10.​1016/j.​
+heliy​on.​2021.​e07014
+
+Ng, D. T. K., & Chu, S. K. W. (2021). Motivating students to learn AI through social networking sites: A case study 
+in Hong Kong. Online Learning, 25(1), 195–208. https://​doi.​org/​10.​24059/​​olj.​v25i1.​2454
+
+Oh, S. Y., & Ahn, Y. (2024). Exploring teachers' perception of artificial intelligence: The socio-emotional deficiency 
+as opportunities and challenges in human-AI complementarity in K-12 education. In W. Y. Leong, Y. Z. 
+Leong, & W. San Leong (Eds.), International conference on artificial intelligence in education (pp. 439–447). 
+Springer Nature.
+
+Pavlik, J. V. (2023). Collaborating with ChatGPT: Considering the implications of generative artificial intelligence 
+for journalism and media education. Journalism & Mass Communication Educator, 78(1), 107769582211495. 
+https://​doi.​org/​10.​1177/​10776​95822​1149577
+
+Penny, A. R., & Coe, R. (2004). Effectiveness of consultation on student ratings feedback: A meta-analysis. 
+Review of Educational Research, 74(2), 215–253. https://​doi.​org/​10.​3102/​00346​54307​4002215
+
+Pokrivcakova, S. (2024). Pre-service teachers' attitudes towards artificial intelligence and its integration into EFL 
+teaching and learning. Journal of Language and Cultural Education, 11(3), 100–114. https://​doi.​org/​10.​2478/​
+jolac​e-​2023-​0031
+
+Renz, A., Krishnaraja, S., & Gronau, E. (2020). Demystification of artificial intelligence in education—How much AI 
+is really in the educational technology? International Journal of Learning Analytics and Artificial Intelligence 
+for Education, 2(1), 14–30. https://​doi.​org/​10.​3991/​ijai.​v2i1.​12675​
+
+Rivera-Rosas, C. N., Calleja-López, J. T., Ruibal-Tavares, E., Villanueva-Neri, A., Flores-Felix, C. M., & Trujillo-
+López, S. (2024). Exploring the potential of ChatGPT to create multiple-choice question exams. Educación 
+Médica, 25(4), 100930. https://​doi.​org/​10.​1016/j.​edumed.​2024.​100930
+
+Schiff, D. (2021). Out of the laboratory and into the classroom: The future of artificial intelligence in education. AI 
+& Society, 36(1), 331–348. https://​doi.​org/​10.​1007/​s0014​6-​020-​01033​-​8
+
+Setyaningsih, E., Asrori, M., Zainnuri, H., & Hariyanti, Y. (2024). Exploring high school EFL teachers' experi-
+ences with magic school AI in lesson planning: Benefits and insights. Voices of English Language Education 
+Society, 8(3), 685–699.
+
+Stоšić, L., & Malyuga, E. N. (2024). Application of Artificial Intelligence In Language Skills Testing. ANGLISTICUM. 
+Journal of the Association-Institute for English Language and American Studies, 13(1), 22–34.
+
+Su, J., & Yang, W. (2023). Unlocking the power of ChatGPT: A framework for applying generative AI in education. 
+ECNU Review of Education, 6(3), 355–366. https://​doi.​org/​10.​1177/​20965​31123​1168423
+
+UNESCO. (2021). AI and education: Guidance for policy-makers. UNESCO.
+Wang, Y., Derakhshan, A., Pan, Z., & Ghiasvand, F. (2023). Chinese EFL teachers' writing assessment feedback 
+
+literacy: A scale development and validation study. Assessing Writing, 56, 100726. https://​doi.​org/​10.​1016/j.​
+asw.​2023.​100726
+
+Wang, Y., & Lu, X. (2023). Research on the evaluation and cultivation design of AI literacy to promote the 
+development of cognitive intelligence among pre-service teachers. In 2023 International conference on 
+culture-oriented science and technology (CoST) (pp. 116–120). IEEE. https://​doi.​org/​10.​1109/​CoST6​0524.​
+2023.​00032​
+
+Williamson, B. (2020). New digital laboratories of experimental knowledge production: Artificial intelligence 
+and education research. London Review of Education, 18(2), 209–220. https://​doi.​org/​10.​14324/​​LRE.​
+18.2.​05
+
+Willis, J., Adie, L., & Klenowski, V. (2013). Conceptualising teachers' assessment literacies in an era of curriculum 
+and assessment reform. The Australian Educational Researcher, 40, 241–256.
+
+Williyan, A., Fitriati, S. W., Pratama, H., & Sakhiyya, Z. (2024). AI as co-creator: Exploring Indonesian EFL teach-
+ers' collaboration with AI in content development. Teaching English with Technology, 24(2), 5–21.
+
+Xi, X. (2023). Advancing language assessment with AI and ML–leaning into AI is inevitable, but can theory 
+keep up? Language Assessment Quarterly, 20(4–5), 357–376. https://​doi.​org/​10.​1080/​15434​303.​2023.​
+2291488
+
+Xia, Q., Weng, X., Ouyang, F., Lin, T. J., & Chiu, T. K. (2024). A scoping review on how generative artificial in-
+telligence transforms assessment in higher education. International Journal of Educational Technology in 
+Higher Education, 21(1), 40. https://​doi.​org/​10.​1186/​s4123​9-​024-​00468​-​z
+
+Yin, R. K. (2003). Designing case studies. Qualitative Research Methods, 5(14), 359–386.
+Zawacki-Richter, O., Marín, V. I., Bond, M., & Gouverneur, F. (2019). Systematic review of research on artificial 
+
+intelligence applications in higher education–where are the educators? International Journal of Educational 
+Technology in Higher Education, 16(1), 1–27. https://​doi.​org/​10.​1186/​s4123​9-​019-​0171-​0
+
+Zhai, X., Chu, X., Chai, C. S., Jong, M. S. Y., Istenic, A., Spector, M., Liu, J.-B., Yuan, J., & Li, Y. (2021). A review 
+of artificial intelligence (AI) in education from 2010 to 2020. Complexity, 2021(1), 8812542. https://​doi.​org/​10.​
+1155/​2021/​8812542
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+AI LITERACY IN ASSESSMENT        |  2357
+
+Zheng, D., Bischoff, M., & Gilliland, B. (2015). Vocabulary learning in massively multiplayer online games: Context 
+and action before words. Educational Technology Research and Development, 63, 771–790. https://​doi.​org/​
+10.​1007/​s1142​3-​015-​9387-​4
+
+Zhou, K. Z., Kilhoffer, Z., Sanfilippo, M. R., Underwood, T., Gumusel, E., Wei, M., Choudhry, A., & Xiong, J. (2024). 
+‘The teachers are confused as well’: A multiple-stakeholder ethics discussion on large language models in 
+computing education. arXiv preprint arXiv:2401.12453. https://​doi.​org/​10.​48550/​​arXiv.​2401.​12453​
+
+How to cite this article: Erdem Coşgun, G. (2025). Artificial intelligence literacy in 
+assessment: Empowering pre-service teachers to design effective exam questions for 
+language learning. British Educational Research Journal, 51, 2340–2357. https://doi.
+org/10.1002/berj.4177
+
+ 14693518, 2025, 5, Downloaded from https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.4177 by Nat Prov Indonesia, Wiley Online Library on [12/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

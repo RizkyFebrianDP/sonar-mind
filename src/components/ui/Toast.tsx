@@ -2,13 +2,7 @@
 
 import React, { useEffect, useState, useCallback, createContext, useContext } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  CheckCircle2,
-  AlertCircle,
-  Info,
-  AlertTriangle,
-  X,
-} from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 
 export type ToastType = "success" | "error" | "info" | "warning";
 
@@ -46,10 +40,10 @@ export function Toast({
   }, [duration, onClose]);
 
   const iconMap = {
-    success: <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />,
-    error: <AlertCircle className="w-5 h-5 text-rose-500 shrink-0" />,
-    info: <Info className="w-5 h-5 text-blue-500 shrink-0" />,
-    warning: <AlertTriangle className="w-5 h-5 text-amber-500 shrink-0" />,
+    success: <Icon id="82766" className="w-5 h-5 bg-emerald-500 shrink-0" />,
+    error: <Icon id="82783" className="w-5 h-5 bg-rose-500 shrink-0" />,
+    info: <Icon id="82742" className="w-5 h-5 bg-blue-500 shrink-0" />,
+    warning: <Icon id="82783" className="w-5 h-5 bg-amber-500 shrink-0" />,
   };
 
   const borderBadgeMap = {
@@ -83,7 +77,7 @@ export function Toast({
         className="p-1.5 rounded-lg text-text-muted hover:text-text-strong hover:bg-black/5 dark:hover:bg-white/10 transition-colors shrink-0"
         aria-label="Tutup notifikasi"
       >
-        <X className="w-4 h-4" />
+        <Icon id="82771" className="w-4 h-4 bg-text-muted" />
       </button>
     </motion.div>
   );

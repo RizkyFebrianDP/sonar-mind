@@ -1,0 +1,854 @@
+﻿npj | science of learning Article
+Published in partnership with The University of Queensland
+
+https://doi.org/10.1038/s41539-024-00264-4
+
+A systematic review of AI literacy scales
+Check for updates
+
+Tomáš Lintner 1,2
+
+With the opportunities and challenges stemming from the artificial intelligence developments and its
+integration into society, AI literacy becomes a key concern. Utilizing quality AI literacy instruments is
+crucial for understanding andpromotingAI literacy development. This systematic reviewassessed the
+quality of AI literacy scales using the COSMIN tool aiming to aid researchers in choosing instruments
+for AI literacy assessment. This review identified 22 studies validating 16 scales targeting various
+populations including general population, higher education students, secondary education students,
+and teachers. Overall, the scales demonstrated good structural validity and internal consistency. On
+the other hand, only a few have been tested for content validity, reliability, construct validity, and
+responsiveness. None of the scales have been tested for cross-cultural validity and measurement
+error. Most studies did not report any interpretability indicators and almost none had raw data
+available. There are 3 performance-based scale available, compared to 13 self-report scales.
+
+The integration of Artificial Intelligence (AI) into various segments of literacy has not yet been firmly conceptualized. AI literacy is often
+society is increasing. In medicine, AI technologies can facilitate spine sur- viewed as an advanced form of digital literacy17. In its basic definition,
+gery procedures1, effectively operate healthcaremanagement systems2,3, and AI literacy is the ability to understand, interact with, and critically
+provide accurate diagnosis based on medical imaging4. In education, AI evaluate AI systems and AI outputs. A review aimed at con-
+systems contribute to effective teaching methods and enable accurate stu- ceptualizing AI literacy based on the adaptation of classic literacies
+dent assessments5. In science, AI plays a role in generating innovative proposed four aspects crucial for AI literacy—know and understand,
+hypotheses, surpassing the creative limits of individual researchers6 and aids use, evaluate, and understanding of ethical issues related to the use of
+scientific discovery7,8. AI18. Research and practice differ in specific expectations of AI lit-
+
+With the increasing integration ofAI in society,manynewAI-related eracy based on age—most agree that it should be part of education
+jobs are emerging, and many existing jobs now require AI re-skilling. Job from early childhood education with more complex issues taught in
+postings requiring skills in machine learning and AI have significantly older ages. While some authors argue that technical skills like pro-
+increased9,10. In the U.S., there was a dramatic rise in demand for AI skills gramming should be a part of AI literacy, most agree it should
+from 2010 to 2019, surpassing the demand for general computer skills encompass more generalizable knowledge and interdisciplinary
+withAI proficiency providing a significantwage premium11. Furthermore, nature19,20. Many global initiatives to promote AI literacy are
+many companies have been reducing hiring in jobs not exposed to AI, emerging20 and AI literacy is becoming a part of the curriculum in
+suggesting a significant restructuring of the workforce around AI early childhood education21, K-12 education22–24, as well as in higher
+capabilities12. education18,19 in several educational systems. At the same time,
+
+AI’s impact extends beyond the jobmarket; it also alters thewaypeople however, both researchers and educators pay little attention to
+process information. It has enabled the production of deepfake audiovisual development and understanding of instruments to assess AI literacy
+materials unrecognizable from reality with many websites casually offering at different educational levels22.
+services of face-swapping, voice-cloning, and deepfake pornography. Utilizing quality AI literacy instruments is crucial for understanding
+Consequently, there has been a significant rise in fraud and cyberbullying and promoting AI literacy development. This systematic review will aim to
+incidents involvingdeepfakes13. The emergence of deepfakes has also led to a aid both researchers and educators involved in research and evaluation of
+new generation of disinformation in political campaigns14. Research shows level and development of AI literacy. This systematic review has the fol-
+that people cannot distinguishdeepfakes but their confidence in recognizing lowing objectives:
+them is high, which suggests that they are unable to objectively assess their • to provide a comprehensive overview of available AI literacy scales
+abilities15,16. • to critically assess the quality of AI literacy scales
+
+In the context of AI permeating job market and the spread of • to provide guidance for research which AI literacy scales to use con-
+deepfakes, AI literacy becomes a key concern. As a recent concept, AI sidering the quality of the scales and the context they are suitable for.
+
+1Department of Educational Sciences, Faculty of Arts, Masaryk University, Brno, Czech Republic. 2Institute SYRI, Brno, Czech Republic.
+e-mail: tomas.lintner@mail.muni.cz
+
+npj Science of Learning |  (2024)9:50 1
+
+1234567890():,;
+
+1234567890():,;
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+Fig. 1 | PRISMA flowchart. The PRISMA flowchart
+shows the study identification procedure.
+
+Results their target populations. Most of them target general population31,34,36,42,44–47
+
+Overview of AI literacy scales or higher education students30,32,37–39,43,48–51, with three of them targeting
+The initial search yielded 5574 results. After removing duplicate references, secondary education students33,35,41, and one targeting teachers40.
+a total of 5560 studies remained. Figure 1 presents an overview of the While the authors of the scales drew their conceptualizations of AI
+literature search, screening, and selection process. During the initial literacy from different sources and their scales target different populations,
+screening, I manually reviewed titles and abstracts. In this step, I excluded they largely overlap with core competencies comprising AI literacy. By
+5501 records, which did not meet the inclusion criteria outlined inMethods looking at the authors’ conceptualizations of key competencies comprising
+section. I assessed the full texts of the remaining 59 records for eligibility and AI literacy, virtually all scales recognize several core competencies as fun-
+I checked their reference lists for other potentially relevant studies. After the damental toAI literacy. First, they emphasize the technical understandingof
+full-text screening, I excluded 44 records. Most studies were excluded AI, distinguishing it from mere general awareness about the technology.
+because they did not perform any scale validation, e.g. 25–27 or did not touch Secondly, they consider the societal impact of AI as a critical component.
+upon the concept of AI literacy28. AI4KGA29 scale was excluded because the Lastly, AI ethics is acknowledged as an essential aspect. These competencies
+author did not provide the full item list and did not respond to my request collectively form the foundational elements of AI literacy, and they are
+for it, making it questionable whether the scale can be used by anyone else. consistently present as factors across the various scales. There is a consensus
+While self-efficacy is somewhat a distinct construct from self-reported AI among the authors of the scales about the three competencies being essential
+literacy, the distinction between the two is heavily blurred. I therefore for both secondary and higher education students as well as general
+decided to adopt amore inclusive approachwhen assessing the relevancy of population andmedical professionals. On the other hand, the authors of the
+the measured constructs and included Morales-García et al.’s GSE-6AI30 scales differ in perceiving higher-order AI-related skills—creation and
+and Wang & Chuang’s31 AI self-efficacy scale as well. I added one pub- evaluation of AI—as components of AI literacy. In the original Ng et al.’s
+lication from the reference lists of the included studies to the final selection conceptualization18, creation and evaluation of AI are core components of
+and six studies from the reverse searches, yielding a total of 22 studies AI literacy. MAILS42 drawing from the Ng et al.’s conceptualization18
+
+validating or revalidating 16 scales. identified creation of AI as a related, but separate construct fromAI literacy.
+Table 1 presents the studies’ basic descriptions. The included scales AILQ35, on the other hand, drawing from the same conceptualization
+
+share several characteristics. Only aminority of the scales are performance- includes creating AI as a core part of AI literacy. Several other scales also
+based32–34, with most scales relying on self-assessment-based Likert consider the ability to critically evaluate AI as a core part of AI
+items30,31,35–45. Most scales have multiple factor structures. Constructing AI literacy32–34,36,38,44. Considering the widespread integration of AI into daily
+literacy scales has started only recently as all scales were constructed in the and professional life, a question arises, whether the skills to create and
+last three years, with the oldest being MAIRS-MS43 from 2021. MAIRS- critically evaluate AIwill not have to be included as core competencies of AI
+MS43, SNAIL45, and AILS36 are also the only scales to this date, which have literacy in near future, as those competenciesmight be crucial for functional
+been revalidated by another study46–51. On the other hand, the scales vary by AI literacy.
+
+npj Science of Learning |  (2024)9:50 2
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+npj Science of Learning |  (2024)9:50 3
+
+Table 1 | Scales’ characteristics
+
+basic scale description validation samplea factor structure
+
+scale type items target population N Age (years) no. of factors factor description
+AI literacy test32 performance- 31 including 30 multiple- university 1286 23.6 ± 4.5 1 single factor
+
+based choice items with 4 students
+options each and 1
+sorting item
+
+AI-CI33 performance- 20 multiple-choice items middle school 981, 108 ? 1 single factor
+based students
+
+AILQ35 self-report 32 5-point Likert items secondary school 363 13.1 ± 1.4 6 level one (F1) affective learning: (F1a) Intrinsic motivation (F1b) confidence (F2)
+students factors, 4 level behavioural learning: (F2a) behavioural commitment (F2b) collaboration (F3)
+
+two factors cognitive learning: (F3a) know and understand (F3b) evaluate and create (F4)
+ethical learning
+
+AILS36,46,47 self-report 12 7-point Likert items general 325, 402, 536 29.7 ± 7.3, ?, ? 4 (F1) awareness (F2) use (F3) evaluation (F4) ethics
+population
+
+AISES31 self-report 22 7-point Likert items general 314 ? 4 (F1) assistance (F2) anthropomorphic interaction (F3) comfort with AI (F4)
+population technological skills
+
+Chan & Zhou’s EVT self-report 5 5-point Likert items university 405 29.9 ± ? 1 single factor
+based instrument students
+(knwl. of gen. AI
+subscale)37
+
+ChatGPT literacy self-report 25 5-point Likert items college students 822 22.7 ± 2.6 5 (F1) technical proficiency (F2) critical evaluation (F3) communication
+scale38 proficiency (F4) creative application (F5) ethical competence
+
+GSE-6AI30 self-report 6 4-point Likert items medical students 469 19.7 ± 2.5 1 single factor
+
+Hwang et al.’s self-report 19 5-point Likert items college students 318 ? 4 (F1) critical understanding (F2) artificial intelligence social impact recognition
+instrument39 (F3) artificial intelligence technology utilization (F4) ethical behaviour
+
+Intelligent TPACK40 self-report 29 7-point Likert items teachers 647 ? 5 (F1) technological knowledge (F2) technological pedagogical knowledge
+(F3) technological content knowledge (F4) technological pedagogical
+content knowledge (F5) ethics
+
+Kim & Lee’s self-report 30 5-point Likert items middle school 1222 ? 6 (F1) societal impact (F2) understanding of AI (F3) AI execution plans (F4)
+instrument41 students problem solving with AI (F5) data literacy (F6) AI ethics
+
+MAILS42 self-report 34 11-point Likert items adults 300 32.1 ± 11.7 8 level one (F1) AI literacy: (F1a) use & apply AI (F1b) understand AI (F1c) detect AI (F1d)
+factors, 4 level AI ethics (F2) create AI (F3) AI self-efficacy: (F3a) AI problem solving (F3b) AI
+two factors learning (F4) AI self-competency: (F4a) AI persuasion literacy (F4b) AI
+
+emotion regulation
+
+MAIRS-MC43,48 self-report 22 5-point Likert items medical students 865, 502 21.3 ± 2.0, 22.7 ± 2.8 4 (F1) cognition (F2) ability (F3) vision (4) ethics
+
+Pinski & Belian’s self-report 13 7-point Likert items general 50 32.8 ± 13.2 5 (F1) AI technology knowledge (F2) human actors in AI knowledge (F3) AI
+instrument44 population steps knowledge (F4) AI usage experience (F5) AI design experience
+
+SAIL4ALL34 performance- 56 true/false or 5-point general 619 for true/false 45.8 ± 12.2 for true/ 4 themes (T1) what is AI? (T2) what can AI do? (T3) how does AI work? (T4) how should
+based Likert items population version, 393 for false version, (subscales) – AI be used?
+
+Likert scale 46.3 ± 15.4 for Likert each with 1–2
+version scale version factors
+
+SNAIL45,49–51 self-report 31 7-point Likert items adult non-experts, 415, 25, 653, 377 39.5 ± 13.6, 3 (F1) technical understanding (F2) critical appraisal (F3) practical application
+university 22.9 ± 2.3, 25.6 ±
+students, medical ?, 22.5 ± 3.2
+students
+
+ain case the scale has been revalidated, the numbers refer to the original sample followed by the revalidation samples. N = number of participants used for scale development. ? = not reported.
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+Quality assessment
+I assessed the quality of the scales based on the COSMIN52–56 measurement
+properties and additionally on interpretability and feasibility. TheMethods
+section provides a detailed explanation of these individual properties.
+Table 2 shows quality assessment of the scales based on the COSMIN52–56
+
+and GRADE57 criteria. Overall, the scales demonstrated good structural
+validity and internal consistency. On the other hand, only a few have been
+tested for content validity, reliability, construct validity, and responsiveness.
+None of the scales have been tested for cross-cultural validity and mea-
+surement error. Most studies did not report any interpretability indicators
+and almost none reported scales’ average completion time (Tables 3 and 4).
+
+AI literacy test32. This is a performance-based scale assessing AI-related
+knowledge through 30 multiple-choice questions, each with a single
+correct option, and includes one sorting question. The authors used item
+response theory (IRT) models to confirm the scale’s single-factor struc-
+ture. The authors drew from Long &Magerko’s58 conceptualization of AI
+literacy, which works with a set of 17 AI competencies grouped into five
+overarching areas: What is AI?, What can AI do?, How does AI work?,
+How should AI be used?, and How do people perceive AI?. The authors
+developed the scale primarily for higher-education students—the scale
+comprises both items which could be considered specialized advanced
+knowledge (e.g., distinguishing between supervised and unsupervised
+learning), but also basic general knowledge (e.g., recognizing areas of daily
+life where AI is used). However, the scale is arguably also suitable for any
+professionals who encounter AI in their work. There is some limited
+evidence for the scale’s content validity and high evidence for the scale’s
+structural validity, internal consistency, and construct validity. It is cur-
+rently available in German and English, although English version has not
+yet been revalidated. It is possible that the content of some questions—
+especially those dealingwith a typical use ofAI in practice—will need to be
+changed in the future due to developments in AI, rendering some of the
+present items obsolete.
+
+AI-CI—AI literacy concept inventory assessment33. AI-CI is a
+performance-based concept inventory scale for middle school students
+assessing AI-related knowledge through 20 multiple-choice questions. The
+authorsused their ownAI literacy curriculum59 to design the scale’s content.
+IRT was used for validation. There is good evidence for the scale’s content
+validity and structural validity, and high evidence for the scale’s internal
+consistency and responsiveness. It is currently available in English. The
+content of the items appears to be more general and less dependent on the
+context of AI developments compared to the AI literacy test32.
+
+AILQ—AI literacyquestionnaire35. AILQ is aimedat secondary education
+students. The scale employs authors’ conceptualization of cognitive domains
+of AI literacy stemming from their exploratory review18 adding affective,
+behavioural, and ethical learning domains. The authors employed a CFA
+which resulted in identification of the scale’s four-factor structure paralleling
+the four learningdomains. There ismoderate positive evidence for the scale’s
+content validity, high positive evidence for the scale’s structural validity and
+internal consistency, and very low positive evidence for the scale’s respon-
+siveness. It is currently available in English.
+
+AILS—AI literacy scale36. AILS scale targets general population in the
+context of human–AI interaction (HAII). The authors drew from their
+own conceptualization of AI literacy grounded in their literature review
+resulting in four constructs of AI literacy: awareness, use, evaluation, and
+ethics. The four constructs are parallel to the scale’s four factors con-
+firmed by a CFA. The scale has since been revalidated in Turkish
+language46,47, however, no direct cross-cultural validation has been per-
+formed. There is very low positive evidence for the scale’s content
+validity, high positive evidence for the scale’s structural validity and
+internal consistency, low evidence for reliability, and high positive evi-
+dence for construct validity.
+
+npj Science of Learning |  (2024)9:50 4
+
+Table 2 | Scales’ quality assessment based on COSMIN and GRADE criteria
+
+content validity structural validity internal consistency cross-cultural validity measurement invariance reliability measurement error construct validity responsiveness
+
+AI literacy test32 ++ ++++ ++++ ? ? ? ? ++++ ?
+
+AI-CI33 +++ +++ ++++ ? ? ? ? ? ++++
+
+AILQ35 +++ ++++ ++++ ? ? ? ? ? +
+
+AILS36,46,47 + ++++ ++++ ? ? ++ ? ++++ ?
+
+AISES31 ? ++++ ++++ ? ? ? ? ? ?
+
+Chan & Zhou’s EVT based instrument (knwl. of gen. AI subscale)37 ? ++++ ++++ ? ? ? ? ? ?
+
+ChatGPT literacy scale38 +++ ++++ ++++ ? ? ? ? ++++ ?
+
+GSE-6AI30 ? ++++ ++++ ? ++++ ? ? ? ?
+
+Hwang et al.’s instrument39 ? ++++ ++++ ? ? ? ? ? ?
+
+Intelligent TPACK40 ? ++++ ++++ ? ? ? ? ? ?
+
+Kim & Lee’s instrument41 ++ ++++ ++++ ? ? ? ? ++++ ?
+
+MAILS42 ? ++++ ++++ ? ? ? ? ++++ ?
+
+MAIRS-MC43,48 ++ ++++ ++++ ? ++++ ? ? ? ?
+
+Pinski & Belian’s instrument44 + + +++ ? ? ? ? ? ?
+
+SAIL4ALL true/false format34 ? ± ± ? ? ? ? ++++ ?
+
+SAIL4ALL Likert scale format34 ? ± ± ? ? ? ? ++++ ?
+
+SNAIL45,49–51 ? ++++ ++++ ? ? + ? ++++ ++
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+AISES—AI self-efficacy scale (AISES)31. AISES is aimed at assessingAI
+self-efficacy of general population. The scale’s conceptualization is
+grounded in previous technology-related self-efficacy research60,61. A
+CFA confirmed the scale’s four-factor structure. There is high positive
+evidence for the scale’s structural validity and internal consistency,
+however, content validation on the target population was not performed.
+It is currently available in English.
+
+Chan & Zhou’s EVT based instrument for measuring student per-
+ceptions of generative AI (knowledge of generative AI subscale)37.
+This subscale is part of a larger instrument aimed at assessing perceptions
+of generative AI of university students. Here, I reviewed only the subscale
+dealing with the self-perceived AI literacy. The authors drew from their
+own conceptualization of AI literacy grounded in their literature review.
+The items revolve around generative AI’s limitations and potential biases.
+CFA confirmed the subscale’s single-factor structure. There is high
+positive evidence for the subscale’s structural validity and internal con-
+sistency, however, content validation of the scale is disputable. It is cur-
+rently available in English.
+
+ChatGPT literacy scale38. The scale for college students is focused
+specifically on assessingAI literacy usingChatGPT.The scale is grounded
+in a Delphi survey performed by the authors. There is good evidence for
+the scale’s content validity and high evidence for the scale’s structural
+validity, internal consistency, and construct validity. The scale is available
+in English language.
+
+GSE-6AI—brief versionof thegeneral self-efficacyscale forusewith
+artificial intelligence30. The scale comprises only six items, making it
+suitable for a rapid assessment of AI self-efficacy. There is high positive
+evidence for the scale’s structural validity, internal consistency, and
+measurement invariance by gender, however, content validation on the
+target population was not performed. It is currently available in Spanish
+and English.
+
+Hwang et al.’s digital literacy scale in the artificial intelligence era for
+college students39. This scale targets higher education students and the
+authors also largely drew from Long &Magerko’s58 conceptualization of AI
+literacy. The authors employed a CFAwhich resulted in identification of the
+scale’s four-factor structure. There is high positive evidence for the scale’s
+structural validity and internal consistency, however, content validation on
+the target population was not performed. It is currently available in English.
+
+Intelligent TPACK—technological, pedagogical, and content
+knowledge scale40. Intelligent-TPACK aims to assess teachers’ self-
+perceived level of AI-related knowledge necessary for integration of AI in
+their pedagogical work. It draws from the TPACK framework62 adding an
+aspect of AI ethics. The scale assesses teachers’ knowledge of four AII-
+based tools: Chatbots, intelligent tutoring systems, dashboards, and
+automated assessment systems arguing that those are the most prevalent
+AI-based technologies in K-12 education. A CFA showed scale’s five-
+factor structure comprising the original TPACK dimensions with ethics.
+There is high positive evidence for the scale’s structural validity and
+internal consistency, however, content validation on the target popula-
+tion was not performed. It is currently available in English.
+
+Kim & Lee’s artificial intelligence literacy scale for middle school
+students41. This scale targets secondary education students. The authors
+drew from an ad hoc expert group’s conceptualization of AI literacy
+revolving around AI’s societal impact, understanding of AI, AI execution
+plans, problem solving, data literacy, and ethics. The authors employed a
+CFA which resulted in identification of the scale’s six-factor structure.
+There is some limited positive evidence for the scale’s content validity and
+high evidence for the scale’s structural validity, internal consistency, and
+construct validity. So far, the scale is only available in Korean.
+
+npj Science of Learning |  (2024)9:50 5
+
+Table 3 | Scales’ interpretability indicators
+
+score distribution missing data floor & ceiling effects
+
+M SD % of % of missing total items with >15% responses with lowest items with >15% responses with highest
+missing items scores score (floor) score (ceiling)
+
+AI literacy test30 18.8 5.6 ? ? ? ?
+
+AILQ44 ? ? ? ? ? ?
+
+AILS33,37,38 ? ? ? ? ? ?
+
+AISES29 ? ? ? ? ? ?
+
+Chan & Zhou’s EVT based instrument (knwl. of gen. AI 20.1 3.3 ? ? ? ?
+subscale)41
+
+Hwang et al.’s instrument42 ? ? ? ? ? ?
+
+Intelligent TPACK45 3.4 ? ? ? ? ?
+
+Kim & Lee’s instrument43 ? ? ? ? ? ?
+
+MAILS39 4.7 2.6 0.7 0 1 item from AI ethics, 2 items from create AI, 2 items 1 item from AI emotion regulation
+from learning
+
+MAIRS-MC31,34 88.331 15.931 ? ? ? ?
+63.134
+
+Pinski & Belian’s instrument40 ? ? ? ? ? ?
+
+SNAIL32,35,36 3.732, 1.132, 0.332, 0.235 032, 035 14 items32, 12 items35 0 items32, 0 items35
+4.235 0.935
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+Table 4 | Scales’ feasibility indicators
+
+available language(s) completion time (in minutes)
+
+M SD
+AI literacy test [31a] German, English (not validated) ? ?
+
+AI-CI33 English ? ?
+
+AILQ35 English ? ?
+
+AILS36,46,47 English, Turkish ? ?
+
+AISES31 English ? ?
+
+Chan & Zhou’s EVT based instrument (knwl. of gen. AI subscale) [3a] English ? ?
+
+ChatGPT literacy scale38 English ? ?
+
+GSE-6AI30 Spanish, English (not validated) ? ?
+
+Hwang et al.’s instrument39 English ? ?
+
+Intelligent TPACK40 English ? ?
+
+Kim & Lee’s instrument41 Korean ? ?
+
+MAILS [4a] German, English (not validated) 16:05 5:46
+
+MAIRS-MC43,48 Turkish, Persian ? ?
+
+Pinski & Belian’s instrument44 English ? ?
+
+SAIL4ALL true/false format34 English 8:51 5:30
+
+SAIL4ALL Likert scale format34 English 9:38 5:52
+
+SNAIL45,49–51 English, German, Turkish 5:3945, 8:0149, 5:5251 2:1945, 1:5349, 2:2751
+
+MAILS—meta AI literacy scale42. MAILS is a general-population scale limited sample size, there is only limited positive evidence for the scale’s
+developed from Ng et al.’s18 conceptualization of AI literacy with four content and structural validity, and medium evidence for internal con-
+areas: know and understand AI, use and apply AI, evaluate and create sistency. It is currently available in English.
+AI, and AI Ethics. Additionally, it includes further psychological
+competencies related to the use of AI above the Ng et al.’s18 areas of AI SAIL4ALL—the scale of artificial intelligence literacy for all34. SAI-
+Literacy—self-efficacy and self-perceived competency. It is the most L4ALL is a general-population scale comprising four distinct subscales,
+extensive instruments out of the reviewed instruments. Resulting from which can be used independently. However, the individual subscales
+a confirmatory factor analysis (CFA), the four AI literacy areas were not cannot be aggregated to get an overall AI literacy score. The scale can
+found to be all part of a single AI literacy concept—creating AI was also be used in both true/false and Likert-scale format. The authors
+found to be a separate factor. The authors made the scale modular in a drew from Long & Magerko’s58 conceptualization of AI literacy.
+sense that each of the resulting factors can be measured independently Content validation on the target population was not performed. There
+of each other—AI literacy (18 items), create AI (4 items), AI self- is mixed evidence for the scale’s structural validity and internal con-
+efficacy (6 items), and AI self-competency (6 items). There is high sistency. On the one hand, a two-factor “What is AI?” subscale, a
+positive evidence for the scale’s structural validity, internal con- single-factor “Howdoes AIwork?”, and a single-factor “How shouldAI
+sistency, and construct validity, however, content validation on the be used?” show good structural validity and internal consistency in
+target population was not performed. It is currently available in Ger- both true/false and Likert scale format. On the other hand, “What can
+man and English, although English version has not yet been revali- AI do?” subscale shows poor structural validity and internal con-
+dated. There is evidence that the scale has good interpretability, sistency. There is an indication that the scale suffers from the ceiling
+although the scale shows some indication of floor effects for five items effect.
+and ceiling effect for one item. The scale is feasible for a quick assess-
+ment of AI literacy, with most participants completing the scale SNAIL—scale for the assessment of non-experts’ AI literacy45.
+within 20 min. SNAIL is a general-population scale developed from the authors’63
+
+extensive Delphi expert study’s conceptualization of AI literacy. The
+MAIRS-MS—medical artificial intelligence readiness scale for authors used an exploratory factor analysis to assess the scale’s factor
+medical students43. MAIRS-MS is aimed at medical students and the structure resulting in a three-factor TUCAPA model of AI literacy—
+authors developed it from conceptualization of AI readiness of both technical understanding, critical appraisal, and practical application. The
+professionals and medical students. Originally developed for Turkish scale has since been revalidated in Turkish language50 and in German
+medical students, the scale has since been revalidated in Persian language language and for the use of learning gains using retrospective-post-
+in Iran48, however, no direct cross-cultural validation has been per- assessment49, however, no direct cross-cultural validation has been per-
+formed. CFAs on two samples43,48 confirmed the scale’s four-factor formed. There is high positive evidence for the scale’s structural validity
+structure. There is some limited positive evidence for the scale’s content and internal consistency, and due to a small longitudinal sample size, only
+validity and high evidence for the scale’s structural validity, internal limited evidence for the scale’s reliability and responsiveness. Content
+consistency, and invariance by gender. validation on the target population was not performed in any of the four
+
+studies45,49–51, nor in the Delphi study63. There is an indication that the
+Pinski & Belian’s instrument44. This scale targets general population. scale suffers from the floor effect, with almost half of the items having
+The authors draw from their own conceptualization of AI literacy >15% responses with the lowest possible score. The scale is feasible for a
+grounded in their literature review. The authors employed a structural quick assessment of AI literacy, with most participants completing the
+equation model to come to the scale’s five-factor structure. Due to a scale within 10 min.
+
+npj Science of Learning |  (2024)9:50 6
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+Discussion MC43, and SNAIL45 have been validated specifically for medical students,
+This review identified 22 studies (re)validating 16 scales designed to assess which makes them the instruments of choice if medical students are to be
+AI literacy. Unfortunately, none of the scales showed positive evidence for assessed.
+all COSMINmeasurement properties and most studies suffered from poor When aiming for an assessment of secondary education students, AI-
+methodological rigour. Furthermore, the scales’ interpretability and feasi- CI33, AILQ35 andKim&Lee’s instrument41 all provided evidence for content
+bility also remain largely unknown due to most studies not reporting the validity, structural validity, and internal consistency, although AI-CI33 and
+necessary indicators, and, with an exception of Laupichler et al.45,49, not AILQ35 had higher level of evidence for content validity and provided evi-
+providing open data. By not providing public open data, the authors not dence for responsiveness. The decision between the two instrumentsmight,
+only prevent calculations of some of the relevant quality indicators but may to somedegree, be guidedby the languages theyare available in,withAI-CI33
+also contribute to the replicability crisis in science. Most studies did not and AILQ35 currently available only in English, and Kim & Lee’s
+report percentages of missing data and strategies they employed to address instrument41 only in Korean.
+missing data, which puts their credibility into question. When aiming for an assessment of teachers’ perceived readiness to
+
+Considering the overall limited evidence for the quality of the scales, I implement AI into their pedagogical practice, Intelligent TPACK40 in the
+will formulate recommendations drawing mainly from the COSMIN only instrument available now. It showed good evidence for structural
+priorities considering content validity the most important measurement validity and internal consistency, however, its content validity needs to be
+property, the scales’ potential for efficient revalidation, and the target checked on the teachers.
+populations. There are several general recommendations for future research. Cross-
+
+When aiming for an assessment of general population, AILS36 is the cultural validity, measurement error, and floor and ceiling effects of the
+scale with the most robust quality evidence. It showed at least some existing scales should be checked. If the authors of the scales made the raw
+evidence for content validity and reliability, while showing good evi- data open, it would solve many problems as, for example, multiple group
+dence for structural validity and internal consistency. Also, it has been factor analyses require rawdata for comparison.With a single performance-
+revalidated in another two studies46,47. Pinski & Belian’s instrument44 based scale available32 targeting higher education students, it might be
+also showed at least some evidence for content validity, but it has been beneficial todesignperformance-basedscales aimedatdifferentpopulations
+validated on a limited sample, requiring revalidation on a bigger sample as well. It would also be beneficial to cross-validate the results of the
+in the future. The following general population scales did not include performance-based and self-report scales. Finally, it will be necessary to
+target population in the content validation phase. SNAIL45 was con- review the state of AI literacy scales in the future and update the current
+structed on an elaborate Delphi study63, it has been revalidated in quality assessment.
+another three studies49–51 including one with comparative self- This review has some limitations. It was performed by a single author,
+assessment gains49, it is one of the few scales with evidence of relia- whichmight have caused somebias in the scales’ quality assessment, despite
+bility and responsiveness, and it demonstrated good structural validity the COSMIN quality criteria being straightforwardly and quantitatively
+and internal consistency, whichmakes it a promising instrument. In the stated in the COSMIN manuals. Then, some AI literacy scales might have
+future, it is important to check the scale’s content validity on general been missed if published in grey literature, since the search was limited to
+population and investigate the floor effect. MAILS42 is also a promising Scopus and arXiv. However, the chances of missing some relevant scales
+instrument, with good evidence for structural validity, internal con- were reduced by the reversed search in Scopus and Google Scholar.
+sistency, and construct validity. It is the only scale with evidence for
+minimal floor and ceiling effects. In the future, it is important to check Methods
+the scale’s content validity on general population. AISES31 also showed To address the objectives of this study, I employed a systematic review
+good evidence for structural validity and internal consistency, but as followed by a quality assessment ofAI literacy scales. I performed the review
+with the previous two instruments, it is important to check the scale’s in accordance with the updated PRISMA 2020 guidelines64. The study was
+content validity on general population. Lastly, most SAIL4ALL34 sub- preregistered at OSF at https://osf.io/tcjaz.
+scales showed good evidence for structural validity and internal con-
+sistency, however, the psychometric properties of “What can AI do?” Literature search
+subscale are questionable. SAIL4ALL is currently the only available I conducted the literature search on June 18, 2024, ensuring coverage of all
+performance-based scale targeting general population. literature available up to mid-2024. Initially, I conducted the search on
+
+When aiming for an assessment of higher education students, AI lit- January 1, 2024, as planned in the preregistration. However, due to the
+eracy test32 and ChatGPT literacy scale38 are the scales with the most robust dynamically evolving field, I decided to redo the search during the first
+quality evidence. Both showed at least some evidence for content validity round of peer review to include the most up-to-date sources. I searched for
+while showing good evidence for structural validity, internal consistency, literature in two databases—Scopus and arXiv. Scopus served as a primary
+and construct validity. AI literacy test32 is the only performance-based scale database for peer-reviewed articles with arXiv supplementing Scopus with
+available now targeting higher education students. MAIRS-MC43 also its coverage of pre-prints. I created search strings (Table 5) after an iterative
+showed at least some evidence for content validity while showing good process of finding and adding relevant terms and removing terms yielding
+evidence for structural validity and internal consistency. GSE-6AI30, Hwang irrelevant results65. I set no limits on publication date, publication type, or
+et al.’s instrument39, and Chan & Zhou’s EVT based instrument (knwl. of publication stage. In Scopus, I searched in titles, abstracts, and keywords; in
+gen. AI subscale)37 are also promising instruments with good evidence for arXiv, I searched in all fields. In Scopus, I limited the search to English
+structural validity and internal consistency, however, their content validity papers. Additionally, in conjunctionwith the database searches, I looked for
+needs to be checked on the higher-education students. GSE-6AI30, MAIRS- sources in reference lists of the included studies, as well as by a reversed
+
+Table 5 | Search strings
+
+database search string
+Scopus TITLE-ABS-KEY ((AI OR artificial*intelligence) AND (literacy OR skills OR knowledge) AND (scale OR test OR exam OR questionnaire OR survey)) AND
+
+(LIMIT-TO(LANGUAGE, "English"))
+
+arXiv (AI OR artificial*intelligence) AND (literacy OR skills OR knowledge) AND (scale OR test OR exam OR questionnaire OR survey)
+
+npj Science of Learning |  (2024)9:50 7
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+search byworks citing the included studies in Scopus andGoogle Scholar on assessed as indeterminate on some measurement property did not report
+June 20, 2024. a given metrics.
+
+Finally, I synthetized the evidence permeasurement property per scale.
+Inclusion criteria I rated the overall results against the criteria for good measurement prop-
+Studies met the inclusion criteria if they: (1) developed new or revalidated erties and used the Grading of Recommendations Assessment, Develop-
+existingAI literacy scale, (2) provided the full item list, (3) described how the ment, and Evaluation (GRADE) approach for systematic reviews of clinical
+items were formulated, (4) described the study participants, and (5) trials57 to come to a final scale-level quality rating. In case of the scales which
+described validation techniques used in the scale development. have been revalidated, I pooled the estimates from the individual studies
+
+with a random-effectmeta-analysis inR69 packagemetafor70 and gave rating
+Data extraction based on the pooled estimates. The individual methodological quality rat-
+I extracted the followingdata fromthe studies: name(s) of the author(s), date ings as well as the quality criteria ratings with the COSMIN thresholds are
+of the publication, scale type (self-report or performance-based), number available as Supplementary Data 1. Table 6 shows the interpretation of the
+and type of the items, language(s) that the scale is available in, target overall levels of evidence for the quality of the measurement properties.
+population, participant characteristics, factor extraction method, factor
+structure, and data related to the quality assessment procedure as described Content validity. Content validity refers to the degree to which the
+in theQuality assessment section. I emailed authors for informationmissing instrument measures the construct(s) it purports to measure71. COSMIN
+in the articles—often the age distributions of the participants—and, when considers content validity the most important measurement property of
+available, I alsousedpublisheddatasets to compute themissing information. an instrument as it should be ensured that the instrument is relevant,
+Most information on completion time, missing data, and floor and ceiling comprehensive, and comprehensible with respect to the construct of
+effects were calculated from the published datasets. interest and study population54. COSMIN requires that both experts and
+
+target population are involved in content validation for content validity
+Quality assessment to be considered adequate.
+First, I evaluated methodological quality of the individual studies by using
+the COnsensus‑based Standards for the selection of health Measurement Structural validity. Structural validity refers to the degree to which the
+INstruments (COSMIN)52–54 for the self-report scales, and additionally the instrument scores are an adequate reflection of the dimensionality of the
+COSMIN Risk of Bias tool to assess the quality of studies on reliability or construct to be measured. COSMIN requires that factor analyses or IRT/
+measurement error of outcome measurement instruments55 for the Rasch analyses are used to assess structural validity71.
+performance-based scales. While the COSMIN tool was originally devised
+for the medical field, it has since been used in both psychological66,67 and Internal consistency. Internal consistency refers to the degree to which
+educational research68. The psychometric qualities of self-reports are gen- the items are interrelated. COSMIN requires Cronbach’s alpha(s) to be
+erally consistent across these fields, making the COSMIN tool satisfactory calculated for each unidimensional scale or subscale71.
+for use in diverse research areas.
+
+Drawing from the COSMIN tool, I assessed the scales based on the Measurement invariance. Measurement invariance refers to the degree
+measurement properties of content validity, structural validity, internal to which the factor structure remains same for various subgroups—i.e.,
+consistency, cross-cultural validity, reliability, measurement error, gender, age, or level of education—and whether the items exhibit Dif-
+construct validity, and responsiveness. I did not evaluate the scales ferential Item Functioning (DIF). COSMIN requires multiple group
+based on the criterion validity as suggested in the COSMIN tool because factor analysis or DIF analysis to be used to assess measurement
+as of January 2024, there was no gold standard tool for measuring AI invariance71.
+literacy. I assessed each measurement property by a box containing
+several questions scored on the scale of very good, adequate, doubtful, Cross-cultural validity. Cross-cultural validity refers to the degree to
+and inadequate, according to the defined COSMIN criteria56. A system which the performance of the items on a translated or culturally adapted
+of worst score counts applied for each box. Additionally, I assessed the scale are an adequate reflection of the performance of the items of the
+scales based on the criteria of interpretability and feasibility—while not original version of the scale. COSMIN requires multiple group factor
+beingmeasurement properties, COSMIN recognizes them as important analysis or DIF analysis to be used to assess cross-cultural validity71.
+characteristics of the scales.
+
+Then, I applied the criteria for good measurement properties by Reliability. Reliability refers to the proportion of total variance in the
+using COSMIN quality criteria for the individual studies. The criteria measurement which is because of true differences among participants.
+assess themeasurement properties on a scale of sufficient, insufficient, and COSMIN requires reliability to be assessed by intra-class correlation
+indeterminate. Studies assessed as sufficient on some measurement coefficients or weighted Kappa and it requires multiple observations in
+property had to report a given metrics and the metrics had to be above a time71.
+quality threshold set by COSMIN. On the other hand, studies assessed as
+insufficient on somemeasurement property reported a given metrics, but Measurement error. Measurement error refers to the systematic and
+themetrics was under the quality threshold set byCOSMIN,while studies random error of participants’ scores which are not attributed to true
+
+Table 6 | Overall levels of evidence for the quality of the measurement properties
+
+quality of evidence rating description
+high ++++/−−−− consistent findings in multiple studies of at least adequate quality OR in one study of very good quality
+
+moderate +++/−−− consistent findings in multiple studies of at least doubtful quality OR in one study of adequate quality
+
+low ++/−− consistent findings in multiple studies of at least inadequate quality OR in one study of doubtful quality
+
+very low +/− finding only from one study of doubtful quality
+
+conflicting ± conflicting findings
+
+indeterminate ? only studies of poor methodological quality
+
+npj Science of Learning |  (2024)9:50 8
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+changes in the construct to be measured. COSMIN requires smallest 9. Verma, A., Lamsal, K. & Verma, P. An investigation of skill
+detectable change or limits of agreement to be measured to assess the requirements in artificial intelligence and machine learning job
+measurement error. As with reliability, it requires multiple observations advertisements. Ind. High. Educ. 36, 63–73 (2022).
+in time71. 10. Wilson, H. J., Dougherty, P. R. & Morini-Bianzino, N. The jobs that
+
+artificial intelligencewill create.MITSloanManag.Rev.58, 13–16 (2017).
+Construct validity. Construct validity refers to the degree to which the 11. Alekseeva, L. et al. Thedemand for AI skills in the labormarket.Labour
+scores are consistent with hypotheses based on the assumption that the Econ. 71, 102002 (2021).
+scale validly measures the intended construct. COSMIN requires a 12. Acemoglu, D. et al. Artificial intelligence and jobs: evidence from
+comparison to either another scale aiming tomeasure a similar construct online vacancies. J. Labor Econ. 40, S293–S340 (2022).
+or hypothesis testing among subgroups71. 13. Helmus, T. C. Artificial Intelligence, Deepfakes, and Disinformation: A
+
+Primer. https://doi.org/10.7249/PEA1043-1 (2022).
+Responsiveness. Responsiveness refers to the scale’s ability to detect 14. Khanjani, Z., Watson, G. & Janeja, V. P. Audio deepfakes: a survey.
+change over time in the construct to be measured. COSMIN allows Front. Big Data 5, 1001063 (2023).
+several ways to test scale’s responsiveness including hypothesis testing 15. Bray, S. D., Johnson, S. D. & Kleinberg, B. J. Testing human ability to
+before and after intervention, comparison between subgroups, compar- detect ‘deepfake’ images of human faces. Cybersecurity 9,
+ison with other outcome measurement instruments, or comparison to a tyad011 (2023).
+gold standard71. 16. Köbis, N. C., Doležalová, B. & Soraperra, I. Fooled twice: people
+
+cannot detect deepfakes but think they can. Iscience. https://doi.org/
+Interpretability. Interpretability refers to the degree to which one can 10.1016/j.isci.2021.103364 (2021).
+assign qualitative meaning to the scores or changes in scores71. I included 17. Yang, W. Artificial intelligence education for young children: why,
+an assessment of overall scores’ distributions, missing data, and floor and what, and how in curriculum design and implementation. Comput.
+ceiling effects. Overall scores’ distributions show if the scale results in Educ. 3, 100061 (2022).
+normally distributed data. Missing data should be minimized to ensure 18. Ng, D. T. K. et al. Conceptualizing AI literacy: an exploratory review.
+they did not affect the validation procedure. Finally, floor and ceiling Comput. Educ. 2, 100041 (2021).
+effects show whether the extreme items are missing in the lower or upper 19. Laupichler, M. C., Aster, A., Schirch, J. & Raupach, T. Artificial
+end of the scale, indicating limited content validity. Consequently, par- intelligence literacy in higher and adult education: a scoping literature
+ticipantswith the lowest or highest possible score cannot be distinguished review. Comput. Educ. 3, 100101 (2022).
+from each other, thus reliability is reduced. I considered floor and ceiling 20. Ng, D. T. K. et al. A review of AI teaching and learning from 2000 to
+effects to be present if more than 15% of respondents achieved the lowest 2020. Educ. Inf. Technol. 28, 8445–8501 (2023).
+or highest possible score, respectively72. 21. Su, J., Ng, D. T. K. & Chu, S. K. W. Artificial intelligence (AI) literacy in
+
+early childhoodeducation: thechallengesandopportunities.Comput.
+Feasibility. Feasibility refers to the ease of application of the scale in its Educ. 4, 100124 (2023).
+intended context of use, given constraints such as time or money73. I 22. Casal-Otero, L. et al. AI literacy in K-12: a systematic literature review.
+checked the languages in which the scales are available and the scales’ Int. J. STEM Educ. 10, 29 (2023).
+completion times. 23. Ng, D. T. K. et al. Artificial intelligence (AI) literacy education in
+
+secondary schools: a review. Interact. Learn. Environ.31, 1–21 (2023).
+Data availability 24. Steinbauer, G., Kandlhofer,M., Chklovski, T., Heintz, F. &Koenig, S. A
+All data generated or analysed during this study are included in this pub- differentiated discussion about AI education K-12. Künstl. Intell. 35,
+lished article. 131–137 (2021).
+
+25. Hwang, Y., Lee, J. H. & Shin, D.What is prompt literacy? An exploratory
+
+Received: 21 January 2024; Accepted: 26 July 2024; study of language learners’ development of new literacy skill using
+generative AI. https://doi.org/10.48550/arXiv.2311.05373 (2023).
+
+26. Mertala, P. & Fagerlund, J. Finnish 5th and 6th graders’
+misconceptions about artificial intelligence. Int. J. Child. https://doi.
+
+References org/10.1016/j.ijcci.2023.100630 (2024)
+1. Benzakour, A. et al. Artificial intelligence in spine surgery. Int. Orthop. 27. Yau, K. W. et al. Developing an AI literacy test for junior secondary
+
+47, 457–465 (2023). students: The first stage. In 2022 IEEE International Conference on
+2. Hamet,P. &Tremblay, J. Artificial intelligence inmedicine.Metabolism Teaching, Assessment and Learning for Engineering (TALE). https://
+
+69, S36–S40 (2017). doi.org/10.1109/TALE54877.2022.00018 (IEEE, 2022).
+3. Haug, C. J. & Drazen, J. M. Artificial intelligence andmachine learning 28. Li, X. et al. Understanding medical students’ perceptions of and
+
+in clinical medicine. N. Engl. J. Med. 388, 1201–1208 (2023). behavioral intentions toward learning artificial intelligence: a survey
+4. Kumar, Y. et al. Artificial intelligence in disease diagnosis: a study. Int. J. Environ. Res. Public Health 19, 8733 (2022).
+
+systematic literature review, synthesizing framework and future 29. Su, J. Development and validation of an artificial intelligence literacy
+research agenda. J. Ambient Intell. Humaniz. Comput. 14, assessment for kindergarten children. Educ. Inf. Technol. https://doi.
+8459–8486 (2023). org/10.1007/s10639-024-12611-4 (2024).
+
+5. Chiu, T. K. F. et al. Systematic literature review on opportunities, 30. Morales-García, W. C., Sairitupa-Sanchez, L. Z., Morales-García, S.
+challenges, and future research recommendations of artificial B. &Morales-García, M. Adaptation and psychometric properties of a
+intelligence in education. Comput. Educ. 4, 100118 (2022). brief version of the general self-efficacy scale for use with artificial
+
+6. Sourati, J. & Evans, J. A. Accelerating science with human-aware intelligence (GSE-6AI) among university students. Front. Educ. 9,
+artificial intelligence. Nat. Hum. Behav. 7, 1–15 (2023). 1293437 (2024).
+
+7. Xu, Y. et al. Artificial intelligence: a powerful paradigm for scientific 31. Wang, Y. Y. & Chuang, Y. W. Artificial intelligence self-efficacy: scale
+research. The Innovation https://doi.org/10.1016/j.xinn.2021. development and validation. Educ. Inf. Technol. 28, 1–24 (2023).
+100179 (2021). 32. Hornberger, M., Bewersdorff, A. & Nerdel, C. What do university
+
+8. Wang, H. et al. Scientific discovery in the age of artificial intelligence. students know about Artificial Intelligence? Development and
+Nature 620, 47–60 (2023). validation of an AI literacy test. Comput. Educ. 5, 100165 (2023).
+
+npj Science of Learning |  (2024)9:50 9
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+33. Zhang, H., Perry, A. & Lee, I. Developing and validating the artificial 53. Prinsen, C. A. et al. COSMIN guideline for systematic reviews of
+intelligence literacy concept inventory: an instrument to assess artificial patient-reported outcome measures. Qual. Life Res. 27,
+intelligence literacy among middle school students. Int. J. Artif. Intell. 1147–1157 (2018).
+Educ. https://doi.org/10.1007/s40593-024-00398-x (2024). 54. Terwee, C. B. et al. COSMIN methodology for evaluating the content
+
+34. Soto-Sanfiel, M. T., Angulo-Brunet, A. & Lutz, C. The scale of artificial validity of patient-reported outcome measures: a Delphi study. Qual.
+intelligence literacy for all (SAIL4ALL): a tool for assessing knowledge Life Res. 27, 1159–1170 (2018).
+onartificial intelligence in all adult populationsandsettings.Preprint at 55. Mokkink, L. B. et al. COSMIN Risk of Bias tool to assess the quality of
+arXiv https://osf.io/bvyku/ (2024). studies on reliability or measurement error of outcome measurement
+
+35. Ng, D. T. K. et al. Design and validation of theAI literacy questionnaire: instruments: a Delphi study. BMC Med. Res. Methodol. 20,
+the affective, behavioural, cognitive and ethical approach.Br. J. Educ. 1–13 (2020).
+Technol. 54, 1–23 (2023). 56. Terwee, C. B. et al. Rating the methodological quality in systematic
+
+36. Wang,B.,Rau,P. L.P.&Yuan,T.Measuringuser competence inusing reviews of studies on measurement properties: a scoring system for
+artificial intelligence: validity and reliability of artificial intelligence the COSMIN checklist. Qual. Life Res. 21, 651–657 (2012).
+literacy scale. Behav. Inf. Technol. 42, 1324–1337 (2022). 57. Schünemann, H., Brożek, J., Guyatt, G. & Oxman, A. (Eds.) GRADE
+
+37. Chan, C. K. Y. & Zhou, W. An expectancy value theory (EVT) based Handbook. https://gdt.gradepro.org/app/handbook/handbook.html
+instrument for measuring student perceptions of generative AI. Smart (2013).
+Learn. Environ. 10, 1–22 (2023). 58. Long, D. &Magerko, B.What is AI literacy?Competencies and design
+
+38. Lee,S.&Park,G.DevelopmentandvalidationofChatGPTliteracyscale. considerations. InProceedings of the 2020CHI conference on human
+Curr. Psychol. https://doi.org/10.1007/s12144-024-05723-0 (2024). factors in computing systems, 1–16. https://doi.org/10.1145/
+
+39. Hwang, H. S., Zhu, L. C. & Cui, Q. Development and validation of a 3313831.3376727 (2020).
+digital literacy scale in the artificial intelligence era for college 59. Ali, S., Payne, B. H., Williams, R., Park, H. W. & Breazeal, C.
+students. KSII Trans. Internet Inf. Syst. https://doi.org/10.3837/tiis. Constructionism, ethics, and creativity: Developing primary and
+2023.08.016 (2023). middle school artificial intelligence education. InternationalWorkshop
+
+40. Celik, I. Towards Intelligent-TPACK: an empirical study on teachers’ on Education in Artificial Intelligence K-12 (EDUAI’19) 1–4 (2019).
+professional knowledge to ethically integrate artificial intelligence (AI)- 60. Cassidy, S. & Eachus, P. Developing the computer user self-efficacy
+based tools into education. Comput. Hum. Behav. 138, (CUSE) scale: Investigating the relationship between computer self-
+107468 (2023). efficacy, gender and experience with computers. J. Educ. Comput.
+
+41. Kim, S. W. & Lee, Y. The artificial intelligence literacy scale for middle Res. 26, 133–153 (2002).
+school. Stud. J. Korea Soc. Comput. Inf. 27, 225–238 (2022). 61. Compeau,D. R. &Higgins,C. A.Computer self-efficacy: development
+
+42. Carolus, A. et al. MAILS—meta AI literacy scale: development and of a measure and initial test. MIS Q. 19, 189–211 (1995).
+testing of an AI literacy questionnaire based on well-founded 62. Mishra, P. & Koehler, M. J. Technological pedagogical content
+competency models and psychological change- and meta- knowledge: a framework for teacher knowledge. Teach. Coll. Rec.
+competencies. Comput. Hum. Behav. 1, 100014 (2023). 108, 1017–1054 (2006).
+
+43. Karaca, O., Çalışkan, S. A. & Demir, K. Medical artificial intelligence 63. Laupichler, M. C., Aster, A. & Raupach, T. Delphi study for the
+readiness scale for medical students (MAIRS-MS)–development, developmentandpreliminaryvalidationofan itemset for theassessment
+validity and reliability study. BMC Med. Educ. 21, 1–9 (2021). of non-experts’ AI literacy. Comput. Educ. 4, 100126 (2023).
+
+44. Pinski, M. & Benlian, A. AI Literacy-towards measuring human 64. Page, M. J. et al. The PRISMA 2020 statement: an updated guideline
+competency in artificial intelligence. In Hawaii International for reporting systematic reviews. Int. J. Surg. 88, 105906 (2021).
+Conference on System Sciences. https://hdl.handle.net/10125/ 65. Aromataris, E. & Riitano, D. Constructing a search strategy and
+102649 2023. searching for evidence. Am. J. Nurs. 114, 49–56 (2014).
+
+45. Laupichler, M. C. et al. Development of the “Scale for the assessment 66. Shoman, Y. et al. Psychometric properties of burnout measures: a
+of non-experts’ AI literacy”—ān exploratory factor analysis. Comput. systematic review. Epidemiol. Psychiatr. Sci. 30, e8 (2021).
+Hum. Behav. Rep. 12, 100338 (2023a). 67. Wittkowski, A., Vatter, S., Muhinyi, A., Garrett, C. & Henderson, M.
+
+46. Çelebi, C. et al. Artificial intelligence literacy: an adaptation study. Measuring bonding or attachment in the parent-infant relationship: a
+Instr. Technol. Lifelong Learn 4, 291–306 (2023). systematic review of parent-report assessment measures, their
+
+47. Polatgil, M. & Güler, A. Bilim. Nicel Araştırmalar Derg. 3, 99–114, psychometric properties and clinical utility. Clin. Psychol. Rev. 82,
+https://sobinarder.com/index.php/sbd/article/view/65. (2023). 101906 (2020).
+
+48. Moodi Ghalibaf, A. et al. Psychometric properties of the persian 68. Rahmatpour, P., Nia, H. S. & Peyrovi, H. Evaluation of psychometric
+version of the Medical Artificial Intelligence Readiness Scale for properties of scales measuring student academic satisfaction: a
+Medical Students (MAIRS-MS). BMC Med. Educ. 23, 577 systematic review. J. Educ. Health Promot. 8, 256 (2019).
+(2023). 69. R Core Team. R: A language and environment for statistical
+
+49. Laupichler, M. C., Aster, A., Perschewski, J. O. & Schleiss, J. computing. (R Foundation for Statistical Computing, Vienna, Austria,
+Evaluating AI courses: a valid and reliable instrument for assessing 2020). https://www.R-project.org/.
+artificial-intelligence learning through comparative self-assessment. 70. Viechtbauer, W. Conducting meta-analyses in R with the metafor
+Educ. Sci. 13, 978 (2023b). Package. J. Stat. Softw. 36, 1–48 (2010).
+
+50. Yilmaz, F. G. K. & Yilmaz, R. Yapay Zekâ Okuryazarlığı Ölçeğinin 71. Mokkink, L. B. et al. The COSMIN study reached international
+Türkçeye Uyarlanması. J. Inf. Commun. Technol. 5, consensus on taxonomy, terminology, and definitions of
+172–190 (2023). measurement properties for health-related patient-reported
+
+51. Laupichler,M.C., Aster, A.,Meyerheim,M., Raupach, T. &Mergen,M. outcomes. J. Clin. Epidemiol 63, 737–745 (2010).
+Medical students’ AI literacy and attitudes towards AI: a cross- 72. McHorney,C.A.&Tarlov,A.R. Individual-patientmonitoring inclinical
+sectional two-center study using pre-validated assessment practice: are available health status surveys adequate?Qual. Life Res.
+instruments. BMC Med. Educ. 24, 401 (2024). 4, 293–307 (1995).
+
+52. Mokkink, L. B. et al. COSMIN risk of bias checklist for systematic 73. Prinsen, C. A. et al. How to select outcomemeasurement instruments
+reviews of patient-reported outcome measures. Qual. Life Res. 27, for outcomes included in a “CoreOutcomeSet”–a practical guideline.
+1171–1179 (2018). Trials 17, 1–10 (2016).
+
+npj Science of Learning |  (2024)9:50 10
+
+
+
+https://doi.org/10.1038/s41539-024-00264-4 Article
+
+Acknowledgements Publisher’s note Springer Nature remains neutral with regard to
+This work was supported by the NPO ‘Systemic Risk Institute’ number jurisdictional claims in published maps and institutional affiliations.
+LX22NPO5101, funded by European Union—Next Generation EU (Ministry
+of Education, Youth and Sports, NPO: EXCELES). Open Access This article is licensed under a Creative Commons
+
+Attribution 4.0 International License, which permits use, sharing,
+Author contributions adaptation, distribution and reproduction in anymedium or format, as long
+T.L. conceived the review, performed the systematic search and scales’ as you give appropriate credit to the original author(s) and the source,
+assessments, and wrote and revised this study. provide a link to the Creative Commons licence, and indicate if changes
+
+were made. The images or other third party material in this article are
+Competing interests included in the article’s Creative Commons licence, unless indicated
+The author declares no competing interests. otherwise in a credit line to the material. If material is not included in the
+
+article’sCreativeCommons licence and your intended use is not permitted
+Additional information by statutory regulation or exceeds the permitted use, you will need to
+Supplementary information The online version contains obtain permission directly from the copyright holder. To view a copy of this
+supplementary material available at licence, visit http://creativecommons.org/licenses/by/4.0/.
+https://doi.org/10.1038/s41539-024-00264-4.
+
+© The Author(s) 2024
+Correspondence and requests for materials should be addressed to
+Tomáš. Lintner.
+
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+
+npj Science of Learning |  (2024)9:50 11

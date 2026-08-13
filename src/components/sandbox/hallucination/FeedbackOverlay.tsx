@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle, XCircle, AlertCircle, Trophy } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 
 interface Sentence {
   id: number;
@@ -32,7 +32,7 @@ export function FeedbackOverlay({
 }: FeedbackOverlayProps) {
   const getScoreColor = (s: number) => {
     if (s >= 75) return "text-green-500";
-    if (s >= 50) return "text-yellow-500";
+    if (s >= 50) return "text-amber-600 dark:text-yellow-400";
     return "text-red-500";
   };
 
@@ -59,7 +59,7 @@ export function FeedbackOverlay({
           {/* Header Skor */}
           <div className="text-center mb-8">
             <div className="w-16 h-16 rounded-2xl bg-accent-blue/10 flex items-center justify-center mx-auto mb-4">
-              <Trophy className="w-8 h-8 text-accent-blue" />
+              <Icon id="85613" className="w-8 h-8 bg-accent-blue" />
             </div>
             <h2 className="text-2xl font-bold font-heading text-text-strong mb-1">
               Hasil Audit
@@ -77,21 +77,21 @@ export function FeedbackOverlay({
             <div className="grid grid-cols-3 gap-3 mt-6">
               <div className="bg-green-500/10 rounded-xl p-3">
                 <div className="flex items-center justify-center gap-1 text-green-600 dark:text-green-400 mb-1">
-                  <CheckCircle className="w-4 h-4" />
+                  <Icon id="82766" className="w-4 h-4 bg-green-600" />
                   <span className="text-lg font-bold">{truePositives}</span>
                 </div>
                 <p className="text-xs text-text-muted">Benar Ditandai</p>
               </div>
               <div className="bg-red-500/10 rounded-xl p-3">
                 <div className="flex items-center justify-center gap-1 text-red-500 mb-1">
-                  <XCircle className="w-4 h-4" />
+                  <Icon id="82771" className="w-4 h-4 bg-red-500" />
                   <span className="text-lg font-bold">{falsePositives}</span>
                 </div>
                 <p className="text-xs text-text-muted">Salah Tandai</p>
               </div>
               <div className="bg-orange-500/10 rounded-xl p-3">
                 <div className="flex items-center justify-center gap-1 text-orange-500 mb-1">
-                  <AlertCircle className="w-4 h-4" />
+                  <Icon id="82783" className="w-4 h-4 bg-orange-500" />
                   <span className="text-lg font-bold">{missed}</span>
                 </div>
                 <p className="text-xs text-text-muted">Terlewat</p>
@@ -129,9 +129,9 @@ export function FeedbackOverlay({
                       }`}
                     >
                       <div className="flex items-start gap-2">
-                        {isTP && <CheckCircle className="w-4 h-4 text-green-500 shrink-0 mt-0.5" />}
-                        {isFP && <XCircle className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />}
-                        {isMissed && <AlertCircle className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />}
+                        {isTP && <Icon id="82766" className="w-4 h-4 bg-green-500 shrink-0 mt-0.5" />}
+                        {isFP && <Icon id="82771" className="w-4 h-4 bg-red-500 shrink-0 mt-0.5" />}
+                        {isMissed && <Icon id="82783" className="w-4 h-4 bg-orange-500 shrink-0 mt-0.5" />}
                         <div>
                           <p className="text-text-body mb-1 leading-relaxed italic">
                             &ldquo;{sentence.text}&rdquo;

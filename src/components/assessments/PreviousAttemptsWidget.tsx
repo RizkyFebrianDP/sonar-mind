@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { Icon } from '@/components/ui/Icon';
 import { motion } from 'framer-motion';
 
 const attempts = [
@@ -21,7 +21,8 @@ const attempts = [
 export function PreviousAttemptsWidget() {
   return (
     <div className="flex flex-col mb-6">
-      <h3 className="text-xl font-heading font-bold text-text-strong mb-4">Previous Attempts</h3>
+      <h3 className="text-xl font-heading font-bold text-text-strong mb-1">Previous Attempts</h3>
+      <p className="text-sm text-transparent select-none" aria-hidden="true">Spacer to align with left column</p>
       
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}
@@ -56,7 +57,7 @@ export function PreviousAttemptsWidget() {
                   className="text-xs font-bold text-accent-blue hover:text-accent-blue/80 transition-colors flex items-center"
                 >
                   View Results
-                  <ArrowRight className="w-3 h-3 ml-1" />
+                  <Icon id="85463" className="w-3 h-3 ml-1 bg-accent-blue" />
                 </Link>
               </div>
             </div>

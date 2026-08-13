@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
-import { Eye, EyeOff, Brain, AlertCircle } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -51,7 +51,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-accent-blue/10 mb-4">
-            <Brain className="w-7 h-7 text-accent-blue" />
+            <Icon id="101174" className="w-7 h-7 bg-accent-blue" />
           </div>
           <h1 className="text-2xl font-bold font-heading text-text-strong tracking-tight">
             SONAR MIND
@@ -111,9 +111,9 @@ export default function LoginPage() {
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-text-muted hover:text-text-strong transition-colors p-1"
                 >
                   {showPassword ? (
-                    <EyeOff className="w-4 h-4" />
+                    <Icon id="96151" className="w-4 h-4 bg-text-muted" />
                   ) : (
-                    <Eye className="w-4 h-4" />
+                    <Icon id="85028" className="w-4 h-4 bg-text-muted" />
                   )}
                 </button>
               </div>
@@ -126,7 +126,7 @@ export default function LoginPage() {
                 animate={{ opacity: 1, y: 0 }}
                 className="flex items-center gap-2 text-red-500 bg-red-500/8 border border-red-500/20 rounded-xl px-4 py-3"
               >
-                <AlertCircle className="w-4 h-4 shrink-0" />
+                <Icon id="82783" className="w-4 h-4 bg-red-500 shrink-0" />
                 <p className="text-sm">{error}</p>
               </motion.div>
             )}

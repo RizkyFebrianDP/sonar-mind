@@ -1,0 +1,1085 @@
+﻿Article
+
+From Digital Natives to AI Natives: Emerging Competencies and
+Media and Information Literacy in Higher Education
+Antonio Ponce Rojo 1 , Tomás Fontaines-Ruiz 2,3,* , Amelia Sánchez Bracho 4 and Liliana Cánquiz Rincón 5
+
+1 Centro Universitario de Los Altos, Universidad de Guadalajara, Guadalajara CP 44160, Mexico;
+antonio.ponce@cualtos.udg.mx
+
+2 Faculty of Research, Universidad Estatal de Milagro, Milagro CP 091708, Ecuador
+3 Faculty of Business Sciences, Accouting and Auditing Program, Universidad Técnica de Machala,
+
+Machala CP 070205, Ecuador
+4 Psychology Program, Universidad Estatal de Milagro, Milagro CP 091708, Colombia;
+
+asanchezb12@unemi.edu.ec
+5 Department of Humanities, Universidad de La Costa, Barranquilla CP 50366, Colombia; lcanquiz@cuc.edu.co
+* Correspondence: tfontaines@utmachala.edu.ec
+
+Abstract
+
+The arrival of artificial intelligence (AI) is transforming the informational and epistemic
+landscapes of higher education institutions. This study examines the skills that students
+believe they have developed through AI use and considers the media and information
+literacy (MIL) skills required for its ethical and critical application. A total of 3120 responses
+from students at two Latin American universities were analyzed using the ALCESTE
+method, supported by IRAMUTEQ software 0.7 alpha 2 2020. The analysis identified four
+competencies: assisted writing, enhanced self-management of learning, faster academic
+output, and methodological meta-reflection. The findings suggest that although students
+note improvements in performance, the educational value of these skills depends on
+critical engagement. Risks such as dependence, misinformation, and loss of agency were
+recognized. In response, four key MIL-AI competencies are proposed: critical discernment,
+
+Academic Editors: Javier Gil- academic integrity, cognitive independence, and qualitative judgment. The conclusion
+Quintana and Eduardo García
+Blázquez emphasizes that universities must actively serve as ethical laboratories for the responsible
+
+use of AI, fostering students who can navigate technology with awareness and judgment.
+Received: 4 August 2025
+Revised: 22 August 2025
+Accepted: 24 August 2025 Keywords: artificial intelligence; media and information literacy; higher education;
+Published: 30 August 2025 lexicometric analysis; emerging competencies
+Citation: Ponce Rojo, A.,
+Fontaines-Ruiz, T., Bracho, A. S., &
+Cánquiz Rincón, L. (2025). From
+Digital Natives to AI Natives: 1. Introduction
+Emerging Competencies and Media The rise of artificial intelligence (AI) is reshaping informational and knowledge ecosys-
+and Information Literacy in Higher
+
+tems with ontological, epistemic, communicational, and ethical impacts (McLuhan & Fiore,
+Education. Education Sciences, 15(9),
+1134. https://doi.org/10.3390/ 1967; Sanchez-Acedo et al., 2024). In a highly connected society, where people aged 16 to
+educsci15091134 24 spend an average of 7 h and 30 min online daily (Kemp, 2025), AI is often integrated into
+
+daily life without much scrutiny: it mimics agency and emotional responses, automates
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland. tasks, saves time, and boosts content creation, even developing discursive tools that can
+This article is an open access article establish credibility and authority among users (Natale, 2021). In a university context, this
+distributed under the terms and integration sparks fascination and creates ambiguous boundaries where the line between
+conditions of the Creative Commons functional yet artificial interactions and those that may undermine critical thinking and
+Attribution (CC BY) license independence becomes unclear (Umbrello & Natale, 2024). This study examined the skills
+(https://creativecommons.org/
+
+related to the use of artificial intelligence that students believe they have developed in
+licenses/by/4.0/).
+
+Educ. Sci. 2025, 15, 1134 https://doi.org/10.3390/educsci15091134
+
+
+
+Educ. Sci. 2025, 15, 1134 2 of 17
+
+their academic work. It also discusses the media and information literacies (MIL) needed
+to promote the ethical and responsible use of these tools in the classroom. The goal is to
+update MIL to include MIL-AI, helping prevent students from being harmed by failing
+to distinguish between reliable information and biased or fake content (Carli & Calvaresi,
+2023; Kerdvibulvech & Jiang, 2025). Moving toward AI-related media literacy is a civic skill
+(Hristovska, 2023) because training students to recognize and resist information manipula-
+tion supports education, lifelong learning, and democracy in algorithmic environments
+(Tiernan et al., 2023).
+
+2. From Media and Information Literacy (MIL) to MIL-IA for
+University Education
+
+Digital transformation is altering social interaction: we are shifting from individuals
+mainly consuming information to becoming producing-curating agents capable of shaping
+truths and influencing content that impacts decision-making. This transition necessitates
+updating Media and Information Literacy (MIL) (Tiernan et al., 2023) to identify informa-
+tional agencies that arise from the interaction between humans and algorithms (Braidotti,
+2019; Juelskjær & Schwennesen, 2012; Trejo-Quintana & Sayad, 2024). These agencies, com-
+bined with information overload, create conditions that foster hoaxes or fake news, echo
+chambers, cognitive biases, and other advanced strategies for deception or information
+predation (Begby, 2024; Gunn, 2021; Munroe, 2024), which diminish the ability to evaluate
+the reliability of the digital media (Rohman et al., 2025).
+
+Until 2022, according to Tiernan et al. (2023), AI appeared only tangentially in national
+frameworks such as the Canadian Digital Competence Framework (2019) and the Spanish
+Professional Framework for Teaching in the Digital Age (2019), mainly as a technological
+tool rather than as an epistemic infrastructure for education. DigiComp 2.2 (2022) connects
+it with digital evaluation and navigation, recognizing its influence on the creation, posi-
+tioning, and consumption of information; however, its approach remains neutral regarding
+models and does not delve into the specific practices required by generative systems (e.g.,
+hallucination control and verification of the provenance of generated content). Meanwhile,
+although the normative response is delayed, the presence of AI is quietly becoming nor-
+malized, shaping emotions, trust, and decisions (Natale, 2021; Umbrello & Natale, 2024).
+Based on this, digital literacy is called upon to promote critical thinking and responsible
+use of information (Ghodoosi et al., 2023; Van Audenhove et al., 2024), to break the bubble
+effect (Pariser, 2017), and to avoid socio-technological binaries (emancipatory technologies
+versus oppressive elites). It is imperative that we diversify with social change, emphasizing
+that there is no single perspective for understanding it or for evaluating the level of literacy
+a person can have in the 21st century (Špiranec et al., 2019).
+
+In line with the above, UNESCO (AI and Education: Guidance for Policy-Makers; UN-
+ESCO, 2021; Guidance for Generative AI in Education and Research; UNESCO, 2023, 2019)
+promotes advancing MIL toward MIL-AI, stressing algorithmic citizenship and cognitive
+self-defense. It emphasizes identifying AI presence in everyday information, combating
+filter bubbles, disinformation, fake news, and microsegmentation, which threaten epistemic
+agency (Coeckelbergh, 2023; Mochizuki et al., 2025). The goal is to develop a citizenry
+capable of co-designing solutions focused on the common good, repairing inequalities, and
+being vigilant about the potential erosion of social fabric by algorithmic infrastructures (Ah-
+mad et al., 2022; Cox, 2024; Marushchak et al., 2024; Sriprakash et al., 2025). In operational
+terms, this transition requires that MIL-AI enable, among others, the following capabilities:
+(i) Detecting the invisible presence of AI by monitoring technical clues such as real-time
+inferences and data contrasts, thereby fostering informed suspicion. (ii) Understanding
+the meaning of learning, reasoning, or perceiving that AI must avoid reducing the world
+
+
+
+Educ. Sci. 2025, 15, 1134 3 of 17
+
+to mere textual patterns. (iii) Evaluating cost-benefit and risk-mitigation relationships
+before delegating academic or institutional decisions to AI. (iv) Engaging in debates about
+AI control and its purposes to enhance critical thinking in civic education. (v) Gaining
+insight into how the AI black box functions to develop critical explanations of its responses.
+(vi) Promoting data sovereignty for those who generate data, not just those who use it.
+(vii) Leveraging the power of algorithms to address historical exclusions by recognizing dif-
+ferences and the humanity within education. (viii) Developing alternatives for coexistence
+with technology that go beyond solutions imposed by large corporations, which position
+technology as a disruptive commodity.
+
+A distinctive feature of the shift from classic MIL to MIL-AI is the move from critiquing
+messages to critiquing infrastructure. It is no longer just about analyzing media but about
+understanding, auditing, and transforming sociotechnical systems that extract, process,
+and decide based on personal and collective data (Couraceiro et al., 2025; Mochizuki
+et al., 2025; Sriprakash et al., 2025). This shift involves four key displacements: from
+content to system, from technical skills to law and civic responsibility, from instrumental
+to critical pedagogy, and from the isolated individual to the subject in relation. The
+urgency arises because AI infrastructures enable mass data collection and decision-making
+automation with public impact, so symbolic participation is replaced by technopolitical
+participation. Within this framework, the study does not challenge existing frameworks
+(Digicomp, MIL/UNESCO) but instead operationally redefines their descriptors, exploring
+how students claim to have their competencies when interacting with AI are practiced
+and verified. For example, this shift may involve moving the “search-filter-evaluate”
+triangle toward model-aware discernment (reducing hallucinations, verifying sources,
+triangulating, and dating claims (Ghodoosi et al., 2023; Stewart & Rodgers, 2025); viewing
+creation as orchestrated authorship (prompt interaction and justification, tool chaining,
+version control) (Bender, 2024); and incorporating cognitive autonomy (criteria for when
+not to use AI and thresholds for delegation that prevent overdependence on technology)
+(Grotlüschen et al., 2024).
+
+In short, given AI infrastructures that operate with opacity and limited accountabil-
+ity, and whose deployment is reshaping the public sphere by automating attention and
+decision-making, a critically aware innovation agenda is essential. This agenda must
+empower agencies capable of challenging and decolonizing the algorithmic knowledge
+produced in the Global North and its extractivist logics (Saliu, 2024), while promoting an
+epistemological democracy that aims to identify system tensions, open up its rationales,
+and create conditions for reformulating it from diverse perspectives.
+
+At the university level, this agenda requires changing curricula and governance: basic
+awareness is not enough; it is necessary to incorporate data epistemologies and algorith-
+mic auditing that encourage conscious interaction with systems, prevent inequalities, and
+enhance students’ ability to ethically question and interpret their actions with AI (Fridman
+et al., 2025; Kerdvibulvech & Jiang, 2025). In this way, competency frameworks would de-
+fine their role as teachable and auditable practices, aligned with the guidelines of DigComp
+2.2 and UNESCO for the critical and responsible use of digital technologies of AI, thereby
+strengthening the academic integrity of higher education.
+
+3. Research Methodology
+This study used a research approach based on lexicometric analysis employing the
+
+ALCESTE method (Lexical Analysis by Context of an Ensemble of Text Segments; Reinert,
+1990, 2000, 2003). Its level is interpretive and comprehensive because it examines the lexical
+behavior of the corpus to explore students’ discursive practices, revealing their repertoire
+of meanings, representations, and experiences with artificial intelligence.
+
+
+
+Educ. Sci. 2025, 15, 1134 4 of 17
+
+3.1. Units of Analysis
+An ad hoc corpus was created from the responses of 3120 university students from
+
+the University Center for Economic and Administrative Sciences at the University of
+Guadalajara, Mexico (2051), and the Faculty of Business Sciences at the Technical University
+of Machala, Ecuador (1069). A Google form was sent to their institutional email addresses
+with the following question: “As a student, what can you do to improve your knowledge of
+the text? Have you conducted things differently or better since you started using artificial
+intelligence tools?“ The participants did so voluntarily and provided informed consent.
+The questionnaire was available from 16 to 20 June 2025.
+
+3.2. Corpus Composition
+A corpus of short, open-ended responses (Gee, 2014; Patton, 2014) was created in
+
+Spanish with the following features: 3120 responses spread across 678 elementary context
+units (ECUs), with an average of 35.86 forms per ECU. The corpus included 2520 and
+24,317 occurrences (tokens). Hierarchical Top-Down Classification identified four lexical
+classes, with 64.45% of ECUs classified. Following Reinert (1990) and Lebart et al. (2010),
+the corpus’s compositional features allow the identification of dominant semantic fields
+and their vocabularies, differentiate discourses, define functional typologies of skills based
+on lexical co-occurrences, ensure the reliability of classified lexical segments, and support
+the link between quantitative analysis and qualitative interpretation.
+
+Regarding heterogeneity and analysis criteria, a single broad question was intention-
+ally used to maximize the ecological validity of the student repertoire and prevent framing
+that would steer responses toward predetermined categories. This broad approach natu-
+rally leads to lexical diversity; therefore, the analysis was conducted with homogeneous
+segmentation into SCUs (~40 words), lemmatization in Spanish, and conservative thresh-
+olds for selection (frequency ≥ 5; χ2 ≥ 6.63, df = 1), focusing on identifying dominant lexical
+fields. In this setup, 64.45% of the classified SCUs are considered an internal indicator of
+stability aligned with broad guidelines and are interpreted alongside characteristic forms
+and typical segments, ensuring clarity without limiting the diversity of reported practices.
+
+3.3. Corpus Analysis Using the ALCESTE Methodology
+The ALCESTE methodology focuses on identifying words that appear together in
+
+different parts of a corpus. Using these co-occurrences, the text segments are grouped
+into homogeneous lexical categories (Reinert, 1990). This process was carried out in six
+consecutive stages. (i) Corpus normalization: The entire text was automatically converted
+to lowercase, preserving Spanish diacritics. Punctuation and non-alphabetic characters
+were eliminated, and apostrophes and hyphens were replaced with spaces. Spaces were
+standardized, and the **** separator was used to delimit the responses. Exact duplicates
+and empty records were removed. (ii) Corpus segmentation was carried out using 40 words
+as the minimum unit to identify blocks of information with a reference context and thus
+uncover latent meanings. (iii) Lemmatization and categorization of forms to create consis-
+tent and stable classes. This process reduced words to their base form (Akhmetov et al.,
+2020; Rodriguez-Bazan et al., 2023) to help identify genuine semantic patterns (Uddin et al.,
+2022) without losing the contextual meaning of the words (Malik et al., 2024), leading
+to better identification of corpus divisions (Karousos et al., 2024). (iv) Estimation of the
+lexical co-occurrence matrix, which determines the presence and absence of words in each
+identified segment, by creating a large table that records the frequency of words and their
+closeness to each other. (v) Top-down hierarchical classification: During this process, the
+corpus is repeatedly broken down into segments or classes based on how closely the words
+are related. Each split maximizes the lexical difference between groups and promotes
+
+
+
+Educ. Sci. 2025, 15, 1134 5 of 17
+
+lexical cohesion within them. It is important to note that the match between the words
+and the class is determined by the chi-square value. (vi) Selection of lemmas to represent
+the class: the inclusion of characteristic lemmas was based on the 2 × 2 χ2 association test
+(presence/absence × in class/outside), with degrees of freedom = 1 and a single threshold
+for the entire study. We adopted α = 0.01 (cut-off point χ2 ≥ 6.63) and designated lemmas
+with χ2 ≥ 10.83 (α = 0.001) as strong associations. The differences in the magnitude of
+χ2 between classes are not due to different criteria but reflect the actual strength of each
+lemma’s association: the greater the concentration of a term within a class, the higher the χ2.
+Therefore, some classes show several lemmas with χ2 ≥ 10.83, while in others, the lemmas
+only surpass the inclusion threshold (χ2 ≥ 6.63). Notably, a minimal set of pedagogically
+relevant multiwords was retained. These actions enable each class to be interpreted as a
+specific semantic-pragmatic field. The application of this methodology was facilitated by
+the IRAMUTEQ software 0.7 alpha 2 2020 (Ratinaud & Marchand, 2012), an open-access
+program developed in the R environment using Python (Camargo & Justo, 2013).
+
+3.4. Detection of Typologies of Competencies
+Based on the classes identified in the stage or moment described above, a discursive
+
+analysis was conducted to identify recurring patterns of meaning and different ways of
+expressing students’ experiences with artificial intelligence. This process was carried out
+using positioning theory linked to discourse (Davies & Harré, 1990; Harré, 1991, 2015;
+Harré et al., 2009). Operationally, from the created classes, the subcorpora were identified
+and then studied to determine the following aspects: (i) The positions students take to-
+ward artificial intelligence. For this, the emotional tone (enthusiasm, distrust, curiosity),
+perception of usefulness (necessary, secondary, dispensable), and level of involvement
+(constant use, occasional use, rejection) were considered. (ii) The identities revealed in
+the discursive interaction between students and their representation of AI. The forms
+of self-presentation and evaluations expressed were also analyzed. (iii) How students
+constructed their experiences with AI. In this case, functional narration, operational justifi-
+cation, and comparison with other traditional methods were examined. (iv) An evaluation
+of the student experience based on emotions and perceptions of AI’s usefulness in their
+everyday life.
+
+3.5. Discursive Integration and Interpretation of Typologies
+This process was developed within each class identified through lexicometric analysis.
+
+The goal was to uncover the recurring and specific ways of describing, legitimizing, and
+valuing the use of AI as an extension of human capabilities, which, for this study, are
+considered to be typologies of competence expression.
+
+3.6. Relationship Between Competencies, Risks, and MIL-AI
+Building on the previously identified categories, the following process was used: first,
+
+all text segments that referenced negative effects of using AI were coded. To do this, the key
+terms considered included: I lose, I depend on, risk of, I am worried, I do not distinguish,
+could, impersonation, and others. Second, categorization was initiated based on the codes
+from the previous analysis stage. Third, a convergence relationship was established among
+the categories to identify emerging skills necessary for media and information literacy with
+AI. These skills were grouped to highlight their main themes. Each part of the corpus was
+analyzed separately by two researchers, resulting in a high agreement level, with a kappa
+index of 0.90.
+
+
+
+Educ. Sci. 2025, 15, 1134 6 of 17
+
+4. Results
+4.1. Perceived Competencies
+
+The lexicometric analysis revealed four clusters representing the competencies or
+superpowers students believe they possess. The first is cognitive-discursive and was
+called “AI-assisted writing.” Students experienced a shift in how they construct academic
+writing. They saw themselves as textual co-producers alongside AI, understanding that
+this technology enhances their ability to accelerate, refine, and classify discourse according
+to their interests and preferences.
+
+The overrepresentation of the terms “question” (χ2 = 43.15) and “information”
+(χ2 = 21.88) shows that the connection with AI is built around a questioning interaction
+focused on content management (see Table 1). The student formulates queries, gathers and
+restructures materials, and cycles back to the system for further refinement. In this process,
+AI is valued as a booster of communicative independence, providing levers of discursive
+adjustment: “access” (χ2 = 22.51), “manner” (χ2 = 17.38), and “professional” (χ2 = 16.14);
+these allow changes in tone, style, and structure based on the text’s communicative goal.
+This competence does not develop in linear stages but instead as a set of three modes of use
+that can occur simultaneously, depending on the task and context. Each mode is identified
+by its functional co-text (adjacent verbs and objects) and stable lexicometric anchors in
+typical segments. The modes that were identified are as follows:
+
+Table 1. Competence: AI-Assisted Writing.
+
+Lemma χ2 Standardized Error p
+Question 43.15 20 0.000
+
+Access 22.51 9 0.000
+Information 21.88 66 0.000
+Formulate 20.77 6 0.000
+
+Writing 19.36 24 0.000
+Way 17.38 43 0.000
+
+Synthesize 17.27 5 0.000
+Professional 16.14 6 0.000
+
+Fast 13.79 27 0.000
+
+(i) Dialogic exploration: manifested through iterative dialogue between students and
+AI. The student adopts a tone of active curiosity and an attitude of an intellectual explorer
+(“search, filter, synthesize”) to refine their questions. He assessed his experience with AI
+from a cognitive agility perspective. Through question-answer interactions, he seeks to
+improve the conceptual precision of his drafts. Regarding lexicometric anchoring, this
+pattern is supported by the terms: “question” (χ2 = 43.15) and “information” (χ2 = 21.88),
+with verbs of inquiry and conceptual refinement (formulate, contrast, synthesize), and
+markers of immediacy (rapidness). Evidence of this is observed in the following statements:
+I can get instant answers to specific questions...” (score 143.01) and “...I can search, filter,
+and synthesize information from multiple sources simultaneously; this allows me to answer
+complex questions...” (score 126.65).
+
+(ii) Strategic synthesis: The aim of this typology is to optimize information tactically.
+Using a practical and straightforward tone, students are guided toward cognitive efficiency.
+They view themselves as knowledge managers with the skills to reduce their efforts and
+boost productivity. The pattern is lexicometrically anchored in the overrepresentation
+of the words “rapid” (χ2 = 13.79), “synthesize” (χ2 = 17.27), “access” (χ2 = 22.51), and
+“manner” (χ2 = 17.38), which co-occur with elaboration operations (e.g., research, create,
+draft, structure, format). The functional co-text (rapid + synthesize + production verbs)
+
+
+
+Educ. Sci. 2025, 15, 1134 7 of 17
+
+describes textual transformation and product assembly rather than simple planning. The
+excerpts illustrate the transformative (not merely organizational) function: “AI allows us
+to adapt educational content to our specific needs; I can quickly conduct research, create
+papers, and write essays. . .” (score 131.70) and, “. . .it helps me quickly clarify doubts and
+structure my ideas in a single step. . .” (score 123.13).
+
+(iii) Executive Polish: This competency pertains to excellence and formality. The
+tone of its representation is confident and formal, with a critical stance that defines the
+identity of emerging experts. Here, the use of AI is visualized for a thorough review of
+writing processes, keeping human authorship at the forefront. The assessment is oriented
+toward raising the textual standards. The pattern is lexicometrically anchored in the terms
+“professional” (χ2 = 16.14) and in the logical polishing verbs “formulate” (χ2 = 20.77)
+and “synthesize” (χ2 = 17.27), which co-occur with fine-tuning actions (review, rewrite,
+paraphrase, adjust, and version). The extracts demonstrate this quality function: “. . .it
+helps me greatly improve the way I formulate sentences. . . my ability to retain information
+and learn has improved exponentially. . .” (score 123.13) and “. . .I can look up information
+more quickly and accurately, but I always maintain a critical filter. . .” (score 131.70).
+
+The second competency was autonomous and participatory learning management. In
+this context, the student is an active participant in their learning process: they organize
+resources, obtain explanatory scaffolding in real time, and reformulate content to better
+understand and retain it. The lexical core that supports it (see Table 2) shows the recognition
+of AI as an instant tutor capable of answering questions and clarifying uncertainties to
+navigate, step by step, through the understanding of the topic under study through the
+creation of contextualized explanations for each question posed. Another relevant feature
+of this competency is cognitive synthesis, which is the ability of AI to condense information
+into digestible formats, enabling students to reframe knowledge in clear frameworks
+that promote retention and a deep understanding of the subject. From a lexicometric
+perspective, the codification of learning management was possible because the lemmas
+were predominantly adjacent to study/organization verbs (understand, study, review,
+clarify, organize, schedule, prioritize) and not to product development operations (write,
+format, present, compile).
+
+Table 2. Competence: Autonomous and participatory learning management.
+
+Lemma χ2 Standardized Error p
+Explanation 48.28 24 0.000
+
+Organize 35.82 34 0.000
+Time 32.31 47 0.000
+
+Summary 29.26 16 0.000
+Study 53.04 38 0.000
+
+Doubts 13.56 24 0.000
+Resolve 14.8 21 0.000
+
+Personalized 20.33 9 0.000
+Efficient 22.63 28 0.000
+
+In terms of its materialization, this competency is embodied in three complementary
+modes of use: (i) Developing one’s own voice: the student re-expresses what they have
+learned in their own words to consolidate meanings, using AI as a scaffolding that facil-
+itates paraphrasing and adjusting their own style for cognitive, not delivery, purposes.
+Lexicometric anchoring occurs in the interaction of the terms: “explanations” (χ2 = 48.28)
++ “personalized” (χ2 = 20.33) with “summary” (χ2 = 29.22) and the evidence of what was
+said is observed in the following extracts: “. . .to be able to write it in my own words, I
+
+
+
+Educ. Sci. 2025, 15, 1134 8 of 17
+
+sometimes use artificial intelligence for school. . .” (31.90); “. . .to do extra work, I can write
+my work better and it helps me create more exercises for my self-study. . .” (25.79).
+
+(ii) Instant tutoring and uncertainty resolution: The student recognizes that AI guar-
+antees the immediate resolution of uncertainty by constructing contextual explanations
+that favor the understanding of the content. The dominant lexical support is made up
+of the following expressions: “doubts” (χ2 = 13.56) “solve” (χ2 = 14.80) “explanations”
+(χ2 = 48.28) + “personalized” (χ2 = 20.33) and the evidence of its operation is found in
+the following textual sample: “. . .as well as. . . I can quickly clear up doubts I have, make
+summaries of a topic. . .” (29.03); “with artificial intelligence I can study faster, understand
+the topics better and do work with greater clarity and organization” (28.73); (iii) Organiza-
+tion of information and time: the competence is expressed as planning and structuring: it
+focuses on the generation of summaries and conceptual maps that allow to assimilate and
+organize the information in a clear and efficient way. At this point, cognitive efficiency and
+mental clarity were assessed. The lexical support is concentrated in the terms: “summary”
+(χ2 = 29.22) + “organize” (χ2 = 35.82) + “time” (χ2 = 32.31) and the discursive evidence is in
+the following textual sample: “. . .make summaries of a topic that is going to be studied in
+class, conceptual maps. . .” (29.03) “. . .research is a necessary aid for the contribution of the
+study because doing reading exercises and critical analysis I can study faster. . .” (29.01).
+
+Continuing with the findings, in the third competence, a saturated lexical core (χ2) is
+observed that combines product names (presentations, projects, summaries), scaffolding
+markers (guide, serves, tool), and course tasks (homework, activities), which indicates a
+use oriented towards assembling and delivering academic artifacts with less friction and a
+better fit (Table 3). The overrepresentation of “guide” (χ2 = 17.08) and “serves” (χ2 = 31.11)
+profiles AI as a structuring agent that proposes logical sequences and interactive options
+for the presentation and personalized appropriation of content. Similarly, homework
+(χ2 = 17.08), doing (χ2 = 18.25), and presentations (χ2 = 37.28) show the delegation of
+routine activities (quoting, outlining, formatting) to achieve cognitive load relief, freeing up
+resources for creativity and critical deepening. To shape this competency, the co-occurrence
+of the lemmas, elaboration/delivery verbs (do, assemble, present, compile, cite, format),
+and product objects (slides, reports, summaries) was considered. With this competency, AI
+assumes itself as the orchestrator of academic workflow.
+
+Table 3. Competence: Facilitating AI-Assisted Scholarly Production.
+
+Lemma χ2 Standardized Error p
+Presentations 37.28 20 0.000
+
+Guide 17.08 8 0.000
+Serves 31.11 8 0.000
+
+Homework 17.08 8 0.000
+Summary 13.09 4 0.000
+
+Tool 15.74 17 0.000
+Projects 11.72 10 0.000
+
+Learning 12.03 11 0.000
+Activities 7.88 15 0.000
+
+Three clearly differentiated usage trends have been identified: (i) Production accelera-
+tion: in this usage, the student presents himself as an efficient manager of his deliverables;
+he shortens deadlines, increases productivity, and prioritizes action and cognitive economy.
+The pattern is supported by a lexical core saturated by “duties” (χ2 = 17.08) and “activities”
+(χ2 = 7.88), co-occurring with elaboration verbs (to do, to assemble, to present), which indi-
+cates unblocking routine tasks to move forward with less friction. The discursive evidence
+is clear: “. . .the way to write and elaborate paragraphs and texts in a better way. . . serves
+
+
+
+Educ. Sci. 2025, 15, 1134 9 of 17
+
+as a guide, lessening the burden of homework that can become saturated” (score 21.90).
+(ii) Guided structuring of the deliverable: here, the student acts as an assisted learner: they
+assemble their products following the scaffolding proposed by the AI to ensure internal
+coherence, sequencing, and formal completion. (iii) Alleviation of low-value cognitive load:
+Students delegate routine microtasks (summaries, reviews, formatting, citation verification)
+to the AI to free up attentional resources and focus them on activities with higher cognitive
+value (creativity and critical analysis). The pattern is supported by a lexical core satu-
+rated by “summary” (χ2 = 13.09) and “learning” (χ2 = 12.03), in co-occurrence with verbs
+of preparation/study (review, prepare, study) and with the functional marker “serves”
+(χ2 = 31.11), which shows its instrumental nature: Discursive evidence: “. . .it has been of
+great help to me in resolving doubts more clearly. . . it also helps me to review before a
+class” (score 21.01).
+
+The fourth and final competency is research meta-reflection, characterized by the adop-
+tion of AI as a mentor for methodologies aimed at resolving conflicts in task completion.
+The way in which the terms “instructions” (χ2 = 14.56) and “guide me” (χ2 = 14.56) are
+represented reveals how students use AI to learn to design methodological sequences rang-
+ing from defining the “topic” (χ2 = 16.75) to choosing “research” techniques (χ2 = 18.70),
+thereby enhancing metacognition of the research process itself (see Table 4). This compe-
+tency also promotes dynamic self-regulation, as students can evaluate and adjust their
+approaches in real time. Terms such as “analysis” (χ2 = 13.78) and “process” (χ2 = 14.56)
+show that knowledge production follows a design-execution-evaluation cycle in which each
+phase feeds into the next to reduce methodological biases and errors. As a notable feature,
+this competency is outlined when the vocabulary appears anchored to verbs of method-
+ological design and auditing (define, delimit, justify, select, evaluate, adjust, contrast) and
+procedural nouns (techniques, sample, instruments, criteria).
+
+Table 4. Competence: Research meta-reflection.
+
+Lemma χ2 Standardized Error p
+Use 23.84 22 0.000
+
+Time 20.92 15 0.000
+Quickly 20.92 15 0.000
+
+Help 20.89 10 0.000
+Power 19.90 8 0.000
+
+Capacity 19.41 6 0.000
+Research 18.70 35 0.000
+
+Topic 16.75 11 0.000
+Question 15.36 127 0.000
+Process 14.56 5 0.019
+
+Instructions 14.56 5 0.019
+Guide me 14.56 5 0.019
+Analyze 13.78 10 0.019
+
+This competency materializes in the following typologies: (i) Mastery of prompt
+formulation (assisted methodological design): students use AI as a metacognitive mentor to
+design effective commands and derive instruments and methodological sequences (define
+problem, delimit variables, choose techniques). This use expresses growing cognitive
+autonomy: students learn how to research and what to research in the process. (ii) 24/7
+uninterrupted consultation: AI enables permanent tutoring that sustains investigative
+continuity; when in doubt, the student consults, adjusts, and verifies procedural decisions
+in real time. This mode consolidates the self-regulation of the process (evaluating and
+correcting the methodological direction when necessary) and is linked to the lexicon
+
+
+
+Educ. Sci. 2025, 15, 1134 10 of 17
+
+of “process” (χ2 = 14.56) and “analysis” (χ2 = 13.78). In this sense, they consider that:
+“AI supports me, whenever I have any questions” (score = 15.77). (iii) Agile thematic
+exploration: AI can be used to quickly explore the thematic field, identify relevant avenues
+of inquiry, and define the object of study, thereby reducing the downtime between design
+and execution. This use is articulated with “theme” (χ2 = 16.759) and the vocabulary
+of process and analysis, which inscribes the search in a cycle of design, execution, and
+evaluation. Example: “I can research any topic quickly, which allows me to advance my
+project without interruptions.” (score 14.95).
+
+4.2. System of Relationships Between Competencies and IML Dimensions
+As stated in this study, the modern informational landscape, shaped by artificial
+
+intelligence, calls for a redefinition of the skills that define the subject’s epistemic agency
+(Braidotti, 2019; Kleinman & Barad, 2012; Barad, 2003). Given the rapid speed with which
+information is produced, distributed, and consumed, it is necessary to strengthen the
+critical capacity of subjects so that they can maintain their cognitive autonomy, be ethically
+responsible in their interaction with information, and question a technological system that
+responds without question, completes without understanding, and recommends without
+context. In this sense, four competencies are identified (critical discernment, academic
+integrity, cognitive autonomy, qualitative management) that are considered integrated
+configurations of knowledge, skills, dispositions, and performance criteria that allow the
+subject to sustain a reflective, situated, and responsible informational practice (Table 5).
+
+Delving deeper into the findings, critical discernment competency is presented as the
+ability to interrogate the origin, internal logic, and consequences generated by AI-mediated
+cognitive products. It empowers the subject to resist the opacity of generative systems by
+establishing a reflective and deliberate distance from the content to assess its legitimacy
+and potential biases. The competent user appeals to methodical doubt to demand expla-
+nations, deactivating the uncritical delegation of thought while distinguishing between
+collaboration and substitution and between expansion and distortion of its capabilities. The
+second competency identified was academic integrity, oriented toward recognizing hybrid
+attribution to separate human and algorithmic contributions in discursive production as
+an expression of intellectual and epistemic honesty. The vision of integrity identified goes
+beyond the classic approach to plagiarism by recognizing the potential impersonation of
+epistemic subjectivity experienced in interactions with AI. The novelty of this study lies
+in the work toward conscious authorship and the maintenance of ethical coherence in the
+production of knowledge.
+
+The third competency is cognitive autonomy, which is conceived as the subject’s ability
+to direct, regulate, and sustain their own thought processes in algorithmically mediated
+environments. It allows for the restoration of the subject’s decision-making centrality in
+the face of cognitive shortcuts, personalized recommendations, and invisible structures
+that guide the understanding of the world. In this sense, epistemological sovereignty is
+created that defends the right to think with others but not in place of oneself. Finally, the
+fourth competency identified was qualitative information management, which involves
+the ability to organize, assess, and reconfigure information, knowledge, and cognitive
+practices based on their relevance, depth, and meaning. Qualitative management has made
+data interpretative frameworks available to prevent the erosion of the formative meaning
+of knowledge.
+
+
+
+Educ. Sci. 2025, 15, 1134 11 of 17
+
+Table 5. System of relationships between competencies and MIL dimensions.
+
+Competences Risks Without MIL-AI MIL-IA Competencies Indicators
+Loss of own voice,
+
+AI-assisted writing sophisticated plagiarism, and Critical discernment Hybridization awareness: recognizing
+expressive dependence what each agent contributes.
+
+Evaluating the authenticity of
+Academic Integrity information to mitigate impersonation.
+
+Ethics of information transparency.
+Preservation of discursive identities.
+
+Autonomous and Fragmentation of attention, Augmented metacognition
+participatory learning illusion of learning, Critical discernment distinguishes between deep and
+management intolerance of uncertainty. shallow learning.
+
+Dependency assessment to recognize
+when too much is being delegated to
+
+Cognitive autonomy the AI.
+Preservation of capabilities by
+de-intermediating all skills.
+
+Qualitative management Critical Healing: Do not accept every
+AI response as an irrefutable truth.
+
+Facilitating AI-assisted Quantity over quality as the
+scholarly production norm, performance anxiety, Critical discernment Temporal discernment to recognize
+
+and devaluation of effort. when speed is the enemy of quality.
+
+Resisting productivity pressures.
+Cognitive autonomy Valuing the process: Recognizing the
+
+value of effort and cognitive struggle.
+
+Qualitative management Evaluating the depth of texts beyond
+their quantity.
+
+Investigative Availability bias, delegation of nderstanding algorithmic biases in
+metareflection judgment, loss of serendipity, Critical discernment U
+
+and loss of exhaustiveness. information search.
+
+Methodological validation through the
+Academic Integrity verification of the processes suggested
+
+by AI.
+
+Cognitive autonomy Lateral thinking to find what AI does
+not suggest
+
+Qualitative management Diversification of sources to avoid
+depending on AI syntheses
+
+As can be seen, the four identified competencies function as intertwined structures
+whose central effect is the conscious confrontation of predatory information through the
+critical interpretation of the informational environment to attack the illusion of veracity and
+the uncritical delegation of judgment (critical discernment); ethical and responsible pro-
+duction of knowledge while preserving authorship and productive transparency in hybrid
+environments (academic integrity); regulation and protection of thought in interaction with
+intelligent systems without falling into the logic of platforms (cognitive autonomy); and
+organization based on criteria based on the abundance of existing data (qualitative man-
+agement). From this perspective, citizenship education must integrate these competencies
+as structural cores. It is assumed that beyond adapting to this AI-mediated informational
+ecosystem, we must dare to redefine what it means to learn, produce, validate, and share
+knowledge in a space where humans are not the only producers of meaning but are the
+only ones who can assume an ethics of thought that justifies educational updating as a
+civilizing task.
+
+
+
+Educ. Sci. 2025, 15, 1134 12 of 17
+
+5. Discussion of the Results
+It has been shown that the identified competencies do not operate as watertight
+
+compartments, but rather as a functional framework that reconfigures what it means
+to be a student in informational ecologies influenced by AI. Academic agency ceases
+to be an exclusively individual attribute to become relational and situated: knowing,
+being, and acting are intertwined in practices where students no longer merely consume
+content but design, negotiate, and refine meanings with algorithmic support in a logic of
+human-machine co-determination. This shift is consistent with embodied and relational
+learning approaches (Juelskjær & Schwennesen, 2012) and the traits of Generation Z, which
+predominates in university classrooms today (Chan & Lee, 2023). Therefore, it is no
+coincidence that students recognize and value AI in their educational journeys because
+they perceive improvements in performance and results (Yusuf et al., 2024; Selim, 2024).
+The novelty lies not in adding labels but in showing how these practices are integrated into
+everyday experience to produce unprecedented academic autonomy and, at the same time,
+new vulnerabilities.
+
+In operational terms, writing, self-managing the study, and producing and designing
+research were co-involved. While writing with AI support, students clarify doubts, reorga-
+nize information and time, assemble deliverables with less friction, and audit their method
+decisions. First-person evidence (“I can search, filter, and synthesize information from
+multiple sources simultaneously,” score 126.65) captures extended cognition: part of the
+processing is conducted in networks of tools and corpora, and the subject reallocates effort
+to interpret and decide, configuring a distributed academic subjectivity (Kim et al., 2025).
+In this context, posthumanism was used as an analytical lens (not as the participants’ self-
+identity) to describe these distributed agencies and their pragmatic assemblages (Haraway,
+2022; Braidotti, 2016, 2017, 2019). In this context, student identity becomes performative
+and multiple: the same subject alternates roles (textual refiner, director of cognitive pro-
+cesses, time manager, epistemic navigator, cautious critic, problem solver) depending on
+the task and context, in line with the notions of performativity and multiplicity of identity
+(Butler, 2015; Kenny, 2019).
+
+However, the gain in fluidity entails tensions that must be precisely identified. In
+the field of writing, AI-assisted co-authorship democratizes expressiveness and raises
+rhetorical standards, but it also exposes the subject to the porosity between human thought
+and algorithmic assembly: there is a risk of navigating between multiple textual agencies
+with weakened theoretical understanding (Heil et al., 2025), displacing the work on one’s
+own voice, or enabling inappropriate shortcuts (Shata & Hartley, 2025; Krause et al.,
+2025). In the sphere of production and work organization, the acceleration of delivery
+reconfigures academic temporality; the mechanical is delegated to iterate ideas quickly,
+but the overabundance of information and permanent availability establish an attention
+economy that displaces the maturation of projects and transforms flexibility into attentional
+precariousness (Eriksen, 2001; Krause et al., 2025). The result is a plausible risk of more
+output with less knowledge (Heil et al., 2025) and technological codependency that is
+difficult for those who feel effective to recognize (Rosas-Meléndez et al., 2025). This is not
+about abandoning AI but rather conditioning its use with rules of integrity, verification,
+and explicit limits on delegation.
+
+It is precisely here that the contribution of this research critically engages with es-
+tablished frameworks such as DigComp and the MIL/UNESCO guidelines. The aim is
+not to contrast new categories with existing ones; rather, an operational re-specification
+is proposed for scenarios with generative models that shift the focus from what to how
+competence is exercised and verified. Thus, informational evaluation requires discern-
+ment with an awareness of the model: recognizing the probabilistic nature of outputs,
+
+
+
+Educ. Sci. 2025, 15, 1134 13 of 17
+
+detecting hallucinations, verifying provenance and dating, and externally triangulating
+before drawing conclusions. Content creation demands orchestrated authorship: itera-
+tive prompt design, toolchaining, version traceability, and a declaration of collaboration
+with AI to maintain discursive accountability. Learning to learn requires strengthening
+cognitive autonomy: non-delegation thresholds to protect core practices (e.g., problem
+posing, disciplinary argumentation) and documentation of delegation when it occurs, so
+that the learner can explain their decisions, why, and on what criteria. Finally, problem
+solving translates into methodological auditing: justifying choices, comparing them with
+disciplinary criteria, and reviewing procedural biases in the design-execution-evaluation
+cycles. With this re-specification, the frameworks cease to be agnostic lists and become
+teachable and auditable practices of media and information literacy for AI (MIL-AI) tailored
+to the uses we actually observe.
+
+This training framework aligns with recent proposals advocating for critically aware,
+ethical, and autonomous AI (Ndungu, 2024; Ranieri et al., 2024; Saliu, 2024; Ye & Mahizer,
+2025) and with the idea of augmented cognitive citizenship that articulates individual
+agency and public responsibility (Marushchak et al., 2024; Sriprakash et al., 2025). If AI
+expands access to 24/7 mentoring, facilitates reformulation with one’s own voice, and
+offers methodological guidance, it is up to institutions to institutionalize these practices so
+that capacity expansion is transformed into situated, accountable, and verifiable knowledge.
+This implies curricula capable of establishing usage criteria, non-delegation thresholds,
+traceability of collaboration, and standards of qualitative judgment that prevail over speed.
+In the absence of these conditions, AI tends to confuse access with understanding, speed
+with deep learning, and delegation with autonomy. Under these conditions, the univer-
+sity can act as an ethical laboratory where one learns to inhabit technology judiciously,
+decide when not to delegate, and sustain the authorship of one’s thinking in increasingly
+algorithmic informational ecologies.
+
+Therefore, the key is not to celebrate a supposed automatic emancipation or to de-
+nounce a homogeneous threat, but to accurately describe the intertwined behavior of
+competencies in educational interaction and translate it into pedagogical design. The data
+show students negotiating with AI: they use it to explore problems, organize information,
+assemble products, and justify decisions, but they also condition their recommendations
+and delimit areas of non-delegation. In this daily negotiation, the student’s role is redefined
+beyond what DigComp predicts, because competence ceases to be a label and becomes
+a verifiable practice regime: knowing what to do, how to do it with AI, when not to do
+it with AI, and how to be accountable for the process of learning. This is, ultimately, the
+argument we propose to the community: AI amplifies but does not replace. Where students
+have strong MIL-AI, the expansion of capabilities becomes deep learning, and where it is
+not, the same expansion results in empty efficiency or heteronomy disguised as autonomy.
+The pedagogical decision is no longer whether or not to incorporate AI, but rather how
+to train students to inhabit it with responsibility, integrity, and judgment, in line with the
+epistemological and ethical challenges of contemporary higher education.
+
+6. Conclusions
+This study demonstrated that students are developing new types of AI-supported
+
+academic interactions that, in their view, enhance performance and sense of control. These
+practices were grouped into four competencies: assisted authorship/writing, autonomous
+learning management, assisted academic production, and methodological meta-reflection.
+The formative value of these competencies lies not in their technical power but in how
+they are critically appropriated by the user. Consequently, the proposed MIL-AI approach
+(critical discernment, academic integrity, cognitive autonomy, and qualitative management)
+
+
+
+Educ. Sci. 2025, 15, 1134 14 of 17
+
+serves as a framework for transforming these practices into meaningful learning experiences
+rather than sophisticated forms of academic simulations.
+
+It is further argued that AI transforms both the present action and the future of the
+academic subject: a distributed subjectivity emerges in which decisions, mediations, and
+technologies co-determine intellectual work. In curricular terms, critical discernment must
+translate into verifiable results and evidence: detection of hallucinations, verification of the
+provenance and dating of outputs, and triangulation with independent sources. Its imple-
+mentation is straightforward: (i) controlled hallucination tests (designing prompts to force
+errors and documenting external verification); (ii) mandatory output sheets for each sub-
+mission (model/version, relevant parameters, date/time, sources cited, verification steps);
+and (iii) comparative resolution of the same problem with at least two human/primary
+sources and one AI output, explaining the convergences, conflict, and time lags. Academic
+integrity has become traceable: declaration of collaboration with AI (what was delegated,
+at what stage, and with what justification) and version control of the text and references.
+
+To avoid codependency and preserve core practices, cognitive autonomy requires
+explicit thresholds for non-use (e.g., problematization, disciplinary argumentation, reading
+primary sources), “no AI” tasks at key moments, and delegation contracts that document
+the reason, scope, and impact of algorithmic support. Finally, qualitative information
+management demands specific safeguards in AI-rich contexts: data chain of custody (origin,
+context, and date of each citation), assisted and audited coding (AI suggestions; the team
+compares with human coding, calculates agreement, and writes reflective memos about
+discrepancies), assisted but justified theoretical sampling (inclusion/exclusion criteria
+and potential biases), and triangulation maps that link citation → code → category →
+conclusion. These practices should be weighted in course rubrics (accuracy, traceability,
+conflict resolution, declaration of uncertainty) so that the assessment incentivizes the
+epistemic behavior we declare desirable.
+
+Based on the above, it is assumed that universities should not “domesticate” technol-
+ogy but rather teach students how to navigate it with discernment. When the four student
+competencies align with teachable and auditable MIL-AI practices, the expansion of ca-
+pabilities reported by students becomes situated, responsible, and verifiable knowledge.
+Without this grounding, the same expansion risks confusing access with understanding,
+speed with deep learning, and delegation with autonomy. Therefore, the institutional
+responsibility is to design curricula that make discernment, integrity, autonomy, and qual-
+itative management visible and enforceable, ensuring that AI serves as a tool for better
+thinking rather than a shortcut that diminishes training.
+
+Author Contributions: Conceptualization, A.P.R. and T.F.-R.; methodology, L.C.R. and A.S.B.; soft-
+ware, A.P.R. and T.F.-R.; validation, A.P.R. and T.F.-R.; formal analysis, A.P.R., T.F.-R., L.C.R. and
+A.S.B. investigation, A.P.R., T.F.-R., L.C.R. and A.S.B.; resources, A.P.R., T.F.-R., L.C.R. and A.S.B.; data
+curation, L.C.R. and A.S.B.; writing—original draft preparation, A.P.R. and T.F.-R.; writing—review
+and editing, A.P.R., T.F.-R., L.C.R. and A.S.B. All authors have read and agreed to the published
+version of the manuscript.
+
+Funding: This research received no external funding.
+
+Institutional Review Board Statement: The study was conducted in accordance with the Declaration
+of Helsinki, and approved by the Institutional Review Board of Universidad Técnica de Machala
+(approval date: 12 May 2025).
+
+Informed Consent Statement: Informed consent was obtained from all subjects involved in
+the study.
+
+Data Availability Statement: Data supporting the reported results are available on request from the
+corresponding author. The data are not publicly available due to privacy and ethical restrictions.
+
+
+
+Educ. Sci. 2025, 15, 1134 15 of 17
+
+Conflicts of Interest: The author declares no conflicts of interest.
+
+References
+Ahmad, T., Aliaga Lazarte, E. A., & Mirjalili, S. (2022). A systematic literature review on fake news in the COVID-19 pandemic: Can AI
+
+propose a solution? Applied Sciences, 12(24), 12727. [CrossRef]
+Akhmetov, I., Pak, A., Ualiyeva, I., & Gelbukh, A. (2020). Highly language-independent word lemmatization using a machine-learning
+
+classifier. Computación Y Sistemas, 24(3), 1353–1364. [CrossRef]
+Barad, K. (2003). Posthumanist performativity: Toward an understanding of how matter comes to matter. Signs, 28(3), 801–831.
+
+[CrossRef]
+Begby, E. (2024). From belief polarization to echo chambers: A rationalizing account. Episteme, 21(2), 519–539. [CrossRef]
+Bender, S. M. (2024). Awareness of artificial intelligence as an essential digital literacy: ChatGPT and gen-AI in the classroom. Changing
+
+English, 31(2), 161–174. [CrossRef]
+Braidotti, R. (2016). Posthuman critical theory. In Critical posthumanism and planetary futures (pp. 13–32). Springer India. [CrossRef]
+Braidotti, R. (2017). Four theses on posthuman feminism. Available online: https://dspace.library.uu.nl/bitstream/handle/1874/386623/
+
+361._Four_Theses_on_Posthuman_Feminism.pdf?sequence=1 (accessed on 29 June 2025).
+Braidotti, R. (2019). Posthuman knowledge. Polity Press.
+Butler, J. (2015). Performative agency. The Limits of Performativity.
+Camargo, B. V., & Justo, A. M. (2013). IRAMUTEQ: Um software gratuito para análise de dados textuais. Temas em Psicologia, 21(2),
+
+513–518. [CrossRef]
+Carli, R., & Calvaresi, D. (2023). Reinterpreting vulnerability to tackle deception in principles-based XAI for human-computer
+
+interaction. In Lecture notes in computer science (pp. 249–269). Springer Nature Switzerland. [CrossRef]
+Chan, C. K. Y., & Lee, K. K. W. (2023). The AI generation gap: Are Gen Z students more interested in adopting generative AI such as
+
+ChatGPT in teaching and learning than their Gen X and millennial generation teachers? Smart Learning Environments, 10(1), 1–23.
+[CrossRef]
+
+Coeckelbergh, M. (2023). Democracy, epistemic agency, and AI: Political epistemology in times of artificial intelligence. AI and Ethics,
+3(4), 1341–1350. [CrossRef] [PubMed]
+
+Couraceiro, P., Foà, C., & Pinto-Martinho, A. (2025). Challenges and needs in algorithmic literacy for journalists: Uncovering the reality
+of Portuguese newsrooms. Journalism Practice, 1–32. [CrossRef]
+
+Cox, A. (2024). Algorithmic literacy, AI literacy and responsible generative AI literacy. Journal of Web Librarianship, 18(3), 93–110.
+[CrossRef]
+
+Davies, B., & Harré, R. (1990). Positioning: The discursive production of selves. Journal for The Theory of Social Behaviour, 20, 43–63.
+[CrossRef]
+
+Eriksen, T. H. (2001). Tyranny of the moment: Fast and slow time in the information age. Available online: https://www.hyllanderiksen.net/
+s/Tyranny-of-the-moment.pdf (accessed on 29 June 2025).
+
+Fridman, M., Krøvel, R., & Palumbo, F. (2025). How (not to) run an AI project in investigative journalism. Journalism Practice, 19(6),
+1362–1379. [CrossRef]
+
+Gee, J. P. (2014). An introduction to discourse analysis: Theory and method (4th ed.). Routledge. [CrossRef]
+Ghodoosi, B., West, T., Li, Q., Torrisi-Steele, G., & Dey, S. (2023). A systematic literature review of data literacy education. Journal of
+
+Business & Finance Librarianship, 28(2), 112–127. [CrossRef]
+Grotlüschen, A., Dutz, G., & Skowranek, K. (2024). Writing with artificial intelligence? Ad-hoc-survey findings raise awareness for
+
+critical literacy at the International Literacy Day. International Journal of Lifelong Education, 43(4), 371–384. [CrossRef]
+Gunn, H. K. (2021). Filter bubbles, echo chambers, online communities. In The Routledge handbook of political epistemology (pp. 192–202).
+
+Routledge. [CrossRef]
+Haraway, D. J. (2022). A cyborg manifesto: An ironic dream of a common language for women in the integrated circuit. In The
+
+transgender studies reader remix. Routledge.
+Harré, R. (1991). The discursive production of Selves. Theory & Psychology, 1(1), 51–63. [CrossRef]
+Harré, R. (2015). Positioning theory. In The Wiley handbook of theoretical and philosophical psychology (pp. 263–276). John Wiley & Sons,
+
+Ltd. [CrossRef]
+Harré, R., Moghaddam, F. M., Cairnie, T. P., Rothbart, D., & Sabat, S. R. (2009). Recent advances in positioning theory. Theory &
+
+Psychology, 19(1), 5–31. [CrossRef]
+Heil, J., Heil, J., Ifenthaler, D., Ifenthaler, D., Cooper, M., Cooper, M., Conti, R., Penna, M. P., & Penna, M. P. (2025). Students’ perceived
+
+impact of GenAI tools on learning and assessment in higher education: The role of individual AI competence. Smart Learning
+Environments, 12(1), 37. [CrossRef]
+
+Hristovska, A. (2023). Fostering media literacy in the age of AI: Examining the impact on digital citizenship and ethical decision-making.
+KAIROS: Media and Communications Review, 2(2), 39–59. [CrossRef]
+
+
+
+Educ. Sci. 2025, 15, 1134 16 of 17
+
+Juelskjær, M., & Schwennesen, N. (2012). Intra-active entanglements—An interview with Karen Barad. Kvinder, Koen Og Forskning.
+[CrossRef]
+
+Karousos, N., Vorvilas, G., Pantazi, D., & Verykios, V. (2024). A hybrid text summarization technique of student open-ended responses
+to online educational surveys. Electronics, 13(18), 3722. [CrossRef]
+
+Kemp, S. (2025, February 5). Digital 2025: Global overview report. DataReportal–global digital insights. Available online: https://
+datareportal.com/reports/digital-2025-global-overview-report (accessed on 30 June 2025).
+
+Kenny, K. (2019). Judith butler and performativity. In Management, organizations and contemporary social theory (pp. 244–255). Routledge.
+[CrossRef]
+
+Kerdvibulvech, C., & Jiang, X. (2025). Generative AI in human-computer interaction: Enhancing user interaction, emotional recognition,
+and ethical considerations. In Lecture notes in computer science (pp. 62–71). Springer Nature Switzerland. [CrossRef]
+
+Kim, J., Yu, S., Detrick, R., & Li, N. (2025). Exploring students’ perspectives on Generative AI-assisted academic writing. Education and
+Information Technologies, 30(1), 1265–1300. [CrossRef]
+
+Kleinman, A., & Barad, K. (2012). Intra-actions. Mousse Magazine, 34(13), 76–81.
+Krause, S., Panchal, B. H., & Ubhe, N. (2025). Evolution of learning: Assessing the transformative impact of Generative AI on higher
+
+education. Frontiers of Digital Education, 2(2), 1–15. [CrossRef]
+Lebart, L., Salem, A., & Berry, L. (2010). Exploring textual data. Springer. [CrossRef]
+Malik, S. Z., Iqbal, K., Sharif, M., Shah, Y. A., Khalil, A., Irfan, M. A., & Rosak-Szyrocka, J. (2024). Attention-aware with stacked
+
+embedding for sentiment analysis of student feedback through deep learning techniques. PeerJ Computer Science, 10, e2283.
+[CrossRef]
+
+Marushchak, A., Petrov, S., & Khoperiya, A. (2024). Countering AI-powered disinformation through national regulation: Learning
+from the case of Ukraine. Frontiers in Artificial Intelligence, 7, 1474034. [CrossRef] [PubMed]
+
+McLuhan, M., & Fiore, Q. (1967). The medium is the massage: An inventory of effects. Bantam Books.
+Mochizuki, Y., Bruillard, E., & Bryan, A. (2025). The ethics of AI or techno-solutionism? UNESCO’s policy guidance on AI in education.
+
+British Journal of Sociology of Education, 1–22. [CrossRef]
+Munroe, W. (2024). Echo chambers, polarization, and “Post-truth”: In search of a connection. Philosophical Psychology, 37(8), 2647–2678.
+
+[CrossRef]
+Natale, S. (2021). Deceitful media: Artificial intelligence and social life after the turing test. Available online: https://iris.unito.it/bitstream/
+
+2318/1768312/2/Natale_Introduction_Author%20draft.pdf (accessed on 29 June 2025).
+Ndungu, M. W. (2024). Integrating basic artificial intelligence literacy into media and information literacy programs in higher education:
+
+A framework for librarians and educators. Journal of Information Literacy, 18(2), 122–139. [CrossRef]
+Pariser, E. (2017). El filtro burbuja: Cómo la web decide lo que leemos y lo que pensamos. Available online: https://www.elboomeran.com/
+
+upload/ficheros/obras/documentofiltro.pdf (accessed on 29 June 2025).
+Patton, M. Q. (2014). Qualitative research & evaluation methods: Integrating theory and practice. SAGE.
+Ranieri, M., Cuomo, S., & Biagini, G. (2024). Co-designing media education strategies: A workshop on AI and information literacy. Available
+
+online: https://flore.unifi.it/handle/2158/1428972 (accessed on 29 June 2025).
+Ratinaud, P., & Marchand, P. (2012). Application de la méthode ALCESTE à de “gros” corpus et stabilité des “mondes lexicaux”: Analyse du
+
+“CableGate” avec IRaMuTeQ. 11èmes Journées internationales d’Analyse statistique des Données Textuelles, 2012, Liège, Belgium. 835–844.
+Available online: https://hal.science/hal-03695856 (accessed on 6 July 2025).
+
+Reinert, M. (1990). Alceste une méthodologie d’analyse des données textuelles et une application: Aurelia De Gerard De Nerval.
+Bulletin de Methodologie Sociologique: BMS, 26(1), 24–54. [CrossRef]
+
+Reinert, M. (2000). La tresse du sens et la méthode «Alceste». Application aux «Rêveries du promeneur solitaire». Jurnal Agrosains Dan Teknologi.
+Available online: https://scholar.archive.org/work/jqyswcorqjfalld7tharhdr76e/access/wayback/http://lexicometrica.univ
+-paris3.fr/jadt/jadt2000/pdf/31/31.pdf (accessed on 6 July 2025).
+
+Reinert, M. (2003). Le rôle de la répétition dans la représentation du sens et son approche statistique par la mÉthode ALCESTE.
+Semiotica, 2003(147), 389–420. [CrossRef]
+
+Rodriguez-Bazan, H., Sidorov, G., & Escamilla-Ambrosio, P. J. (2023). Android ransomware analysis using convolutional neural
+network and fuzzy hashing features. IEEE Access: Practical Innovations, Open Solutions, 11, 121724–121738. [CrossRef]
+
+Rohman, D. F. Y., Kumar, D. R., Ganeshan, D. S., Kumar, D. D., Veena, D., & G, D. V. K. (2025). The influence of artificial intelligence
+on information integrity: A media literacy approach for young people. International Journal of Environmental Sciences, 11(6s),
+1022–1034. [CrossRef]
+
+Rosas-Meléndez, S. A., Chans, G. M., López-Velázquez, P. M., Álvarez-Siordia, F. M., & Camacho-Zuñiga, C. (2025). TeacherTec: The
+potentials and limitations of AI in educational chatbots from Mexican undergraduates’ perspective. In Lecture notes on data
+engineering and communications technologies (pp. 191–206). Springer Nature Singapore. [CrossRef]
+
+Saliu, H. (2024). Navigating media literacy in the AI era: Analyzing gaps in two classic media literacy books. Journal of Applied Learning
+& Teaching (JALT), 7(2), 1–12.
+
+
+
+Educ. Sci. 2025, 15, 1134 17 of 17
+
+Sanchez-Acedo, A., Carbonell-Alcocer, A., Gertrudix, M., & Rubio-Tamayo, J. L. (2024). The challenges of media and information
+literacy in the artificial intelligence ecology: Deepfakes and misinformation. Available online: https://burjcdigital.urjc.es/items/
+a6a758f9-06cd-49e0-8012-ed2ad463eb74 (accessed on 6 July 2025).
+
+Selim, A. S. M. (2024). The transformative impact of AI-powered tools on academic writing: Perspectives of EFL university students.
+International Journal of English Linguistics, 14(1), 14. [CrossRef]
+
+Shata, A., & Hartley, K. (2025). Artificial intelligence and communication technologies in academia: Faculty perceptions and the
+adoption of generative AI. International Journal of Educational Technology in Higher Education, 22(1), 14. [CrossRef]
+
+Sriprakash, A., Williamson, B., Facer, K., Pykett, J., & Valladares Celis, C. (2025). Sociodigital futures of education: Reparations,
+sovereignty, care, and democratisation. Oxford Review of Education, 51(4), 561–578. [CrossRef]
+
+Stewart, O. G., & Rodgers, D. J. (2025). A critical AI media literacy framework: Understanding layered bias and empowerment in
+artificial intelligence. Learning, Media and Technology. advance online publication. [CrossRef]
+
+Špiranec, S., Kos, D., & George, M. (2019). Searching for critical dimensions in data literacy. Available online: https://informationr.net/ir/
+24-4/colis/colis1922.html (accessed on 6 July 2025).
+
+Tiernan, P., Costello, E., Donlon, E., Parysz, M., & Scriney, M. (2023). Information and media literacy in the age of AI: Options for the
+future. Education Sciences, 13(9), 906. [CrossRef]
+
+Trejo-Quintana, J., & Sayad, A. (2024). The pillars of media and information literacy in times of artificial intelligence. Journal of Latin
+American Communication Research, 12(2), 34–42. [CrossRef]
+
+Uddin, M. N., Hafiz, M. F. B., Hossain, S., & Islam, S. M. M. (2022). Drug sentiment analysis using machine learning classifiers.
+International Journal of Advanced Computer Science and Applications: IJACSA, 13(1), 92–100. [CrossRef]
+
+Umbrello, S., & Natale, S. (2024). Reframing deception for human-centered AI. International Journal of Social Robotics, 16(11–12),
+2223–2241. [CrossRef]
+
+UNESCO. (2019). Beijing consensus on artificial intelligence and education. Available online: https://unesdoc.unesco.org/ark:/48223/
+pf0000368303 (accessed on 6 July 2025).
+
+UNESCO. (2021). AI and education: Guidance for policy-makers. Available online: https://unesdoc.unesco.org/ark:/48223/pf0000376709
+(accessed on 6 July 2025).
+
+UNESCO. (2023). Guidance for generative AI in education and research. Available online: https://unesdoc.unesco.org/ark:/48223/
+pf0000386693 (accessed on 6 July 2025).
+
+Van Audenhove, L., Vermeire, L., Van den Broeck, W., & Demeulenaere, A. (2024). Data literacy in the new EU DigComp 2.2 framework:
+How DigComp defines competences on artificial intelligence, Internet of Things and data. Information and Learning Sciences,
+125(5–6), 406–436. [CrossRef]
+
+Ye, Y., & Mahizer, H. (2025). Lesson learnt and prospects of media and information literacy education in universities: An integrative
+review. International Journal of Media and Information Literacy, 10(1), 107–120. [CrossRef]
+
+Yusuf, A., Pervin, N., & Román-González, M. (2024). Generative AI and the future of higher education: A threat to academic integrity
+or reformation? Evidence from multicultural perspectives. International Journal of Educational Technology in Higher Education, 21(1),
+1–29. [CrossRef]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

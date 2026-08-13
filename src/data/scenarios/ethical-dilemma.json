@@ -47,5 +47,61 @@
     "correctCategory": "ethical",
     "explanation": "Ini adalah salah satu cara paling powerful untuk belajar dengan AI. Dengan aktif berdebat dan mempertanyakan, kamu melatih pemikiran kritis dan membangun pemahaman yang mendalam. AI bertindak sebagai tutor personal yang sabar, bukan sebagai penyedia jawaban instan.",
     "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 8,
+    "situation": "Ada PR Matematika 10 soal yang harus dikumpulkan besok pagi. Kamu terlalu capek setelah latihan basket. Kamu memfoto semua soal, minta AI menyelesaikannya, lalu menyalin semua jawaban ke buku tugasmu.",
+    "correctCategory": "offloading",
+    "explanation": "Meskipun alasannya bisa dipahami (capek), ini adalah offloading murni. Tujuan PR Matematika adalah melatih kemampuan berpikir logis dan problem-solving kamu. Ketika AI yang 'berlatih', bukan kamu — kompetensimu tidak berkembang, dan kamu juga berbohong pada guru bahwa itu pekerjaanmu sendiri.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 9,
+    "situation": "Kamu mengerjakan soal Matematika yang susah dan sudah mencoba selama 30 menit tapi masih buntu. Kamu meminta AI menunjukkan satu langkah pertama saja sebagai petunjuk, lalu melanjutkan penyelesaian sendiri.",
+    "correctCategory": "ethical",
+    "explanation": "Meminta petunjuk satu langkah pertama adalah strategi belajar yang cerdas. Guru pun sering memberikan 'hint' seperti ini. Kamu masih harus berpikir dan menyelesaikan sisa soal sendiri, sehingga proses kognitif dan pembelajaran tetap terjadi.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 10,
+    "situation": "Ujian Bahasa Indonesia besok menguji kemampuan menulis cerpen. Malam sebelumnya, kamu latihan dengan meminta AI membuat 3 cerpen dari berbagai genre, lalu kamu pelajari teknik narasinya untuk kamu terapkan saat ujian.",
+    "correctCategory": "grey",
+    "explanation": "Ini adalah kasus abu-abu yang menarik. Secara teknis ini etis karena kamu mempelajari teknik, bukan menyalin karya. Namun ada risiko: jika hasilnya terlalu bergantung pada pola yang kamu lihat dari AI, kemampuan kreatif orisinalmu mungkin tidak terlatih secara optimal. Belajar dari AI boleh, tapi pastikan kamu juga berlatih menulis tanpa bantuan AI agar kemampuan aslimu tetap terasah.",
+    "pillarImpact": { "ethical": 0, "cognitive": 0 }
+  },
+  {
+    "id": 11,
+    "situation": "Kamu diminta membuat ringkasan 5 bab buku pelajaran untuk ujian. Kamu membaca semua bab, membuat catatan sendiri, lalu meminta AI membantu merapikan dan mengorganisir catatan-catatanmu menjadi format yang lebih mudah dibaca.",
+    "correctCategory": "ethical",
+    "explanation": "Proses kognitif yang penting — membaca dan memahami — sudah kamu lakukan sendiri. AI hanya membantu pada tahap presentasi/formatting, bukan pada tahap pemahaman. Ini setara dengan meminta teman yang rapi membantu menyusun catatanmu.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 12,
+    "situation": "Gurumu memberikan soal esai 'Apa pendapatmu tentang dampak media sosial pada kesehatan mental remaja?'. Kamu langsung memasukkan pertanyaan itu ke AI dan meng-copy paste jawabannya word-for-word ke lembar jawabanmu.",
+    "correctCategory": "offloading",
+    "explanation": "Soal ini secara eksplisit bertanya 'pendapatmu' — sebuah undangan untuk berpikir kritis dan mengekspresikan perspektif pribadi berdasarkan pengalamanmu. Dengan menyerahkan sepenuhnya ke AI, kamu tidak hanya melakukan offloading kognitif, tapi juga menipu guru tentang siapa yang sebenarnya menjawab pertanyaan tersebut.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 13,
+    "situation": "Kamu sedang riset untuk makalah tentang perubahan iklim. Kamu menggunakan AI untuk mendapatkan daftar sumber-sumber ilmiah yang relevan, lalu kamu sendiri yang membaca, menganalisis, dan mensintesis argumen dari sumber-sumber tersebut.",
+    "correctCategory": "ethical",
+    "explanation": "Menggunakan AI sebagai 'research assistant' untuk menemukan sumber adalah efisien dan etis — mirip seperti menggunakan Google Scholar. Pekerjaan intelektual yang sesungguhnya (membaca, menganalisis, mensintesis) tetap kamu lakukan sendiri, sehingga pemahaman dan kemampuan analitismu tetap berkembang.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 14,
+    "situation": "Kamu mendapat tugas kelompok membuat video presentasi. Anggota kelompok membagi tugas, dan bagianmu adalah membuat narasi/script. Kamu meminta AI membuat script-nya, lalu mengirimkan ke anggota lain tanpa memberitahu bahwa itu buatan AI.",
+    "correctCategory": "offloading",
+    "explanation": "Ada dua masalah di sini: offloading kognitif (AI yang mengerjakan bagianmu) dan ketidakjujuran terhadap anggota kelompok. Anggota lain bekerja keras untuk bagian mereka sambil percaya kamu melakukan hal yang sama. Ini adalah pelanggaran kepercayaan dan integritas kerja tim, bukan hanya masalah akademik.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 15,
+    "situation": "Kamu memiliki dua opsi untuk belajar sebelum ulangan: belajar sendiri dari buku selama 2 jam, atau berdialog dengan AI selama 1 jam untuk memahami konsep, lalu berlatih soal sendiri selama 1 jam. Kamu memilih opsi kedua.",
+    "correctCategory": "grey",
+    "explanation": "Ini adalah area abu-abu yang bergantung pada kualitas interaksinya. Jika dialog dengan AI berupa tanya-jawab aktif dan kritis yang membangun pemahaman mendalam, ini bisa sangat efektif. Namun jika 'dialog' berarti hanya membaca jawaban AI secara pasif, manfaatnya berkurang. Kuncinya adalah apakah kamu aktif berpikir selama proses tersebut — bukan seberapa cepat kamu menyelesaikannya.",
+    "pillarImpact": { "ethical": 0, "cognitive": 0 }
   }
 ]

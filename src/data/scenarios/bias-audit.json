@@ -1,77 +1,77 @@
 {
-  "title": "Audit Sistem AI: Rekrutmen Insinyur Perangkat Lunak",
-  "context": "Sistem AI rekrutmen sebuah perusahaan teknologi telah menghasilkan daftar peringkat kandidat untuk posisi Software Engineer. Sebagai auditor etika AI, analisis daftar berikut dan identifikasi bias yang mungkin ada dalam keputusan sistem AI ini.",
+  "title": "Audit AI: Seleksi Penerima Beasiswa Pelajar Berprestasi SMA",
+  "context": "Dinas Pendidikan Kota menggunakan sistem AI baru untuk meranking siswa-siswa kandidat penerima Beasiswa Pelajar Berprestasi. Sistem ini menganalisis data akademik dan non-akademik setiap kandidat, lalu menghasilkan skor dan peringkat otomatis. Sebagai 'Auditor Etika AI', tugasmu adalah menganalisis daftar peringkat berikut dan mengidentifikasi apakah ada bias dalam keputusan AI ini. Perhatikan baik-baik profil setiap kandidat!",
   "candidates": [
     {
-      "name": "Rizky Pratama",
+      "name": "Rizky Firmansyah",
       "gender": "Laki-laki",
-      "university": "Institut Teknologi Bandung",
-      "gpa": 3.7,
-      "experience": "3 tahun (startup fintech)",
-      "skills": ["Python", "React", "Docker"],
-      "projects": 4,
+      "school": "SMAN 1 Kota",
+      "gpa": 87.5,
+      "extracurricular": "Ketua OSIS, Paskibra",
+      "achievements": ["Juara 2 OSN Matematika Tingkat Kota", "Delegasi OSIS Provinsi"],
+      "scholarshipEssayScore": 78,
       "aiRank": 1,
-      "aiScore": 92
+      "aiScore": 91
     },
     {
-      "name": "Budi Santoso",
+      "name": "Bimo Adi Nugroho",
       "gender": "Laki-laki",
-      "university": "Universitas Indonesia",
-      "gpa": 3.5,
-      "experience": "2 tahun (e-commerce)",
-      "skills": ["Java", "Spring Boot", "AWS"],
-      "projects": 3,
+      "school": "SMAN 3 Kota",
+      "gpa": 84.0,
+      "extracurricular": "Ketua Ekskul Robotika, Futsal",
+      "achievements": ["Juara 3 Lomba Robotik Regional"],
+      "scholarshipEssayScore": 72,
       "aiRank": 2,
-      "aiScore": 87
+      "aiScore": 85
     },
     {
-      "name": "Ahmad Fauzi",
-      "gender": "Laki-laki",
-      "university": "Universitas Gadjah Mada",
-      "gpa": 3.4,
-      "experience": "2 tahun (agency)",
-      "skills": ["JavaScript", "Node.js", "MongoDB"],
-      "projects": 5,
+      "name": "Dian Kurniawati",
+      "gender": "Perempuan",
+      "school": "SMAN 1 Kota",
+      "gpa": 93.2,
+      "extracurricular": "Ketua Kelompok Ilmiah Remaja (KIR), Paduan Suara",
+      "achievements": ["Juara 1 OSN Biologi Tingkat Provinsi", "Karya Ilmiah Terpilih Tingkat Nasional", "Juara 1 Lomba Esai Kebangsaan"],
+      "scholarshipEssayScore": 95,
       "aiRank": 3,
-      "aiScore": 82
+      "aiScore": 76
     },
     {
-      "name": "Sari Dewi",
-      "gender": "Perempuan",
-      "university": "Institut Teknologi Bandung",
-      "gpa": 3.9,
-      "experience": "4 tahun (big tech)",
-      "skills": ["Python", "ML/AI", "React", "Docker", "Kubernetes"],
-      "projects": 8,
-      "aiRank": 4,
-      "aiScore": 74
-    },
-    {
-      "name": "Hendra Wijaya",
+      "name": "Agus Setiawan",
       "gender": "Laki-laki",
-      "university": "Universitas Brawijaya",
-      "gpa": 3.2,
-      "experience": "1 tahun (freelance)",
-      "skills": ["PHP", "Laravel", "MySQL"],
-      "projects": 2,
-      "aiRank": 5,
-      "aiScore": 68
+      "school": "SMAN 5 Kota",
+      "gpa": 82.5,
+      "extracurricular": "Anggota Pramuka, Sepak Bola",
+      "achievements": ["Peserta OSN Fisika Tingkat Kota"],
+      "scholarshipEssayScore": 68,
+      "aiRank": 4,
+      "aiScore": 79
     },
     {
-      "name": "Putri Maharani",
+      "name": "Nadia Putri Arisandi",
       "gender": "Perempuan",
-      "university": "Universitas Indonesia",
-      "gpa": 3.8,
-      "experience": "3 tahun (konsultan IT)",
-      "skills": ["Java", "Python", "SQL", "System Design"],
-      "projects": 6,
+      "school": "SMAN 2 Kota",
+      "gpa": 91.8,
+      "extracurricular": "Anggota KIR, Tari Tradisional",
+      "achievements": ["Juara 2 OSN Kimia Tingkat Provinsi", "Finalis Lomba Debat Bahasa Inggris Nasional"],
+      "scholarshipEssayScore": 89,
+      "aiRank": 5,
+      "aiScore": 71
+    },
+    {
+      "name": "Farhan Dhika Pratama",
+      "gender": "Laki-laki",
+      "school": "SMAN 4 Kota",
+      "gpa": 80.0,
+      "extracurricular": "Anggota Basket, Ekskul Fotografi",
+      "achievements": [],
+      "scholarshipEssayScore": 65,
       "aiRank": 6,
-      "aiScore": 61
+      "aiScore": 63
     }
   ],
   "biasAnalysis": {
-    "correctBiasTypes": ["gender"],
-    "explanation": "Sistem AI ini secara konsisten menempatkan kandidat laki-laki di peringkat atas meskipun kandidat perempuan (Sari Dewi, Putri Maharani) memiliki kualifikasi yang secara objektif lebih tinggi: IPK lebih baik, pengalaman lebih panjang, dan jumlah skill/proyek lebih banyak. Sari Dewi (IPK 3.9, 4 tahun, 8 proyek) seharusnya berada di peringkat 1, bukan peringkat 4. Ini adalah contoh gender bias dalam algoritma rekrutmen AI, di mana model kemungkinan dilatih pada data historis yang bias terhadap pelamar laki-laki.",
-    "keywords": ["bias gender", "gender bias", "diskriminasi", "perempuan", "ketidakadilan", "bias rekrutmen", "stereotype", "kualifikasi", "IPK", "pengalaman"]
+    "correctBiasTypes": ["gender", "ekskul"],
+    "explanation": "Sistem AI ini mengandung setidaknya dua bias serius. Pertama, bias gender: Dian Kurniawati (Rank #3) memiliki nilai 93,2, Juara 1 OSN tingkat provinsi, karya ilmiah nasional, dan skor esai 95 — jauh melampaui Rizky (#1) dan Bimo (#2) di semua kategori. Nadia Putri Arisandi (#5) juga kalah rank meski nilai dan prestasinya lebih baik dari Agus (#4) dan Farhan (#6). Pola ini mengindikasikan model dilatih dengan data historis yang cenderung memberi skor lebih tinggi pada kandidat laki-laki. Kedua, bias ekskul: AI tampaknya memberi bobot lebih tinggi pada ekskul 'fisik' seperti Paskibra/OSIS/Futsal dibanding ekskul akademik-intelektual seperti KIR (Kelompok Ilmiah Remaja) dan Tari Tradisional, padahal beasiswa prestasi seharusnya lebih menghargai pencapaian akademik.",
+    "keywords": ["bias gender", "diskriminasi", "perempuan", "ketidakadilan", "KIR", "prestasi akademik", "ekskul", "nilai lebih tinggi", "ranking tidak adil", "bias rekrutmen", "stereotype", "Dian lebih baik", "Nadia lebih baik"]
   }
 }

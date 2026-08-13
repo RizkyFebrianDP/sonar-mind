@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, ListOrdered, Clock, MousePointerClick } from 'lucide-react';
+import { Icon } from '@/components/ui/Icon';
 import { motion } from 'framer-motion';
 
 export function AssessmentHeroCard() {
@@ -29,15 +29,15 @@ export function AssessmentHeroCard() {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
         <div className="flex flex-wrap items-center gap-4">
           <div className="flex items-center gap-2 px-3 py-1.5 bg-background rounded-lg border border-border-subtle text-sm text-text-muted font-medium">
-            <ListOrdered className="w-4 h-4" />
+            <Icon id="89779" className="w-4 h-4 bg-text-muted" />
             3 Sections
           </div>
           <div className="flex items-center gap-2 px-3 py-1.5 bg-background rounded-lg border border-border-subtle text-sm text-text-muted font-medium">
-            <Clock className="w-4 h-4" />
+            <Icon id="82767" className="w-4 h-4 bg-text-muted" />
             ~20 min
           </div>
           <div className="flex items-center gap-2 px-3 py-1.5 bg-background rounded-lg border border-border-subtle text-sm text-text-muted font-medium">
-            <MousePointerClick className="w-4 h-4" />
+            <Icon id="82793" className="w-4 h-4 bg-text-muted" />
             Performance-based
           </div>
         </div>
@@ -47,7 +47,7 @@ export function AssessmentHeroCard() {
           className="inline-flex items-center justify-center px-6 py-3 bg-text-strong text-background rounded-xl text-sm font-bold hover:bg-black transition-all shrink-0 shadow-sm"
         >
           Start Assessment
-          <ArrowRight className="w-4 h-4 ml-2" />
+          <Icon id="85463" className="w-4 h-4 ml-2 bg-background" />
         </Link>
       </div>
     </motion.div>

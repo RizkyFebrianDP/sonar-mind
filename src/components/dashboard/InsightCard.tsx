@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, AlertTriangle } from 'lucide-react';
+import { Icon } from '@/components/ui/Icon';
 
 export interface InsightCardProps {
   type: 'strength' | 'growth';
@@ -29,9 +29,9 @@ export function InsightCard({ type, pillar, score, description }: InsightCardPro
           </h4>
         </div>
         {isStrength ? (
-          <ArrowUpRight className="text-accent-green w-5 h-5" />
+          <Icon id="99472" className={`w-5 h-5 bg-accent-green`} />
         ) : (
-          <AlertTriangle className="text-accent-red w-5 h-5" />
+          <Icon id="82783" className={`w-5 h-5 bg-accent-red`} />
         )}
       </div>
       <p className="text-sm text-text-muted leading-relaxed">

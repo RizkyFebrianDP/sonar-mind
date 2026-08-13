@@ -2,25 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  HelpCircle,
-  Search,
-  ChevronDown,
-  Send,
-  Sparkles,
-  BookOpen,
-  BrainCircuit,
-  ShieldCheck,
-  FileText,
-  MessageSquare,
-  CheckCircle2,
-  AlertCircle,
-  ExternalLink,
-  LifeBuoy,
-  RefreshCw,
-  Scale,
-  Compass,
-} from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 import { useToast } from "@/context/ToastContext";
 
 // --- FAQ DATA ---
@@ -110,7 +92,7 @@ const QUICK_RESOURCES = [
   {
     title: "Panduan MIL-AI UNESCO",
     description: "Pelajari dokumen standar internasional literasi media dan kecerdasan buatan.",
-    icon: BookOpen,
+    iconId: "82742",
     color: "from-blue-500/20 to-indigo-500/20 text-blue-500 border-blue-500/30",
     linkText: "Baca Panduan",
     href: "/learning",
@@ -118,7 +100,7 @@ const QUICK_RESOURCES = [
   {
     title: "Sandbox Simulasi AI",
     description: "Uji langsung keterampilan deteksi halusinasi, bias algoritma, dan etika.",
-    icon: BrainCircuit,
+    iconId: "101174",
     color: "from-emerald-500/20 to-teal-500/20 text-emerald-500 border-emerald-500/30",
     linkText: "Mulai Sandbox",
     href: "/assessments",
@@ -126,7 +108,7 @@ const QUICK_RESOURCES = [
   {
     title: "Standar Integritas AI",
     description: "Kerangka acuan etika dan transparansi dalam pemanfaatan alat generatif.",
-    icon: ShieldCheck,
+    iconId: "87367",
     color: "from-purple-500/20 to-pink-500/20 text-purple-500 border-purple-500/30",
     linkText: "Lihat Standar",
     href: "#faq-integritas-1",
@@ -134,7 +116,7 @@ const QUICK_RESOURCES = [
   {
     title: "Analitik & Trend Skor",
     description: "Pantau perkembangan ketahanan algoritma dan grafik radar kompetensi Anda.",
-    icon: Scale,
+    iconId: "87375",
     color: "from-amber-500/20 to-orange-500/20 text-amber-500 border-amber-500/30",
     linkText: "Buka Analitik",
     href: "/results",
@@ -233,7 +215,7 @@ export default function SupportPage() {
 
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-blue/10 text-accent-blue border border-accent-blue/20 text-xs font-semibold tracking-wide">
-            <Sparkles className="w-3.5 h-3.5" />
+            <Icon id="82797" className="w-3.5 h-3.5 bg-accent-blue" />
             <span>Pusat Bantuan & Literasi AI</span>
           </div>
 
@@ -248,7 +230,7 @@ export default function SupportPage() {
           {/* Search Bar */}
           <div className="pt-2">
             <div className="relative max-w-xl">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text-muted" />
+              <Icon id="82712" className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 bg-text-muted" />
               <input
                 type="text"
                 value={searchQuery}
@@ -275,28 +257,28 @@ export default function SupportPage() {
       <section className="space-y-4">
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-heading font-bold text-text-strong flex items-center gap-2">
-            <Compass className="w-5 h-5 text-accent-blue" />
+            <Icon id="87351" className="w-5 h-5 bg-accent-blue" />
             <span>Sumber Daya Utama & Quick Links</span>
           </h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {QUICK_RESOURCES.map((res, index) => {
-            const Icon = res.icon;
             return (
               <motion.a
-                key={res.title}
+                key={index}
                 href={res.href}
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: index * 0.08 }}
-                className="group relative bg-panel hover:bg-black/5 dark:hover:bg-white/5 border border-border-subtle rounded-2xl p-5 transition-all duration-200 shadow-sm flex flex-col justify-between"
+                transition={{ duration: 0.4, delay: index * 0.1 }}
+                className="group flex flex-col justify-between p-5 rounded-2xl border border-border-subtle bg-panel hover:border-accent-blue/40 hover:shadow-md transition-all h-full"
               >
                 <div>
-                  <div
-                    className={`w-12 h-12 rounded-xl bg-gradient-to-br ${res.color} border flex items-center justify-center mb-4 transition-transform group-hover:scale-105`}
-                  >
-                    <Icon className="w-6 h-6" />
+                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 bg-gradient-to-br border ${res.color}`}>
+                    <Icon
+                      id={res.iconId}
+                      className="w-6 h-6 bg-current"
+                    />
                   </div>
                   <h3 className="text-base font-heading font-bold text-text-strong mb-1.5 group-hover:text-accent-blue transition-colors">
                     {res.title}
@@ -307,7 +289,7 @@ export default function SupportPage() {
                 </div>
                 <div className="flex items-center gap-1.5 text-xs font-semibold text-accent-blue pt-2 border-t border-border-subtle/50">
                   <span>{res.linkText}</span>
-                  <ExternalLink className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  <Icon id="82787" className="w-3.5 h-3.5 bg-accent-blue" />
                 </div>
               </motion.a>
             );
@@ -325,7 +307,7 @@ export default function SupportPage() {
         <section className="lg:col-span-7 space-y-6">
           <div>
             <div className="flex items-center gap-2 text-xs font-semibold text-accent-blue uppercase tracking-wider mb-1">
-              <HelpCircle className="w-4 h-4" />
+              <Icon id="83244" className="w-4 h-4 bg-accent-blue" />
               <span>Pertanyaan Sering Diajukan</span>
             </div>
             <h2 className="text-2xl font-heading font-bold text-text-strong">
@@ -357,7 +339,7 @@ export default function SupportPage() {
           <div className="space-y-3">
             {filteredFaqs.length === 0 ? (
               <div className="bg-panel rounded-2xl p-8 text-center border border-border-subtle space-y-3">
-                <AlertCircle className="w-8 h-8 text-text-muted mx-auto" />
+                <Icon id="82783" className="w-8 h-8 bg-text-muted mx-auto" />
                 <h3 className="text-sm font-semibold text-text-strong">
                   Tidak Ada FAQ Sesuai Pencarian
                 </h3>
@@ -394,7 +376,7 @@ export default function SupportPage() {
                           isOpen ? "rotate-180 text-accent-blue" : "text-text-muted"
                         }`}
                       >
-                        <ChevronDown className="w-4 h-4" />
+                        <Icon id="87345" className="w-4 h-4 bg-current" />
                       </div>
                     </button>
 
@@ -420,7 +402,7 @@ export default function SupportPage() {
                                       key={idx}
                                       className="flex items-start gap-2 text-xs text-text-strong"
                                     >
-                                      <CheckCircle2 className="w-3.5 h-3.5 text-accent-green shrink-0 mt-0.5" />
+                                      <Icon id="82766" className="w-3.5 h-3.5 bg-accent-green shrink-0 mt-0.5" />
                                       <span>{item}</span>
                                     </li>
                                   ))}
@@ -445,7 +427,7 @@ export default function SupportPage() {
           <div className="bg-panel border border-border-subtle rounded-3xl p-6 sm:p-8 shadow-sm space-y-6 relative overflow-hidden">
             <div className="space-y-1">
               <div className="flex items-center gap-2 text-xs font-semibold text-accent-green uppercase tracking-wider">
-                <MessageSquare className="w-4 h-4" />
+                <Icon id="93380" className="w-4 h-4 bg-accent-green" />
                 <span>Formulir Kontak & Feedback</span>
               </div>
               <h2 className="text-xl font-heading font-bold text-text-strong">
@@ -552,12 +534,12 @@ export default function SupportPage() {
               >
                 {submitting ? (
                   <>
-                    <RefreshCw className="w-4 h-4 animate-spin" />
+                    <Icon id="85469" className="w-4 h-4 bg-background animate-spin" />
                     <span>Sending Message...</span>
                   </>
                 ) : (
                   <>
-                    <Send className="w-4 h-4" />
+                    <Icon id="87586" className="w-4 h-4 bg-background" />
                     <span>Kirim Pesan Support</span>
                   </>
                 )}
@@ -565,7 +547,7 @@ export default function SupportPage() {
             </form>
 
             <div className="pt-4 border-t border-border-subtle text-center text-[11px] text-text-muted flex items-center justify-center gap-1.5">
-              <LifeBuoy className="w-3.5 h-3.5 text-accent-blue" />
+              <Icon id="83244" className="w-3.5 h-3.5 bg-accent-blue" />
               <span>Respon rata-rata: dalam 1x24 jam kerja</span>
             </div>
           </div>

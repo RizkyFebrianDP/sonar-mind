@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import { Crosshair, AlertTriangle } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
 import { ScenarioText } from "@/components/sandbox/hallucination/ScenarioText";
 import { ReferencePanel } from "@/components/sandbox/hallucination/ReferencePanel";
 import { FeedbackOverlay } from "@/components/sandbox/hallucination/FeedbackOverlay";
@@ -80,20 +80,20 @@ export default function HallucinationAuditPage() {
         </div>
         <div className="flex items-center gap-3 mb-2">
           <div className="w-10 h-10 rounded-xl bg-pink-500/10 flex items-center justify-center">
-            <Crosshair className="w-5 h-5 text-pink-500" />
+            <Icon id="89629" className="w-5 h-5 bg-pink-500" />
           </div>
           <div>
             <h1 className="text-2xl font-bold font-heading text-text-strong">
               Hallucination Detection Audit
             </h1>
-            <p className="text-sm text-text-muted">Pilar 1: Critical Evaluation — Bobot 30%</p>
+            <p className="text-sm text-text-muted">Critical Evaluation — Bobot 30%</p>
           </div>
         </div>
 
         {/* Info bar */}
         <div className="flex flex-wrap gap-3 mt-4">
-          <div className="flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-900 dark:text-amber-200 px-3 py-1.5 rounded-xl text-xs font-semibold">
-            <AlertTriangle className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+          <div className="flex items-center gap-2 bg-amber-50 border border-amber-300 text-amber-800 dark:bg-amber-900/30 dark:border-amber-700/40 dark:text-amber-200 px-3 py-1.5 rounded-xl text-xs font-semibold">
+            <Icon id="82783" className="w-3.5 h-3.5 bg-amber-700 dark:bg-amber-400" />
             Klik kalimat yang kamu duga mengandung halusinasi / informasi palsu
           </div>
           <div className="bg-panel text-text-muted px-3 py-1.5 rounded-xl text-xs border border-sidebar-border">

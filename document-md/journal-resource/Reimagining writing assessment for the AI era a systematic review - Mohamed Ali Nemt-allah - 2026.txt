@@ -1,0 +1,919 @@
+﻿TYPE  Systematic Review
+PUBLISHED  26 May 2026
+DOI  10.3389/fpsyg.2026.1809174
+
+Reimagining writing assessment 
+for the AI era: a systematic review 
+
+OPEN ACCESS
+
+EDITED BY on balancing AI support and 
+Daniel H. Robinson,  
+The University of Texas at Arlington 
+College of Education, United States authentic skill growth
+REVIEWED BY
+AlMothana Gasaymeh,  
+Al-Hussein Bin Talal University, Jordan Mohamed Sayed Abdellatif 1†, Mohammed A. Alshehri 2†, 
+Harald Eriksen,  
+Oslo Metropolitan University, Norway Ali Lamouchi 3, Mohammed Rahmath 4 and 
+*CORRESPONDENCE Mohamed Ali Nemt-allah 5*
+Mohamed Ali Nemt-allah  1Department of Psychology, College of Education in Al-Kharj, Prince Sattam Bin Abdulaziz University, 
+
+ mohamednamatallah.2026@
+Alkharj, Saudi Arabia, 2Department of Curriculum and Instruction, College of Education, King Saud 
+
+azhar.edu.eg
+University, Riyadh, Saudi Arabia, 3Department of English Language and Literature, College of Science 
+
+†These authors have contributed equally and Humanities, Prince Sattam Bin Abdulaziz University, Al-Kharj, Saudi Arabia, 4Department of 
+to this work Computer Engineering and Information, College of Engineering in Wadi Adwassir, Prince Sattam Bin 
+
+Abdulaziz University, Al-Kharj, Saudi Arabia, 5Department of Educational Psychology and Statistics, 
+RECEIVED 11 February 2026 Faculty of Education, Al-Azhar University, Tafhna Al-Ashraf, Egypt
+REVISED 24 April 2026
+ACCEPTED 30 April 2026
+PUBLISHED 26 May 2026
+
+CITATION This systematic review synthesizes empirical evidence from 19 studies exam-
+Abdellatif MS, Alshehri MA, Lamouchi A, ining AI (AI) integration in academic writing assessment across higher educa-
+Rahmath M and N​ emt-allah MA (2026) 
+Reimagining writing assessment for the tion contexts. Following PRISMA 2020 guidelines, the review addresses five 
+AI era: a systematic review on balancing interconnected research questions regarding AI tool functionality, stakeholder 
+AI support and authentic skill growth. perceptions, student motivations, institutional implementation gaps, and assess-
+Front. Psychol. 17:1809174.
+doi: 10.3389/fpsyg.2026.1809174 ment redesign strategies. Findings reveal that generative AI platforms, particu-
+
+larly ChatGPT (88.8% adoption) and Grammarly (67.4%), dominate across writing 
+COPYRIGHT
+© 2026 Abdellatif, Alshehri, Lamouchi, stages, with students strategically deploying tools based on cognitive complexity 
+Rahmath and Nemt-allah. This is an levels. Stakeholder perspectives diverge significantly: students value productivity 
+open-access article distributed under enhancement and accessibility, faculty prioritize academic integrity concerns, 
+the terms of the Creative Commons 
+Attribution License (CC BY). The use, and administrators adopt cautious openness with disproportionate resource 
+distribution or reproduction in other allocation favoring faculty guidance (67%) over direct student support (17.8%). 
+forums is permitted, provided the Student motivations for inappropriate use stem from structural vulnerabilities 
+original author(s) and the copyright 
+owner(s) are credited and that the including time pressures, ethical ambiguity, and institutional policy voids rather 
+original publication in this journal is than malicious intent. Geographic inequities persist, with Global South institutions 
+cited, in accordance with accepted facing infrastructure limitations that amplify educational disparities. Promising 
+academic practice. No use, distribution 
+or reproduction is permitted which does pedagogical and assessment innovations include process-oriented assessment, 
+not comply with these terms. oral defenses, multimodal composing, and explicit AI literacy curricula—each 
+
+targeting the redesign of writing evaluation practices to balance AI assistance 
+with authentic skill development. The review concludes that effective integration 
+requires moving beyond detection-focused approaches toward comprehensive 
+pedagogical redesign grounded in equity, authentic learning, and development 
+of uniquely human capacities for critical judgment and ethical reasoning.
+
+KEYWORDS
+
+academic integrity, academic writing assessment, AI literacy, artificial intelligence, 
+generative AI, higher education, stakeholder perceptions
+
+Frontiers in Psychology 01 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+1 Introduction predominantly in North America, Europe, China, and East Asia, 
+reflecting denser institutional capacity and infrastructure 
+
+The integration of artificial intelligence (AI) into academic writing (Crompton and Burke, 2023; Kamalov et al., 2023; Mustafa et al., 
+has introduced a diverse ecosystem of tools that students and faculty 2024). Within nations, disparities emerge along historical and 
+now employ across multiple dimensions of the writing process. socioeconomic lines; for instance, historically White South African 
+Generative chatbots, particularly ChatGPT and other large language universities integrate AI more extensively than historically Black 
+models, have become widely adopted for idea generation, drafting, institutions facing infrastructural deficits (Maimela and Mbonde, 
+outlining, and providing feedback on academic texts (Barrett and 2025). Global South students report substantially less AI integration 
+Pack, 2023; Cheng et al., 2025; Dergaa et al., 2023; Escalante et al., in curricula and lower preparedness levels (Busch et al., 2024; 
+2023; Khlaif et al., 2023; Kim et al., 2024; Nguyen et al., 2024; Song and Rincón et al., 2025). These inequities stem from limited digital 
+Song, 2023). Complementing these generative tools, established digital infrastructure, policy gaps, English-centric tool design, and socio-
+writing assistants such as Grammarly, Quillbot, and Wordtune con- cultural barriers (Chan, 2023; Gustilo et al., 2024; Kalim et 
+tinue to support grammar checking, style refinement, and paraphras- al., 2025).
+ing (Barrett and Pack, 2023; Gustilo et al., 2024; Escalante et al., 2023). AI integration in writing assessment implicates multiple interde-
+Additionally, machine translation platforms including Google pendent stakeholder groups whose perspectives fundamentally shape 
+Translate and DeepL facilitate multilingual academic communication implementation outcomes. Students represent the primary end-users, 
+(Barrett and Pack, 2023; Ou et al., 2024; Pratiwi et al., 2025), while directly experiencing AI’s impact on their learning processes, aca-
+AI-enhanced reference management and literature mapping tools like demic integrity concerns, and sense of authorship (Chan and Hu, 
+Scite AI, Connected Papers, and Litmaps complement traditional plat- 2023; Kim et al., 2024; Lin and Chen, 2024; Song and Song, 2023; 
+forms such as Zotero and Mendeley (Pratiwi et al., 2025; Wang, 2024), with multilingual learners particularly affected by 
+Weidmann, 2024). AI-mediated feedback and language development support (Chen and 
+
+The temporal distribution of AI tool usage reveals distinct pat- Gong, 2025; Escalante et al., 2023; Ou et al., 2024). Faculty members 
+terns across the writing process, shaped in part by the cognitive occupy a pivotal decision-making role, determining acceptable AI use 
+demands of each stage. Cognitive Load Theory (Sweller, 1988) posits in assignments while balancing pedagogical benefits against integrity 
+that working memory has a finite capacity, and that learning is opti- and creativity concerns (Crompton and Burke, 2023; Gustilo et al., 
+mized when extraneous cognitive demands—those unrelated to the 2024; Khlaif et al., 2024). Institutional administrators establish gover-
+core learning goal—are minimized (Paas et al., 2003). In academic nance frameworks, AI literacy initiatives, and equity policies that 
+writing, tasks such as spell-checking, grammar correction, punctua- structure access and implementation (Chan, 2023; Gustilo et al., 2024; 
+tion, and surface-level paraphrasing constitute routine mechanical Perkins et al., 2023). Additionally, AI developers and educational tech-
+operations in that they do not require domain reasoning or rhetorical nology providers influence assessment practices through system 
+judgment; they place demands on working memory without contrib- design, affordances, and inherent biases (Escalante et al., 2023; Zhang 
+uting directly to the development of argumentation or disciplinary et al., 2025).
+thinking (Kellogg, 2008). Student decisions regarding appropriate versus inappropriate AI 
+
+From a cognitive load theory perspective (Sweller, 1988), this use stem from complex interactions among motivational factors, situ-
+stratified deployment suggests students may be offloading these rou- ational pressures, and ethical frameworks, which this review examines 
+tine mechanical tasks to AI tools to preserve working memory systematically. Social norms, instructor attitudes, and institutional 
+resources for more complex reasoning—a pattern with both pedagogi- policy clarity further shape these behaviors (Acosta-Enriquez et al., 
+cal promise and risk for authentic skill development (Bauer et al., 2024; Chavez et al., 2024; Crawford et al., 2023; Perkins, 2023), while 
+2025). This offloading logic provides the conceptual entry point for overreliance correlates with diminished critical thinking and creativity 
+Bloom’s Taxonomy (Anderson and Krathwohl, 2001), which organizes (Zhai et al., 2024).
+cognitive work along a hierarchy from lower-order skills—remember- Stakeholder perceptions of AI in writing assessment reveal con-
+ing, understanding, and applying—to higher-order skills such as ana- verging recognition of benefits alongside divergent concerns about 
+lyzing, evaluating, and creating (Krathwohl, 2002). The mechanical integrity and authentic learning. Students widely appreciate AI’s 
+writing tasks described above map onto the lower tiers of this hierar- capacity to enhance organization, language quality, feedback, and con-
+chy, whereas constructing arguments, synthesizing sources, and craft- fidence, particularly among multilingual writers (Chan and Hu, 2023; 
+ing original claims occupy its upper levels, requiring the kind of Escalante et al., 2023; Kim et al., 2024; Ou et al., 2024; Song and Song, 
+sustained deliberate effort that AI delegation may progressively erode 2023; Wang, 2024), yet express concerns about accuracy, overreliance, 
+(Gerlich, 2025). Bloom’s Taxonomy provides a useful lens for under- and loss of authentic voice (Chan, 2024; Johnston et al., 2024; Kim et 
+standing this differentiation: generative AI tools tend to support al., 2024; Ou et al., 2024). Faculty members acknowledge AI’s peda-
+higher-order cognitive functions such as analysis, evaluation, and cre- gogical utility while emphasizing threats to assessment validity, distin-
+ation, while automated writing evaluation tools primarily address guishing human from AI-generated text, and maintaining academic 
+lower-order skills including remembering and applying surface-level integrity (Barrett and Pack, 2023; Dergaa et al., 2023; Gustilo et al., 
+linguistic conventions (Anderson and Krathwohl, 2001). 2024; Ibrahim et al., 2023; Perkins, 2023). Administrators prioritize 
+
+Geographic and institutional disparities profoundly shape AI governance frameworks, policy development, equity considerations, 
+writing tool adoption, with well-resourced institutions in the Global and institutional reputation (Chan, 2023; Lin and Chen, 2024; Perkins, 
+North and major Asian hubs demonstrating significantly faster inte- 2023; Yusuf et al., 2024). These divergent priorities underscore the 
+gration than underfunded universities and Global South regions necessity for transparent, collaboratively developed policies that bal-
+(Bahroun et al., 2023; Crompton and Burke, 2023; Mustafa et al., ance innovation with integrity (Chan and Hu, 2023; Gustilo et 
+2024; Reina-Parrado et al., 2025). Empirical research concentrates al., 2024).
+
+Frontiers in Psychology 02 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+AI assistance demonstrates differential effects across cognitive (PRISMA) 2020 guidelines to ensure methodological rigor and trans-
+complexity levels, with lower-order skills experiencing more consis- parency. A comprehensive literature search was executed across mul-
+tent enhancement than higher-order capabilities. Students using AI tiple electronic databases including Web of Science, Scopus, ERIC 
+tools show significant gains in recall, comprehension, and basic appli- (Education Resources Information Center), PsycINFO, and Google 
+cation (Abdelmagid et al., 2025; Essien et al., 2024; Zhou et al., 2024), Scholar to capture relevant peer-reviewed literature published between 
+while higher-order skills including critical thinking, analysis, evalua- January 2020 and December 2025. This five-year window was strategi-
+tion, and creative synthesis prove more vulnerable to erosion through cally selected to focus on the contemporary landscape of generative 
+cognitive offloading (Gerlich, 2025; Zhai et al., 2024). Generative AI AI tools, particularly following the widespread emergence of large 
+performs weakest at Bloom’s create level and struggles with coherent language models such as ChatGPT in late 2022, while also capturing 
+argumentation (Thanh et al., 2023), though intentional pedagogical earlier automated writing evaluation systems and AI-assisted writing 
+design can support deeper engagement (Kwan et al., 2025; Zhou et al., tools that preceded the current generative AI revolution.
+2024). Metacognitive development requires explicit scaffolding rather The search strategy employed a combination of controlled vocabu-
+than emerging naturally from AI interaction (Bauer et al., 2025; Yin lary terms and natural language keywords organized into three thematic 
+et al., 2025; Zhou et al., 2024). Memory retention and autonomous clusters: (1) AI technology terms including artificial intelligence, gen-
+problem-solving face particular risks when students adopt AI as erative AI, ChatGPT, large language models, AI-assisted writing, auto-
+answer-provider rather than thinking partner (Gerlich, 2025; mated writing evaluation, natural language processing, machine 
+Krsmanović and Deek, 2025; Zhai et al., 2024). learning, and AI literacy; (2) educational context terms including higher 
+
+Maintaining assessment validity while leveraging AI support education, academic writing, student writing, university, college, ESL, 
+necessitates fundamental redesign rather than incremental adaptation L2 writing, and postgraduate; and (3) assessment and pedagogy terms 
+of traditional evaluation approaches. Emerging frameworks empha- including assessment design, academic integrity, plagiarism, contract 
+size process-oriented assessment that documents iterative revision, cheating, writing feedback, self-regulated learning, student perceptions, 
+reflective decision-making, and AI integration strategies rather than institutional policies, and pedagogical integration. Boolean operators 
+solely evaluating final products (Engeness and Gamlem, 2025; Tseng (AND, OR) were utilized to combine search terms within and across 
+and Lin, 2024; Wang, 2024). Authentic, cognitively demanding tasks clusters, with truncation symbols (*) applied to capture morphological 
+incorporating oral defenses, experiential components, and disciplin- variations (e.g., assess* to capture assessment, assessing, assessments). 
+ary problem-solving help preserve academic integrity while building Database-specific subject headings and index terms were incorporated 
+employability skills (Salinas-Navarro et al., 2024; Sotiriadou et al., where applicable to maximize retrieval precision. To supplement the 
+2019; Villarroel et al., 2019). Positioning AI as feedback partner rather electronic database searches, forward and backward citation tracking 
+than ghostwriter, with structured requirements to critique and adapt was performed on key articles identified during initial screening, and 
+AI-generated suggestions, enhances metacognitive engagement and reference lists of included systematic reviews were manually screened 
+critical evaluation capacities (Akiba and Garte, 2024; Khojasteh et al., to identify additional relevant studies that may have been missed by the 
+2025; Oates and Johnson, 2025; Song and Song, 2023). Multi-source automated search. The complete search strings applied across all data-
+assessment ecosystems combining self-assessment, peer evaluation, bases are provided in Appendix A to ensure full transparency and rep-
+AI analytics, and instructor judgment provide triangulated evidence licability of the search strategy.
+of competence (Elshall and Badir, 2025; Francis et al., 2025; Tang et 
+al., 2024; Zhang and Zhang, 2022). 2.2 Inclusion and exclusion criteria
+
+Against this complex landscape of opportunities, challenges, and 
+uncertainties surrounding AI integration in academic writing, this Studies were eligible for inclusion if they met the following criteria: 
+systematic review synthesizes empirical evidence from higher educa- (1) empirical research examining the integration, use, perceptions, or 
+tion to address five interconnected research questions. It first maps the impact of AI tools in academic writing contexts within higher education 
+AI tools used by students and faculty and their functions across writ- settings; (2) focus on writing assessment practices, evaluation strategies, 
+ing stages, then examines stakeholder perceptions across linguistic, pedagogical approaches, academic integrity issues, or institutional poli-
+academic, and institutional contexts. The review also analyzes moti- cies in the AI era; (3) inclusion of student, faculty, or institutional stake-
+vational factors differentiating appropriate from inappropriate AI use, holder perspectives on AI-assisted writing or generative AI technologies; 
+identifies institutional policy and support gaps influencing implemen- (4) peer-reviewed journal articles, conference proceedings, or system-
+tation, and evaluates emerging assessment redesign strategies that atic reviews published in English; and (5) publication date between 
+uphold validity while leveraging AI for skill development. Through January 2020 and December 2025. Both quantitative and qualitative 
+this synthesis, the review advances an evidence based understanding methodologies were eligible, as were mixed-methods designs and con-
+of how writing assessment can be reimagined to balance AI assistance ceptual frameworks grounded in empirical evidence, to ensure compre-
+with authentic learning, equity, and academic integrity. hensive capture of diverse evidence types addressing the complex 
+
+sociotechnical phenomenon of AI integration in writing assessment.
+Studies were excluded if they: (1) focused exclusively on K-12 
+
+educational contexts without higher education components; (2) exam-
+2 Materials and methods ined AI applications unrelated to writing or textual composition (e.g., 
+
+mathematics tutoring systems, image generation tools without writing 
+2.1 Search strategy components); (3) were purely theoretical or opinion pieces without 
+
+empirical data or evidence-based frameworks; (4) were published as 
+This systematic review was conducted in accordance with the dissertations, theses, preprints, or non-peer-reviewed sources; (5) did 
+
+Preferred Reporting Items for Systematic Reviews and Meta-Analyses not address assessment, pedagogy, student learning outcomes, 
+
+Frontiers in Psychology 03 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+academic integrity, or stakeholder perspectives on AI in writing; or (6) Through this rigorous three-phase selection process, 19 primary stud-
+were published in languages other than English due to resource con- ies were ultimately included in the qualitative synthesis, correspond-
+straints for translation and interpretation. Studies focusing solely on ing to 19 reports of included studies. Figure 1 presents the PRISMA 
+automated essay scoring systems from pre-2020 without contempo- 2020 flow diagram documenting the complete process.
+rary generative AI context were also excluded to maintain focus on 
+current challenges posed by large language models and generative AI 2.4 Data extraction
+technologies that emerged prominently from 2022 onwards. Table 1 
+presents the inclusion and exclusion criteria applied during the A standardized data extraction form was developed and pilot-
+screening process in a structured format to facilitate transparency and tested on five randomly selected included studies to ensure consis-
+replication. tency, comprehensiveness, and reliability across reviewers. The 
+
+extraction template captured multiple dimensions of study charac-
+2.3 Study selection process teristics including: (1) bibliographic information (author, publica-
+
+tion year, journal or conference venue, country of origin, 
+The study selection process was conducted in three sequential institutional context); (2) study design and methodology (research 
+
+phases following PRISMA 2020 protocols. In the initial identification design type, sample size and composition, sampling strategy, data 
+phase, database searches yielded a total of 1,756 records from elec- collection methods, analytical approach and frameworks employed); 
+tronic databases (Registers: n = 0), with an additional 18 records iden- (3) participant characteristics (educational level, academic disci-
+tified through citation searching and manual screening of reference pline, demographic information where reported, linguistic back-
+lists. Following deduplication (n = 385 duplicate records removed), ground for L2 or ESL populations); (4) AI tools and technologies 
+1,389 unique records remained for title and abstract screening. No examined (specific tools such as ChatGPT, Grammarly, or other 
+records were marked as ineligible by automation tools, and no records platforms; functional categories; usage patterns across writing stages; 
+were removed for other reasons prior to screening. During the screen- cognitive levels supported); (5) key findings organized by the five 
+ing phase, two independent reviewers applied the predetermined eli- research question themes (tool functionality and deployment, stake-
+gibility criteria, resulting in the exclusion of 1,251 records, leaving 138 holder perceptions and attitudes, student motivations for appropri-
+full-text articles for detailed assessment. All 138 reports were success- ate and inappropriate use, institutional implementation gaps and 
+fully retrieved (Reports not retrieved: n = 0). challenges, assessment redesign strategies and innovations); and (6) 
+
+In the eligibility phase, the same two independent reviewers con- methodological quality indicators relevant to each study design type. 
+ducted full-text screening of all 138 retrieved articles. Reasons for Data extraction was performed independently by two reviewers, 
+exclusion were documented systematically and included: wrong edu- with extraction tables compared systematically and discrepancies 
+cational context or level (n = 52), wrong intervention or focus area resolved through consensus discussion and reference to original 
+(n = 37), non-empirical studies or insufficient empirical evidence study texts. For studies reporting quantitative findings, descriptive 
+(n = 21), wrong publication type not meeting peer-review criteria statistics, effect sizes, and statistical significance levels were extracted 
+(n = 6), and language restrictions (n = 3), totalling 119 excluded where available; for qualitative studies, key themes, conceptual 
+reports. Inter-rater reliability was calculated using Cohen’s kappa coef- frameworks, representative quotations, and thick descriptions were 
+ficient (κ = 0.87), indicating strong agreement between reviewers captured to facilitate rich thematic synthesis.
+across the five thematic dimensions guiding data extraction: AI tool Given the heterogeneity of study designs, geographic contexts, 
+functionality, stakeholder perceptions, student motivations, institu- student populations, and outcome measures across the 19 included 
+tional implementation gaps, and assessment redesign strategies. studies, a narrative synthesis approach was deemed most appropriate 
+Disagreements were resolved through structured consensus discus- rather than quantitative meta-analysis. Extracted data were organized 
+sion with reference to original study texts, and a third reviewer was thematically according to the five primary research questions guiding 
+available for arbitration where consensus could not be reached. this review: (1) What AI tools are students and faculty using for 
+
+TABLE 1  Inclusion and exclusion criteria for study selection.
+
+Inclusion criteria Exclusion criteria
+
+Empirical research on AI integration, use, perceptions, or impact in academic Studies focused exclusively on K-12 contexts without higher education 
+writing within higher education components
+
+Focus on writing assessment practices, evaluation strategies, pedagogical AI applications unrelated to writing or textual composition (e.g., mathematics 
+approaches, academic integrity, or institutional policies tutoring, image generation without writing components)
+
+Inclusion of student, faculty, or institutional stakeholder perspectives on AI- Purely theoretical or opinion pieces without empirical data or evidence-based 
+assisted writing or generative AI frameworks
+
+Peer-reviewed journal articles, conference proceedings, or systematic reviews Dissertations, theses, preprints, or non-peer-reviewed sources
+published in English
+
+Publication date between January 2020 and December 2025 Studies not addressing assessment, pedagogy, student learning outcomes, academic 
+integrity, or stakeholder perspectives on AI in writing
+
+Both quantitative and qualitative methodologies eligible, including mixed-methods Publications in languages other than English; studies on pre-2020 automated essay 
+designs scoring without generative AI context
+
+Frontiers in Psychology 04 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+FIGURE 1
+PRISMA 2020 flow diagram. Systematic review flow diagram adapted from (Page et al., 2021).
+
+academic writing, and what are their primary functions across differ- reliability, credibility, and potential biases of the 19 included studies. 
+ent writing stages? (2) How do different stakeholder groups (students, Quantitative studies were evaluated with an adapted Newcastle–
+faculty, administrators) perceive AI integration in writing assessment? Ottawa Scale, while qualitative studies were appraised using the CASP 
+(3) What factors motivate students to use AI appropriately versus checklist, and mixed methods studies with MMAT criteria. Two 
+inappropriately in academic writing contexts? (4) What implementa- reviewers independently conducted all assessments, resolving dis-
+tion gaps exist in current institutional frameworks, policies, and sup- agreements through consensus. Quality ratings were applied descrip-
+port structures? and (5) What assessment redesign strategies and tively to contextualize evidence rather than exclude studies, allowing 
+pedagogical innovations show promise for maintaining validity and recognition of common limitations such as reliance on convenience 
+promoting authentic skill development in the AI era? This thematic sampling, dependence on self reported data, limited geographic and 
+organization enabled systematic comparison of findings across diverse disciplinary diversity, small qualitative sample sizes, and absence of 
+educational contexts, institutional settings, and student populations longitudinal designs. These limitations were critically considered 
+while preserving the nuanced insights emerging from different meth- when interpreting the robustness and generalizability of findings, 
+odological approaches, theoretical frameworks, and geographic set- alongside indications of potential publication bias favoring positive 
+tings represented in the evidence base. outcomes of AI use.
+
+2.5 Quality assessment 2.6 Synthesis approach
+
+A rigorous methodological quality assessment was undertaken This review used a convergent, integrated synthesis combining 
+using design appropriate critical appraisal tools to evaluate the thematic analysis of qualitative evidence, narrative summary of 
+
+Frontiers in Psychology 05 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+quantitative results, and conceptual framework mapping. Across 19 3.1 AI tools and their functions in academic 
+studies, data were first deductively organized around the five guiding writing
+research questions, which structured the initial coding framework; 
+inductive coding was then applied within each thematic category to ChatGPT emerged as the dominant AI platform, utilized by 88.8% 
+surface emergent patterns, nuances, and sub-themes not anticipated of students in certain samples, followed by Grammarly at 67.4% (Slimi 
+in the original framework. This sequencing reflects the study’s et al., 2025). The tools identified fall into four functional categories: 
+planned design, in which the research questions, inclusion criteria, generative AI models (ChatGPT, Gemini, DeepSeek, Copilot) for 
+and extraction template necessarily shaped the analytic entry point higher-order tasks like brainstorming and drafting; automated writing 
+before open-ended pattern recognition could occur. Data were then evaluation systems (Grammarly, ProWritingAid, Hemingway Editor) 
+iteratively refined through constant comparison, attending to conver- for grammar and mechanical corrections; translation tools (DeepL, 
+gence and divergence by geography, institutional context, stakeholder Google Translate) for cross-lingual support; and multimodal plat-
+group, disciplinary setting, and student characteristics (especially forms (Canva, Quizlet) for visual design and vocabulary building 
+native vs. non-native English speakers). Quantitative indicators were (Amani and Bisriyah, 2025; Evmenova et al., 2024; Lancaster et 
+summarized descriptively and tabulated; qualitative accounts were al., 2025).
+thematically integrated with illustrative quotations. Transparent, Students deploy these tools strategically across writing stages. 
+study-linked reporting and comprehensive evidence tables supported LLMs dominate the planning phase for idea generation and outlining, 
+a configurative synthesis that advanced higher-order insights into continue supporting the drafting phase for content expansion, while 
+tensions between AI support and authentic writing skill develop- AWE tools are reserved primarily for revision and editing (Wang, 
+ment, while foregrounding contextual moderators of applicability 2024; Zhao and Dang, 2026). Notably, LLMs support higher-order 
+and transferability. cognitive functions aligned with analysis, evaluation, and creation in 
+
+Bloom’s Taxonomy, whereas AWE tools focus on lower-order skills 
+related to remembering and understanding linguistic mechanics 
+(Evangelista, 2025; Khlaif et al., 2025). Table 2 summarizes these tools 
+
+3 Results and their primary functions.
+
+This systematic review synthesized evidence from 19 primary 3.2 Stakeholder perceptions of AI 
+studies to examine the integration of AI tools in academic writing integration
+assessment across diverse educational contexts. The findings are orga-
+nized around five primary research questions that guided this inves- Three primary stakeholder groups—students, faculty, and 
+tigation: the identification and functionality of AI tools in academic administrators—exhibit markedly different perspectives on AI inte-
+writing, stakeholder perceptions, student motivations for AI use, insti- gration. Students demonstrate generally positive orientations, valu-
+tutional implementation gaps, and assessment redesign strategies. ing AI for productivity enhancement and immediate feedback 
+Together, these findings illuminate both the opportunities and chal- (Jeilani and Abubakar, 2025; Kumar et al., 2025). However, signifi-
+lenges inherent in balancing AI support with authentic skill cant variation exists within student populations: EFL and L2 students 
+development. view AI as voice-augmenting and barrier-removing, whereas native 
+
+TABLE 2  AI tools and their primary functions in academic writing.
+
+AI tool category Specific tools Primary writing Cognitive level Frequency of use 
+mentioned functions supported reported
+
+Generative AI (LLMs) ChatGPT (GPT-3.5/4.0), Brainstorming, idea generation, Higher-order: Analysis, High: ChatGPT cited by 88.8% 
+Gemini, DeepSeek, Copilot, drafting, and feedback provision creation, and evaluation of students in some samples 
+Jasper (Evmenova et al., 2024; Jeilani and (Evangelista, 2025; Wang, (Slimi et al., 2025)
+
+Abubakar, 2025; Wang, 2024) 2024; Zhao and Dang, 2026)
+
+Writing Assistants / Grammarly, ProWritingAid, Grammar, spelling, punctuation Lower-order: Remembering High: Grammarly cited by 
+AWE Hemingway Editor, WordTune, correction, and word choice and Understanding (linguistic 67.4% of students in some 
+
+Paperpal refinement (Amani and Bisriyah, mechanics) (Amani and samples (Slimi et al., 2025)
+2025) Bisriyah, 2025; Khlaif et al., 
+
+2025)
+
+Translation Tools DeepL, Google Translate Language translation and cross- Lower-order: Linguistic Significant among L2 and 
+lingual drafting assistance (Amani translation and vocabulary international students (Amani 
+and Bisriyah, 2025; Lancaster et al., retrieval (Amani and Bisriyah, and Bisriyah, 2025; Wang, 
+2025; Slimi et al., 2025) 2025; Wang, 2024) 2024)
+
+Multimodal / Interactive Canva, Quizlet, Socratic, Visual design, vocabulary building, Varied: Creating (Multimodal Canva (57.3%) and Quizlet 
+Tools Duolingo and research question-answering Digital Composing) (Lancaster (30.3%) reported in specific 
+
+(Lancaster et al., 2025; Slimi et al., et al., 2025; Slimi et al., 2025) academic contexts (Slimi et al., 
+2025) 2025)
+
+Frontiers in Psychology 06 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+speakers report concerns about authenticity when AI suggestions linguistic accuracy and structural coherence, particularly during 
+diverge from personal style (Wang, 2024). Undergraduates prioritize brainstorming and drafting (Talandis and Muller, 2025; Wang, 2024). 
+efficiency and accessibility, while postgraduates express ethical ambi- This motivation is especially pronounced among non-native speakers 
+guity and concerns about voice erosion despite recognizing benefits who leverage AI to augment authorial voice and overcome communi-
+for lexical diversity (Hanh and Duyen, 2025; Shi et al., 2025). cation barriers (Wang, 2024).
+
+Faculty maintain an “integrity-centric” perspective where concerns Inappropriate usage stems from socio-academic pressures includ-
+about “AI-giarism” and critical thinking erosion overshadow perceived ing overloaded schedules, work pressure, and high-stakes grading 
+productivity benefits (Karkoulian et al., 2025; Lund et al., 2025). These systems (Hanh and Duyen, 2025; Peterson, 2025). Ethical ambiguity 
+concerns stem partly from limited familiarity with AI paraphrasing and institutional “policy voids” enable rationalization of full task del-
+capabilities and perceived student inability to synthesize information egation as students develop situational interpretations without explicit 
+independently (Peterson, 2025). Institutional administrators have con- guidance (Hanh and Duyen, 2025; Kumar et al., 2025). AI’s techno-
+verged on an “open but cautious” approach, rejecting total bans while logical affordances—speed, accessibility, and perceived low detection 
+emphasizing faculty-led discretion (Wang et al., 2024). A critical gap risk—create conditions where “AI-giarism” appears as a viable short-
+exists in resource distribution: 67% of guidance targets faculty education cut (Hanh and Duyen, 2025). The phenomenon of “metacognitive 
+while only 17.8% provides direct student frameworks (Wang et al., laziness” emerges when assessment systems emphasize final products 
+2024). Despite divergent perspectives, cross-stakeholder consensus sup- over learning processes, incentivizing students to optimize for effi-
+ports AI functioning as a “near-peer” rather than replacing human ciency rather than skill development (Zhao and Dang, 2026). Notably, 
+effort, favoring process-oriented assessment (Khlaif et al., 2025). Table 3 students engage in covert paraphrasing often due to genuine confu-
+synthesizes these stakeholder perspectives. sion about boundaries between “assistance” and “cheating” rather than 
+
+malicious intent (Karkoulian et al., 2025). Table 4 analyzes motiva-
+3.3 Student motivations for AI engagement tional factors influencing usage patterns.
+
+Student engagement with AI follows two distinct pathways shaped 3.4 Institutional implementation gaps
+by situational factors and institutional guidance. Appropriate usage is 
+motivated by efficiency enhancement, cognitive load reduction, and Current AI integration frameworks reveal significant gaps char-
+access to personalized scaffolding (Kumar et al., 2025; Wang, 2024). acterized by resource disparities, training deficits, and persistent 
+Students use AI as a “walking tutor” providing instant feedback on “policy voids” (Hanh and Duyen, 2025; Wang et al., 2024). Geographic 
+
+TABLE 3  Stakeholder perceptions of AI in writing assessment.
+
+Stakeholder Primary benefits Primary concerns Preferred AI Support needs
+group identified expressed integration approach
+
+Undergraduate Increased productivity, time Detection of AI use, reliability AI as a “study buddy” or tutor for Hands-on training, clear usage 
+Students efficiency, and simplified of AI output, and technical brainstorming and drafting boundaries, and affordable tool access 
+
+learning processes (Kumar accessibility (Amani and assistance (Jeilani and Abubakar, (Kumar et al., 2025; Jeilani and 
+et al., 2025; Slimi et al., 2025) Bisriyah, 2025; Wang, 2024). 2025; Zhao and Dang, 2026). Abubakar, 2025; Slimi et al., 2025).
+
+Postgraduate Students Enhanced lexical diversity, Ethical ambiguity, work Human-AI partnerships focusing Ethics workshops, communities of 
+coherence, and support for pressure, and potential loss of on research synthesis and peer- practice, and mental health support 
+complex data manipulation original voice (Hanh and like feedback (Zhao and Dang, (Hanh and Duyen, 2025).
+(Shi et al., 2025). Duyen, 2025; Wang, 2024). 2026).
+
+ESL / L2 Students Removal of language Over-reliance leading to a AI as a linguistic “scaffold” for Specialized prompt engineering 
+barriers, improved decline in independent translating and editing (Wang, training and discipline-specific 
+grammatical accuracy, and writing confidence (Amani 2024). vocabulary support (Amani and 
+authorial voice and Bisriyah, 2025). Bisriyah, 2025; Talandis and Muller, 
+augmentation (Wang, 2024). 2025).
+
+Faculty Members Automated evaluation, Academic misconduct, “Against, Avoid, Adopt, Explore” Professional development, AI literacy 
+interactive learning uncritical acceptance of AI (AAAE) framework; process- training, and robust detection 
+stimulation, and enhanced errors, and loss of student- oriented assessment (Hanh and guidelines (Evangelista, 2025; Wang et 
+creative ideation (Evmenova teacher trust (Karkoulian et Duyen, 2025; Khlaif et al., 2025). al., 2024; Zhao and Dang, 2026).
+et al., 2024; Karkoulian et al., al., 2025; Kumar et al., 2025; 
+2025; Kumar et al., 2025). Wang et al., 2024).
+
+Institutional Modernized pedagogy, Data privacy, policy “Open but cautious” policies; Sustainable policy frameworks, ethical 
+Administrators scalability of personalized enforcement lag, and the instructor-led classroom AI governance, and infrastructure 
+
+support, and global “digital divide” in equity of governance (Wang et al., 2024). investment (Evangelista, 2025; Jeilani 
+competitiveness (Khlaif et access (Khlaif et al., 2025; and Abubakar, 2025).
+al., 2025; Wang et al., 2024). Wang et al., 2024).
+
+Frontiers in Psychology 07 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+inequities are pronounced: while AI tools have achieved global reach, 3.5 Assessment redesign and policy 
+academic discourse remains concentrated in Global North contexts, innovations
+overlooking challenges in resource-constrained regions like Palestine 
+and Somalia where political and economic limitations impede infra- Institutions are shifting from restrictive bans toward flexible 
+structure access (Jeilani and Abubakar, 2025; Khlaif et al., 2025). Even policy frameworks balancing AI affordances with academic rigor 
+in high-resource settings, a “digital divide” persists as disadvantaged (Wang et al., 2024). The “Against, Avoid, Adopt, and Explore” (AAAE) 
+students lack reliable internet or financial means to access premium framework from Palestine provides task-based categorization ranging 
+features (Khlaif et al., 2025; Peterson, 2025). from prohibited use in traditional exams to full human-AI partnership 
+
+The most critical gap is the shortage of student-facing resources: in creative problem-solving (Khlaif et al., 2025). The “Six Domains of 
+while 67% of institutional guidance targets faculty, only 17.8% pro- Academic Integrity Reporting” (AIR) emphasizes coaching and lit-
+vides direct student frameworks on ethical boundaries and appropri- eracy education, distinguishing deliberate cheating from “functional 
+ate use (Wang et al., 2024). This imbalance forces students to navigate failure” in synthesis skills (Peterson, 2025). Most U.S. universities 
+complex decisions without pedagogical scaffolding, leading to situ- adopted “open but cautious” stances with faculty-led discretion for 
+ational interpretations and “functional failure” in distinguishing AI discipline-specific relevance (Wang et al., 2024).
+as learning tool versus learning substitute (Zhao and Dang, 2026). To maintain validity, institutions prioritize assessments targeting 
+Faculty report feeling underprepared to evaluate AI-assisted work higher-order cognitive skills AI struggles to replicate (Evangelista, 2025). 
+and design valid assessments, particularly those unfamiliar with Real-time oral defenses ensure authentic understanding by requiring 
+modern paraphrasing capabilities (Karkoulian et al., 2025; Wang et extemporaneous argument articulation (Evangelista, 2025; Khlaif et al., 
+al., 2024). Disciplinary variations compound challenges: technology 2025). Process-oriented assessment shifts focus from final products to 
+departments exhibit heightened caution due to programming vulner- iterative drafts, prompt engineering logs, and reflective exercises docu-
+ability, while humanities struggle when AI replicates traditional essay menting cognitive journeys (Khlaif et al., 2025; Talandis and Muller, 
+genres (Gonsalves, 2025; Wang et al., 2024). Institutional responses 2025; Wang, 2024). Multimodal composing requiring integration of text, 
+remain reactive and piecemeal, framing AI primarily as an integrity visuals, and audio resists AI synthesis capabilities (Evangelista, 2025). 
+issue requiring policing rather than a pedagogical opportunity Project-based learning engaging real-world problems promotes critical 
+requiring curriculum redesign (Gonsalves, 2025; Hanh and Duyen, thinking beyond AI’s current capabilities (Evangelista, 2025; Khlaif et al., 
+2025). Table 5 presents evidence-based assessment redesign 2025). Explicit instruction in prompt engineering and critical AI literacy 
+strategies. positions AI as legitimate skill development object rather than taboo 
+
+TABLE 4  Factors influencing AI usage patterns and academic integrity.
+
+Motivational factor Appropriate use Inappropriate use Student attribution Institutional 
+manifestation manifestation response strategy
+
+Efficiency and time demands Using AI for outlining, Outsourcing entire assignments Intense schedules and Setting word limits based on 
+summarizing long texts, and to save time for other obligations deadline pressure (Hanh task complexity rather than 
+brainstorming (Slimi et al., 2025; (Hanh and Duyen, 2025). and Duyen, 2025; Peterson, credits (Zhao and Dang, 
+Wang, 2024; Wang et al., 2024). 2025). 2026).
+
+Academic Pressure Seeking feedback to improve a Full delegation of tasks to ensure Grade-driven expectations Shifting to process-oriented 
+draft before submission (Amani a “good grade” with minimal and social comparison assessment models (e.g., oral 
+and Bisriyah, 2025). effort (Wang, 2024; Zhao and (Hanh and Duyen, 2025). exams) (Evangelista, 2025; 
+
+Dang, 2026). Khlaif et al., 2025; Peterson, 
+2025).
+
+Skill Development (L2) Using AI as a linguistic scaffold Covertly paraphrasing AI Language barriers and lack Direct instruction in prompt 
+to verify grammar and word content to bypass detection of confidence in academic engineering and L2-specific 
+choice (Amani and Bisriyah, without learning (Hanh and diction (Amani and AI literacy (Talandis and 
+2025; Wang, 2024). Duyen, 2025; Karkoulian et al., Bisriyah, 2025; Wang, Muller, 2025).
+
+2025). 2024).
+
+Ethical Ambiguity Acknowledging AI assistance in Uncritical acceptance of Confusion over boundaries Explicitly defining acceptable 
+brainstorming or proofreading “hallucinations” or biased output between “assistance” and vs. prohibited uses in syllabi 
+(Karkoulian et al., 2025; Wang, as facts (Hanh and Duyen, 2025; “cheating” (Hanh and (Evangelista, 2025; Peterson, 
+2024). Wang, 2024; Zhao and Dang, Duyen, 2025). 2025; Wang et al., 2024).
+
+2026).
+
+Institutional Policy Gaps Experimenting with AI within Using AI for prohibited tasks Lack of formal instruction Developing comprehensive AI 
+the parameters set by the when guidelines are absent or on academic integrity in the governance and literacy 
+instructor (Wang et al., 2024). silent (Hanh and Duyen, 2025). AI context (Hanh and modules (Evangelista, 2025; 
+
+Duyen, 2025; Wang et al., Kumar et al., 2025; Shi et al., 
+2024). 2025; Wang et al., 2024).
+
+Frontiers in Psychology 08 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+TABLE 5  Assessment redesign strategies for AI-resilient writing tasks.
+
+Assessment Theoretical Cognitive skills Implementation Effectiveness evidence
+strategy framework targeted (bloom’s characteristics
+
+taxonomy)
+
+Integrated Oral Social Constructivism; Evaluating, Analyzing, Real-time reasoning; students must High resistance to AI-generated 
+Defense (Vivas) AAAE Framework Creating (Evangelista, defend their written arguments orally shortcuts; ensures authentic 
+
+(Khlaif et al., 2025). 2025). (Evangelista, 2025). understanding (Evangelista, 2025; 
+Khlaif et al., 2025).
+
+Product–Process Process-Writing Evaluating, Analyzing Evaluation focuses on iterative drafts, Mitigates “full delegation” by 
+Assessment Workflow (Talandis and (Khlaif et al., 2025; Wang, prompt engineering logs, and self- rewarding the cognitive journey over 
+
+Muller, 2025). 2024). reflection (Khlaif et al., 2025; Talandis the final output (Hanh and Duyen, 
+and Muller, 2025). 2025; Wang, 2024).
+
+Multimodal Digital Literacy Creating, Evaluating Tasks combine text, visuals, audio AI struggles to synthesize multiple 
+Composing Framework (Kumar et (Evangelista, 2025; Shi et al., threads, or hand-drawn diagrams (Wang competencies across diverse media 
+
+al., 2025; Shi et al., 2025). 2025). et al., 2024). formats (Evangelista, 2025).
+
+Project-Based Situated Learning Analyzing, Creating Collaborative, long-term tasks addressing Fosters higher-order critical thinking; 
+Learning (PBL) Theory (Hanh and (Evangelista, 2025; Khlaif et real-world, ill-structured problems identified as most cited innovative 
+
+Duyen, 2025) al., 2025) (Evangelista, 2025; Khlaif et al., 2025). strategy (Evangelista, 2025).
+
+Scaffolded Cognitive Load Theory Applying, Understanding Breaks large projects into smaller, unique Prevents “content inflation” and 
+Assignments (CLT) (Zhao and Dang, (Peterson, 2025; Wang et al., tasks requiring personal knowledge links uncritical reliance on AI for long 
+
+2026) 2024) (Peterson, 2025; Zhao and Dang, 2026). outputs (Zhao and Dang, 2026).
+
+(Talandis and Muller, 2025; Wang, 2024). Table 6 illustrates geographic this very efficiency may be systematically displacing the productive 
+variations in implementation. struggle through which genuine writing expertise is built (Sweller, 
+
+1988; Zhai et al., 2024). The dominance of generative AI platforms like 
+3.6 Publication and methodological bias ChatGPT (88.8%) and traditional writing assistants like Grammarly 
+assessment (67.4%) reflects students’ differentiated cognitive needs throughout 
+
+the writing process (Slimi et al., 2025). This stratified deployment 
+Following PRISMA 2020 guidelines, publication bias assessment aligns with cognitive load theory, suggesting students strategically 
+
+revealed a “positive-utility” reporting bias favoring successful imple- offload routine mechanical tasks to preserve cognitive resources for 
+mentations while null or negative findings remain scarce (Kumar et complex reasoning and argumentation. However, this functional divi-
+al., 2025; Shi et al., 2025). Sullivan et al. (2023) identified systemic sion raises critical concerns about authentic skill development. The 
+marginalization of student voices in favor of institutional integrity pattern of consistent delegation—grammar to automated systems, 
+narratives. The evidence base may reflect “time-lag bias” where early ideation to generative models—may create a developmental paradox 
+success stories receive publication priority while longer-term out- where students gain surface-level facility with AI-mediated composi-
+comes remain undocumented (Wang et al., 2024). tion while failing to internalize the underlying competencies that con-
+
+Methodological scrutiny revealed that large-scale surveys employed stitute genuine writing expertise and independent authorial capacity 
+rigorous controls and theoretical grounding (Jeilani and Abubakar, (Zhai et al., 2024).
+2025; Lund et al., 2025), but substantial evidence relies on convenience This divergence is not simply a matter of competing preferences 
+sampling and self-reported data introducing potential social desirability but reflects fundamentally incompatible assumptions about what con-
+bias regarding misconduct behaviors (Amani and Bisriyah, 2025; Hanh stitutes legitimate intellectual work—assumptions that existing policy 
+and Duyen, 2025; Karkoulian et al., 2025). Geographic diversity across frameworks have yet to adequately reconcile (Karkoulian et al., 2025; 
+Global North and South contexts strengthens external validity (Hanh Wang et al., 2024). Students, particularly those facing language barri-
+and Duyen, 2025; Jeilani and Abubakar, 2025; Khlaif et al., 2025). ers or socioeconomic pressures, conceptualize AI as an equalizing tool 
+Secondary systematic reviews provide triangulation reducing single- that democratizes access to high-quality writing support (Wang, 
+study outlier influence (Evangelista, 2025). The absence of longitudinal 2024). Faculty members, conversely, maintain what might be termed 
+data limits determination of long-term impacts on critical thinking an “integrity-centric” worldview where concerns about assessment 
+skills (Zhao and Dang, 2026). validity and intellectual authenticity overshadow potential pedagogi-
+
+cal benefits (Karkoulian et al., 2025; Lund et al., 2025). The institu-
+tional response has been notably asymmetric, with 67% of guidance 
+disproportionately targeting faculty professional development while 
+
+4 Discussion only 17.8% addresses students directly, leaving them to navigate ethi-
+cal complexities without adequate scaffolding (Wang et al., 2024).
+
+The stratified deployment of AI tools across cognitive complexity The evidence challenges simplistic narratives that attribute 
+levels points to a deeper developmental paradox: while students dem- inappropriate AI use to character flaws or academic dishonesty. 
+onstrate growing strategic sophistication in managing cognitive load, Instead, a more nuanced picture emerges where contextual 
+
+Frontiers in Psychology 09 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+TABLE 6  Geographic and institutional variations in AI integration.
+
+Geographic Institutional AI Key challenges Digital literacy level Recommended 
+region/context policy approach identified framework applied
+
+Global North (U.S. Top “Open but cautious”; faculty- Significant resource gap for High awareness but lacks Technological Pedagogical Content 
+100) led discretion (Wang et al., student guidance; data privacy systematic pedagogical Knowledge (TPACK) (Wang et al., 
+
+2024). concerns (Wang et al., 2024) integration (Wang et al., 2024). 2024).
+
+Middle East (Palestine) AAAE Model; focus on AI- Digital divide, political Emerging; focused on bridging Against, Avoid, Adopt, Explore 
+resistant assessment design limitations, and lack of the gap between novice and (AAAE) (Khlaif et al., 2025).
+(Khlaif et al., 2025). professional development (Khlaif expert use (Khlaif et al., 2025).
+
+et al., 2025).
+
+East Africa (Somalia) Perceived institutional support Limited technological Predictor of technology self- Social Cognitive Theory (SCT) 
+based on social cognitive infrastructure; low student efficacy; needs hands-on (Jeilani and Abubakar, 2025).
+needs (Jeilani and Abubakar, confidence in high-tech tasks training (Kumar et al., 2025; 
+2025). (Jeilani and Abubakar, 2025). Jeilani and Abubakar, 2025).
+
+Southeast Asia Developmental/Exploratory; Ethical ambiguity, work pressure, Varies by academic level; risk Dual-Pathway (Top-Down 
+(Vietnam) focus on postgraduate ethical and uncritical acceptance of AI of “metacognitive laziness” Governance & Bottom-Up Culture) 
+
+reasoning (Hanh and Duyen, content (Hanh and Duyen, 2025). (Hanh and Duyen, 2025; Zhao (Hanh and Duyen, 2025).
+2025). and Dang, 2026)
+
+Middle East (Lebanon) Qualitative assessment of Faculty unawareness of Nuanced; many students use Integrated Ethical AI Education 
+productivity vs. integrity paraphrasing tools; prioritization AI for “disguising” generated (Karkoulian et al., 2025).
+(Karkoulian et al., 2025). of convenience over ethics content (Karkoulian et al., 
+
+(Karkoulian et al., 2025). 2025).
+
+pressures, institutional policy voids, and technological affordances institutions struggle with basic access and support infrastructure 
+converge to create what might be termed “structural vulnerability” (Maimela and Mbonde, 2025).
+to AI misuse. Students operating under intense time constraints, Several limitations constrain the generalizability and robustness of 
+managing multiple competing obligations, and facing high-stakes current findings. The review’s conclusions are further constrained by the 
+assessment systems make pragmatic decisions where immediate relatively small corpus of 19 included studies, which limits the breadth 
+survival needs override abstract commitments to long-term skill of evidence and the weight that can be placed on any emerging pattern. 
+development (Hanh and Duyen, 2025; Peterson, 2025). Particularly The predominance of convenience sampling and reliance on self-
+significant is the finding that many students engage in unauthor- reported data introduce potential biases, particularly around sensitive 
+ized AI use not from malicious intent but from genuine uncer- topics like academic misconduct where social desirability effects may 
+tainty about boundaries between legitimate support and prohibited distort reporting. The absence of longitudinal research designs means 
+delegation. This distinction between deliberate cheating and what that assertions about long-term impacts on critical thinking, indepen-
+Peterson (2025) has termed “functional failure” has profound dent problem-solving, and professional competence remain largely 
+implications for institutional responses, suggesting that punitive speculative rather than empirically grounded. Geographic concentra-
+detection-focused approaches may be addressing symptoms rather tion of research effort creates significant blind spots regarding how AI 
+than underlying causes. integration unfolds in diverse institutional and cultural contexts. Future 
+
+Geographic analysis reveals a troubling pattern where AI integra- reviews should aim to expand the evidence base to strengthen the trans-
+tion may be amplifying rather than reducing educational inequalities ferability of these findings. Perhaps most critically, the rapid evolution 
+across global contexts. While technological tools theoretically offer of AI capabilities introduces temporal instability where findings about 
+universal accessibility, their meaningful pedagogical integration current system limitations may quickly become obsolete.
+depends critically on infrastructure reliability, institutional capacity 
+for innovation, and economic resources to access premium function-
+alities. Students in under-resourced contexts like Palestine and 
+Somalia face connectivity limitations and political constraints that 5 Conclusion
+fundamentally impede access (Jeilani and Abubakar, 2025; Khlaif et 
+al., 2025). The concentration of research, policy development, and This systematic review of 19 empirical studies yields five intercon-
+pedagogical expertise in Global North contexts creates an epistemo- nected findings that collectively reframe how AI integration in aca-
+logical asymmetry where frameworks and best practices reflect par- demic writing assessment should be understood. First, students 
+ticular cultural assumptions about authorship, collaboration, and deploy AI tools in a stratified, cognitively strategic manner—using 
+intellectual property that may not translate seamlessly across diverse generative models such as ChatGPT for higher-order planning and 
+educational traditions (Chan, 2023; Gustilo et al., 2024). Even within drafting while reserving automated writing evaluation tools for 
+relatively wealthy nations, historical patterns of institutional stratifica- mechanical revision, a pattern reflecting deliberate cognitive load 
+tion are being reproduced in the AI era, with elite universities dem- management rather than indiscriminate use. Second, stakeholder per-
+onstrating sophisticated integration while under-resourced spectives diverge fundamentally: students prioritize accessibility and 
+
+Frontiers in Psychology 10 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+productivity, faculty foreground integrity and assessment validity, and Writing – review & editing. MN-a: Conceptualization, Visualization, 
+administrators adopt cautious openness while disproportionately Writing – original draft, Writing – review & editing.
+directing guidance toward faculty (67%) over students (17.8%). Third, 
+inappropriate AI use is driven not by academic dishonesty but by 
+structural vulnerabilities—time pressure, ethical ambiguity, and insti-
+tutional policy voids—a distinction with direct implications for how Funding
+institutions should respond. Fourth, geographic and socioeconomic 
+inequities are being amplified rather than resolved by AI adoption, The author(s) declared that financial support was received for this 
+with Global South institutions facing infrastructure and policy deficits work and/or its publication. The authors extend their appreciation to 
+that widen existing educational disparities. Fifth, promising assess- Prince Sattam bin Abdulaziz University for funding this research work 
+ment innovations including oral defenses, process-oriented evalua- through the project number (PSAU/2025/01/38694).
+tion, multimodal composing, and explicit AI literacy curricula offer 
+viable pathways for maintaining assessment validity while supporting 
+authentic skill development.
+
+The evidence reveals significant implementation gaps including Conflict of interest
+resource asymmetries, geographic inequities, and policy frameworks 
+that inadvertently incentivize the very behaviors they seek to prevent. The author(s) declared that this work was conducted in the 
+Yet promising innovations are emerging that suggest viable pathways absence of any commercial or financial relationships that could be 
+forward: flexible policy architectures that recognize contextual varia- construed as a potential conflict of interest.
+tion, process-oriented assessment that privileges learning over prod-
+ucts, and explicit AI literacy curricula that position technological 
+competence as legitimate educational outcome. Taken together, these 
+findings suggest that the central challenge is not technological but Generative AI statement
+pedagogical and ethical: institutions must move from reactive policing 
+of AI use toward proactive curriculum redesign that positions critical The author(s) declared that Generative AI was used in the creation 
+judgment, ethical reasoning, and authentic authorship as the irreduc- of this manuscript. Grammarly and Quillbot were used to enhance the 
+ible core of academic writing education. Success requires moving language and clarity of this manuscript.
+beyond binary framings of AI as either threat or panacea toward Any alternative text (alt text) provided alongside figures in this 
+nuanced integration grounded in equity, focused on authentic learn- article has been generated by Frontiers with the support of artificial 
+ing, and committed to developing the distinctly human capacities for intelligence and reasonable efforts have been made to ensure accuracy, 
+critical judgment, creative synthesis, and ethical reasoning that remain including review by the authors wherever possible. If you identify any 
+essential regardless of technological advancement. issues, please contact us.
+
+Data availability statement Publisher’s note
+
+The original contributions presented in the study are included in All claims expressed in this article are solely those of the authors 
+the article/Supplementary material, further inquiries can be directed and do not necessarily represent those of their affiliated organizations, 
+to the corresponding author. or those of the publisher, the editors and the reviewers. Any product 
+
+that may be evaluated in this article, or claim that may be made by its 
+manufacturer, is not guaranteed or endorsed by the publisher.
+
+Author contributions
+
+MAb: Conceptualization, Data curation, Funding acquisition, Supplementary material
+Writing – review & editing. MAl: Data curation, Funding acquisition, 
+Project administration, Writing  – review & editing. AL: The Supplementary material for this article can be found online 
+Conceptualization, Project administration, Supervision, Writing – at: https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1809174/
+review & editing. MR: Conceptualization, Methodology, Supervision, full#supplementary-material
+
+References
+Abdelmagid, A. S., Al-Mohaya, A. Y., Ibrahim, A. M., Teleb, A. A., and Jabli, N. M. (2025). ChatGPT in their academic activities: effect of intent to use, verifi-
+The impact of artificial intelligence applications on developing levels of cognitive depth cation of information and responsible use. BMC Psychol. 12:255. doi: 10.1186/s40359-024- 
+of information among postgraduate students. Int. J. Learn. Teach. Educ. Res. 24, 316–333. 01764-z
+doi: 10.26803/ijlter.24.4.15 Akiba, D., and Garte, R. (2024). Leveraging AI tools in university writing instruction: 
+Acosta-Enriquez, B. G., Ballesteros, M. A., Jordan, O. H., Roca, C. L., and Tirado, K. S. enhancing student success while upholding academic integrity. J. Interact. Learn. Res. 35, 
+(2024). Analysis of college students' attitudes toward the use of 467–480. doi: 10.70725/355152wkijve
+
+Frontiers in Psychology 11 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+Amani, N., and Bisriyah, M. (2025). University students' perceptions of AI-assisted writ- Ibrahim, H., Liu, F., Asim, R., Battu, B., Benabderrahmane, S., Alhafni, B., et al. (2023). 
+ing tools in supporting self-regulated writing practices. IJELTAL 10, 91–107. doi: Perception, performance, and detectability of conversational artificial intelligence across 
+10.21093/ijeltal.v10i1.1942 32 university courses. Sci. Rep. 13:12187. doi: 10.1038/s41598-023-38964-3
+Anderson, L. W., and Krathwohl, D. R. (2001). A Taxonomy for Learning, Teaching, and Jeilani, A., and Abubakar, S. (2025). Perceived institutional support and its effects on 
+Assessing: A Revision of Bloom's Educational Objectives. New York: Longman. student perceptions of AI learning in higher education: the role of mediating perceived 
+Bahroun, Z., Anane, C., Ahmed, V., and Zacca, A. (2023). Transforming education: a learning outcomes and moderating technology self-efficacy. Front. Educ. 10:1548900. doi: 
+comprehensive review of generative artificial intelligence in educational settings through 10.3389/feduc.2025.1548900
+bibliometric and content analysis. Sustainability 15:12983. doi: 10.3390/su151712983 Johnston, H., Wells, R. F., Shanks, E. M., Boey, T., and Parsons, B. N. (2024). Student 
+Barrett, A., and Pack, A. (2023). Not quite eye to a.I.: student and teacher perspectives on perspectives on the use of generative artificial intelligence technologies in higher educa-
+the use of generative artificial intelligence in the writing process. Int. J. Educ. Technol. tion. Int. J. Educ. Integr. 20:2. doi: 10.1007/s40979-024-00149-4
+High. Educ. 20:59. doi: 10.1186/s41239-023-00427-0 Kalim, U., Kanwar, A., Sha, J., and Huang, R. (2025). Barriers to AI adoption for women 
+Bauer, E., Greiff, S., Graesser, A. C., Scheiter, K., and Sailer, M. (2025). Looking beyond in higher education: a systematic review of the Asian context. Smart Learn. Environ. 12:38. 
+the hype: understanding the effects of AI on learning. Educ. Psychol. Rev. 37:45. doi: doi: 10.1186/s40561-025-00390-5
+10.1007/s10648-025-10020-8 Kamalov, F., Calonge, D. S., and Gurrib, I. (2023). New era of artificial intelligence in 
+Busch, F., Hoffmann, L., Truhn, D., Ortiz-Prado, E., Makowski, M. R., Bressem, K. K., education: towards a sustainable multifaceted revolution. Sustainability 15:12451. doi: 
+et al. (2024). Global cross-sectional student survey on AI in medical, dental, and veteri- 10.3390/su151612451
+nary education and practice at 192 faculties. BMC Med. Educ. 24:1066. doi: 10.1186/ Karkoulian, S., Sayegh, N., and Sayegh, N. (2025). ChatGPT unveiled: understanding 
+s12909-024-06035-4 perceptions of academic integrity in higher education—a qualitative approach. J. Acad. 
+Chan, C. K. Y. (2023). A comprehensive AI policy education framework for university Ethics 23, 1171–1188. doi: 10.1007/s10805-024-09543-6
+teaching and learning. Int. J. Educ. Technol. High. Educ. 20:38. doi: 10.1186/ Kellogg, R. T. (2008). Training writing skills: a cognitive developmental perspective. J. 
+s41239-023-00408-3 Writ. Res. 1, 1–26. doi: 10.17239/jowr-2008.01.01.1
+Chan, C. K. Y. (2024). Students' perceptions of 'AI-giarism': investigating changes in Khlaif, Z. N., Alkouk, W. A., Salama, N., and Abu Eideh, B. (2025). Redesigning assess-
+understandings of academic misconduct. Educ. Inf. Technol. 30, 8087–8108. doi: 10.1007/ ments for AI-enhanced learning: a framework for educators in the generative AI era. 
+s10639-024-13151-7 Educ. Sci. 15:174. doi: 10.3390/educsci15020174
+Chan, C. K. Y., and Hu, W. (2023). Students' voices on generative AI: perceptions, benefits, 
+and challenges in higher education. Int. J. Educ. Technol. High. Educ. 20:43. doi: 10.1186/ Khlaif, Z. N., Ayyoub, A., Hamamra, B., Bensalem, E., Mitwally, M. A. A., Ayyoub, A., 
+s41239-023-00411-8 et al. (2024). University teachers' views on the adoption and integration of generative AI 
+
+tools for student assessment in higher education. Educ. Sci. 14:1090. doi: 10.3390/
+Chavez, J. V., Cuilan, J. T., Mannan, S. S., Ibrahim, N. U., Carolino, A. A., and Radjuni, A. educsci14101090
+(2024). Discourse analysis on the ethical dilemmas on the use of AI in academic settings 
+from ICT, science, and language instructors. Forum Linguist. Stud. 6, 349–363. doi: Khlaif, Z. N., Mousa, A., Hattab, M. K., Itmazi, J., Hassan, A. A., Sanmugam, M., et al. 
+10.30564/fls.v6i5.6765 (2023). The potential and concerns of using AI in scientific research: ChatGPT perfor-
+
+mance evaluation. JMIR Med. Educ. 9:e47049. doi: 10.2196/47049
+Chen, C., and Gong, Y. (2025). The role of AI-assisted learning in academic writing: a 
+mixed-methods study on Chinese as a second language students. Educ. Sci. 15:141. doi: Khojasteh, L., Kafipour, R., Pakdel, F., and Mukundan, J. (2025). Empowering medical 
+10.3390/educsci15020141 students with AI writing co-pilots: design and validation of AI self-assessment toolkit. 
+
+BMC Med. Educ. 25:159. doi: 10.1186/s12909-025-06753-3
+Cheng, A., Calhoun, A., and Reedy, G. (2025). Artificial intelligence-assisted academic 
+writing: recommendations for ethical use. Adv. Simul. 10:22. doi: 10.1186/ Kim, J., Yu, S., Detrick, R., and Li, N. (2024). Exploring students' perspectives on genera-
+s41077-025-00350-6 tive AI-assisted academic writing. Educ. Inf. Technol. 30, 1265–1300. doi: 10.1007/
+
+s10639-024-12878-7
+Crawford, J., Cowling, M., and Allen, K. (2023). Leadership is needed for ethical 
+ChatGPT: character, assessment, and learning using artificial intelligence (AI). J. Univ. Krathwohl, D. R. (2002). A revision of bloom's taxonomy: an overview. Theory Into Pract. 
+Teach. Learn. Pract. 20, 1–21. doi: 10.53761/1.20.3.02 41, 212–218. doi: 10.1207/s15430421tip4104_2
+
+Crompton, H., and Burke, D. (2023). Artificial intelligence in higher education: the state Krsmanović, G., and Deek, F. P. (2025). Self-reported cognitive effects of AI applications 
+of the field. Int. J. Educ. Technol. High. Educ. 20:22. doi: 10.1186/s41239-023-00392-8 on learning. J. High. Educ. Theory Pract. 25, 55–62. doi: 10.33423/jhetp.v25i1.7563
+
+Dergaa, I., Chamari, K., Zmijewski, P., and Saad, H. B. (2023). From human writing to artificial Kumar, N. R., Janani, M., and Shobha, B. G. (2025). ChatGPT for academic assignments: 
+intelligence generated text: examining the prospects and potential threats of ChatGPT in aca- opportunities, challenges, and student perspectives in the digital classroom. J. Res. Innov. 
+demic writing. Biol. Sport 40, 615–622. doi: 10.5114/biolsport.2023.125623 Teach. Learn., 1–17. doi: 10.1108/JRIT-08-2025-0202
+Elshall, A. S., and Badir, A. (2025). Balancing AI-assisted learning and traditional assess- Kwan, P., Kadel, R., Memon, T. D., and Hashmi, S. S. (2025). Reimagining flipped learning 
+ment: the FACT assessment in environmental data science education. Front. Educ. via bloom's taxonomy and student–teacher–GenAI interactions. Educ. Sci. 15:465. doi: 
+10:1596462. doi: 10.3389/feduc.2025.1596462 10.3390/educsci15040465
+Engeness, I., and Gamlem, S. M. (2025). Exploring AI-driven feedback as a cultural tool: Lancaster, T., Draper, M., Dann, S., Crockett, R., and Glendinning, I. (2025). Developing 
+a cultural-historical perspective on design of AI environments to support students' writ- policies to address historic contract cheating and misuse of generative artificial intelli-
+ing process. Integr. Psychol. Behav. Sci. 59:23. doi: 10.1007/s12124-025-09894-8 gence. J. Acad. Writ. 15, 1–13. doi: 10.18552/joaw.v15iS1.1057
+Escalante, J., Pack, A., and Barrett, A. (2023). AI-generated feedback on writing: insights Lin, H., and Chen, Q. (2024). Artificial intelligence (AI)-integrated educational applica-
+into efficacy and ENL student preference. Int. J. Educ. Technol. High. Educ. 20:57. doi: tions and college students' creativity and academic emotions: students and teachers' per-
+10.1186/s41239-023-00425-2 ceptions and attitudes. BMC Psychol. 12:487. doi: 10.1186/s40359-024-01979-0
+Essien, A., Bukoye, O. T., O'Dea, X., and Kremantzis, M. (2024). The influence of AI text Lund, B., Lee, T. H., Mannuru, N. R., and Arutla, N. (2025). AI and academic integrity: 
+generators on critical thinking skills in UK business schools. Stud. High. Educ. 49, exploring student perceptions and implications for higher education. J. Acad. Ethics 23, 
+865–882. doi: 10.1080/03075079.2024.2316881 1545–1565. doi: 10.1007/s10805-025-09613-3
+Evangelista, E. D. L. (2025). Ensuring academic integrity in the age of ChatGPT: rethink- Maimela, C., and Mbonde, P. (2025). Artificial intelligence in south African universities: 
+ing exam design, assessment strategies, and ethical AI policies in higher education. curriculum transformation and decolonisation—aid or obstacle? Front. Sociol. 
+Contemp. Educ. Technol. 17:ep559. doi: 10.30935/cedtech/15775 10:1543471. doi: 10.3389/fsoc.2025.1543471
+Evmenova, A. S., Regan, K., Mergen, R., and Hrisseh, R. (2024). Improving writing feed- Mustafa, M. Y., Tlili, A., Lampropoulos, G., Huang, R., Jandrić, P., Zhao, J., et al. (2024). 
+back for struggling writers: generative AI to the rescue? TechTrends 68, 790–802. doi: A systematic review of literature reviews on artificial intelligence in education (AIED): a 
+10.1007/s11528-024-00965-y roadmap to a future research agenda. Smart Learn. Environ. 11:59. doi: 10.1186/
+Francis, N. J., Jones, S., and Smith, D. P. (2025). Generative AI in higher education: bal- s40561-024-00350-5
+ancing innovation and integrity. Br. J. Biomed. Sci. 81:14048. doi: 10.3389/bjbs.2024.14048 Nguyen, A., Hong, Y., Dang, B., and Huang, X. (2024). Human-AI collaboration patterns 
+Gerlich, M. (2025). AI tools in society: impacts on cognitive offloading and the future of in AI-assisted academic writing. Stud. High. Educ. 49, 847–864. doi: 
+critical thinking. Societies 15:6. doi: 10.3390/soc15010006 10.1080/03075079.2024.2323593
+Gonsalves, C. (2025). Contextual assessment design in the age of generative AI. J. Learn. Oates, A., and Johnson, D. (2025). ChatGPT in the classroom: evaluating its role in foster-
+Dev. High. Educ. 34, 1–14. doi: 10.47408/jldhe.vi34.1311 ing critical evaluation skills. Int. J. Artif. Intell. Educ. 35, 1793–1824. doi: 10.1007/
+
+s40593-024-00452-8
+Gustilo, L., Ong, E., and Lapinid, M. R. (2024). Algorithmically-driven writing and aca-
+demic integrity: exploring educators' practices, perceptions, and policies in AI era. Int. J. Ou, A. W., Stöhr, C., and Malmström, H. (2024). Academic communication with 
+Educ. Integr. 20:3. doi: 10.1007/s40979-024-00153-8 AI-powered language tools in higher education: from a post-humanist perspective. 
+Hanh, N. V., and Duyen, N. T. (2025). AI-assisted academic cheating: a conceptual model System 121:103225. doi: 10.1016/j.system.2024.103225
+based on postgraduate student voices. Frontiers in Computer Science 7:1682190. doi: Paas, F., Renkl, A., and Sweller, J. (2003). Cognitive load theory and instructional design: 
+10.3389/fcomp.2025.1682190 recent developments. Educ. Psychol. 38, 1–4. doi: 10.1207/S15326985EP3801_1
+
+Frontiers in Psychology 12 frontiersin.org
+
+
+
+Abdellatif et al. 10.3389/fpsyg.2026.1809174
+
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Diversity, and Excellence, eds. B. Lacy, M. Swanson and P. Lege (Tokyo: JALT). doi: 
+et al. (2021). The PRISMA 2020 statement: an updated guideline for reporting systematic 10.37546/JALTPCP2024-03
+reviews. BMJ 372:n71. doi: 10.1136/bmj.n71 Tang, L., Shen, K., Le, H., Shen, Y., Tan, S., Zhao, Y., et al. (2024). Facilitating learners' 
+Perkins, M. (2023). Academic integrity considerations of AI large language models in the self-assessment during formative writing tasks using writing analytics toolkit. J. Comput. 
+post-pandemic era: ChatGPT and beyond. J. Univ. Teach. Learn. Pract. 20:07. doi: Assist. Learn. 40, 2822–2839. doi: 10.1111/jcal.13036
+10.53761/1.20.02.07 Thanh, B. N., Vo, D. T. H., Nhat, M. N., Pham, T. T. T., Trung, H. T., and Xuan, S. H. 
+Perkins, M., Roe, J., Postma, D., McGaughran, J., and Hickerson, D. (2023). Detection of (2023). Race with the machines: assessing the capability of generative AI in solving 
+GPT-4 generated text in higher education: combining academic judgement and software authentic assessments. Australas. J. Educ. Technol. 39, 59–81. doi: 10.14742/ajet.8902
+to identify generative AI tool misuse. J. Acad. Ethics 22, 89–113. doi: 10.1007/ Tseng, Y., and Lin, Y. (2024). Enhancing English as a foreign language (EFL) learners' 
+s10805-023-09492-6 writing with ChatGPT: a university-level course design. Electron. J. E-Learn. 22, 78–97. 
+Peterson, S. (2025). Addressing student use of generative AI in schools and universities doi: 10.34190/ejel.21.5.3329
+through academic integrity reporting. Front. Educ. 10:1610836. doi: 10.3389/ Villarroel, V., Boud, D., Bloxham, S., Bruna, D., and Bruna, C. (2019). Using principles 
+feduc.2025.1610836 of authentic assessment to redesign written examinations and tests. Innov. Educ. Teach. 
+Pratiwi, H., Suherman, Hasruddin, and Ridha, M. (2025). Between shortcut and ethics: Int. 57, 38–49. doi: 10.1080/14703297.2018.1564882
+navigating the use of artificial intelligence in academic writing among Indonesian doc- Wang, C. (2024). Exploring students' generative AI-assisted writing processes: percep-
+toral students. Eur. J. Educ. 60:e70083. doi: 10.1111/ejed.70083 tions and experiences from native and nonnative English speakers. Technol. Knowl. 
+Reina-Parrado, M., Román-Graván, P., and Hervás-Gómez, C. (2025). Integration of Learn. 30, 1825–1846. doi: 10.1007/s10758-024-09744-3
+artificial intelligence and machine learning in education: a systematic review. Int. J. Educ. Wang, H., Dang, A., Wu, Z., and Mac, S. (2024). Generative AI in higher education: 
+Methodol. 11, 203–216. doi: 10.12973/ijem.11.2.203 seeing ChatGPT through universities' policies, resources, and guidelines. Computers and 
+Rincón, E. H. H., Jimenez, D., Aguilar, L. A. C., Flórez, J. M. P., Tapia, Á. E. R., and Education: Artificial Intelligence 7:100326. doi: 10.1016/j.caeai.2024.100326
+Peñuela, C. L. J. (2025). Mapping the use of artificial intelligence in medical education: a Weidmann, A. E. (2024). Artificial intelligence in academic writing and clinical phar-
+scoping review. BMC Med. Educ. 25:526. doi: 10.1186/s12909-025-07089-8 macy education: consequences and opportunities. Int. J. Clin. Pharm. 46, 751–754. doi: 
+Salinas-Navarro, D. E., Vilalta-Perdomo, E., Michel-Villarreal, R., and Montesinos, L. 10.1007/s11096-024-01705-1
+(2024). Using generative artificial intelligence tools to explain and enhance experiential Yin, J., Xu, H., Pan, Y., and Hu, Y. (2025). Effects of different AI-driven chatbot feedback 
+learning for authentic assessment. Educ. Sci. 14:83. doi: 10.3390/educsci14010083 on learning outcomes and brain activity. NPJ Sci. Learn. 10:17. doi: 10.1038/
+
+s41539-025-00311-8
+Shi, J., Liu, W., and Hu, K. (2025). Exploring how AI literacy and self-regulated learning 
+relate to student writing performance and well-being in generative AI-supported higher Yusuf, A., Pervin, N., and Román-González, M. (2024). Generative AI and the future of 
+education. Behav. Sci. 15:705. doi: 10.3390/bs15050705 higher education: a threat to academic integrity or reformation? Evidence from multi-
+
+cultural perspectives. Int. J. Educ. Technol. High. Educ. 21:21. doi: 10.1186/
+Slimi, Z., Benayoune, A., and Alemu, A. E. (2025). Students' perceptions of artificial intel- s41239-024-00453-6
+ligence integration in higher education. Eur. J. Educ. Res. 14, 471–484. doi: 10.12973/
+eu-jer.14.2.471 Zhai, C., Wibowo, S., and Li, L. D. (2024). The effects of over-reliance on AI dialogue 
+
+systems on students' cognitive abilities: a systematic review. Smart Learn. Environ. 11:28. 
+Song, C., and Song, Y. (2023). Enhancing academic writing skills and motivation: assess- doi: 10.1186/s40561-024-00316-7
+ing the efficacy of ChatGPT in AI-assisted language learning for EFL students. Front. 
+Psychol. 14:1260843. doi: 10.3389/fpsyg.2023.1260843 Zhang, N., Wong, W. L., and Barrot, J. (2025). Primary teachers' acceptance and sus-
+
+tained adoption of AI powered learner corpora for writing instruction through TAM 
+Sotiriadou, P., Logan, D., Daly, A., and Guest, R. (2019). The role of authentic assessment and ECM perspectives. Sci. Rep. 15:37399. doi: 10.1038/s41598-025-21205-0
+to preserve academic integrity and promote skill development and employability. Stud. 
+High. Educ. 45, 2132–2148. doi: 10.1080/03075079.2019.1582015 Zhang, X. S., and Zhang, L. J. (2022). Sustaining learners' writing development: effects 
+
+of using self-assessment on their foreign language writing performance and rating accu-
+Sullivan, M., Kelly, A., and McLaughlan, P. (2023). ChatGPT in higher education: consid- racy. Sustainability 14:14686. doi: 10.3390/su142214686
+erations for academic integrity and student learning. J. Appl. Learn. Teach. 6, 31–40. doi: 
+10.37074/jalt.2023.6.1.17 Zhao, H., and Dang, T. N. Y. (2026). Transforming written assessment design to embrace 
+
+AI: what needs to be changed to encourage higher-order critical thinking. Educ. Inf. 
+Sweller, J. (1988). Cognitive load during problem solving: effects on learning. Cogn. Sci. Technol. 31, 1909–1931. doi: 10.1007/s10639-025-13870-5
+12, 257–285. doi: 10.1207/s15516709cog1202_4
+
+Zhou, X., Teng, D., and Al-Samarraie, H. (2024). The mediating role of generative AI 
+Talandis, J., and Muller, T. (2025). “Integrating generative AI into academic writing class- self-regulation on students' critical thinking and problem-solving. Educ. Sci. 14:1302. doi: 
+rooms: practical pedagogical issues,” in Moving JALT into the Future: Opportunity, 10.3390/educsci14121302
+
+Frontiers in Psychology 13 frontiersin.org

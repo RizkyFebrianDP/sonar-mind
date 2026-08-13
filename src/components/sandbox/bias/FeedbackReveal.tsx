@@ -2,7 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Trophy, CheckCircle, XCircle } from "lucide-react";
+import { Icon } from "@/components/ui/Icon";
+import { CheckCircle, XCircle } from "lucide-react";
 
 interface FeedbackRevealProps {
   score: number;
@@ -30,7 +31,7 @@ export function FeedbackReveal({
 }: FeedbackRevealProps) {
   const getScoreColor = (s: number) => {
     if (s >= 75) return "text-green-500";
-    if (s >= 50) return "text-yellow-500";
+    if (s >= 50) return "text-amber-600 dark:text-yellow-400";
     return "text-red-500";
   };
 
@@ -55,12 +56,12 @@ export function FeedbackReveal({
         {/* Skor Header */}
         <div className="text-center mb-6">
           <div className="w-14 h-14 rounded-2xl bg-purple-500/10 flex items-center justify-center mx-auto mb-3">
-            <Trophy className="w-7 h-7 text-purple-500" />
+            <Icon id="85613" className="w-7 h-7 bg-purple-500" />
           </div>
           <h2 className="text-xl font-bold font-heading text-text-strong mb-0.5">
             Hasil Bias Audit
           </h2>
-          <p className="text-sm text-text-muted">Pilar 2: Algorithmic Bias Awareness</p>
+          <p className="text-sm text-text-muted">Algorithmic Bias Awareness</p>
           <div className={`text-5xl font-bold font-heading mt-4 ${getScoreColor(score)}`}>
             {score}
           </div>

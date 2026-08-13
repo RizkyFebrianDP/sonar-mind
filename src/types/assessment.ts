@@ -82,20 +82,27 @@ export interface HallucinationScenario {
   references: Array<{ claim: string; source: string }>;
 }
 
+export interface BiasCandidate {
+  name: string;
+  gender: string;
+  school: string;
+  gpa: number;
+  extracurricular: string;
+  achievements: string[];
+  scholarshipEssayScore: number;
+  aiRank: number;
+  aiScore: number;
+}
+
 export interface BiasAuditScenario {
   title: string;
   context: string;
-  candidates: Array<{
-    name: string;
-    role: string;
-    score: number;
-    skills: string[];
-    experience: string;
-    aiRank: number;
-  }>;
-  correctBiasTypes: string[];
-  explanation: string;
-  keywords: string[];
+  candidates: BiasCandidate[];
+  biasAnalysis: {
+    correctBiasTypes: string[];
+    explanation: string;
+    keywords: string[];
+  };
 }
 
 export type DilemmaCategory = 'ethical' | 'offloading' | 'grey';
