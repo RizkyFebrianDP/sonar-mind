@@ -12,7 +12,6 @@ import type { User } from "@supabase/supabase-js";
 const navItems = [
   { name: "Dashboard", href: "/", icon: "aVHe2jHuORcA" },
   { name: "Assessments", href: "/assessments", icon: "101164" },
-  { name: "My Results", href: "/results", icon: "100254" },
   { name: "Learning", href: "/learning", icon: "85767" },
 ];
 

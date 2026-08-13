@@ -36,7 +36,7 @@ const LEARNING_MODULES: LearningModule[] = [
     icon: "82782",
     badgeColor: "bg-blue-500/10 text-blue-500 border-blue-500/20",
     topics: ["Strategi Cross-Checking", "Struktur Prompt Faktual", "Pengenalan Sintaks Sitasi"],
-    sandboxHref: "/sandbox/hallucination-audit",
+    sandboxHref: "/learning/mod-halusinasi-1",
   },
   {
     id: "mod-bias-1",
@@ -51,7 +51,7 @@ const LEARNING_MODULES: LearningModule[] = [
     icon: "87375",
     badgeColor: "bg-purple-500/10 text-purple-500 border-purple-500/20",
     topics: ["Mitigasi Bias Skenario", "Metrik Keadilan Algoritma", "Justifikasi Evaluasi Kritis"],
-    sandboxHref: "/sandbox/bias-audit",
+    sandboxHref: "/learning/mod-bias-1",
   },
   {
     id: "mod-etika-1",
@@ -66,7 +66,7 @@ const LEARNING_MODULES: LearningModule[] = [
     icon: "101174",
     badgeColor: "bg-amber-500/10 text-amber-600 border-amber-500/20 dark:text-amber-500",
     topics: ["Dilema Etika AI", "Cognitive Offloading Risk", "Kerangka Keputusan Etis"],
-    sandboxHref: "/sandbox/ethical-dilemma",
+    sandboxHref: "/learning/mod-etika-1",
   },
   {
     id: "mod-unesco-1",
@@ -81,7 +81,7 @@ const LEARNING_MODULES: LearningModule[] = [
     icon: "85778",
     badgeColor: "bg-emerald-500/10 text-emerald-600 border-emerald-500/20 dark:text-emerald-500",
     topics: ["5 Pilar MIL-AI", "Hak Digital & Privasi", "Etika Generatif Abad 21"],
-    sandboxHref: "/assessments",
+    sandboxHref: "/learning/mod-unesco-1",
   },
 ];
 
