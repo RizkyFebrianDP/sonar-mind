@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@nivo/core": "^0.99.0",
+    "@nivo/radar": "^0.99.0",
     "@supabase/ssr": "^0.12.4",
     "@supabase/supabase-js": "^2.112.3",
     "framer-motion": "^13.1.0",

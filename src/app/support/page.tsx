@@ -33,9 +33,9 @@ const FAQ_LIST: FAQItem[] = [
     id: "faq-unesco-1",
     category: "unesco",
     categoryLabel: "MIL-AI UNESCO",
-    question: "Apa itu Kerangka Kerja MIL-AI UNESCO dan apa saja 5 Pilar utamanya?",
+    question: "Apa itu Kerangka Kerja MIL-AI UNESCO dan apa saja 5 Dimensi utamanya?",
     answer:
-      "Kerangka kerja MIL-AI (Media and Information Literacy in Artificial Intelligence) UNESCO dirancang untuk membekali individu dengan literasi kritis dalam era kecerdasan buatan. SONAR MIND mengadopsi 5 pilar utama:\n1. Critical Evaluation (Audit Halusinasi & Verifikasi Informasi)\n2. Algorithmic Bias Awareness (Deteksi Stereotip & Bias Skenario)\n3. Ethical Reasoning (Penalaran Dilema Moral & Etika AI)\n4. Cognitive Agency (Kemandirian Kognitif & Pengambilan Keputusan)\n5. Algorithmic Resilience Index (Ketahanan Adaptif Manusia dalam Ekosistem AI)",
+      "Kerangka kerja MIL-AI (Media and Information Literacy in Artificial Intelligence) UNESCO dirancang untuk membekali individu dengan literasi kritis dalam era kecerdasan buatan. SONAR MIND mengadopsi 5 dimensi utama:\n1. Critical Evaluation (Audit Halusinasi & Verifikasi Informasi)\n2. Algorithmic Bias Awareness (Deteksi Stereotip & Bias Skenario)\n3. Ethical Reasoning (Penalaran Dilema Moral & Etika AI)\n4. Cognitive Agency (Kemandirian Kognitif & Pengambilan Keputusan)\n5. Algorithmic Resilience Index (Ketahanan Adaptif Manusia dalam Ekosistem AI)",
     highlights: [
       "Mengukur keterampilan abad ke-21 dalam berinteraksi dengan AI.",
       "Standar evaluasi internasional yang terstruktur dan terukur.",
@@ -133,7 +133,7 @@ export default function SupportPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    topic: "Deteksi Halusinasi AI (Pilar 1)",
+    topic: "Deteksi Halusinasi AI (Dimensi 1)",
     message: "",
   });
   const [submitting, setSubmitting] = useState(false);
@@ -184,7 +184,7 @@ export default function SupportPage() {
       setFormData({
         name: "",
         email: "",
-        topic: "Deteksi Halusinasi AI (Pilar 1)",
+        topic: "Deteksi Halusinasi AI (Dimensi 1)",
         message: "",
       });
     }, 1200);
@@ -485,14 +485,14 @@ export default function SupportPage() {
                   }
                   className="w-full px-4 py-2.5 rounded-xl bg-background border border-border-subtle text-text-strong text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-accent-blue/40 transition-all"
                 >
-                  <option value="Deteksi Halusinasi AI (Pilar 1)">
-                    Deteksi Halusinasi AI (Pilar 1)
+                  <option value="Deteksi Halusinasi AI (Dimensi 1)">
+                    Deteksi Halusinasi AI (Dimensi 1)
                   </option>
-                  <option value="Bias Algoritma (Pilar 2)">
-                    Bias Algoritma (Pilar 2)
+                  <option value="Bias Algoritma (Dimensi 2)">
+                    Bias Algoritma (Dimensi 2)
                   </option>
-                  <option value="Etika & Agensi Kognitif (Pilar 3 & 4)">
-                    Etika & Agensi Kognitif (Pilar 3 & 4)
+                  <option value="Etika & Agensi Kognitif (Dimensi 3 & 4)">
+                    Etika & Agensi Kognitif (Dimensi 3 & 4)
                   </option>
                   <option value="Kerangka MIL-AI UNESCO">
                     Kerangka MIL-AI UNESCO

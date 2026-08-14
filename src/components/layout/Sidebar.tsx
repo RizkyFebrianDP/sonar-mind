@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@/components/ui/Icon";
@@ -73,23 +74,14 @@ export function Sidebar() {
             {mobileOpen ? <Icon id="82771" className="w-6 h-6" /> : <Icon id="82749" className="w-6 h-6" />}
           </button>
           <div className="flex items-center">
-            <div className="flex items-center justify-center w-7 h-7 rounded-lg bg-gray-100 text-text-strong mr-2">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                className="w-4 h-4"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 2L2 22h20L12 2z"
-                />
-              </svg>
+            <div className="dark:hidden flex items-center">
+              <Image src="/icons/sonar-mind-logo-black.png" alt="Sonar Mind" width={32} height={32} className="mr-3 object-contain" />
             </div>
-            <span className="text-lg font-heading font-bold text-text-strong tracking-wide">
-              MIL-AI
+            <div className="hidden dark:flex items-center">
+              <Image src="/icons/sonar-mind-logo-light.png" alt="Sonar Mind" width={32} height={32} className="mr-3 object-contain" />
+            </div>
+            <span className="text-xl font-heading font-bold text-text-strong tracking-wide">
+              Sonar Mind
             </span>
           </div>
         </div>
@@ -124,23 +116,14 @@ export function Sidebar() {
               {/* Drawer Header */}
               <div className="h-20 flex items-center justify-between px-6 border-b border-sidebar-border">
                 <div className="flex items-center">
-                  <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-gray-100 text-text-strong mr-3">
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M12 2L2 22h20L12 2z"
-                      />
-                    </svg>
+                  <div className="dark:hidden flex items-center">
+                    <Image src="/icons/sonar-mind-logo-black.png" alt="Sonar Mind" width={36} height={36} className="mr-4 object-contain" />
                   </div>
-                  <span className="text-xl font-heading font-bold text-text-strong tracking-wide">
-                    MIL-AI
+                  <div className="hidden dark:flex items-center">
+                    <Image src="/icons/sonar-mind-logo-light.png" alt="Sonar Mind" width={36} height={36} className="mr-4 object-contain" />
+                  </div>
+                  <span className="text-2xl font-heading font-bold text-text-strong tracking-wide">
+                    Sonar Mind
                   </span>
                 </div>
                 <button
@@ -231,23 +214,14 @@ export function Sidebar() {
       <aside className="w-64 bg-sidebar-bg border-r border-sidebar-border hidden md:flex flex-col h-full shrink-0">
         {/* Logo Area */}
         <div className="h-20 flex items-center px-6">
-          <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-gray-100 text-text-strong mr-3">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="w-5 h-5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 2L2 22h20L12 2z"
-              />
-            </svg>
+          <div className="dark:hidden flex items-center">
+            <Image src="/icons/sonar-mind-logo-black.png" alt="Sonar Mind" width={36} height={36} className="mr-4 object-contain" />
           </div>
-          <span className="text-xl font-heading font-bold text-text-strong tracking-wide">
-            MIL-AI
+          <div className="hidden dark:flex items-center">
+            <Image src="/icons/sonar-mind-logo-light.png" alt="Sonar Mind" width={36} height={36} className="mr-4 object-contain" />
+          </div>
+          <span className="text-2xl font-heading font-bold text-text-strong tracking-wide">
+            Sonar Mind
           </span>
         </div>
 

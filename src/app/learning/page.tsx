@@ -74,13 +74,13 @@ const LEARNING_MODULES: LearningModule[] = [
     category: "unesco",
     title: "Pengantar Framework MIL-AI UNESCO",
     description:
-      "Landasan komprehensif mengenai 5 pilar kompetensi Media & Information Literacy dalam era Artificial Intelligence.",
+      "Landasan komprehensif mengenai 5 dimensi kompetensi Media & Information Literacy dalam era Artificial Intelligence.",
     duration: "30 Menit",
     level: "Pemula",
     points: 300,
     icon: "85778",
     badgeColor: "bg-emerald-500/10 text-emerald-600 border-emerald-500/20 dark:text-emerald-500",
-    topics: ["5 Pilar MIL-AI", "Hak Digital & Privasi", "Etika Generatif Abad 21"],
+    topics: ["5 Dimensi MIL-AI", "Hak Digital & Privasi", "Etika Generatif Abad 21"],
     sandboxHref: "/learning/mod-unesco-1",
   },
 ];

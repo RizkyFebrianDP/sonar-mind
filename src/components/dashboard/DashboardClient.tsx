@@ -139,7 +139,7 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
             score={overall}
             label={hasData ? overallMeta.label : "Belum Ada Data"}
             labelColor={hasData ? overallMeta.color : "blue"}
-            description={hasData ? `Skor gabungan 4 pilar kompetensi` : "Mulai assessment untuk melihat skor"}
+            description={hasData ? `Skor gabungan 4 dimensi kompetensi` : "Mulai assessment untuk melihat skor"}
             iconId="85933"
           />
           <SummaryCard

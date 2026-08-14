@@ -143,7 +143,7 @@ const moduleContents: Record<string, any> = {
           Literasi bukan lagi sekadar kemampuan menggunakan komputer (Digital Literacy). Saat ini, warga global dituntut memahami konsekuensi sosiologis, psikologis, dan hak asasi manusia akibat implementasi algoritma <em>Black Box</em>.
         </p>
 
-        <h3 className="text-xl font-bold mt-8 mb-3 text-accent-blue">5 Pilar Kompetensi Inti UNESCO MIL-AI</h3>
+        <h3 className="text-xl font-bold mt-8 mb-3 text-accent-blue">5 Dimensi Kompetensi Inti UNESCO MIL-AI</h3>
         <div className="bg-accent-blue/5 p-6 rounded-xl border border-accent-blue/20">
           <ol className="list-decimal list-outside ml-5 space-y-4">
             <li>

@@ -267,13 +267,13 @@ export default function ResultsPage() {
         {result && (
           <motion.section variants={item} className="bg-panel border border-sidebar-border rounded-3xl p-8 space-y-5">
             <h3 className="font-heading font-bold text-text-strong flex items-center gap-2">
-              <Award className="w-5 h-5 text-accent-blue" /> Kompetensi Per Pilar
+              <Award className="w-5 h-5 text-accent-blue" /> Kompetensi Per Dimensi
             </h3>
             <div className="space-y-4">
-              <PillarBar label="Pilar 1 — Critical Evaluation" score={result.pillars.criticalEvaluation} icon={ClipboardCheck} delay={0.1} />
-              <PillarBar label="Pilar 2 — Bias Awareness" score={result.pillars.algorithmicBiasAwareness} icon={Scale} delay={0.2} />
-              <PillarBar label="Pilar 3 — Ethical Reasoning" score={result.pillars.ethicalReasoning} icon={ShieldCheck} delay={0.3} />
-              <PillarBar label="Pilar 4 — Cognitive Agency" score={result.pillars.cognitiveAgency} icon={BrainCircuit} delay={0.4} />
+              <PillarBar label="Dimensi 1 — Critical Evaluation" score={result.pillars.criticalEvaluation} icon={ClipboardCheck} delay={0.1} />
+              <PillarBar label="Dimensi 2 — Bias Awareness" score={result.pillars.algorithmicBiasAwareness} icon={Scale} delay={0.2} />
+              <PillarBar label="Dimensi 3 — Ethical Reasoning" score={result.pillars.ethicalReasoning} icon={ShieldCheck} delay={0.3} />
+              <PillarBar label="Dimensi 4 — Cognitive Agency" score={result.pillars.cognitiveAgency} icon={BrainCircuit} delay={0.4} />
             </div>
           </motion.section>
         )}
