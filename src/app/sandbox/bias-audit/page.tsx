@@ -10,38 +10,13 @@ import { JustificationInput } from "@/components/sandbox/bias/JustificationInput
 import { FeedbackReveal } from "@/components/sandbox/bias/FeedbackReveal";
 import { useAssessment } from "@/context/AssessmentContext";
 import { calculateBiasAwarenessScore } from "@/lib/scoring-engine";
+import {
+  calculateJustificationScore,
+  IDENTIFICATION_BASE_MAX,
+  WRONG_SELECTION_PENALTY,
+  CORRECT_SELECTION_BONUS,
+} from "@/config/bias-scoring";
 import scenarioData from "@/data/scenarios/bias-audit.json";
-
-const KEYWORD_WEIGHTS: Record<string, number> = {
-  "bias gender": 20,
-  "gender bias": 20,
-  diskriminasi: 15,
-  perempuan: 10,
-  ketidakadilan: 10,
-  "bias rekrutmen": 15,
-  stereotype: 10,
-  kualifikasi: 10,
-  ipk: 8,
-  pengalaman: 8,
-};
-
-function calculateJustificationScore(text: string, keywords: string[]): number {
-  if (text.length < 50) return 0;
-
-  const lowerText = text.toLowerCase();
-  let keywordScore = 0;
-
-  for (const kw of keywords) {
-    if (lowerText.includes(kw.toLowerCase())) {
-      keywordScore += KEYWORD_WEIGHTS[kw] ?? 8;
-    }
-  }
-
-  // Panjang teks memberikan skor dasar (max 40 dari length)
-  const lengthScore = Math.min((text.length / 200) * 40, 40);
-
-  return Math.min(100, Math.round(lengthScore + keywordScore));
-}
 
 export default function BiasAuditPage() {
   const router = useRouter();
@@ -88,7 +63,7 @@ export default function BiasAuditPage() {
     );
 
     const raw = {
-      biasIdentificationScore: Math.min(100, identificationScore + (correctSelected.length > 0 ? 30 : 0)),
+      biasIdentificationScore: Math.min(100, identificationScore + (correctSelected.length > 0 ? CORRECT_SELECTION_BONUS : 0)),
       justificationScore,
     };
 
@@ -189,3 +164,5 @@ export default function BiasAuditPage() {
     </div>
   );
 }
+
+
