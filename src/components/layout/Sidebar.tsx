@@ -13,6 +13,7 @@ const navItems = [
   { name: "Dashboard", href: "/", icon: "aVHe2jHuORcA" },
   { name: "Assessments", href: "/assessments", icon: "101164" },
   { name: "Learning", href: "/learning", icon: "85767" },
+  { name: "My Results", href: "/results", icon: "115230" },
 ];
 
 export function Sidebar() {
