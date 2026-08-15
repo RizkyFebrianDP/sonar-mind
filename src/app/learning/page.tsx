@@ -188,8 +188,6 @@ export default function LearningPage() {
         variants={itemVariants}
         className="relative overflow-hidden rounded-3xl bg-panel border border-border-subtle p-6 sm:p-10 shadow-sm"
       >
-        <div className="absolute top-0 right-0 -mt-10 -mr-10 w-72 h-72 bg-accent-green/10 rounded-full blur-3xl pointer-events-none" />
-
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-green/10 text-accent-green border border-accent-green/20 text-xs font-semibold tracking-wide">
             <Icon id="82797" className="w-3.5 h-3.5 bg-accent-green" />

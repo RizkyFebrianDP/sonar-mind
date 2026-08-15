@@ -188,19 +188,19 @@ export default function ResultsPage() {
     <div className="min-h-screen bg-background">
       {/* Top bar */}
       <header className="sticky top-0 z-30 bg-background/80 backdrop-blur-lg border-b border-sidebar-border print:hidden">
-        <div className="max-w-4xl mx-auto flex items-center justify-between px-5 h-14">
+        <div className="max-w-4xl mx-auto flex flex-wrap items-center justify-between px-5 py-3 sm:h-14 gap-y-3">
           <div className="flex items-center gap-3">
-            <Link href="/" className="p-1.5 rounded-lg hover:bg-black/5 transition-colors">
+            <Link href="/" className="p-1.5 rounded-lg hover:bg-black/5 transition-colors shrink-0">
               <ArrowLeft className="w-5 h-5 text-text-muted" />
             </Link>
-            <h1 className="font-heading font-bold text-text-strong">{t.results.reportTitle}</h1>
+            <h1 className="font-heading font-bold text-text-strong leading-tight">{t.results.reportTitle}</h1>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 w-full sm:w-auto pl-10 sm:pl-0">
             {history.length > 1 && (
               <select
                 value={selectedId ?? ""}
                 onChange={(e) => setSelectedId(e.target.value)}
-                className="text-xs bg-panel border border-sidebar-border rounded-lg px-3 py-1.5 text-text-strong focus:outline-none focus:ring-2 focus:ring-accent-blue/40"
+                className="flex-1 sm:flex-none min-w-0 text-xs bg-panel border border-sidebar-border rounded-lg px-3 py-1.5 text-text-strong focus:outline-none focus:ring-2 focus:ring-accent-blue/40"
               >
                 {history.map((h) => (
                   <option key={h.id} value={h.id}>

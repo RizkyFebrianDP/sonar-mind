@@ -38,10 +38,15 @@ export default function LoginPage() {
     <section className="h-screen w-screen overflow-hidden bg-background text-text-strong antialiased [font-synthesis:none]">
       <div className="grid h-full w-full lg:grid-cols-[0.94fr_1.06fr]">
         {/* Left Column (Images Carousel) */}
-        <div className="flex h-full justify-center overflow-hidden bg-panel border-r border-border-subtle px-7 py-8 text-text-strong sm:px-10 lg:py-16">
+        <div className="hidden lg:flex h-full justify-center overflow-hidden bg-panel border-r border-border-subtle px-7 py-8 text-text-strong sm:px-10 lg:py-16">
           <div className="flex w-full max-w-[500px] flex-col items-center">
             <div className="flex items-center gap-3 text-lg font-semibold text-text-strong">
-              <img src="/icons/sonar-mind-logo-black.png" alt="Sonar Mind" className="h-6 object-contain" />
+              <div className="dark:hidden flex items-center">
+                <img src="/icons/sonar-mind-logo-black.png" alt="Sonar Mind" className="h-6 object-contain" />
+              </div>
+              <div className="hidden dark:flex items-center">
+                <img src="/icons/sonar-mind-logo-light.png" alt="Sonar Mind" className="h-6 object-contain" />
+              </div>
               SONAR MIND
             </div>
 
@@ -214,7 +219,17 @@ function AuthForm() {
 
   return (
     <div className="mx-auto w-full max-w-[500px] text-center">
-      <h1 className="whitespace-nowrap text-3xl font-medium tracking-[-0.04em] sm:text-4xl lg:text-[42px] lg:leading-[1.05]">
+      <div className="flex lg:hidden items-center justify-center gap-3 text-lg font-semibold text-text-strong mb-8">
+        <div className="dark:hidden flex items-center">
+          <img src="/icons/sonar-mind-logo-black.png" alt="Sonar Mind" className="h-6 object-contain" />
+        </div>
+        <div className="hidden dark:flex items-center">
+          <img src="/icons/sonar-mind-logo-light.png" alt="Sonar Mind" className="h-6 object-contain" />
+        </div>
+        SONAR MIND
+      </div>
+
+      <h1 className="text-3xl font-medium tracking-[-0.04em] sm:text-4xl lg:text-[42px] lg:leading-[1.05] max-w-full overflow-wrap-normal">
         {t.login.title}
       </h1>
 
