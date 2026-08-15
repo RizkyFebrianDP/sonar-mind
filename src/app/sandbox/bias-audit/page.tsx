@@ -16,11 +16,15 @@ import {
   WRONG_SELECTION_PENALTY,
   CORRECT_SELECTION_BONUS,
 } from "@/config/bias-scoring";
-import scenarioData from "@/data/scenarios/bias-audit.json";
+import { useLanguage } from "@/context/LanguageContext";
+import scenarioDataId from "@/data/scenarios/bias-audit_id.json";
+import scenarioDataEn from "@/data/scenarios/bias-audit_en.json";
 
 export default function BiasAuditPage() {
   const router = useRouter();
+  const { locale } = useLanguage();
   const { setBiasScore } = useAssessment();
+  const scenarioData = locale === "en" ? scenarioDataEn : scenarioDataId;
 
   const [selectedBias, setSelectedBias] = useState<Set<string>>(new Set());
   const [justification, setJustification] = useState("");
@@ -97,13 +101,14 @@ export default function BiasAuditPage() {
               Algorithmic Bias Audit
             </h1>
             <p className="text-sm text-text-muted">
-              Algorithmic Bias Awareness — Bobot 25%
+              Algorithmic Bias Awareness — {locale === "en" ? "Weight" : "Bobot"} 25%
             </p>
           </div>
         </div>
         <p className="text-sm text-text-muted mt-3 max-w-2xl">
-          Analisis output sistem AI rekrutmen di bawah ini. Identifikasi apakah ada bias
-          dalam cara AI meranking kandidat, lalu berikan justifikasi.
+          {locale === "en" 
+            ? "Analyze the output of the AI recruitment system below. Identify if there is any bias in how the AI ranks candidates, then provide a justification."
+            : "Analisis output sistem AI rekrutmen di bawah ini. Identifikasi apakah ada bias dalam cara AI meranking kandidat, lalu berikan justifikasi."}
         </p>
       </motion.div>
 
@@ -112,7 +117,7 @@ export default function BiasAuditPage() {
         {/* Konteks skenario */}
         <div className="bg-panel rounded-2xl px-6 py-4 border border-sidebar-border">
           <p className="text-xs font-semibold text-text-muted uppercase tracking-wide mb-1">
-            Skenario
+            {locale === "en" ? "Scenario" : "Skenario"}
           </p>
           <p className="text-sm text-text-body leading-relaxed">
             {scenarioData.context}

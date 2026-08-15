@@ -4,16 +4,18 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 
+import { handleError } from "@/lib/error-handler";
+
 export default function ErrorBoundary({
   error,
   reset,
 }: {
-  error: Error & { digest?: string; status?: number };
+  error: Error & { digest?: string; status?: number; code?: string };
   reset: () => void;
 }) {
   useEffect(() => {
-    // Log error to console or error reporting service
-    console.error("App Error Boundary caught an error:", error);
+    // Standardized error logging
+    handleError(error, "AppErrorBoundary");
   }, [error]);
 
   const is402 =

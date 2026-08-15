@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Icon } from '@/components/ui/Icon';
 import { motion } from 'framer-motion';
+import { useLanguage } from '@/context/LanguageContext';
 
 const attempts = [
   {
@@ -19,9 +20,10 @@ const attempts = [
 ];
 
 export function PreviousAttemptsWidget() {
+  const { t } = useLanguage();
   return (
     <div className="flex flex-col mb-6">
-      <h3 className="text-xl font-heading font-bold text-text-strong mb-1">Previous Attempts</h3>
+      <h3 className="text-xl font-heading font-bold text-text-strong mb-1">{t.assessments.prevAttempts}</h3>
       <p className="text-sm text-transparent select-none" aria-hidden="true">Spacer to align with left column</p>
       
       <motion.div 
@@ -49,14 +51,14 @@ export function PreviousAttemptsWidget() {
               <div className="flex justify-between items-center mt-2">
                 <div className="flex items-center gap-1.5 text-xs font-bold text-accent-green">
                   <div className="w-1.5 h-1.5 rounded-full bg-accent-green"></div>
-                  {attempt.status}
+                  {t.assessments.completed}
                 </div>
                 
                 <Link 
                   href={`/results?id=${attempt.id}`} 
                   className="text-xs font-bold text-accent-blue hover:text-accent-blue/80 transition-colors flex items-center"
                 >
-                  View Results
+                  {t.sidebar.myResults}
                   <Icon id="85463" className="w-3 h-3 ml-1 bg-accent-blue" />
                 </Link>
               </div>
@@ -66,7 +68,7 @@ export function PreviousAttemptsWidget() {
         
         <div className="bg-background border-t border-border-subtle p-3 text-center hover:bg-black/5 transition-colors cursor-pointer">
           <Link href="/results" className="text-xs font-bold text-text-strong block w-full">
-            View All History
+            {t.assessments.viewAll}
           </Link>
         </div>
       </motion.div>

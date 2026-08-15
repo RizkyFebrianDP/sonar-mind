@@ -5,6 +5,7 @@ import { Sidebar } from "@/components/layout/Sidebar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { AssessmentProvider } from "@/context/AssessmentContext";
 import { ToastProvider } from "@/context/ToastContext";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -47,18 +48,20 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${outfit.variable} ${plusJakarta.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${outfit.variable} ${plusJakarta.variable} ${jetbrainsMono.variable} h-full antialiased print:h-auto`}
     >
-      <body suppressHydrationWarning className="h-full bg-background flex flex-col md:flex-row text-foreground overflow-hidden">
+      <body suppressHydrationWarning className="h-full bg-background flex flex-col md:flex-row text-foreground overflow-hidden print:h-auto print:overflow-visible print:block">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <ToastProvider>
-            <AssessmentProvider>
-              <Sidebar />
-              <main className="flex-1 h-full overflow-y-auto">
-                {children}
-              </main>
-            </AssessmentProvider>
-          </ToastProvider>
+          <LanguageProvider>
+            <ToastProvider>
+              <AssessmentProvider>
+                <Sidebar />
+                <main className="flex-1 h-full overflow-y-auto print:h-auto print:overflow-visible print:block">
+                  {children}
+                </main>
+              </AssessmentProvider>
+            </ToastProvider>
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

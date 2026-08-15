@@ -3,12 +3,11 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { SummaryCard } from "@/components/dashboard/SummaryCard";
-import { RadarChartPillar } from "@/components/dashboard/RadarChartPillar";
-import { InsightCard } from "@/components/dashboard/InsightCard";
 import { HistoryTable } from "@/components/dashboard/HistoryTable";
 import { LearningRecommendations } from "@/components/dashboard/LearningRecommendations";
 import { Icon } from "@/components/ui/Icon";
 import { useAssessment } from "@/context/AssessmentContext";
+import { useLanguage } from "@/context/LanguageContext";
 import { calculateAssessmentResult, generateRecommendations } from "@/lib/scoring-engine";
 import type { AssessmentHistoryItem, AssessmentResult } from "@/types/assessment";
 import type { User } from "@supabase/supabase-js";
@@ -38,38 +37,45 @@ function getScoreLabel(score: number): { label: string; color: "blue" | "yellow"
 
 export function DashboardClient({ user, history, latestRecord }: DashboardClientProps) {
   const { assessmentResult, rawScores } = useAssessment();
+  const { t } = useLanguage();
   const savedRef = React.useRef(false);
 
   // Jika ada rawScores dari sesi ini, simpan ke Supabase (sekali per sesi)
 
 
   // Tentukan sumber data: context (baru selesai) atau DB (riwayat)
-  const displayResult: AssessmentResult | null = assessmentResult ?? (latestRecord
-    ? (latestRecord.raw_scores && latestRecord.raw_scores.hallucinationAudit
-        ? calculateAssessmentResult(latestRecord.raw_scores)
-        : {
-            pillars: {
-              criticalEvaluation: latestRecord.hallucination_score,
-              algorithmicBiasAwareness: latestRecord.bias_score,
-              ethicalReasoning: latestRecord.ethical_score,
-              cognitiveAgency: latestRecord.cognitive_agency_score,
-            },
-            weightedTotal: latestRecord.overall_score,
-            cognitiveAgencyCategory: latestRecord.cognitive_agency_category,
-            algorithmicResilienceIndex: latestRecord.algorithmic_resilience_index,
-            recommendations: generateRecommendations({
-              criticalEvaluation: latestRecord.hallucination_score,
-              algorithmicBiasAwareness: latestRecord.bias_score,
-              ethicalReasoning: latestRecord.ethical_score,
-              cognitiveAgency: latestRecord.cognitive_agency_score,
-            }),
-          })
-    : null);
+  let fallbackResult = null;
+  if (latestRecord?.raw_scores) {
+    const calc = calculateAssessmentResult(latestRecord.raw_scores);
+    if (calc.ok) fallbackResult = calc.value;
+  }
 
-  const overall = displayResult?.weightedTotal ?? latestRecord?.overall_score ?? 0;
-  const hallucinationScore = displayResult?.pillars.criticalEvaluation ?? latestRecord?.hallucination_score ?? 0;
-  const biasScore = displayResult?.pillars.algorithmicBiasAwareness ?? latestRecord?.bias_score ?? 0;
-  const ethicalScore = displayResult?.pillars.ethicalReasoning ?? latestRecord?.ethical_score ?? 0;
+  const resultData =
+    assessmentResult ||
+    (latestRecord
+      ? {
+          pillars: {
+            criticalEvaluation: latestRecord.hallucination_score,
+            algorithmicBiasAwareness: latestRecord.bias_score,
+            ethicalReasoning: latestRecord.ethical_score,
+            cognitiveAgency: latestRecord.cognitive_agency_score,
+          },
+          weightedTotal: latestRecord.overall_score,
+          cognitiveAgencyCategory: latestRecord.cognitive_agency_category,
+          algorithmicResilienceIndex: latestRecord.algorithmic_resilience_index,
+          recommendations: generateRecommendations({
+            criticalEvaluation: latestRecord.hallucination_score,
+            algorithmicBiasAwareness: latestRecord.bias_score,
+            ethicalReasoning: latestRecord.ethical_score,
+            cognitiveAgency: latestRecord.cognitive_agency_score,
+          }),
+        }
+      : fallbackResult);
+
+  const overall = resultData?.weightedTotal ?? latestRecord?.overall_score ?? 0;
+  const hallucinationScore = resultData?.pillars.criticalEvaluation ?? latestRecord?.hallucination_score ?? 0;
+  const biasScore = resultData?.pillars.algorithmicBiasAwareness ?? latestRecord?.bias_score ?? 0;
+  const ethicalScore = resultData?.pillars.ethicalReasoning ?? latestRecord?.ethical_score ?? 0;
   const hasData = latestRecord !== null || assessmentResult !== null;
 
   const displayName = user?.user_metadata?.full_name ?? user?.email?.split("@")[0] ?? "there";
@@ -78,6 +84,23 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
   const hallucinationMeta = getScoreLabel(hallucinationScore);
   const biasMeta = getScoreLabel(biasScore);
   const ethicalMeta = getScoreLabel(ethicalScore);
+
+  const prevRecord = assessmentResult ? latestRecord : (history.length > 1 ? history[1] : null);
+
+  const getTrend = (current: number, previous: number | undefined | null) => {
+    if (previous === undefined || previous === null) return undefined;
+    const diff = current - previous;
+    return {
+      value: Math.abs(diff),
+      isPositive: diff > 0,
+      isZero: diff === 0,
+    };
+  };
+
+  const overallTrend = getTrend(overall, prevRecord?.overall_score);
+  const hallucinationTrend = getTrend(hallucinationScore, prevRecord?.hallucination_score);
+  const biasTrend = getTrend(biasScore, prevRecord?.bias_score);
+  const ethicalTrend = getTrend(ethicalScore, prevRecord?.ethical_score);
 
   const scoreMap = [
     { cat: "halusinasi", score: hallucinationScore },
@@ -89,7 +112,7 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
 
   return (
     <motion.div
-      className="min-h-full p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto space-y-10"
+      className="min-h-full p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto flex flex-col gap-8 lg:gap-10"
       variants={containerVariants}
       initial="hidden"
       animate="show"
@@ -97,7 +120,7 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
       {/* Header */}
       <motion.div
         variants={itemVariants}
-        className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 mb-8"
+        className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 shrink-0"
       >
         <div className="space-y-3">
           <div className="flex items-center gap-2 text-sm text-text-muted">
@@ -106,7 +129,7 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
             <span className="font-medium text-text-strong">Competency</span>
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-text-strong font-heading tracking-tight">
-            Welcome back, {displayName}{" "}
+            {t.dashboard.welcome}, {displayName}{" "}
             <span className="inline-block origin-bottom-right hover:-rotate-12 hover:scale-110 transition-transform duration-300 cursor-default">
               👋
             </span>
@@ -118,93 +141,75 @@ export function DashboardClient({ user, history, latestRecord }: DashboardClient
             href="/assessments"
             className="flex w-full sm:w-auto justify-center items-center gap-2 px-6 py-2.5 bg-text-strong hover:bg-black text-background rounded-full text-sm font-semibold shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all tracking-wide"
           >
-            {hasData ? "Retake Assessment" : "Take Assessment"}
+            {hasData ? t.dashboard.retakeAssessment : t.dashboard.takeAssessment}
           </a>
         </div>
       </motion.div>
 
       {/* Summary Cards */}
-      <motion.section variants={itemVariants}>
+      <motion.section variants={itemVariants} className="shrink-0">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-lg font-bold text-text-strong">My Competencies</h2>
+          <h2 className="text-lg font-bold text-text-strong">{t.dashboard.myCompetencies}</h2>
           {!hasData && (
             <span className="text-xs text-text-muted bg-panel border border-sidebar-border px-3 py-1 rounded-full">
-              Selesaikan assessment untuk melihat skor
+              {t.dashboard.noData}
             </span>
           )}
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <SummaryCard
-            title="Overall Competency"
+            title={t.dashboard.overallCompetency}
             score={overall}
-            label={hasData ? overallMeta.label : "Belum Ada Data"}
+            label={hasData ? overallMeta.label : "---"}
             labelColor={hasData ? overallMeta.color : "blue"}
-            description={hasData ? `Skor gabungan 4 dimensi kompetensi` : "Mulai assessment untuk melihat skor"}
+            description={hasData ? t.dashboard.overallDesc : t.dashboard.noDataDesc}
             iconId="85933"
+            href="/results"
+            trend={overallTrend}
           />
           <SummaryCard
-            title="Hallucination Audit"
+            title={t.dashboard.criticalEvaluation}
             score={hallucinationScore}
-            label={hasData ? hallucinationMeta.label : "Belum Ada Data"}
+            label={hasData ? hallucinationMeta.label : "---"}
             labelColor={hasData ? hallucinationMeta.color : "blue"}
-            description={hasData ? "Kemampuan deteksi informasi palsu AI" : "Critical Evaluation"}
+            description={hasData ? t.dashboard.criticalDesc : t.dashboard.noDataDesc}
             iconId="89779"
+            href="/results"
+            trend={hallucinationTrend}
           />
           <SummaryCard
-            title="Algorithmic Bias"
+            title={t.dashboard.biasAwareness}
             score={biasScore}
-            label={hasData ? biasMeta.label : "Belum Ada Data"}
+            label={hasData ? biasMeta.label : "---"}
             labelColor={hasData ? biasMeta.color : "blue"}
-            description={hasData ? "Identifikasi bias dalam sistem AI" : "Bias Awareness"}
+            description={hasData ? t.dashboard.biasDesc : t.dashboard.noDataDesc}
             iconId="86472"
+            href="/results"
+            trend={biasTrend}
           />
           <SummaryCard
-            title="Ethical & Agency"
+            title={t.dashboard.ethicalReasoning}
             score={ethicalScore}
-            label={hasData ? ethicalMeta.label : "Belum Ada Data"}
+            label={hasData ? ethicalMeta.label : "---"}
             labelColor={hasData ? ethicalMeta.color : "blue"}
-            description={hasData ? "Penalaran etika & kemandirian kognitif" : "Ethical & Cognitive"}
+            description={hasData ? t.dashboard.ethicalDesc : t.dashboard.noDataDesc}
             iconId="101164"
+            href="/results"
+            trend={ethicalTrend}
           />
         </div>
       </motion.section>
 
-      {/* Radar Chart + Learning Recs */}
-      <motion.section variants={itemVariants}>
-        <h2 className="text-xl font-heading font-bold text-text-strong mb-4">
-          Your AI Competency
-        </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-2">
-            <div className="bg-panel rounded-3xl p-6 lg:p-8 border border-sidebar-border shadow-sm flex flex-col gap-8">
-              <RadarChartPillar scores={displayResult?.pillars} />
-              {displayResult && (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <InsightCard
-                    type="strength"
-                    pillar="Critical Evaluation"
-                    score={displayResult.pillars.criticalEvaluation}
-                    description="Kemampuan mendeteksi halusinasi dan memverifikasi klaim dari sumber AI."
-                  />
-                  <InsightCard
-                    type="growth"
-                    pillar="Algorithmic Bias Awareness"
-                    score={displayResult.pillars.algorithmicBiasAwareness}
-                    description="Identifikasi bias gender, budaya, dan stereotip dalam output sistem AI."
-                  />
-                </div>
-              )}
-            </div>
+      {/* History & Learning Recs */}
+      <motion.section variants={itemVariants} className="flex-1 flex flex-col min-h-[300px]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 flex-1">
+          <div className="lg:col-span-2 flex flex-col h-full">
+            <HistoryTable data={history} loading={false} />
           </div>
-          <div className="lg:col-span-1 h-full">
+          <div className="lg:col-span-1 flex flex-col h-full">
             <LearningRecommendations weakestCategory={weakestCat} />
           </div>
         </div>
-      </motion.section>
-
-      {/* History Table */}
-      <motion.section variants={itemVariants} className="w-full">
-        <HistoryTable data={history} loading={false} />
       </motion.section>
     </motion.div>
   );

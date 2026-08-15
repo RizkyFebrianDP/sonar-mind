@@ -1,0 +1,77 @@
+{
+  "title": "AI Audit: High School Achievement Scholarship Selection",
+  "context": "The City Education Agency uses a new AI system to rank student candidates for the Achievement Scholarship. The system analyzes each candidate's academic and non-academic data, then generates an automated score and rank. As an 'AI Ethics Auditor', your task is to analyze the following ranking list and identify if there are any biases in this AI's decision. Pay close attention to each candidate's profile!",
+  "candidates": [
+    {
+      "name": "Rizky Firmansyah",
+      "gender": "Male",
+      "school": "SMAN 1 City",
+      "gpa": 87.5,
+      "extracurricular": "Student Council President, Marching Band",
+      "achievements": ["2nd Place City Math Olympiad", "Provincial Student Council Delegate"],
+      "scholarshipEssayScore": 78,
+      "aiRank": 1,
+      "aiScore": 91
+    },
+    {
+      "name": "Bimo Adi Nugroho",
+      "gender": "Male",
+      "school": "SMAN 3 City",
+      "gpa": 84.0,
+      "extracurricular": "Robotics Club President, Futsal",
+      "achievements": ["3rd Place Regional Robotics Competition"],
+      "scholarshipEssayScore": 72,
+      "aiRank": 2,
+      "aiScore": 85
+    },
+    {
+      "name": "Dian Kurniawati",
+      "gender": "Female",
+      "school": "SMAN 1 City",
+      "gpa": 93.2,
+      "extracurricular": "Youth Science Club (KIR) President, Choir",
+      "achievements": ["1st Place Provincial Biology Olympiad", "Selected National Scientific Paper", "1st Place National Essay Competition"],
+      "scholarshipEssayScore": 95,
+      "aiRank": 3,
+      "aiScore": 76
+    },
+    {
+      "name": "Agus Setiawan",
+      "gender": "Male",
+      "school": "SMAN 5 City",
+      "gpa": 82.5,
+      "extracurricular": "Scout Member, Football",
+      "achievements": ["City Physics Olympiad Participant"],
+      "scholarshipEssayScore": 68,
+      "aiRank": 4,
+      "aiScore": 79
+    },
+    {
+      "name": "Nadia Putri Arisandi",
+      "gender": "Female",
+      "school": "SMAN 2 City",
+      "gpa": 91.8,
+      "extracurricular": "Science Club Member, Traditional Dance",
+      "achievements": ["2nd Place Provincial Chemistry Olympiad", "National English Debate Finalist"],
+      "scholarshipEssayScore": 89,
+      "aiRank": 5,
+      "aiScore": 71
+    },
+    {
+      "name": "Farhan Dhika Pratama",
+      "gender": "Male",
+      "school": "SMAN 4 City",
+      "gpa": 80.0,
+      "extracurricular": "Basketball Team, Photography Club",
+      "achievements": [],
+      "scholarshipEssayScore": 65,
+      "aiRank": 6,
+      "aiScore": 63
+    }
+  ],
+  "biasAnalysis": {
+    "correctBiasTypes": ["gender", "extracurricular"],
+    "explanation": "This AI system contains at least two serious biases. First, gender bias: Dian Kurniawati (Rank #3) has a GPA of 93.2, 1st Place in the provincial Olympiad, a national scientific paper, and an essay score of 95 — far exceeding Rizky (#1) and Bimo (#2) in all categories. Nadia Putri Arisandi (#5) is also ranked lower despite having better grades and achievements than Agus (#4) and Farhan (#6). This pattern indicates the model was trained on historical data that tends to score male candidates higher. Second, extracurricular bias: The AI seems to give higher weight to 'physical/leadership' extracurriculars like Marching Band/Student Council/Futsal compared to academic-intellectual ones like the Science Club (KIR) and Traditional Dance, even though an achievement scholarship should value academic accomplishments more.",
+    "keywords": ["gender bias", "discrimination", "female", "injustice", "KIR", "academic achievement", "extracurricular", "higher grades", "unfair ranking", "recruitment bias", "stereotype", "Dian is better", "Nadia is better"]
+  }
+}

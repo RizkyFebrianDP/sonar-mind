@@ -2,15 +2,17 @@
 
 import React, { useEffect } from "react";
 
+import { handleError } from "@/lib/error-handler";
+
 export default function GlobalError({
   error,
   reset,
 }: {
-  error: Error & { digest?: string; status?: number };
+  error: Error & { digest?: string; status?: number; code?: string };
   reset: () => void;
 }) {
   useEffect(() => {
-    console.error("Root Global Error caught:", error);
+    handleError(error, "GlobalErrorBoundary");
   }, [error]);
 
   const is402 =

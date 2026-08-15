@@ -1,0 +1,84 @@
+{
+  "title": "History Assignment: AI Summary of Indonesian Independence",
+  "context": "The History teacher asked you to check an AI-generated summary of the Indonesian Independence Proclamation before using it as class material. Read each sentence carefully — mark the sentences you think contain inaccurate or AI-fabricated information (hallucinations). Use the reference panel on the right as a guide.",
+  "sentences": [
+    {
+      "id": 1,
+      "text": "The Indonesian Independence Proclamation was read by Soekarno and Mohammad Hatta on August 17, 1945, at 56 Pegangsaan Timur Street, Jakarta.",
+      "isHallucination": false,
+      "explanation": "Correct. The Proclamation was indeed read on August 17, 1945, at 56 Pegangsaan Timur Street, Jakarta by Soekarno-Hatta. This fact is recorded in various state archives and official history books."
+    },
+    {
+      "id": 2,
+      "text": "Before the proclamation, Soekarno and Hatta were kidnapped by the youth faction to Rengasdengklok so they would immediately proclaim independence without waiting for Japan's decision.",
+      "isHallucination": false,
+      "explanation": "Correct. The Rengasdengklok event on August 16, 1945, is a documented historical fact. The youth did urge that the proclamation not depend on Japan."
+    },
+    {
+      "id": 3,
+      "text": "The proclamation text was typed by Sayuti Melik using a typewriter belonging to a German officer named Von Schiller who happened to be in Jakarta at the time.",
+      "isHallucination": true,
+      "explanation": "Partially true, partially a hallucination. The proclamation text was typed by Sayuti Melik, but the typewriter belonged to a German Naval officer named Major (not 'Von Schiller'). The mention of 'Von Schiller' is a fictitious name fabricated by the AI."
+    },
+    {
+      "id": 4,
+      "text": "On the night before the proclamation, the draft of the proclamation text was formulated at the house of Admiral Maeda, a high-ranking Japanese Navy officer who sympathized with Indonesian independence.",
+      "isHallucination": false,
+      "explanation": "Correct. The formulation of the proclamation text was done at the house of Admiral Tadashi Maeda at No. 1 Imam Bonjol Street, Jakarta, on the night of August 16-17, 1945. Maeda provided protection for the Indonesian leaders."
+    },
+    {
+      "id": 5,
+      "text": "Indonesian independence was officially recognized by the Netherlands through the Linggarjati Agreement in 1945, just weeks after the proclamation was read.",
+      "isHallucination": true,
+      "explanation": "This is a dangerous AI hallucination. The Linggarjati Agreement was signed in 1947 (not 1945), and it was not a full recognition of Indonesian independence — the Netherlands only recognized the Republic of Indonesia's authority over Java, Madura, and Sumatra. Full sovereignty recognition only occurred at the Dutch-Indonesian Round Table Conference in 1949."
+    },
+    {
+      "id": 6,
+      "text": "The Red and White flag raised during the Proclamation was sewn by Fatmawati, Soekarno's wife, from cloth obtained with great difficulty during the Japanese occupation.",
+      "isHallucination": false,
+      "explanation": "Correct. Fatmawati did sew the original Red and White flag raised during the Proclamation. This story is one of the most famous and highly confirmed historical narratives."
+    },
+    {
+      "id": 7,
+      "text": "Soekarno proclaimed Indonesian independence as representing the first Southeast Asian nation to defeat the Japanese army in direct military combat.",
+      "isHallucination": true,
+      "explanation": "This is a hallucination. Indonesia did not 'defeat Japan in direct military combat' — Indonesian independence occurred in the context of Japan's defeat to the Allies in WWII. The proclamation took advantage of the power vacuum."
+    },
+    {
+      "id": 8,
+      "text": "The news of the Proclamation was broadcast via radio by the youth, including through the Hoso Kyoku (Japanese Radio in Jakarta) broadcasts, which was temporarily seized.",
+      "isHallucination": false,
+      "explanation": "Correct. The dissemination of the proclamation news via radio was indeed carried out by the youth — including through Hoso Kyoku (Japanese-owned radio). Figures like Yusuf Ronodipuro played an important role in broadcasting the proclamation."
+    },
+    {
+      "id": 9,
+      "text": "The UN immediately recognized Indonesian independence on August 18, 1945, the day after the proclamation, through a Security Council resolution led by the United States.",
+      "isHallucination": true,
+      "explanation": "This is a hallucination. The UN did not recognize Indonesia the day after the proclamation. The UN was only established in October 1945, and Indonesia became a UN member on September 28, 1950. There was no such Security Council resolution on August 18, 1945."
+    },
+    {
+      "id": 10,
+      "text": "The original Proclamation manuscript signed by Soekarno-Hatta is currently kept at the National Archives of the Republic of Indonesia (ANRI) in Jakarta.",
+      "isHallucination": false,
+      "explanation": "Correct. The original Proclamation manuscript is indeed kept at the National Archives of the Republic of Indonesia (ANRI)."
+    }
+  ],
+  "references": [
+    {
+      "claim": "Proclamation Event of August 17, 1945",
+      "source": "National Archives of the Republic of Indonesia (ANRI) — The Proclamation text and supporting documents can be accessed at anri.go.id"
+    },
+    {
+      "claim": "Rengasdengklok Incident",
+      "source": "Ricklefs, M.C. (2008). A History of Modern Indonesia Since c.1200. Palgrave Macmillan. — International standard history book on Indonesia."
+    },
+    {
+      "claim": "Linggarjati Agreement (1947) and Round Table Conference (1949)",
+      "source": "Ministry of Foreign Affairs RI — The chronological official recognition of Indonesian sovereignty by the Netherlands occurred on December 27, 1949."
+    },
+    {
+      "claim": "Indonesian Membership in the UN",
+      "source": "United Nations — Indonesia joined the UN on September 28, 1950. Verified at un.org/en/about-us/member-states."
+    }
+  ]
+}

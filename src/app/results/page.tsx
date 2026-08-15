@@ -21,6 +21,9 @@ import {
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { calculateAssessmentResult } from "@/lib/scoring-engine";
+import { RadarChartPillar } from "@/components/dashboard/RadarChartPillar";
+import { InsightCard } from "@/components/dashboard/InsightCard";
+import { useLanguage } from "@/context/LanguageContext";
 import type {
   AssessmentHistoryItem,
   AssessmentResult,
@@ -75,29 +78,6 @@ function ScoreRing({ score, size = 120, stroke = 8, label }: {
   );
 }
 
-function PillarBar({ label, score, icon: Icon, delay = 0 }: {
-  label: string; score: number; icon: React.ElementType; delay?: number;
-}) {
-  const color = score >= 75 ? "bg-emerald-500" : score >= 50 ? "bg-amber-500" : "bg-red-500";
-  return (
-    <div className="space-y-2">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2 text-sm text-text-muted">
-          <Icon className="w-4 h-4" /><span>{label}</span>
-        </div>
-        <span className="text-sm font-semibold text-text-strong tabular-nums">{score}</span>
-      </div>
-      <div className="h-2.5 bg-black/5 dark:bg-white/5 rounded-full overflow-hidden">
-        <motion.div
-          className={`h-full rounded-full ${color}`}
-          initial={{ width: 0 }} animate={{ width: `${score}%` }}
-          transition={{ duration: 0.8, delay, ease: "easeOut" }}
-        />
-      </div>
-    </div>
-  );
-}
-
 function ModuleTimelineCard({ title, score, icon: Icon, status, raw }: {
   title: string; score: number; icon: React.ElementType; status: string;
   raw: Record<string, number> | null;
@@ -145,6 +125,7 @@ export default function ResultsPage() {
   const [history, setHistory] = useState<AssessmentHistoryItem[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const { t } = useLanguage();
 
   const supabase = createClient();
 
@@ -164,15 +145,21 @@ export default function ResultsPage() {
   }, []);
 
   const record = history.find((h) => h.id === selectedId);
-  const result: AssessmentResult | null = record?.raw_scores
-    ? calculateAssessmentResult(record.raw_scores)
-    : null;
+  
+  let result: AssessmentResult | null = null;
+  if (record?.raw_scores) {
+    const calcResult = calculateAssessmentResult(record.raw_scores);
+    if (calcResult.ok) {
+      result = calcResult.value;
+    }
+  }
+  
   const catMeta = record ? getCategoryMeta(record.cognitive_agency_category) : null;
 
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-pulse text-text-muted">Memuat hasil assessment...</div>
+        <div className="animate-pulse text-text-muted">{t.results.loading}</div>
       </div>
     );
   }
@@ -184,12 +171,12 @@ export default function ResultsPage() {
           <div className="w-16 h-16 rounded-2xl bg-accent-blue/10 flex items-center justify-center mx-auto">
             <ClipboardCheck className="w-8 h-8 text-accent-blue" />
           </div>
-          <h2 className="text-xl font-bold font-heading text-text-strong">Belum Ada Hasil</h2>
+          <h2 className="text-xl font-bold font-heading text-text-strong">{t.results.noResultTitle}</h2>
           <p className="text-sm text-text-muted">
-            Kamu belum menyelesaikan assessment apapun. Selesaikan ketiga modul sandbox untuk melihat laporan detail.
+            {t.results.noResultDesc}
           </p>
           <Link href="/assessments" className="inline-flex items-center gap-2 px-6 py-2.5 bg-text-strong hover:bg-black text-background rounded-full text-sm font-semibold transition-all">
-            Mulai Assessment <ArrowLeft className="w-4 h-4 rotate-180" />
+            {t.results.startAssessment} <ArrowLeft className="w-4 h-4 rotate-180" />
           </Link>
         </div>
       </div>
@@ -207,7 +194,7 @@ export default function ResultsPage() {
             <Link href="/" className="p-1.5 rounded-lg hover:bg-black/5 transition-colors">
               <ArrowLeft className="w-5 h-5 text-text-muted" />
             </Link>
-            <h1 className="font-heading font-bold text-text-strong">Assessment Report</h1>
+            <h1 className="font-heading font-bold text-text-strong">{t.results.reportTitle}</h1>
           </div>
           <div className="flex items-center gap-2">
             {history.length > 1 && (
@@ -226,7 +213,7 @@ export default function ResultsPage() {
             <button
               onClick={() => window.print()}
               className="p-2 rounded-lg hover:bg-black/5 transition-colors text-text-muted hover:text-text-strong"
-              title="Print Report"
+              title={t.results.printReport}
             >
               <Printer className="w-4 h-4" />
             </button>
@@ -242,9 +229,9 @@ export default function ResultsPage() {
             <div className="flex-1 text-center sm:text-left space-y-4">
               <div>
                 <h2 className="text-2xl font-heading font-bold text-text-strong">
-                  {record.overall_score >= 75 ? "Luar Biasa" : record.overall_score >= 50 ? "Cukup Baik" : "Perlu Ditingkatkan"}
+                  {record.overall_score >= 75 ? t.results.excellent : record.overall_score >= 50 ? t.results.good : t.results.needsImprovement}
                 </h2>
-                <p className="text-sm text-text-muted mt-1">Sonar Mind AI Competency Assessment</p>
+                <p className="text-sm text-text-muted mt-1">{t.results.assessmentSubtitle}</p>
               </div>
               <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
                 <div className="inline-flex items-center gap-2 bg-accent-blue/10 text-accent-blue text-xs font-semibold px-3 py-1.5 rounded-full">
@@ -263,17 +250,28 @@ export default function ResultsPage() {
           </div>
         </motion.section>
 
-        {/* Pillar Breakdown */}
+        {/* Your AI Competency */}
         {result && (
-          <motion.section variants={item} className="bg-panel border border-sidebar-border rounded-3xl p-8 space-y-5">
+          <motion.section variants={item} className="space-y-4">
             <h3 className="font-heading font-bold text-text-strong flex items-center gap-2">
-              <Award className="w-5 h-5 text-accent-blue" /> Kompetensi Per Dimensi
+              <BrainCircuit className="w-5 h-5 text-accent-blue" /> {t.results.yourCompetency}
             </h3>
-            <div className="space-y-4">
-              <PillarBar label="Dimensi 1 — Critical Evaluation" score={result.pillars.criticalEvaluation} icon={ClipboardCheck} delay={0.1} />
-              <PillarBar label="Dimensi 2 — Bias Awareness" score={result.pillars.algorithmicBiasAwareness} icon={Scale} delay={0.2} />
-              <PillarBar label="Dimensi 3 — Ethical Reasoning" score={result.pillars.ethicalReasoning} icon={ShieldCheck} delay={0.3} />
-              <PillarBar label="Dimensi 4 — Cognitive Agency" score={result.pillars.cognitiveAgency} icon={BrainCircuit} delay={0.4} />
+            <div className="bg-panel rounded-3xl p-6 lg:p-8 border border-sidebar-border shadow-sm flex flex-col gap-8">
+              <RadarChartPillar scores={result.pillars} />
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <InsightCard
+                  type="strength"
+                  pillar="Critical Evaluation"
+                  score={result.pillars.criticalEvaluation}
+                  description={t.dashboard.criticalDesc}
+                />
+                <InsightCard
+                  type="growth"
+                  pillar="Algorithmic Bias Awareness"
+                  score={result.pillars.algorithmicBiasAwareness}
+                  description={t.dashboard.biasDesc}
+                />
+              </div>
             </div>
           </motion.section>
         )}
@@ -281,14 +279,14 @@ export default function ResultsPage() {
         {/* Module Detail */}
         <motion.section variants={item} className="space-y-3">
           <h3 className="font-heading font-bold text-text-strong flex items-center gap-2 px-1">
-            <TrendingUp className="w-5 h-5 text-accent-blue" /> Detail Per Modul
+            <TrendingUp className="w-5 h-5 text-accent-blue" /> {t.results.moduleDetail}
           </h3>
           <div className="space-y-3">
             <ModuleTimelineCard
-              title="Hallucination Audit"
+              title={t.assessments.hallucinationTitle}
               score={record.hallucination_score}
               icon={ClipboardCheck}
-              status={record.hallucination_score >= 75 ? "Mampu mendeteksi halusinasi AI dengan baik" : "Perlu latihan lebih banyak deteksi halusinasi"}
+              status={record.hallucination_score >= 75 ? t.results.hallucinationGood : t.results.hallucinationBad}
               raw={record.raw_scores?.hallucinationAudit ? {
                 truePositives: record.raw_scores.hallucinationAudit.truePositives,
                 falsePositives: record.raw_scores.hallucinationAudit.falsePositives,
@@ -297,20 +295,20 @@ export default function ResultsPage() {
               } : null}
             />
             <ModuleTimelineCard
-              title="Algorithmic Bias Audit"
+              title={t.assessments.biasTitle}
               score={record.bias_score}
               icon={Scale}
-              status={record.bias_score >= 75 ? "Sadar baik terhadap bias algoritmik" : "Perlu meningkatkan kesadaran bias"}
+              status={record.bias_score >= 75 ? t.results.biasGood : t.results.biasBad}
               raw={record.raw_scores?.biasAudit ? {
                 identificationScore: record.raw_scores.biasAudit.biasIdentificationScore,
                 justificationScore: record.raw_scores.biasAudit.justificationScore,
               } : null}
             />
             <ModuleTimelineCard
-              title="Ethical Dilemma"
+              title={t.assessments.ethicalTitle}
               score={record.ethical_score}
               icon={ShieldCheck}
-              status={record.ethical_score >= 75 ? "Penalaran etika yang kuat" : "Perlu penguatan penalaran etika"}
+              status={record.ethical_score >= 75 ? t.results.ethicalGood : t.results.ethicalBad}
               raw={record.raw_scores?.ethicalDilemma ? {
                 ethicalReasoning: record.raw_scores.ethicalDilemma.ethicalReasoningScore,
                 cognitiveAgency: record.raw_scores.ethicalDilemma.cognitiveAgencyScore,
@@ -323,7 +321,7 @@ export default function ResultsPage() {
         {result && result.recommendations.length > 0 && (
           <motion.section variants={item} className="bg-panel border border-sidebar-border rounded-3xl p-8 space-y-4">
             <h3 className="font-heading font-bold text-text-strong flex items-center gap-2">
-              <Zap className="w-5 h-5 text-amber-500" /> Rekomendasi
+              <Zap className="w-5 h-5 text-amber-500" /> {t.results.recommendations}
             </h3>
             <ul className="space-y-3">
               {result.recommendations.map((rec, i) => (
@@ -339,10 +337,10 @@ export default function ResultsPage() {
         {/* Actions */}
         <motion.section variants={item} className="flex flex-col sm:flex-row gap-3 justify-center pt-4 pb-8 print:hidden">
           <Link href="/assessments" className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-text-strong hover:bg-black text-background rounded-full text-sm font-semibold transition-all">
-            Ulangi Assessment <ArrowLeft className="w-4 h-4 rotate-180" />
+            {t.results.retake} <ArrowLeft className="w-4 h-4 rotate-180" />
           </Link>
           <Link href="/learning" className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-panel border border-sidebar-border hover:border-accent-blue/40 text-text-strong rounded-full text-sm font-semibold transition-all">
-            Modul Belajar <BookOpen className="w-4 h-4" />
+            {t.results.learningModules} <BookOpen className="w-4 h-4" />
           </Link>
         </motion.section>
       </motion.main>

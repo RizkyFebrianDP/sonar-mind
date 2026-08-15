@@ -1,8 +1,10 @@
 import React from 'react';
 import { Icon } from '@/components/ui/Icon';
 import { motion } from 'framer-motion';
+import { useLanguage } from '@/context/LanguageContext';
 
 export function DidYouKnowCard() {
+  const { t } = useLanguage();
   return (
     <motion.div 
       initial={{ opacity: 0, y: 15 }}
@@ -10,11 +12,10 @@ export function DidYouKnowCard() {
       transition={{ duration: 0.4, delay: 0.2 }}
       className="bg-[#2D2D2D] rounded-3xl p-6 text-white relative overflow-hidden flex flex-col h-full min-h-[200px]"
     >
-      <h4 className="text-accent-green font-bold text-sm mb-3">Did you know?</h4>
+      <h4 className="text-accent-green font-bold text-sm mb-3">{t.assessments.didYouKnow}</h4>
       
       <p className="text-sm leading-relaxed text-gray-200 z-10 relative">
-        The MIL-AI Framework emphasizes that true algorithmic literacy isn't just about spotting 
-        errors, but understanding the systemic origins of those biases in training data.
+        {t.assessments.didYouKnowDesc}
       </p>
       
       {/* Decorative Icon */}

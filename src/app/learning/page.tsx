@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Icon } from "@/components/ui/Icon";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
+import { useLanguage } from "@/context/LanguageContext";
 
 interface LearningModule {
   id: string;
@@ -22,93 +23,88 @@ interface LearningModule {
   recommendedForScoreBelow?: number;
 }
 
-const LEARNING_MODULES: LearningModule[] = [
-  {
-    id: "mod-halusinasi-1",
-    pillar: "Critical Evaluation",
-    category: "halusinasi",
-    title: "Deteksi & Verifikasi Halusinasi LLM",
-    description:
-      "Pelajari metode verifikasi independen untuk mengenali klaim palsu, sitasi fiktif, dan fakta buatan dari Large Language Models.",
-    duration: "15 Menit",
-    level: "Pemula",
-    points: 150,
-    icon: "82782",
-    badgeColor: "bg-blue-500/10 text-blue-500 border-blue-500/20",
-    topics: ["Strategi Cross-Checking", "Struktur Prompt Faktual", "Pengenalan Sintaks Sitasi"],
-    sandboxHref: "/learning/mod-halusinasi-1",
-  },
-  {
-    id: "mod-bias-1",
-    pillar: "Algorithmic Bias Awareness",
-    category: "bias",
-    title: "Audit Demografi & Bias Algoritma Rekrutmen",
-    description:
-      "Pahami bagaimana dataset historis yang tidak seimbang menghasilkan kepengurusan bias gender, ras, dan latar belakang sosial.",
-    duration: "20 Menit",
-    level: "Menengah",
-    points: 200,
-    icon: "87375",
-    badgeColor: "bg-purple-500/10 text-purple-500 border-purple-500/20",
-    topics: ["Mitigasi Bias Skenario", "Metrik Keadilan Algoritma", "Justifikasi Evaluasi Kritis"],
-    sandboxHref: "/learning/mod-bias-1",
-  },
-  {
-    id: "mod-etika-1",
-    pillar: "Ethical & Cognitive Agency",
-    category: "etika",
-    title: "Penalaran Etis & Autonomi Kognitif Manusia",
-    description:
-      "Tingkatkan ketahanan kognitif Anda dari ketergantungan berlebihan (cognitive offloading) dan identifikasi dilema moral AI.",
-    duration: "25 Menit",
-    level: "Mahir",
-    points: 250,
-    icon: "101174",
-    badgeColor: "bg-amber-500/10 text-amber-600 border-amber-500/20 dark:text-amber-500",
-    topics: ["Dilema Etika AI", "Cognitive Offloading Risk", "Kerangka Keputusan Etis"],
-    sandboxHref: "/learning/mod-etika-1",
-  },
-  {
-    id: "mod-unesco-1",
-    pillar: "Kurikulum Inti UNESCO",
-    category: "unesco",
-    title: "Pengantar Framework MIL-AI UNESCO",
-    description:
-      "Landasan komprehensif mengenai 5 dimensi kompetensi Media & Information Literacy dalam era Artificial Intelligence.",
-    duration: "30 Menit",
-    level: "Pemula",
-    points: 300,
-    icon: "85778",
-    badgeColor: "bg-emerald-500/10 text-emerald-600 border-emerald-500/20 dark:text-emerald-500",
-    topics: ["5 Dimensi MIL-AI", "Hak Digital & Privasi", "Etika Generatif Abad 21"],
-    sandboxHref: "/learning/mod-unesco-1",
-  },
-];
-
 const containerVariants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: { staggerChildren: 0.08 },
+    transition: {
+      staggerChildren: 0.1,
+    },
   },
-};
+} as const;
 
 const itemVariants = {
   hidden: { opacity: 0, y: 15 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: { type: "spring" as const, stiffness: 300, damping: 24 },
-  },
+  show: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 300, damping: 24 } },
 };
 
 export default function LearningPage() {
-  const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [userId, setUserId] = useState<string | null>(null);
   const [completedModules, setCompletedModules] = useState<string[]>([]);
   const [recommendedModuleId, setRecommendedModuleId] = useState<string | null>(null);
-  const [userId, setUserId] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
+  const { t } = useLanguage();
+
+  const LEARNING_MODULES: LearningModule[] = [
+    {
+      id: "mod-halusinasi-1",
+      pillar: "Critical Evaluation",
+      category: "halusinasi",
+      title: t.learning.modules.mod1Title,
+      description: t.learning.modules.mod1Desc,
+      duration: `15 ${t.learning.minutes}`,
+      level: "Pemula",
+      points: 150,
+      icon: "82782",
+      badgeColor: "bg-blue-500/10 text-blue-500 border-blue-500/20",
+      topics: t.learning.modules.mod1Topics,
+      sandboxHref: "/learning/mod-halusinasi-1",
+    },
+    {
+      id: "mod-bias-1",
+      pillar: "Algorithmic Bias Awareness",
+      category: "bias",
+      title: t.learning.modules.mod2Title,
+      description: t.learning.modules.mod2Desc,
+      duration: `20 ${t.learning.minutes}`,
+      level: "Menengah",
+      points: 200,
+      icon: "87375",
+      badgeColor: "bg-purple-500/10 text-purple-500 border-purple-500/20",
+      topics: t.learning.modules.mod2Topics,
+      sandboxHref: "/learning/mod-bias-1",
+    },
+    {
+      id: "mod-etika-1",
+      pillar: "Ethical & Cognitive Agency",
+      category: "etika",
+      title: t.learning.modules.mod3Title,
+      description: t.learning.modules.mod3Desc,
+      duration: `25 ${t.learning.minutes}`,
+      level: "Mahir",
+      points: 250,
+      icon: "101174",
+      badgeColor: "bg-amber-500/10 text-amber-600 border-amber-500/20 dark:text-amber-500",
+      topics: t.learning.modules.mod3Topics,
+      sandboxHref: "/learning/mod-etika-1",
+    },
+    {
+      id: "mod-unesco-1",
+      pillar: "UNESCO Core Curriculum",
+      category: "unesco",
+      title: t.learning.modules.mod4Title,
+      description: t.learning.modules.mod4Desc,
+      duration: `30 ${t.learning.minutes}`,
+      level: "Pemula",
+      points: 300,
+      icon: "85778",
+      badgeColor: "bg-emerald-500/10 text-emerald-600 border-emerald-500/20 dark:text-emerald-500",
+      topics: t.learning.modules.mod4Topics,
+      sandboxHref: "/learning/mod-unesco-1",
+    },
+  ];
 
   useEffect(() => {
     async function loadLearningData() {
@@ -197,15 +193,15 @@ export default function LearningPage() {
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-green/10 text-accent-green border border-accent-green/20 text-xs font-semibold tracking-wide">
             <Icon id="82797" className="w-3.5 h-3.5 bg-accent-green" />
-            <span>Katalog Pembelajaran Terstruktur</span>
+            <span>{t.learning.badge}</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-heading font-extrabold text-text-strong tracking-tight">
-            Modul Pembelajaran MIL-AI
+            {t.learning.title}
           </h1>
 
           <p className="text-sm text-text-muted leading-relaxed">
-            Tingkatkan skor kompetensi dan ketahanan algoritma Anda melalui materi interaktif yang dirancang khusus berdasarkan kerangka kerja <strong className="text-text-strong">MIL-AI UNESCO</strong>.
+            {t.learning.subtitle}
           </p>
 
           {/* Search & Filter */}
@@ -214,7 +210,7 @@ export default function LearningPage() {
               <Icon id="82712" className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 bg-text-muted" />
               <input
                 type="text"
-                placeholder="Cari modul pembelajaran..."
+                placeholder={t.learning.searchPlaceholder}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-background border border-border-subtle text-text-strong text-xs sm:text-sm placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent-green/40 transition-all"
@@ -227,11 +223,11 @@ export default function LearningPage() {
       {/* Category Tabs */}
       <motion.div variants={itemVariants} className="flex flex-wrap gap-2">
         {[
-          { id: "all", label: "Semua Modul" },
-          { id: "halusinasi", label: "Deteksi Halusinasi" },
-          { id: "bias", label: "Bias Algoritma" },
-          { id: "etika", label: "Etika & Agensi" },
-          { id: "unesco", label: "UNESCO Framework" },
+          { id: "all", label: t.learning.allModules },
+          { id: "halusinasi", label: t.learning.detectHallucination },
+          { id: "bias", label: t.learning.algoBias },
+          { id: "etika", label: t.learning.ethicsAndAgency },
+          { id: "unesco", label: t.learning.unescoFramework },
         ].map((tab) => (
           <button
             key={tab.id}
@@ -273,7 +269,7 @@ export default function LearningPage() {
                     </div>
                     {recommendedModuleId === module.id && (
                       <span className="text-[10px] font-bold text-amber-600 dark:text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20 shadow-sm">
-                        ✨ Rekomendasi Utama
+                        {t.learning.mainRecommendation}
                       </span>
                     )}
                   </div>
@@ -296,7 +292,7 @@ export default function LearningPage() {
                 {/* Topics Covered */}
                 <div className="space-y-1.5 pt-2 border-t border-border-subtle/50">
                   <span className="text-[11px] font-bold text-text-strong uppercase tracking-wider block">
-                    Topik Utama:
+                    {t.learning.topicsCovered}
                   </span>
                   <div className="flex flex-wrap gap-1.5">
                     {module.topics.map((topic, i) => (
@@ -316,7 +312,7 @@ export default function LearningPage() {
               <div className="pt-4 border-t border-border-subtle flex items-center justify-between">
                 <div className="flex items-center gap-1.5 text-xs text-text-strong font-semibold">
                   <Icon id="85613" className="w-4 h-4 bg-amber-500" />
-                  <span>+{module.points} Poin MIL-AI</span>
+                  <span>+{module.points} {t.learning.points}</span>
                 </div>
 
                 {completedModules.includes(module.id) ? (
@@ -324,7 +320,7 @@ export default function LearningPage() {
                     onClick={() => handleMarkAsDone(module.id, module.sandboxHref)}
                     className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 rounded-xl text-xs font-semibold hover:bg-emerald-500/20 transition-all"
                   >
-                    <span>Selesai</span>
+                    <span>{t.learning.completed}</span>
                     <Icon id="83017" className="w-3.5 h-3.5 bg-emerald-600 dark:bg-emerald-400" />
                   </button>
                 ) : (
@@ -332,7 +328,7 @@ export default function LearningPage() {
                     onClick={() => handleMarkAsDone(module.id, module.sandboxHref)}
                     className="inline-flex items-center gap-2 px-4 py-2 bg-accent-blue text-white rounded-xl text-xs font-semibold hover:opacity-90 transition-opacity"
                   >
-                    <span>Tandai Selesai & Praktik</span>
+                    <span>{t.learning.markDoneAndPractice}</span>
                     <Icon id="85463" className="w-3.5 h-3.5 bg-white" />
                   </button>
                 )}

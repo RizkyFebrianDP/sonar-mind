@@ -46,7 +46,7 @@ function getLabel(score: number) {
 
 export function HistoryTable({ data = [], loading = false }: HistoryTableProps) {
   return (
-    <div className="bg-panel rounded-3xl overflow-hidden shadow-sm border border-sidebar-border">
+    <div className="bg-panel rounded-3xl overflow-hidden shadow-sm border border-sidebar-border h-full flex flex-col">
       {/* Header */}
       <div className="flex items-center justify-between px-5 py-4 border-b border-sidebar-border">
         <h3 className="text-sm font-heading font-bold text-text-strong flex items-center gap-2 uppercase tracking-wider">

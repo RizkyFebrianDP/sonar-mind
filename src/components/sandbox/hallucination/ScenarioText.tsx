@@ -3,6 +3,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@/components/ui/Icon";
+import { useLanguage } from "@/context/LanguageContext";
 
 interface Sentence {
   id: number;
@@ -24,6 +25,8 @@ export function ScenarioText({
   onToggle,
   isSubmitted,
 }: ScenarioTextProps) {
+  const { locale } = useLanguage();
+
   const getState = (sentence: Sentence) => {
     const isSelected = selectedIds.has(sentence.id);
     if (!isSubmitted) return isSelected ? "selected" : "default";
@@ -57,11 +60,11 @@ export function ScenarioText({
     <div className="bg-panel rounded-2xl p-6 border border-sidebar-border">
       <div className="flex items-center gap-2 mb-4">
         <span className="text-xs font-medium text-text-muted uppercase tracking-wider">
-          Teks Artikel AI
+          {locale === "en" ? "AI Article Text" : "Teks Artikel AI"}
         </span>
         {!isSubmitted && (
           <span className="text-xs bg-accent-blue/10 text-accent-blue px-2 py-0.5 rounded-full font-medium">
-            Klik kalimat untuk menandai
+            {locale === "en" ? "Click sentence to mark" : "Klik kalimat untuk menandai"}
           </span>
         )}
       </div>
@@ -76,7 +79,7 @@ export function ScenarioText({
                 onClick={() => !isSubmitted && onToggle(sentence.id)}
                 title={
                   !isSubmitted
-                    ? "Klik untuk menandai sebagai halusinasi"
+                    ? locale === "en" ? "Click to mark as hallucination" : "Klik untuk menandai sebagai halusinasi"
                     : undefined
                 }
               >
@@ -98,15 +101,15 @@ export function ScenarioText({
             <div className="flex flex-wrap gap-3 text-xs">
               <span className="flex items-center gap-1.5 text-green-600 dark:text-green-400">
                 <Icon id="82766" className="w-3.5 h-3.5 bg-green-600" />
-                Benar Ditandai (True Positive)
+                {locale === "en" ? "Correctly Marked (True Positive)" : "Benar Ditandai (True Positive)"}
               </span>
               <span className="flex items-center gap-1.5 text-red-500">
                 <Icon id="82771" className="w-3.5 h-3.5 bg-red-500" />
-                Salah Ditandai (False Positive)
+                {locale === "en" ? "Wrongly Marked (False Positive)" : "Salah Ditandai (False Positive)"}
               </span>
               <span className="flex items-center gap-1.5 text-orange-500">
                 <Icon id="82783" className="w-3.5 h-3.5 bg-orange-500" />
-                Terlewat (Missed)
+                {locale === "en" ? "Missed" : "Terlewat (Missed)"}
               </span>
             </div>
           </motion.div>

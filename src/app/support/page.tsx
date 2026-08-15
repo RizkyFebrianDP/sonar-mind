@@ -93,7 +93,7 @@ const QUICK_RESOURCES = [
     title: "Panduan MIL-AI UNESCO",
     description: "Pelajari dokumen standar internasional literasi media dan kecerdasan buatan.",
     iconId: "82742",
-    color: "from-blue-500/20 to-indigo-500/20 text-blue-500 border-blue-500/30",
+    color: "bg-accent-blue/10 text-accent-blue border-accent-blue/20",
     linkText: "Baca Panduan",
     href: "/learning",
   },
@@ -101,7 +101,7 @@ const QUICK_RESOURCES = [
     title: "Sandbox Simulasi AI",
     description: "Uji langsung keterampilan deteksi halusinasi, bias algoritma, dan etika.",
     iconId: "101174",
-    color: "from-emerald-500/20 to-teal-500/20 text-emerald-500 border-emerald-500/30",
+    color: "bg-accent-green/10 text-accent-green border-accent-green/20",
     linkText: "Mulai Sandbox",
     href: "/assessments",
   },
@@ -109,7 +109,7 @@ const QUICK_RESOURCES = [
     title: "Standar Integritas AI",
     description: "Kerangka acuan etika dan transparansi dalam pemanfaatan alat generatif.",
     iconId: "87367",
-    color: "from-purple-500/20 to-pink-500/20 text-purple-500 border-purple-500/30",
+    color: "bg-accent-red/10 text-accent-red border-accent-red/20",
     linkText: "Lihat Standar",
     href: "#faq-integritas-1",
   },
@@ -117,7 +117,7 @@ const QUICK_RESOURCES = [
     title: "Analitik & Trend Skor",
     description: "Pantau perkembangan ketahanan algoritma dan grafik radar kompetensi Anda.",
     iconId: "87375",
-    color: "from-amber-500/20 to-orange-500/20 text-amber-500 border-amber-500/30",
+    color: "bg-accent-yellow/10 text-accent-yellow border-accent-yellow/20",
     linkText: "Buka Analitik",
     href: "/results",
   },
@@ -210,8 +210,6 @@ export default function SupportPage() {
         transition={{ duration: 0.4 }}
         className="relative overflow-hidden rounded-3xl bg-panel border border-border-subtle p-6 sm:p-10 shadow-sm"
       >
-        <div className="absolute top-0 right-0 -mt-10 -mr-10 w-80 h-80 bg-accent-blue/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-1/3 -mb-10 w-60 h-60 bg-accent-green/10 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-blue/10 text-accent-blue border border-accent-blue/20 text-xs font-semibold tracking-wide">
@@ -274,7 +272,7 @@ export default function SupportPage() {
                 className="group flex flex-col justify-between p-5 rounded-2xl border border-border-subtle bg-panel hover:border-accent-blue/40 hover:shadow-md transition-all h-full"
               >
                 <div>
-                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 bg-gradient-to-br border ${res.color}`}>
+                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 border ${res.color}`}>
                     <Icon
                       id={res.iconId}
                       className="w-6 h-6 bg-current"

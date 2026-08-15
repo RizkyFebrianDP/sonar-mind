@@ -10,17 +10,17 @@ const RECOMMENDATIONS = {
   halusinasi: {
     title: "Deteksi & Verifikasi Halusinasi LLM",
     description: "Pelajari metode verifikasi independen untuk mengenali klaim palsu dan sitasi fiktif dari AI berdasarkan celah asesmen Anda.",
-    href: "/learning/hallucination"
+    href: "/learning"
   },
   bias: {
     title: "Mitigating Hidden Biases in Datasets",
     description: "A practical guide to detecting and neutralizing algorithmic bias before model deployment. Based on your recent assessment gaps.",
-    href: "/learning/bias"
+    href: "/learning"
   },
   etika: {
     title: "Penalaran Etis & Autonomi Kognitif Manusia",
     description: "Tingkatkan ketahanan kognitif Anda dari ketergantungan berlebihan dan identifikasi dilema moral AI.",
-    href: "/learning/ethical-dilemmas"
+    href: "/learning"
   }
 };
 

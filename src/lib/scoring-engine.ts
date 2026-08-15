@@ -18,6 +18,7 @@ import type {
   BiasAuditRaw,
   EthicalDilemmaRaw,
 } from "@/types/assessment";
+import { Result, Ok, Err, ValidationError } from "@/lib/errors";
 
 // ============================================================
 // PILAR 1: Critical Evaluation (dari Hallucination Audit)
@@ -177,7 +178,12 @@ export function generateRecommendations(pillars: PillarScores): string[] {
 
 export function calculateAssessmentResult(
   rawScores: RawScores
-): AssessmentResult {
+): Result<AssessmentResult, ValidationError> {
+  // Validasi: pastikan setidaknya ada data mentah untuk diukur (jika diperlukan)
+  if (!rawScores.hallucinationAudit && !rawScores.biasAudit && !rawScores.ethicalDilemma) {
+    return Err(new ValidationError("Belum ada satupun audit/dilema yang diselesaikan."));
+  }
+
   // Fallback values jika modul belum selesai
   const hallucinationRaw = rawScores.hallucinationAudit ?? {
     truePositives: 0,
@@ -214,11 +220,11 @@ export function calculateAssessmentResult(
   );
   const recommendations = generateRecommendations(pillars);
 
-  return {
+  return Ok({
     pillars,
     weightedTotal,
     cognitiveAgencyCategory,
     algorithmicResilienceIndex,
     recommendations,
-  };
+  });
 }

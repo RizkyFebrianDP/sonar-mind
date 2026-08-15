@@ -143,18 +143,20 @@ describe("Scoring Engine", () => {
         biasAudit: { biasIdentificationScore: 80, justificationScore: 70 },
         ethicalDilemma: { ethicalReasoningScore: 60, cognitiveAgencyScore: 45 },
       });
-      expect(result.pillars.criticalEvaluation).toBeGreaterThanOrEqual(0) ; expect(result.pillars.criticalEvaluation).toBeLessThanOrEqual(100) // 60-ish, exact value depends on F1 calc;
-      expect(result.pillars.algorithmicBiasAwareness).toBe(76);
-      expect(result.pillars.ethicalReasoning).toBe(60);
-      expect(result.pillars.cognitiveAgency).toBe(45);
-      expect(result.cognitiveAgencyCategory).toBe("high-risk");
+      if (!result.ok) throw new Error("Expected ok result");
+      expect(result.value.pillars.criticalEvaluation).toBeGreaterThanOrEqual(0) ; expect(result.value.pillars.criticalEvaluation).toBeLessThanOrEqual(100) // 60-ish, exact value depends on F1 calc;
+      expect(result.value.pillars.algorithmicBiasAwareness).toBe(76);
+      expect(result.value.pillars.ethicalReasoning).toBe(60);
+      expect(result.value.pillars.cognitiveAgency).toBe(45);
+      expect(result.value.cognitiveAgencyCategory).toBe("high-risk");
     });
 
     it("fallback ketika modul belum dikerjakan", () => {
       const result = calculateAssessmentResult({});
-      expect(result.pillars.criticalEvaluation).toBe(0);
-      expect(result.pillars.algorithmicBiasAwareness).toBe(0);
-      expect(result.cognitiveAgencyCategory).toBe("high-risk");
+      if (!result.ok) throw new Error("Expected ok result");
+      expect(result.value.pillars.criticalEvaluation).toBe(0);
+      expect(result.value.pillars.algorithmicBiasAwareness).toBe(0);
+      expect(result.value.cognitiveAgencyCategory).toBe("high-risk");
     });
   });
 });

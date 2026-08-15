@@ -7,9 +7,11 @@ import { Icon } from "@/components/ui/Icon";
 import { ProgressBar } from "@/components/sandbox/ethical/ProgressBar";
 import { DilemmaCard } from "@/components/sandbox/ethical/DilemmaCard";
 import { SituationReview } from "@/components/sandbox/ethical/SituationReview";
+import { useLanguage } from "@/context/LanguageContext";
 import { useAssessment } from "@/context/AssessmentContext";
 import { calculateAssessmentResult } from "@/lib/scoring-engine";
-import scenarioData from "@/data/scenarios/ethical-dilemma.json";
+import scenarioDataId from "@/data/scenarios/ethical-dilemma_id.json";
+import scenarioDataEn from "@/data/scenarios/ethical-dilemma_en.json";
 import type { DilemmaCategory, EthicalDilemmaSituation } from "@/types/assessment";
 
 interface Answer {
@@ -18,7 +20,7 @@ interface Answer {
 }
 
 function computeEthicalScores(
-  situations: typeof scenarioData,
+  situations: typeof scenarioDataId,
   answers: Answer[]
 ): { ethicalReasoningScore: number; cognitiveAgencyScore: number } {
   let ethicalPoints = 0;
@@ -54,7 +56,9 @@ function computeEthicalScores(
 
 export default function EthicalDilemmaPage() {
   const router = useRouter();
+  const { locale } = useLanguage();
   const { setEthicalScore, setAssessmentResult, rawScores } = useAssessment();
+  const scenarioData = locale === "en" ? scenarioDataEn : scenarioDataId;
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Answer[]>([]);
@@ -93,7 +97,16 @@ export default function EthicalDilemmaPage() {
 
       // Hitung final result
       const finalRaw = { ...rawScores, ethicalDilemma: ethicalRaw };
-      const result = calculateAssessmentResult(finalRaw);
+      const scoreResult = calculateAssessmentResult(finalRaw);
+      
+      if (!scoreResult.ok) {
+        // Fallback jika error validasi (meskipun secara flow harusnya sudah valid)
+        console.error("Gagal menghitung skor:", scoreResult.error);
+        return;
+      }
+      
+      const result = scoreResult.value;
+
       setAssessmentResult(result);
 
       setShowReview(true);
@@ -125,13 +138,14 @@ export default function EthicalDilemmaPage() {
               Ethical Dilemma Classification
             </h1>
             <p className="text-xs md:text-sm text-text-muted">
-              Ethical Reasoning + Cognitive Agency — Bobot 45%
+              Ethical Reasoning + Cognitive Agency — {locale === "en" ? "Weight" : "Bobot"} 45%
             </p>
           </div>
         </div>
         <p className="hidden sm:block text-sm text-text-muted mt-2 max-w-xl">
-          Klasifikasikan setiap situasi penggunaan AI ke dalam kategori yang tepat.
-          Tidak ada jawaban sempurna — judgment-mu yang dinilai.
+          {locale === "en" 
+            ? "Classify each AI use case situation into the appropriate category. There are no perfect answers — your judgment is what's evaluated."
+            : "Klasifikasikan setiap situasi penggunaan AI ke dalam kategori yang tepat. Tidak ada jawaban sempurna — judgment-mu yang dinilai."}
         </p>
       </motion.div>
 

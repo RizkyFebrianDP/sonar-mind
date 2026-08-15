@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "situation": "You are writing an argumentative essay about climate change. You use AI to get initial ideas and an outline, then develop your own arguments with independent research.",
+    "correctCategory": "ethical",
+    "explanation": "This is a perfect example of using AI as an ethical 'co-pilot'. AI is used for initial ideation, while in-depth analysis, research, and writing arguments are still done by a human. Creativity and critical thinking remain with you.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 2,
+    "situation": "Your final semester assignment asks you to write a 2,000-word business case analysis. You ask AI to write the entire analysis, then submit it as your own work without changing anything.",
+    "correctCategory": "offloading",
+    "explanation": "This is a clear example of cognitive offloading and academic plagiarism. The entire process of thinking, analyzing, and writing is delegated to AI. You learn nothing from this process, and submitting it as your own work is a violation of academic integrity.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 3,
+    "situation": "You are writing Python code for a programming assignment. After being stuck for 2 hours, you ask AI to explain the concept you don't understand, then try to implement it yourself based on that new understanding.",
+    "correctCategory": "ethical",
+    "explanation": "Using AI as a tutor to understand a difficult concept is a highly ethical and constructive use. You still do the implementation yourself, meaning your learning process and cognitive abilities continue to develop.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 4,
+    "situation": "For a programming project, you ask AI to write all the code without trying to understand how it works. You submit the project, and when the lecturer asks, you cannot explain the logic behind the code.",
+    "correctCategory": "offloading",
+    "explanation": "This is dangerous cognitive offloading. Getting code that works without understanding the logic does not build competence. When you cannot explain your own work, it's a clear signal that the learning process did not happen.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 5,
+    "situation": "You use AI to check grammar and spelling on an essay you have written entirely by yourself, similar to using the spell-check feature on a word processor.",
+    "correctCategory": "ethical",
+    "explanation": "Using AI as a proofreading tool is very ethical — it is equivalent to using a dictionary or spell-checker. The content, arguments, and thinking are entirely yours; AI only helps with the technical aspects of writing.",
+    "pillarImpact": { "ethical": 1, "cognitive": 0 }
+  },
+  {
+    "id": 6,
+    "situation": "You are asked to create a presentation on a topic you have learned in class. You ask AI to create all the slides and their contents, including the argument points and conclusion.",
+    "correctCategory": "offloading",
+    "explanation": "Letting AI create the entire presentation content, including arguments and conclusions, means you do not synthesize your own knowledge. A presentation is an opportunity to show your understanding — delegating it entirely to AI ignores this learning objective.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 7,
+    "situation": "You are studying a complex new topic. You use AI as an 'interactive tutor' — asking, debating, and asking for different explanations until you truly understand the concept.",
+    "correctCategory": "ethical",
+    "explanation": "This is one of the most powerful ways to learn with AI. By actively debating and questioning, you train critical thinking and build deep understanding. AI acts as a patient personal tutor, not as a provider of instant answers.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 8,
+    "situation": "There is a 10-question Math homework due tomorrow morning. You are too tired after basketball practice. You take a photo of all the questions, ask AI to solve them, and then copy all the answers into your workbook.",
+    "correctCategory": "offloading",
+    "explanation": "Although the reason is understandable (being tired), this is pure offloading. The purpose of Math homework is to train your logical thinking and problem-solving skills. When AI is the one 'practicing', not you — your competence does not develop, and you are also lying to the teacher that it is your own work.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 9,
+    "situation": "You are working on a difficult Math problem and have tried for 30 minutes but are still stuck. You ask AI to show just the first step as a hint, then continue solving it yourself.",
+    "correctCategory": "ethical",
+    "explanation": "Asking for the first step as a hint is a smart learning strategy. Teachers often give 'hints' like this too. You still have to think and solve the rest of the problem yourself, so the cognitive process and learning still occur.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 10,
+    "situation": "Tomorrow's Indonesian language exam tests the ability to write short stories. The night before, you practice by asking AI to create 3 short stories from different genres, then you study its narrative techniques to apply during the exam.",
+    "correctCategory": "grey",
+    "explanation": "This is an interesting grey case. Technically, it is ethical because you are studying techniques, not copying work. However, there is a risk: if the result relies too heavily on the patterns you see from AI, your original creative abilities might not be optimally trained. Learning from AI is fine, but make sure you also practice writing without AI assistance so your genuine abilities stay sharp.",
+    "pillarImpact": { "ethical": 0, "cognitive": 0 }
+  },
+  {
+    "id": 11,
+    "situation": "You are asked to summarize 5 textbook chapters for an exam. You read all the chapters, take your own notes, then ask AI to help tidy up and organize your notes into a more readable format.",
+    "correctCategory": "ethical",
+    "explanation": "The crucial cognitive process — reading and understanding — you have already done yourself. AI only helps at the presentation/formatting stage, not the understanding stage. This is equivalent to asking a neat friend to help organize your notes.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 12,
+    "situation": "Your teacher gives an essay prompt: 'What is your opinion on the impact of social media on adolescent mental health?'. You immediately input the question into AI and copy-paste the answer word-for-word onto your answer sheet.",
+    "correctCategory": "offloading",
+    "explanation": "This question explicitly asks for 'your opinion' — an invitation to think critically and express a personal perspective based on your experience. By handing it over completely to AI, you are not only doing cognitive offloading, but you are also deceiving the teacher about who actually answered the question.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 13,
+    "situation": "You are doing research for a paper on climate change. You use AI to get a list of relevant scientific sources, then you yourself read, analyze, and synthesize the arguments from those sources.",
+    "correctCategory": "ethical",
+    "explanation": "Using AI as a 'research assistant' to find sources is efficient and ethical — similar to using Google Scholar. The real intellectual work (reading, analyzing, synthesizing) is still done by you, so your understanding and analytical skills continue to develop.",
+    "pillarImpact": { "ethical": 1, "cognitive": 1 }
+  },
+  {
+    "id": 14,
+    "situation": "You have a group project to make a video presentation. The group members divide the tasks, and your part is to write the narration/script. You ask AI to write the script, then send it to the other members without telling them it was made by AI.",
+    "correctCategory": "offloading",
+    "explanation": "There are two problems here: cognitive offloading (AI doing your part) and dishonesty towards group members. The other members worked hard on their parts believing you did the same. This is a breach of trust and teamwork integrity, not just an academic issue.",
+    "pillarImpact": { "ethical": -1, "cognitive": -1 }
+  },
+  {
+    "id": 15,
+    "situation": "You have two options to study before a test: study by yourself from a book for 2 hours, or have a dialogue with AI for 1 hour to understand concepts, then practice problems yourself for 1 hour. You choose the second option.",
+    "correctCategory": "grey",
+    "explanation": "This is a grey area that depends on the quality of the interaction. If the dialogue with AI is an active, critical Q&A that builds deep understanding, this can be very effective. But if 'dialogue' means just passively reading AI's answers, the benefits are reduced. The key is whether you are actively thinking during the process — not how fast you complete it.",
+    "pillarImpact": { "ethical": 0, "cognitive": 0 }
+  }
+]

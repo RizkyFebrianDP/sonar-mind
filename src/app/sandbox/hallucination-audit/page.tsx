@@ -7,13 +7,17 @@ import { Icon } from "@/components/ui/Icon";
 import { ScenarioText } from "@/components/sandbox/hallucination/ScenarioText";
 import { ReferencePanel } from "@/components/sandbox/hallucination/ReferencePanel";
 import { FeedbackOverlay } from "@/components/sandbox/hallucination/FeedbackOverlay";
+import { useLanguage } from "@/context/LanguageContext";
 import { useAssessment } from "@/context/AssessmentContext";
 import { calculateCriticalEvaluationScore } from "@/lib/scoring-engine";
-import scenarioData from "@/data/scenarios/hallucination.json";
+import scenarioDataId from "@/data/scenarios/hallucination_id.json";
+import scenarioDataEn from "@/data/scenarios/hallucination_en.json";
 
 export default function HallucinationAuditPage() {
   const router = useRouter();
+  const { locale } = useLanguage();
   const { setHallucinationScore } = useAssessment();
+  const scenarioData = locale === "en" ? scenarioDataEn : scenarioDataId;
 
   const [selectedIds, setSelectedIds] = useState<Set<number>>(new Set());
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -94,10 +98,10 @@ export default function HallucinationAuditPage() {
         <div className="flex flex-wrap gap-3 mt-4">
           <div className="flex items-center gap-2 bg-amber-50 border border-amber-300 text-amber-800 dark:bg-amber-900/30 dark:border-amber-700/40 dark:text-amber-200 px-3 py-1.5 rounded-xl text-xs font-semibold">
             <Icon id="82783" className="w-3.5 h-3.5 bg-amber-700 dark:bg-amber-400" />
-            Klik kalimat yang kamu duga mengandung halusinasi / informasi palsu
+            {locale === "en" ? "Click the sentence you suspect contains hallucinations / false information" : "Klik kalimat yang kamu duga mengandung halusinasi / informasi palsu"}
           </div>
           <div className="bg-panel text-text-muted px-3 py-1.5 rounded-xl text-xs border border-sidebar-border">
-            {markedCount} kalimat ditandai
+            {locale === "en" ? `${markedCount} sentences marked` : `${markedCount} kalimat ditandai`}
           </div>
         </div>
       </motion.div>
@@ -133,7 +137,7 @@ export default function HallucinationAuditPage() {
               disabled={markedCount === 0}
               className="w-full py-3.5 bg-text-strong hover:bg-black disabled:opacity-40 disabled:cursor-not-allowed text-background rounded-2xl font-semibold text-sm transition-all shadow-sm"
             >
-              Submit Audit ({markedCount} kalimat ditandai)
+              {locale === "en" ? `Submit Audit (${markedCount} marked)` : `Submit Audit (${markedCount} kalimat ditandai)`}
             </motion.button>
           )}
         </div>

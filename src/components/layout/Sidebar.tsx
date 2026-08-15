@@ -7,19 +7,22 @@ import { usePathname, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@/components/ui/Icon";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageToggle } from "@/components/LanguageToggle";
 import { createClient } from "@/lib/supabase/client";
+import { useLanguage } from "@/context/LanguageContext";
 import type { User } from "@supabase/supabase-js";
 
 const navItems = [
-  { name: "Dashboard", href: "/", icon: "aVHe2jHuORcA" },
-  { name: "Assessments", href: "/assessments", icon: "101164" },
-  { name: "Learning", href: "/learning", icon: "85767" },
-  { name: "My Results", href: "/results", icon: "115230" },
-];
+  { key: "dashboard", href: "/", icon: "aVHe2jHuORcA" },
+  { key: "assessments", href: "/assessments", icon: "101164" },
+  { key: "learning", href: "/learning", icon: "85767" },
+  { key: "myResults", href: "/results", icon: "115230" },
+] as const;
 
 export function Sidebar() {
   const pathname = usePathname();
   const router = useRouter();
+  const { t } = useLanguage();
   const [user, setUser] = useState<User | null>(null);
   const [loggingOut, setLoggingOut] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -86,6 +89,7 @@ export function Sidebar() {
           </div>
         </div>
         <div className="flex items-center gap-2">
+          <LanguageToggle />
           <ThemeToggle />
         </div>
       </div>
@@ -141,7 +145,7 @@ export function Sidebar() {
                   const isActive = pathname === item.href;
                   return (
                     <Link
-                      key={item.name}
+                      key={item.key}
                       href={item.href}
                       onClick={() => setMobileOpen(false)}
                       className={`flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors rounded-xl mx-2 ${
@@ -154,7 +158,7 @@ export function Sidebar() {
                         id={item.icon}
                         className={`w-5 h-5 ${isActive ? "bg-accent-blue" : "bg-sidebar-text"}`}
                       />
-                      {item.name}
+                      {t.sidebar[item.key]}
                     </Link>
                   );
                 })}
@@ -162,16 +166,22 @@ export function Sidebar() {
 
               {/* Drawer Footer */}
               <div className="p-4 space-y-4 border-t border-sidebar-border">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col gap-3 px-1">
                   <Link
                     href="/support"
                     onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-3 px-4 py-2 text-sm font-medium text-sidebar-text hover:text-text-strong transition-colors rounded-xl mx-2 hover:bg-black/5"
+                    className="flex items-center gap-3 px-3 py-2 text-sm font-medium text-sidebar-text hover:text-text-strong transition-colors rounded-xl hover:bg-black/5"
                   >
                     <Icon id="83244" className="w-5 h-5 bg-sidebar-text group-hover:bg-text-strong" />
-                    Support
+                    {t.sidebar.support}
                   </Link>
-                  <ThemeToggle />
+                  <div className="flex items-center justify-between px-3 py-2">
+                    <span className="text-sm font-medium text-sidebar-text">{t.common.language} / Theme</span>
+                    <div className="flex items-center gap-2">
+                      <LanguageToggle />
+                      <ThemeToggle />
+                    </div>
+                  </div>
                 </div>
 
                 {/* User Profile + Logout */}
@@ -193,12 +203,12 @@ export function Sidebar() {
                     onClick={handleLogout}
                     disabled={loggingOut}
                     title="Logout"
-                    className="text-text-muted hover:text-red-500 transition-colors shrink-0"
+                    className="w-10 h-10 rounded-xl hover:bg-red-50 dark:hover:bg-red-950/30 flex items-center justify-center text-text-muted hover:text-red-500 transition-colors shrink-0 cursor-pointer ml-2"
                   >
                     {loggingOut ? (
-                      <Icon id="93005" className="w-4 h-4 bg-text-muted animate-spin" />
+                      <Icon id="93005" className="w-5 h-5 bg-text-muted animate-spin" />
                     ) : (
-                      <Icon id="82792" className="w-4 h-4 bg-text-muted hover:bg-red-500 transition-colors" />
+                      <Icon id="82792" className="w-5 h-5 bg-text-muted group-hover:bg-red-500 transition-colors" />
                     )}
                   </button>
                 </div>
@@ -231,7 +241,7 @@ export function Sidebar() {
             const isActive = pathname === item.href;
             return (
               <Link
-                key={item.name}
+                key={item.key}
                 href={item.href}
                 className={`flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors rounded-xl mx-2 ${
                   isActive
@@ -243,7 +253,7 @@ export function Sidebar() {
                   id={item.icon}
                   className={`w-5 h-5 ${isActive ? "bg-accent-blue" : "bg-sidebar-text"}`}
                 />
-                {item.name}
+                {t.sidebar[item.key]}
               </Link>
             );
           })}
@@ -251,15 +261,21 @@ export function Sidebar() {
 
         {/* Footer Area */}
         <div className="p-4 space-y-4">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col gap-3 px-1">
             <Link
               href="/support"
-              className="flex items-center gap-3 px-4 py-2 text-sm font-medium text-sidebar-text hover:text-text-strong transition-colors rounded-xl mx-2 hover:bg-black/5"
+              className="flex items-center gap-3 px-3 py-2 text-sm font-medium text-sidebar-text hover:text-text-strong transition-colors rounded-xl hover:bg-black/5"
             >
               <Icon id="83244" className="w-5 h-5 bg-sidebar-text group-hover:bg-text-strong" />
-              Support
+              {t.sidebar.support}
             </Link>
-            <ThemeToggle />
+            <div className="flex items-center justify-between px-3 py-2">
+              <span className="text-sm font-medium text-sidebar-text">{t.common.language} / Theme</span>
+              <div className="flex items-center gap-2">
+                <LanguageToggle />
+                <ThemeToggle />
+              </div>
+            </div>
           </div>
 
           {/* User Profile + Logout */}
@@ -281,12 +297,12 @@ export function Sidebar() {
               onClick={handleLogout}
               disabled={loggingOut}
               title="Logout"
-              className="text-text-muted hover:text-red-500 transition-colors shrink-0"
+              className="w-10 h-10 rounded-xl hover:bg-red-50 dark:hover:bg-red-950/30 flex items-center justify-center text-text-muted hover:text-red-500 transition-colors shrink-0 cursor-pointer ml-2"
             >
               {loggingOut ? (
-                <Icon id="93005" className="w-4 h-4 bg-text-muted animate-spin" />
+                <Icon id="93005" className="w-5 h-5 bg-text-muted animate-spin" />
               ) : (
-                <Icon id="82792" className="w-4 h-4 bg-text-muted group-hover:bg-red-500 transition-colors" />
+                <Icon id="82792" className="w-5 h-5 bg-text-muted group-hover:bg-red-500 transition-colors" />
               )}
             </button>
           </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from '@/components/ui/Icon';
+import Link from 'next/link';
 
 export interface SummaryCardProps {
   title: string;
@@ -9,6 +10,12 @@ export interface SummaryCardProps {
   labelColor: 'green' | 'red' | 'blue' | 'yellow' | 'pink';
   description: string;
   iconId: string;
+  href?: string;
+  trend?: {
+    value: number;
+    isPositive: boolean;
+    isZero: boolean;
+  };
 }
 
 export function SummaryCard({
@@ -19,6 +26,8 @@ export function SummaryCard({
   labelColor,
   description,
   iconId,
+  href,
+  trend,
 }: SummaryCardProps) {
   
   const percentage = Math.min(100, Math.max(0, (score / maxScore) * 100));
@@ -33,11 +42,30 @@ export function SummaryCard({
 
   const colorConfig = colorMap[labelColor as keyof typeof colorMap] || colorMap.blue;
 
-  return (
+  const content = (
     <div className={`bg-panel border ${colorConfig.border} rounded-3xl p-5 flex flex-col shadow-sm transition-shadow hover:shadow-md h-full`}>
       <div className="flex flex-col mb-4">
-        <h3 className="text-base font-bold text-text-strong">{title}</h3>
-        <span className="text-sm text-text-muted mt-1">{description}</span>
+        <div className="flex justify-between items-start gap-2">
+          <h3 className="text-base font-bold text-text-strong leading-tight">{title}</h3>
+          {trend && (
+            <div className={`shrink-0 flex items-center gap-1 text-[10px] font-bold px-1.5 py-0.5 rounded-md ${
+              trend.isZero ? 'bg-black/5 dark:bg-white/10 text-text-muted' :
+              trend.isPositive ? 'bg-emerald-500/10 text-emerald-600' : 'bg-red-500/10 text-red-600'
+            }`}>
+              {trend.isZero ? null : (
+                <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  {trend.isPositive ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 15l7-7 7 7" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
+                  )}
+                </svg>
+              )}
+              <span>{trend.isZero ? '-' : `${trend.isPositive ? '+' : '-'}${trend.value}`}</span>
+            </div>
+          )}
+        </div>
+        <span className="text-sm text-text-muted mt-1.5">{description}</span>
       </div>
       
       <div className="mt-auto mb-6">
@@ -60,4 +88,10 @@ export function SummaryCard({
       </div>
     </div>
   );
+
+  if (href) {
+    return <Link href={href} className="h-full block">{content}</Link>;
+  }
+
+  return content;
 }

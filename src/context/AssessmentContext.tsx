@@ -9,7 +9,8 @@ import type {
   EthicalDilemmaRaw,
   AssessmentResult,
 } from "@/types/assessment";
-
+import { handleError } from "@/lib/error-handler";
+import { ApplicationError } from "@/lib/errors";
 // ============================================================
 // Context Shape
 // ============================================================
@@ -80,7 +81,10 @@ export function AssessmentProvider({
       });
 
       if (error) {
-        console.error("Supabase Insert Error in Context:", error.message, error.details, error.hint, error);
+        handleError(
+          new ApplicationError(error.message, "SUPABASE_INSERT_ERROR", 500, { originalError: error }),
+          "saveToSupabase"
+        );
       }
     };
 

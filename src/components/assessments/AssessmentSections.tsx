@@ -10,36 +10,39 @@ interface Section {
   footerText: string;
 }
 
-const sections: Section[] = [
-  {
-    id: 'sec-1',
-    number: '01',
-    title: 'Hallucination & Fact-Checking Audit',
-    description: 'Identify hallucinations and fabricated information in AI-generated historical and scientific texts using provided source materials.',
-    footerText: 'Locked until assessment begins'
-  },
-  {
-    id: 'sec-2',
-    number: '02',
-    title: 'Algorithmic Bias & Cultural Nuance Audit',
-    description: 'Examine AI-generated recommendations and summaries for underlying biases related to cultural context and demographic representation.',
-    footerText: 'Locked until previous section is completed'
-  },
-  {
-    id: 'sec-3',
-    number: '03',
-    title: 'Ethical Dilemma & Cognitive Agency',
-    description: 'Evaluate when AI acts as an ethical co-pilot versus when it overrides human judgment in complex decision-making scenarios.',
-    footerText: 'Locked until previous section is completed'
-  }
-];
+import { useLanguage } from '@/context/LanguageContext';
 
 export function AssessmentSections() {
+  const { t } = useLanguage();
+  
+  const sections = [
+    {
+      id: 'sec-1',
+      number: '01',
+      title: t.assessments.hallucinationTitle,
+      description: t.assessments.hallucinationDesc,
+      footerText: t.assessments.lockedStart
+    },
+    {
+      id: 'sec-2',
+      number: '02',
+      title: t.assessments.biasTitle,
+      description: t.assessments.biasDesc,
+      footerText: t.assessments.lockedNext
+    },
+    {
+      id: 'sec-3',
+      number: '03',
+      title: t.assessments.ethicalTitle,
+      description: t.assessments.ethicalDesc,
+      footerText: t.assessments.lockedNext
+    }
+  ];
   return (
     <div className="flex flex-col">
       <div className="mb-6">
-        <h3 className="text-xl font-heading font-bold text-text-strong mb-1">Assessment Sections</h3>
-        <p className="text-sm text-text-muted">Complete all three sections to receive your MIL-AI competency results.</p>
+        <h3 className="text-xl font-heading font-bold text-text-strong mb-1">{t.assessments.sectionsTitle}</h3>
+        <p className="text-sm text-text-muted">{t.assessments.sectionsDesc}</p>
       </div>
       
       <div className="flex flex-col gap-4">
@@ -68,7 +71,7 @@ export function AssessmentSections() {
               
               <div className="flex items-center gap-1.5 text-[11px] font-bold text-text-muted uppercase tracking-wider bg-background px-2.5 py-1 rounded-md border border-border-subtle shrink-0">
                 <Icon id="82747" className="w-3 h-3 bg-text-muted" />
-                Not Started
+                {t.assessments.notStarted}
               </div>
             </div>
             
