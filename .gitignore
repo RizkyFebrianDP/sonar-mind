@@ -45,3 +45,12 @@ log,md
 log.md
 .patchtrail/
 .gemini/
+
+# playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# scratchpad
+error.md
