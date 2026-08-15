@@ -127,10 +127,9 @@ export default function ResultsPage() {
   const [loading, setLoading] = useState(true);
   const { t } = useLanguage();
 
-  const supabase = createClient();
-
   useEffect(() => {
     const fetchHistory = async () => {
+      const supabase = createClient();
       const { data } = await supabase
         .from("assessment_history")
         .select("*")
